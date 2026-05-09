@@ -1,0 +1,10 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Office temp files
+~$*
+
+# Generic temp files
+*.tmp
+*.temp
