@@ -46,6 +46,10 @@
 - Nuzhny li direct links v prezentatsii: da, esli budet `online-ready` versiya
 - Nuzhny li QR-kody v prezentatsii: da, kak dopolnitelnyy kanal k video i materialam
 - Finalnye formaty vydachi: `PPTX` i `PDF`
+- Nuzhen li paket vybora dizayna do starta production: da
+- Kolichestvo dizayn-kontseptov dlya pokaza klientu: `10`
+- Vybrannyy dizayn-kontsept: poka ne vybran
+- Est li rekomenduemyy generic-kontsept po umolchaniyu: `D-06 Corporate Neutral`
 - Nuzhna li attestatsiya: utochnyaetsya
 - Nuzhny li metodicheskie materialy dlya rabochikh: da, kak dopolnitelnyy klientskiy paket
 - Nuzhen li format `A3` pod stend, pechat i laminatsiyu: da
@@ -99,6 +103,8 @@
 
 - Nuzhen li klientskiy branding: da, kak minimum dlya logotipa, tsvetov i nazvaniya zakazchika
 - Chto menyaetsya: `logo / tsveta / nazvanie / pri neobkhodimosti kontakty i finalnye slaydy`
+- Nuzhen li vybor iz gotovykh dizayn-kontseptov: da
+- Kto utverzhdaet vybrannyy dizayn-kontsept: budet zaviset ot konkretnogo zakazchika
 - Est li neskolko zakazchikov: da, eto nuzhno predusmotret zaranee
 - Nuzhen li universalnyy generic-paket: da
 - Est li brandbook ili refy: poka net

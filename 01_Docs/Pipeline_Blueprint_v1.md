@@ -83,6 +83,7 @@ Minimalnyy nabor artefaktov po kursu:
 
 - `01_course_brief.md`
 - `01_brand_profile.md` pri multi-client ili branded release
+- `01_design_options_pack.md` pri vybore vizualnogo napravleniya do sborki deck
 - `02_source_register.md`
 - `03_job_map.md`
 - `04_learning_outcomes.md`
@@ -252,6 +253,17 @@ Trebovanie k `test check sheet`:
   - otmetka pravilnogo otveta;
   - obyasnenie, pochemu on pravilnyy;
   - szhatyy kommentariy dlya lektora.
+
+Trebovanie k design selection layer:
+
+- do nachala visual production klient dolzhen imet vozmozhnost vybrat odin iz `10` bazovykh dizayn-kontseptov;
+- etot vybor dolzhen delat'sya po preview-pack, a ne po odnomu tekstovomu opisaniyu;
+- kazhdyy kontsept dolzhen minimum pokazyvat oblozhku, tipovoy kontentnyy slayd, slayd testa i finalnyy slayd;
+- posle vybora kontsepta on stanovitsya bazovym visual shell dlya kursa i dlya klientskikh branded-versiy;
+- uchebnoe yadro, outcomes, script i testovaya logika ne dolzhny zaviset ot vybora kontsepta;
+- nado derzhat `10` gotovykh kontseptov kak bazovyy paket vybora;
+- vybor dizayna dolzhen fiksirovat'sya v brief i pri neobkhodimosti v brand profile;
+- esli klient ne vybral kontsept, po umolchaniyu dolzhen byt rekomendovannyy `generic` variant.
 
 ## 13. Pravilo online-ready sborki
 

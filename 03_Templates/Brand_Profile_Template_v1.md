@@ -17,6 +17,7 @@ Shablon nuzhen dlya sborki white-label versiy odnogo i togo zhe kursa pod raznyk
 
 - Logo:
 - Tsvetovaya palitra:
+- Vybrannyy dizayn-kontsept:
 - Nazvanie zakazchika vnutri kursa:
 - Variant nazvaniya professii na titulnom slayde:
 - Kontaktniy blok:
@@ -41,6 +42,8 @@ Shablon nuzhen dlya sborki white-label versiy odnogo i togo zhe kursa pod raznyk
 
 ## Pravila primeneniya
 
+- Mozhno li vybirat iz gotovykh dizayn-kontseptov:
+- Kod utverzhdennogo kontsepta:
 - Mozhno li menyat oblozhku:
 - Mozhno li menyat tolko nazvanie professii na pervoy stranitse bez izmeneniya ostalnogo kursa:
 - Eto title-only override:

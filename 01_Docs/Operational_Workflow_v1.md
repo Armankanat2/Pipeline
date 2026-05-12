@@ -68,6 +68,7 @@ Minimalnoe razmeshchenie artefaktov:
 |---|---|---|
 | Intake | `01_course_brief.md` | `02_Research/<Course>/01_Brief` |
 | Intake | `01_brand_profile.md` | `02_Research/<Course>/01_Brief` |
+| Intake | `01_design_options_pack.md` | `02_Research/<Course>/01_Brief` |
 | Source Audit | `02_source_register.md` | `02_Research/<Course>/02_Sources` |
 | Job Decomposition | `03_job_map.md` | `02_Research/<Course>/03_Job_Map` |
 | Learning Outcomes | `04_learning_outcomes.md` | `02_Research/<Course>/04_Outcomes` |
@@ -101,14 +102,17 @@ Deystviya:
 
 - zapolnit course brief;
 - esli nuzhny raznye zakazchiki, sobrat brand profile;
+- podgotovit design options pack, esli klientu nuzhen vybor mezhdu gotovymi vizualnymi shell-resheniyami;
 - opredelit tsel, auditoriyu, format i soglasuyushchikh;
 - opredelit, nuzhen li `online-ready` ili `self-paced` kontur;
 - zafiksirovat sostav klientskogo paketa;
+- zafiksirovat, budet li klient vybirat odin iz `10` dizayn-kontseptov i kakoy variant vybran;
 - zafiksirovat ogranicheniya.
 
 Rezultat:
 
 - `01_course_brief.md`
+- pri neobkhodimosti `01_design_options_pack.md`
 
 ### Stage 02 - Source Audit
 
@@ -194,6 +198,7 @@ Deystviya:
 
 - sobrat draft deka po script;
 - primenit master-template;
+- primenit vybrannyy dizayn-kontsept ili rekomendovannyy `generic`, esli klient ne sdelal vybora;
 - vnesti brand shell cherez temu, mastery i peremennye bloky, a ne ruchnuyu perekrasku kazhdogo slayda;
 - esli kurs idet v on-line, proverit klikabelnost ssylok, mest pod QR i ponyatnost bez lektora;
 - proverit chitaemost i logiku.
@@ -335,6 +340,18 @@ Vazhno:
 - ne delat otdelnye nesvyazannye skripty pod kazhduyu dlinu;
 - ne razrushat svyazku `outcome -> modul -> slayd -> test` pri sokrashchenii kursa;
 - sokrashchat snachala `extended`, potom chast `standard`, no ne `core`.
+
+### Pravilo vybora dizayna
+
+Do nachala visual production mozhno davat klientu paket iz `10` dizayn-kontseptov.
+
+Minimalnaya model:
+
+- u kazhdogo kontsepta est kod, nazvanie i odno predlozhenie pro ego kharakter;
+- u kazhdogo kontsepta est preview minimum iz `4` slaydov: cover, content, test, final;
+- klient vybirayet `1` bazovyy kontsept;
+- dalee v production primenyaetsya odin shell, a ne smeshannaya kombinatsiya iz neskolkikh;
+- posle vybora razreshena branded adaptation, no ne razmyvanie samogo kontsepta.
 
 ### Prezentatsii
 

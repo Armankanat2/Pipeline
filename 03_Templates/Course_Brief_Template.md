@@ -46,6 +46,10 @@
 - Nuzhny li direct links v prezentatsii:
 - Nuzhny li QR-kody v prezentatsii:
 - Finalnye formaty vydachi: `PPTX / PDF`
+- Nuzhen li paket vybora dizayna do starta production:
+- Kolichestvo dizayn-kontseptov dlya pokaza klientu:
+- Vybrannyy dizayn-kontsept:
+- Est li rekomenduemyy generic-kontsept po umolchaniyu:
 - Nuzhna li attestatsiya:
 - Nuzhny li metodicheskie materialy dlya rabochikh:
 - Nuzhen li format `A3` pod stend, pechat i laminatsiyu:
@@ -99,6 +103,8 @@
 
 - Nuzhen li klientskiy branding:
 - Chto menyaetsya: `logo / tsveta / nazvanie / kontakty / finalnye slaydy`
+- Nuzhen li vybor iz gotovykh dizayn-kontseptov:
+- Kto utverzhdaet vybrannyy dizayn-kontsept:
 - Est li neskolko zakazchikov:
 - Nuzhen li universalnyy generic-paket:
 - Est li brandbook ili refy:
