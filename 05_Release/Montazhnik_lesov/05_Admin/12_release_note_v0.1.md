@@ -18,12 +18,12 @@
 - Est li variant bez bloka voprosov: da, zaplanirovan
 - Title-only override: dopustim, esli klientu nuzhno pomenyat tolko nazvanie professii na oblozhke
 - Speaker notes / metodichka: planned
-- Worker materials: planned, kak bazovoe A3-stendovoe posobie `1-5` listov + opzionalnoe dopolnitelnoe posobie po zaprosu klienta
+- Worker materials: planned, kak bazovoe A3-stendovoe posobie `1-5` listov + optionalnoe dopolnitelnoe posobie po zaprosu klienta
 - Worker handouts A5: planned, kak bazovyy kompaktniy handout + custom-handout po tablitse tem
 - Test pack: draft only
 - Answer key: draft only
-- Online handoff pack: planned, kak budushchiy eksportnyy contour dlya LMS ili drugogo online-produkta
-- Publishing handoff pack: planned, kak contour peredachi vo vneshniy production / publishing
+- Online handoff pack: planned, kak budushchiy eksportnyy kontur dlya LMS ili drugogo online-produkta
+- Publishing handoff pack: planned, kak kontur peredachi vo vneshniy production / publishing
 - Preflight checklist: planned
 - Test check sheet: planned
 - Brand profile: generic white-label base
@@ -53,14 +53,25 @@
 | Short no test | PDF | `korotkaya / no-test` | `ML_GENERIC_12_short_no-test_v1.0.pdf` | planned |
 | Standard no test | PDF | `srednyaya / no-test` | `ML_GENERIC_12_standard_no-test_v1.0.pdf` | planned |
 | Deep no test | PDF | `dlinnaya / no-test` | `ML_GENERIC_12_deep_no-test_v1.0.pdf` | planned |
-| Publishing handoff pack | MD | `publishing handoff` | `ML_GENERIC_12_publishing-handoff-pack_v1.0.md` | planned |
-| Preflight checklist | MD | `publishing handoff` | `ML_GENERIC_12_preflight-checklist_v1.0.md` | planned |
+| Test pack | MD | `test` | `10_test_pack_v1.0.md` | planned |
+| Answer key | MD | `test` | `10_answer_key_v1.0.md` | planned |
+| Test check sheet | MD | `test` | `10_test_check_sheet_v1.0.md` | planned |
+| Instructor guide | PDF | `notes` | `12_instructor_guide_v1.0.pdf` | planned |
+| Lecturer questions bank | PDF / MD | `notes` | `12_lecturer_questions_bank_v1.0.pdf` | planned |
+| Worker instruction | PDF / PPTX | `worker materials` | `12_worker_instruction_v1.0.*` | planned |
+| Worker handout | PDF / PPTX | `worker handouts` | `12_worker_handout_v1.0.*` | planned |
+| Online adaptation map | MD | `online handoff` | `12_online_adaptation_map_v1.0.md` | planned |
+| Module summary pack | MD | `online handoff` | `12_module_summary_pack_v1.0.md` | planned |
+| Narration pack | MD | `online handoff` | `12_narration_pack_v1.0.md` | planned |
+| Online handoff pack | MD | `online handoff` | `12_online_handoff_pack_v1.0.md` | planned |
+| Publishing handoff pack | MD | `publishing handoff` | `12_publishing_handoff_pack_v1.0.md` | planned |
+| Preflight checklist | MD | `publishing handoff` | `12_preflight_checklist_v1.0.md` | planned |
 
 ## Osnovnoe soderzhanie reliza
 
 - Kakie moduli ili bloki vklyucheny: release-paket eshche ne sobran; target architecture vklyuchaet moduli `01-11`
 - Kakie obnovleniya vneseny: sozdana release-struktura pod `PPTX / PDF`, `with-test / no-test`, `test`, `answer key`, `notes`, `admin`
-- Kakie kritichnye izmeneniya poyavilis: klientskiy paket teper rassmatrivaetsya kak nabor variantov, a ne odin finalnyy fayl; dobavlen generic-contour dlya dalneyshey branded sborki
+- Kakie kritichnye izmeneniya poyavilis: klientskiy paket teper rassmatrivaetsya kak nabor variantov, a ne odin finalnyy fayl; dobavlen generic-kontur dlya dalneyshey branded sborki
 
 ## Zakrytye pravki
 

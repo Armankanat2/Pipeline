@@ -754,7 +754,7 @@ Sleduyushchaya iteratsiya:
 - Speaker notes: etot slayd dolzhen podgotovit modul `08` pro tipovye oshibki i avariynye predposylki
 - Svyazannyy learning outcome: `LO-09`, `LO-10`
 - Svyazannyy vopros testa: `Q-43`
-- Primechanie dlya dizayna: odna kompaktnaia skhema, podkhodyashchaya i dlya short-versii
+- Primechanie dlya dizayna: odna kompaktnaya skhema, podkhodyashchaya i dlya short-versii
 
 ## Primechanie po variativnosti
 

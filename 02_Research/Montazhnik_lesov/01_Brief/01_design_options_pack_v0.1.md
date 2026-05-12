@@ -92,7 +92,7 @@ Posle vybora kontsepta dizayner dolzhen poluchit ne tolko kod `D-0X`, no i produ
 - Preview-01 Cover: setka, konstruktsionnye linii, strogoe cover-reshenie
 - Preview-02 Content: skhema lesov s tekhnicheskim podpisyvaniem
 - Preview-03 Test: strogo strukturirovannyy blok s ravnym vesom variantov
-- Preview-04 Final: kompaktnaia finalnaya tekhnicheskaya ramka
+- Preview-04 Final: kompaktnaya finalnaya tekhnicheskaya ramka
 - Risk: mozhet pokazat'sya slishkom kholodnym dlya prostoy auditorii
 
 ### D-02 Safety Signal
@@ -162,7 +162,7 @@ Posle vybora kontsepta dizayner dolzhen poluchit ne tolko kod `D-0X`, no i produ
 - Preview-01 Cover: ikonichnaya oblozhka s kartochkami
 - Preview-02 Content: slayd pravil ili checklist
 - Preview-03 Test: setka variantov v logike card-layout
-- Preview-04 Final: kompaktnaia itogovaya doska pravil
+- Preview-04 Final: kompaktnaya itogovaya doska pravil
 - Risk: nuzhny akuratnye ikonki i ne slishkom mnogo melkikh elementov
 
 ### D-09 Dark Control

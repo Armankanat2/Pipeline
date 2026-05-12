@@ -2,7 +2,7 @@
 
 ## Naznachenie
 
-Cheklist nuzhen dlya finalnoy proverki release-grade paketa pered peredachey vo vneshniy production contour.
+Cheklist nuzhen dlya finalnoy proverki release-grade paketa pered peredachey vo vneshniy production kontur.
 
 ## 1. Files
 
@@ -34,9 +34,9 @@ Cheklist nuzhen dlya finalnoy proverki release-grade paketa pered peredachey vo 
 ## 5. Print and digital
 
 - Print-safe parametry provereny po print production spec
-- QR na pechati provereny, yesli est
-- Direct links rabotayut, yesli est
-- Testovaya pechat provedena, yesli nuzhna
+- QR na pechati provereny, esli est
+- Direct links rabotayut, esli est
+- Testovaya pechat provedena, esli nuzhna
 
 ## 6. Reshenie
 

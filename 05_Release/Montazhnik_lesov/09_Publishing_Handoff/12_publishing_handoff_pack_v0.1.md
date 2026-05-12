@@ -49,7 +49,7 @@
 
 ## Primechaniya dlya production
 
-- Ne sobirat publishing contour do zakrytiya rights-layer i finalnykh eksportnykh pravil
+- Ne sobirat publishing kontur do zakrytiya rights-layer i finalnykh eksportnykh pravil
 - Dlya `A3` / `A5` nuzhna testovaya pechat
 - Finalnyy handoff dolzhen vklyuchat source bundle, font list i export profiles
 

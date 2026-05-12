@@ -2,7 +2,7 @@
 
 ## Naznachenie
 
-Shablon nuzhen dlya finalnoy peredachi paketa vo vneshniy production contour. Eto ne metodicheskiy dokument, a karta release-bundle dlya izdatelya, tipografii ili production-podryadchika.
+Shablon nuzhen dlya finalnoy peredachi paketa vo vneshniy production kontur. Eto ne metodicheskiy dokument, a karta release-bundle dlya izdatelya, tipografii ili production-podryadchika.
 
 ## 1. Obshchaya informatsiya
 
@@ -20,7 +20,7 @@ Shablon nuzhen dlya finalnoy peredachi paketa vo vneshniy production contour. Et
 - Worker materials:
 - Worker handouts:
 - Notes / instructor materials:
-- Online handoff, yesli est:
+- Online handoff, esli est:
 
 ## 3. Source bundle
 

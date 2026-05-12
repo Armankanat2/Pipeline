@@ -113,7 +113,7 @@ Deystviya:
 - podgotovit design options pack, esli klientu nuzhen vybor mezhdu gotovymi vizualnymi shell-resheniyami;
 - esli kontsept uzhe vybran ili opredelen generic fallback, sobrat `design system spec` dlya production;
 - esli v pakete est `A3`, `A5`, laminatsiya ili drugie pechatnye materialy, sobrat `print production spec`;
-- esli paket budet peredavatsya vo vneshniy publishing contour, sobrat `publishing handoff spec` s trebovaniyami k source bundle, fontam, pravam, eksportu i preflight;
+- esli paket budet peredavatsya vo vneshniy publishing kontur, sobrat `publishing handoff spec` s trebovaniyami k source bundle, fontam, pravam, eksportu i preflight;
 - zafiksirovat `language style guide`, esli kurs budet peredavat'sya mezhdu lyudmi ili vyvodit'sya v klientskiy paket;
 - zafiksirovat `terminology glossary` dlya kritichnykh terminov, sokrashcheniy i normativnykh formulyrovok;
 - zafiksirovat tselevoy slozhnostnyy track: `worker / ITR / mixed`;
@@ -272,7 +272,7 @@ Deystviya:
 - vse, chto poyavlyaetsya posle `2-go` klientskogo kruga i menyaet scope, oformlyat kak otdelnyy change request ili novuyu doprabotku, a ne kak beskonechnyy review-loop;
 - proverit, chto `instructor guide` pokryvaet `100%` aktualnogo `slide script`;
 - proyti `lecturer-ready` review: est li teaching paths, khvataet li tayminga, est li opora na slozhnye voprosy i ponyatno li, kak peredavat kurs drugomu lektoru;
-- yesli paket gotovitsya dlya izdatelya ili tipografii, proyti publishing-review: polnota source bundle, rights clearance, font list, export profile, print/digital preflight;
+- esli paket gotovitsya dlya izdatelya ili tipografii, proyti publishing-review: polnota source bundle, rights clearance, font list, export profile, print/digital preflight;
 - proverit, ponyatno li eto rabochemu bez metodista ryadom, esli kurs sobiraetsya dlya `worker` track;
 - proverit, dostatochno li raskryty organizatsionnye i upravlencheskie voprosy, esli kurs sobiraetsya dlya `ITR` track;
 - proverit, net li bitoy kodirovki, plavayushchikh terminov, sluchaynykh smesey alfavitov i neredaktirovannykh yazykovykh khvostov;
@@ -323,9 +323,9 @@ Deystviya:
 - sobrat instructor guide dlya lektora i eksportirovat ego v `PDF`;
 - sobrat otdelnyy `lecturer questions bank` i proverit, chto on sootvetstvuet aktualnoy versii script i testa;
 - sobrat `online adaptation map`, `module summary pack`, `narration pack` i finalnyy `online handoff pack`, esli kurs dolzhen byt portable v budushchiy online-produkt;
-- sobrat `publishing handoff pack`, yesli paket dolzhen byt peredan izdatelyu, tipografii ili vo vneshniy production contour;
+- sobrat `publishing handoff pack`, esli paket dolzhen byt peredan izdatelyu, tipografii ili vo vneshniy production kontur;
 - prilozhit `preflight checklist` so statusami print-ready / digital-ready / rights-cleared / fonts-confirmed;
-- proverit, chto instructor guide `QR-ready`, i na kazhdoy stranitse ostavlen slot pod opzionalnyy QR-kod;
+- proverit, chto instructor guide `QR-ready`, i na kazhdoy stranitse ostavlen slot pod optionalnyy QR-kod;
 - prilozhit otdelnyy klyuch otvetov;
 - prilozhit ili obnovit `proofreading QA checklist`, esli paket idet vo vneshniy kontur;
 - prinyat poslednie pravki;
@@ -581,14 +581,14 @@ Minimalnaya matrica faylov:
 - `course-code_[client-code]_12_worker-instruction_vX.Y.pptx`
 - `course-code_[client-code]_12_worker-handout_vX.Y.pdf`
 - `course-code_[client-code]_12_worker-handout_vX.Y.pptx`
-- `course-code_[client-code]_10_test-check-sheet_vX.Y.md`
-- `course-code_[client-code]_12_lecturer-questions-bank_vX.Y.pdf`
-- `course-code_[client-code]_12_online-adaptation-map_vX.Y.md`
-- `course-code_[client-code]_12_module-summary-pack_vX.Y.md`
-- `course-code_[client-code]_12_narration-pack_vX.Y.md`
-- `course-code_[client-code]_12_online-handoff-pack_vX.Y.md`
-- `course-code_[client-code]_12_publishing-handoff-pack_vX.Y.md`
-- `course-code_[client-code]_12_preflight-checklist_vX.Y.md`
+- `10_test_check_sheet_vX.Y.md`
+- `12_lecturer_questions_bank_vX.Y.pdf`
+- `12_online_adaptation_map_vX.Y.md`
+- `12_module_summary_pack_vX.Y.md`
+- `12_narration_pack_vX.Y.md`
+- `12_online_handoff_pack_vX.Y.md`
+- `12_publishing_handoff_pack_vX.Y.md`
+- `12_preflight_checklist_vX.Y.md`
 
 Esli zakazchiku nuzhny ne vse versii, v release note nuzhno priamo ukazat, kakie sloty ostalis neispolzovannymi.
 
@@ -611,7 +611,7 @@ Minimalnye trebovaniya k `07_Worker_Handouts`:
 
 - bazovyy format `A5`;
 - dopustimy dva rezhima sborki:
-  - bazovaya kompaktnaia instruktsiya s ochen melkym shriftom;
+  - bazovaya kompaktnaya instruktsiya s ochen melkym shriftom;
   - custom-napolnenie po tablitse tem iz prezentatsii;
 - brand shell zakazchika obyazatelen;
 - dolzhny byt zafiksirovany nazvanie, logotipy i drugie obyazatelnye vizualnye identifikatory;
@@ -646,7 +646,7 @@ Minimalnye trebovaniya k `08_Online_Handoff`:
 Minimalnye trebovaniya k `09_Publishing_Handoff`:
 
 - dolzhen byt spisok finalnykh faylov i ikh release-status;
-- dolzhen byt spisok ispolzuemykh shriftov i ponyatno, mozhno li ikh peredavat v production contour;
+- dolzhen byt spisok ispolzuemykh shriftov i ponyatno, mozhno li ikh peredavat v production kontur;
 - dolzhen byt status prav po klyuchevym assetam i brand-materialam;
 - dolzhny byt zafiksirovany eksportnye profili dlya print i digital;
 - dolzhno byt ponyatno, chto vkhodit v source bundle: redaktiruemye fayly, assets, linked-resources, primechaniya po svyazyam;
@@ -659,7 +659,7 @@ Esli odin i tot zhe kurs vypuskaetsya dlya neskolkikh zakazchikov, release-papka
 - kornevoy `05_Release/<Course>` mozhno derzhat kak `generic` bazu bez klientskogo brendinga;
 - klientskie pakety lezhat v `05_Release/<Course>/10_Clients/<CLIENT_CODE>`;
 - vnutri kazhdogo klientskogo paketa povtoryaetsya odna i ta zhe release-logika: `PPTX`, `PDF`, `Test`, `Notes`, `Online_Handoff`, `Admin`, a pri neobkhodimosti i worker-materialy;
-- yesli klientskiy paket ukhodit vo vneshniy production contour, v nem takzhe povtoryaetsya `Publishing_Handoff`;
+- esli klientskiy paket ukhodit vo vneshniy production kontur, v nem takzhe povtoryaetsya `Publishing_Handoff`;
 - `CLIENT_CODE` dolzhen byt korotkim, ASCII-sovmestimym i stabilnym, naprimer `ACME`, `ROSTEH`, `PROMSTROY`;
 - zamenyaem brand shell, no ne dubliruem bez nuzhdy metodicheskie artefakty.
 

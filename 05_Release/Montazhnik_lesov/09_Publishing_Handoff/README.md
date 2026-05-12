@@ -1,6 +1,6 @@
 # Publishing Handoff
 
-Eta papka nuzhna dlya peredachi paketa vo vneshniy publishing / print / production contour.
+Eta papka nuzhna dlya peredachi paketa vo vneshniy publishing / print / production kontur.
 
 ## Chto zdes dolzhno byt
 
@@ -12,4 +12,4 @@ Eta papka nuzhna dlya peredachi paketa vo vneshniy publishing / print / producti
 ## Logika
 
 - `v0.x` - rabochie drafty publishing-layer
-- `v1.0` - finalnyy contour, kotoryy mozhno peredavat izdatelyu, tipografii ili vneshnemu production-podryadchiku
+- `v1.0` - finalnyy kontur, kotoryy mozhno peredavat izdatelyu, tipografii ili vneshnemu production-podryadchiku

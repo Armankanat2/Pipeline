@@ -2,7 +2,7 @@
 
 ## Naznachenie
 
-Shablon nuzhen dlya sborki `Materials 2` - A5-razdatochnogo materiala dlya rabochikh. Eto korotkiy handout, kotoryy mozhno vydat na ruki posle instrukta zha ili vmeste s kursom.
+Shablon nuzhen dlya sborki `Materials 2` - A5-razdatochnogo materiala dlya rabochikh. Eto korotkiy handout, kotoryy mozhno vydat na ruki posle instruktazha ili vmeste s kursom.
 
 ## 1. Passport materiala
 
@@ -46,7 +46,7 @@ Shablon nuzhen dlya sborki `Materials 2` - A5-razdatochnogo materiala dlya raboc
 - Logotip:
 - Slogan:
 
-## 5. Bazovaya kompaktnaia instruktsiya
+## 5. Bazovaya kompaktnaya instruktsiya
 
 | Blok | Chto dolzhno byt | Status |
 |---|---|---|

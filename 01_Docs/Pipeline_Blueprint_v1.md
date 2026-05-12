@@ -93,7 +93,7 @@ Minimalnyy nabor artefaktov po kursu:
 - `01_design_options_pack.md` pri vybore vizualnogo napravleniya do sborki deck
 - `01_design_system_spec.md` posle vybora kontsepta i do massovoy visual production
 - `01_print_production_spec.md` esli kurs predpolagaet A3/A5/lamination/print-ready materialy
-- `01_publishing_handoff_spec.md` esli paket budet peredavatsya v izdательство, tipografiyu ili vneshniy production contour
+- `01_publishing_handoff_spec.md` esli paket budet peredavatsya izdatelyu, tipografii ili vo vneshniy production kontur
 - `01_language_style_guide.md` dlya yedinoy tekstovoy politiki
 - `01_terminology_glossary.md` dlya stabilnosti terminov i sokrashcheniy
 - `01_itr_requirements.md` pri sborke versii dlya ITR ili slozhnogo organizatsionnogo kontura
@@ -231,7 +231,7 @@ Pravilo dlya scriptwriting:
 - source basis dolzhen pokazyvat, na chem derzhitsya slayd: normativ, source register, ekspertnaya logika, worker behavior ili vnutrenniy modulnyy vyvod;
 - perekhod mezhdu slaydami i modulami dolzhen byt yavno vidim v script, a ne derzhat'sya "na intuicii avtora";
 - zavisimost slayda ot assets dolzhna byt vidna uzhe v script: mozhno li sobrat vizual vnutri prezentatsii, nuzhen li storonniy asset, ili est blokiruyushchiy visual gap;
-- online, lecturer i release-layer polya mogut doobogashchat kartochku posle stabilizatsii writer core, a ne do nachala smyslovoy sborki.
+- online, lecturer i release-layer polya mogut dobavlyat'sya v kartochku posle stabilizatsii writer core, a ne do nachala smyslovoy sborki.
 
 Pravilo dlya editorial layer:
 
@@ -239,15 +239,15 @@ Pravilo dlya editorial layer:
 - bitaya kodirovka, slomannye kirillicheskie simvoly i sluchaynye smesi alfavitov ne dopuskayutsya v release-grade dokumentakh;
 - klyuchevye terminy, sokrashcheniya i formulyrovki dolzhny byt zafiksirovany v otdelnom glossary, a ne plavat mezhdu dokumentami;
 - pered release dolzhna byt otdelnaya proofread-proverka na chitaemost, terminologicheskuyu stabilnost, yazyikovuyu odnorodnost i tekhnicheskuyu chistotu teksta;
-- esli vnutrennyaya markdown-baza ispolzuet translit ili tekhnicheskiy format, eto dolzhno byt yavno opisano v language style guide, chtoby korrrektor ne gadal o norme.
+- esli vnutrennyaya markdown-baza ispolzuet translit ili tekhnicheskiy format, eto dolzhno byt yavno opisano v language style guide, chtoby korrektor ne gadal o norme.
 
 Pravilo dlya publishing layer:
 
-- yesli paket peredayotsya vo vneshniy production contour, dolzhen byt otdelnyy `publishing handoff`, a ne tolko nabor finalnykh PDF/PPTX;
-- publishing contour dolzhen soderzhat minimum: status prav na assets, spisok ispolzuemykh shriftov, eksportnye parametry, print/digital gotovnost i preflight-status;
+- esli paket peredayotsya vo vneshniy production kontur, dolzhen byt otdelnyy `publishing handoff`, a ne tolko nabor finalnykh PDF/PPTX;
+- publishing kontur dolzhen soderzhat minimum: status prav na assets, spisok ispolzuemykh shriftov, eksportnye parametry, print/digital gotovnost i preflight-status;
 - release-grade paket ne schitaetsya publishing-ready, poka ne provereno, chto vneshniye visuals mozhno legalno ispolzovat, a source bundle mozhno peredat bez poteri svyazey;
 - dlya pechatnykh i branded-materialov dolzhny byt yavno zafiksirovany trim/bleed/safe-zone pravila, a takzhe status testovoy pechati, esli ona nuzhna;
-- izdательskiy handoff dolzhen umenshat ruchnuyu pereukladku paketa so storony tipografii, vydavtsa ili vneshnego production-podryadchika.
+- izdatelyskiy handoff dolzhen umenshat ruchnuyu pereukladku paketa so storony tipografii, izdatelya ili vneshnego production-podryadchika.
 
 Pravilo dlya `worker` tracka:
 
@@ -305,7 +305,7 @@ Trebovanie k instructor guide:
 - dolzhen vklyuchat `delivery profile` i teaching path dlya auditorii `worker / ITR / mixed`;
 - dolzhen vklyuchat kursovoy passport, bystryy vkhod v professiyu, normativnyy minimum, stsenariy zanyatiya, poslaydovye poyasneniya, FAQ, tayming, spisok video i materialov, cheklist podgotovki;
 - dolzhen imet blok `coverage control`, gde zafiksirovano, kakoy diapazon slaydov pokryt v etoy versii guide;
-- dolzhen byt `QR-ready`: na kazhdoy stranitse dolzhno byt mesto pod opzionalnyy QR-kod na video, skhemu ili dopolnitelnyy resurs;
+- dolzhen byt `QR-ready`: na kazhdoy stranitse dolzhno byt mesto pod optionalnyy QR-kod na video, skhemu ili dopolnitelnyy resurs;
 - dlya on-line kontura dolzhen podderzhivat paru `QR + direct link`, a ne tolko QR v odinochku.
 
 Trebovanie k `lecturer questions bank`:

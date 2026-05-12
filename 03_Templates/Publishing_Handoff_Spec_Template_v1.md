@@ -2,7 +2,7 @@
 
 ## Naznachenie
 
-Shablon nuzhen dlya kursov, kotorye peredayutsya vo vneshniy publishing, print ili production contour. Ego zadacha - zaranee zafiksirovat, chto imenno nuzhno sobrat dlya bezopasnogo handoff bez ruchek i dogadok.
+Shablon nuzhen dlya kursov, kotorye peredayutsya vo vneshniy publishing, print ili production kontur. Ego zadacha - zaranee zafiksirovat, chto imenno nuzhno sobrat dlya bezopasnogo handoff bez ruchek i dogadok.
 
 ## 1. Obshchaya informatsiya
 
@@ -15,7 +15,7 @@ Shablon nuzhen dlya kursov, kotorye peredayutsya vo vneshniy publishing, print i
 
 ## 2. Scope handoff
 
-- Kakie nositeli ukhodyat vo vneshniy contour:
+- Kakie nositeli ukhodyat vo vneshniy kontur:
 - Nuzhny li redaktiruemye iskhodniki:
 - Nuzhen li otdelnyy source bundle:
 - Nuzhna li peredacha linked-assets:

@@ -13,7 +13,7 @@
 ## Vybrannaya logika etoy iteratsii
 
 - Bazovyy kontur: `Variant 1` kak odnostoronniy ili dvustoronniy A5-handout
-- Tsel: dat rabochemu karmannyy minimum, kotoryy mozhno derzhat pri sebe ili poluchit posle instrukta zha
+- Tsel: dat rabochemu karmannyy minimum, kotoryy mozhno derzhat pri sebe ili poluchit posle instruktazha
 - Ton: maksimalno kompaktno, bez razvernutykh obyasneniy
 - Printsip sborki: `1 glavnaya mysl -> 1 korotkiy blok -> 3-7 punktov`
 - Brand shell obyazatelen dazhe v superkompaktnoy versii

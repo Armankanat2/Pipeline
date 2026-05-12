@@ -7,7 +7,7 @@ Shablon nuzhen dlya sborki rabochey metodichki ili `PDF` dlya lektora, kotoryy d
 ## Pravilo formata
 
 - dokument dolzhen byt udoben dlya pechati i eksporta v `PDF`;
-- kazhdaya stranitsa dolzhna ostavlyat mesto pod opzionalnyy `QR`-slot;
+- kazhdaya stranitsa dolzhna ostavlyat mesto pod optionalnyy `QR`-slot;
 - `QR` ne dolzhen byt obyazatelnym dlya tekushchey versii, no struktura dolzhna podderzhivat ego dobavlenie bez peresborki vsego fayla;
 - esli resurs budet ispolzovat'sya v on-line, nuzhno predusmatrivat `direct link` kak paru k QR.
 

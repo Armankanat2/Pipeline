@@ -22,7 +22,7 @@ Done if:
 - opredelena auditoriya;
 - ponyatna tsel kursa;
 - zafiksirovany sroki i format;
-- yesli nuzhen vneshniy production contour, zafiksirovan publishing handoff scope;
+- esli nuzhen vneshniy production kontur, zafiksirovan publishing handoff scope;
 - opredelen zakazchik ili soglasuyushchiy.
 
 ## Stage 02 - Source Audit
@@ -135,9 +135,9 @@ Done if:
 - sobran finalnyy paket;
 - finalnye fayly nazvany po pravilu versiy;
 - release note zapolnen;
-- esli v release est lektorskiy contour, v pakete est aktualnye `instructor guide` i `lecturer questions bank`;
-- esli kurs dolzhen byt portable v budushchiy online-produkt, v pakete est aktualnyy `online handoff` contour;
-- esli paket ukhodit vo vneshniy production contour, v pakete est aktualnyy `publishing handoff` contour i `preflight checklist`;
+- esli v release est lektorskiy kontur, v pakete est aktualnye `instructor guide` i `lecturer questions bank`;
+- esli kurs dolzhen byt portable v budushchiy online-produkt, v pakete est aktualnyy `online handoff` kontur;
+- esli paket ukhodit vo vneshniy production kontur, v pakete est aktualnyy `publishing handoff` kontur i `preflight checklist`;
 - release-grade dokumenty ne soderzhat bitoy kodirovki i sluchaynykh smesey alfavitov;
 - po klyuchevym assetam i brand-materialam net neproyasnennykh pravovykh blokov;
 - proyden proofreading checklist;

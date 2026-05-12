@@ -15,7 +15,7 @@
 - Tsvetovaya palitra: budet menyat'sya pod klienta
 - Nazvanie zakazchika vnutri kursa: budet menyat'sya pod klienta
 - Variant nazvaniya professii na titulnom slayde: dopustim, esli menyaetsya tolko oblozhka, a sam kurs ostayetsya tem zhe
-- Kontaktniy blok: opzionalno, po trebovaniyu zakazchika
+- Kontaktniy blok: optionalno, po trebovaniyu zakazchika
 - Titulnyy slayd: da
 - Finalnyy slayd: da
 

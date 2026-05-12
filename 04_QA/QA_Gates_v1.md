@@ -166,7 +166,7 @@ Proveryaem:
 Proveryaem:
 
 - polon li paket;
-- pravylnye li versii;
+- pravilnye li versii;
 - est li release note;
 - est li instructor guide i lecturer questions bank v aktualnoy release-versii;
 - proyden li proofreading checklist dlya release-grade dokumentov;

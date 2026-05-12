@@ -14,7 +14,7 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 - `06_Worker_Materials` - A3-stendovye instruktsii i pechatnye materialy dlya rabochikh
 - `07_Worker_Handouts` - A5-razdatochnye materialy dlya rabochikh
 - `08_Online_Handoff` - pakety dlya budushchey sborki LMS, web-course ili drugogo self-paced produkta
-- `09_Publishing_Handoff` - publishing handoff pack, preflight i production-bundle dlya vydavtsa, tipografii ili vneshnego podryadchika
+- `09_Publishing_Handoff` - publishing handoff pack, preflight i production-bundle dlya izdatelya, tipografii ili vneshnego podryadchika
 - `10_Clients` - branded release-konteinery pod konkretnykh zakazchikov
 
 ## Logika raboty s klientami

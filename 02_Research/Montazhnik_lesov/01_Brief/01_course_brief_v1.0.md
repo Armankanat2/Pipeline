@@ -63,7 +63,7 @@
 - Nuzhen li otdelnyy `publishing handoff spec`: da
 - Nuzhen li otdelnyy `language style guide`: da
 - Nuzhen li otdelnyy `terminology glossary`: da
-- Budet li paket peredavat'sya vo vneshniy publishing / print / production contour: potentsialno da
+- Budet li paket peredavat'sya vo vneshniy publishing / print / production kontur: potentsialno da
 - Nuzhen li finalnyy `publishing handoff pack`: da
 - Nuzhen li otdelnyy `preflight checklist`: da
 - Nuzhna li attestatsiya: utochnyaetsya
@@ -76,13 +76,13 @@
 - Nuzhen li blok `chego delat nelzya`: da, s tipovymi oshibkami
 - Bazovoe metodicheskoe posobie na baze prezentatsii: da
 - Bazovyy obem listov dlya rabochikh materialov: `1-5`
-- Nuzhno li dopolnitelnoe metodicheskoe posobie po zaprosu klienta: da, kak opzionalnyy kontur
+- Nuzhno li dopolnitelnoe metodicheskoe posobie po zaprosu klienta: da, kak optionalnyy kontur
 - Summarnyy dopustimyy obem worker-paketa: `3-10`, esli klientu nuzhno rasshirenie
 - Est li tablitsa tem iz prezentatsii dlya sborki worker-materiala: da, nuzhno vesti v shablone worker instruction
 - Nuzhno li formirovat spisok utochnyayushchikh voprosov pri nepolnykh dannykh: da
-- Nuzhny li `QR-ready` sloty v rabochikh materialakh: da, kak budushchaya optsionalnaya nadstroika
+- Nuzhny li `QR-ready` sloty v rabochikh materialakh: da, kak budushchaya optionalnaya nadstroika
 - Nuzhny li A5-razdatochnye materialy dlya rabochikh: da
-- Nuzhen li bazovyy A5-handout s ochen melkym shriftom: da, kak kompaktnaia vydavaemaya instruktsiya
+- Nuzhen li bazovyy A5-handout s ochen melkym shriftom: da, kak kompaktnaya vydavaemaya instruktsiya
 - Nuzhna li custom-sborka A5-handout po tablitse tem iz prezentatsii: da
 - Est li tablitsa tem dlya A5-handout: da, nuzhno vesti v otdelnom shablone
 - Nuzhno li formirovat spisok utochnyayushchikh voprosov dlya A5-handout: da
