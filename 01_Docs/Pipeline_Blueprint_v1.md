@@ -85,11 +85,12 @@ Minimalnyy nabor artefaktov po kursu:
 - `05_course_architecture.md`
 - `06_slide_script.md`
 - `07_asset_register.md`
-- `08_qa_report.md`
-- `09_test_pack.md`
-- `10_pilot_report.md`
-- `11_release_note.md`
-- `12_update_log.md`
+- `08_<course-code>_draft_vX.Y.pptx`
+- `09_qa_report.md`
+- `10_test_pack.md`
+- `11_pilot_report.md`
+- `12_release_note.md`
+- `13_update_log.md`
 
 ## 8. Roli
 

@@ -56,8 +56,9 @@ Vnutri rabochey papki kursa:
 - `06_Script`
 - `07_Assets`
 - `08_Deck`
-- `09_Test`
-- `10_Pilot`
+- `09_QA`
+- `10_Test`
+- `11_Pilot`
 
 ## 5. Artifact Map
 
@@ -72,10 +73,12 @@ Minimalnoe razmeshchenie artefaktov:
 | Course Architecture | `05_course_architecture.md` | `02_Research/<Course>/05_Architecture` |
 | Scriptwriting | `06_slide_script.md` | `02_Research/<Course>/06_Script` |
 | Asset Collection | `07_asset_register.md` | `02_Research/<Course>/07_Assets` |
-| Visual Production | `course_draft_vX.Y.pptx` | `02_Research/<Course>/08_Deck` |
-| Test Creation | `09_test_pack.md` | `02_Research/<Course>/09_Test` |
-| Pilot | `10_pilot_report.md` | `02_Research/<Course>/10_Pilot` |
-| Release | final pack | `05_Release/<Course>` |
+| Visual Production | `course-code_08_draft_vX.Y.pptx` | `02_Research/<Course>/08_Deck` |
+| QA Review | `09_qa_report.md` | `02_Research/<Course>/09_QA` |
+| Test Creation | `10_test_pack.md` | `02_Research/<Course>/10_Test` |
+| Pilot | `11_pilot_report.md` | `02_Research/<Course>/11_Pilot` |
+| Release | `12_release_note.md` + final pack | `05_Release/<Course>` |
+| Maintenance | `13_update_log.md` | `05_Release/<Course>` |
 
 ## 6. Workflow po etapam
 
@@ -185,7 +188,7 @@ Deystviya:
 
 Rezultat:
 
-- `course_draft_v0.1.pptx`
+- `course-code_08_draft_v0.1.pptx`
 
 ### Stage 09 - QA Review
 
@@ -198,7 +201,7 @@ Deystviya:
 
 Rezultat:
 
-- `08_qa_report.md`
+- `09_qa_report.md`
 
 ### Stage 10 - Test Creation
 
@@ -210,7 +213,7 @@ Deystviya:
 
 Rezultat:
 
-- `09_test_pack.md`
+- `10_test_pack.md`
 
 ### Stage 11 - Pilot
 
@@ -222,7 +225,7 @@ Deystviya:
 
 Rezultat:
 
-- `10_pilot_report.md`
+- `11_pilot_report.md`
 
 ### Stage 12 - Release
 
@@ -234,7 +237,7 @@ Deystviya:
 
 Rezultat:
 
-- release package v `05_Release/<Course>`
+- `12_release_note.md` i release package v `05_Release/<Course>`
 
 ### Stage 13 - Maintenance
 
@@ -246,7 +249,7 @@ Deystviya:
 
 Rezultat:
 
-- `12_update_log.md`
+- `13_update_log.md`
 
 ## 7. File Movement
 
@@ -255,7 +258,7 @@ Logika dvizheniya faylov:
 1. Vsya analitika i chernoviki zhivut v `02_Research`.
 2. Vse pravila sistemy zhivut v `01_Docs`.
 3. Vse universalnye shablony zhivut v `03_Templates`.
-4. Vse review i proverki zhivut v `04_QA`.
+4. Globalnye QA pravila i rubriki zhivut v `04_QA`, a kursovye QA reports zhivut v `02_Research/<Course>/09_QA`.
 5. Tolko utverzhdennye finaly peremeshchayutsya v `05_Release`.
 
 Pravilo:
@@ -283,33 +286,36 @@ Format:
 
 `NN_artifact_name_vX.Y.md`
 
+Gde `NN` = nomer stage, k kotoromu otnositsya artefakt.
+
 Primer:
 
 - `01_course_brief_v1.0.md`
 - `05_course_architecture_v0.3.md`
-- `08_qa_report_v1.0.md`
+- `09_qa_report_v0.1.md`
+- `12_release_note_v1.0.md`
 
 ### Prezentatsii
 
 Format:
 
-`course-code_stage_vX.Y.pptx`
+`course-code_NN_stage_vX.Y.pptx`
 
 Primer:
 
-- `RV_draft_v0.1.pptx`
-- `RV_review_v0.7.pptx`
-- `RV_release_v1.0.pptx`
+- `RV_08_draft_v0.1.pptx`
+- `RV_08_review_v0.7.pptx`
+- `RV_12_release_v1.0.pptx`
 
 ### PDF
 
 Format:
 
-`course-code_release_vX.Y.pdf`
+`course-code_12_release_vX.Y.pdf`
 
 Primer:
 
-- `RV_release_v1.0.pdf`
+- `RV_12_release_v1.0.pdf`
 
 ## 9. Versioning Rules
 
@@ -406,8 +412,14 @@ V `05_Release/<Course>` dolzhny lezhat:
 
 Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 
+- `Source_Register_Template_v1.md`
+- `Job_Map_Template_v1.md`
+- `Learning_Outcomes_Template_v1.md`
+- `Course_Architecture_Template_v1.md`
 - `Task_Board_Template_v1.md`
 - `Release_Note_Template_v1.md`
 - `QA_Report_Template_v1.md`
 - `Asset_Register_Template_v1.md`
 - `Pilot_Report_Template_v1.md`
+- `Test_Pack_Template_v1.md`
+- `Update_Log_Template_v1.md`

@@ -29,5 +29,6 @@ Planovoe zavershenie proekta i obucheniya: `2026-05-30`
 - `06_Script`
 - `07_Assets`
 - `08_Deck`
-- `09_Test`
-- `10_Pilot`
+- `09_QA`
+- `10_Test`
+- `11_Pilot`
