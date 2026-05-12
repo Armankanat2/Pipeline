@@ -24,6 +24,7 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya sobiraet ne tolko pre
 - `modular scalability over fixed length`;
 - `content-brand separation`;
 - `multi-delivery readiness`;
+- `lecturer-ready handoff`;
 - `reusability over custom work`;
 - `clarity over beauty`;
 - `fast review loops`;
@@ -98,6 +99,7 @@ Minimalnyy nabor artefaktov po kursu:
 - `10_answer_key.md`
 - `11_pilot_report.md`
 - `12_instructor_guide.md`
+- `12_lecturer_questions_bank.md`
 - `12_release_note.md`
 - `13_update_log.md`
 
@@ -165,6 +167,14 @@ Dopolnitelno sistema dolzhna podderzhivat dva slozhnostnykh tracka:
 - `Worker` - prakticheskiy uroven dlya rabochikh, s fokusom na deystviya, zaprety, stop-logiku i vizualnoe raspoznavanie riskov;
 - `ITR` - usilennyy uroven dlya inzhenerov, masterov i prorabov, s fokusom na organizatsiyu rabot, roli, otvetstvennost, dokumenty, kontrol i upravlencheskie resheniya.
 
+Pravilo vklyucheniya trackov:
+
+- `worker` track schitaetsya bazovym po umolchaniyu dlya rabochikh professiy;
+- `ITR` track ne yavlyaetsya obyazatelnym dlya kazhdogo kursa;
+- `ITR` track sobiraetsya tolko togda, kogda tselevaya auditoriya ili zadacha kursa realno vklyuchaet inzhenerov, masterov, prorabov ili nuzhdaetsya v organizatsionnom konture;
+- esli kurs ne prednaznachen dlya `ITR`, to `01_itr_requirements.md`, ITR teaching path, ITR test cases i drugie ITR-artefakty ne sobirayutsya;
+- prostoe nalichie potentsialnogo zakazchika s ITR ne delaet ITR-kontur obyazatelnym bez otdelnogo zaprosa.
+
 Dopolnitelno:
 
 - `1 slayd = 1 mysl`;
@@ -199,6 +209,13 @@ Pravilo dlya `ITR` tracka:
 - v ney dolzhny byt yavno raskryty roli, raspredelenie otvetstvennosti, dopusk, kontrol, dokumenty, eskalatsiya i prinyatie resheniy;
 - prostoe rasshirenie worker-versii bez dobavleniya organizatsionnoy logiki ne schitaetsya polnotsennoy ITR-sborkoy.
 
+Pravilo dlya lektorskogo handoff:
+
+- paket schitaetsya `lecturer-ready`, tolko esli novyy lektor mozhet podgotovitsya bez avtora kursa ryadom;
+- `instructor guide` dolzhen pokryvat `100%` aktualnogo `slide script` tekushchey versii bez "khvostov" po slaydam;
+- dlya kursa dolzhen byt sobran otdelnyy `lecturer questions bank` so slozhnymi voprosami, granitsami otvetov i sluchayami, kogda nuzhna ogovorka ili eskalatsiya;
+- v `instructor guide` dolzhny byt razvedeny teaching paths minimum dlya `worker` i `ITR`, esli sistema predpolagaet obe auditorii.
+
 Pravilo dlya testa:
 
 - test mozhno derzhat kak bank voprosov, a ne kak odin zafiksirovannyy nabor;
@@ -222,6 +239,7 @@ Finalnyy paket dolzhen vklyuchat:
 - otdelnyy `test check sheet` dlya lektora s voprosom, variantami, pravilnym otvetom i obyasneniem;
 - kratkuyu metodichku dlya prepodavatelya;
 - instructor guide v vide `PDF`, po kotoromu novyy lektor mozhet podgotovitsya k provedeniyu zanyatiya;
+- otdelnyy `lecturer questions bank` so slozhnymi voprosami, granitsami otvetov i podskazkami po eskalatsii;
 - pri neobkhodimosti metodicheskie materialy dlya rabochikh dvukh tipov:
   - `Materials 1`: A3-stendovye instruktsii, gotovye k pechati i laminatsii;
   - `Materials 2`: A5-razdatochnye materialy dlya vydachi na ruki;
@@ -231,9 +249,18 @@ Finalnyy paket dolzhen vklyuchat:
 Trebovanie k instructor guide:
 
 - dolzhen rabotat kak samostoyatelnyy material dlya podgotovki lektora;
+- dolzhen vklyuchat `delivery profile` i teaching path dlya auditorii `worker / ITR / mixed`;
 - dolzhen vklyuchat kursovoy passport, bystryy vkhod v professiyu, normativnyy minimum, stsenariy zanyatiya, poslaydovye poyasneniya, FAQ, tayming, spisok video i materialov, cheklist podgotovki;
+- dolzhen imet blok `coverage control`, gde zafiksirovano, kakoy diapazon slaydov pokryt v etoy versii guide;
 - dolzhen byt `QR-ready`: na kazhdoy stranitse dolzhno byt mesto pod opzionalnyy QR-kod na video, skhemu ili dopolnitelnyy resurs;
 - dlya on-line kontura dolzhen podderzhivat paru `QR + direct link`, a ne tolko QR v odinochku.
+
+Trebovanie k `lecturer questions bank`:
+
+- material adresovan lektoru, a ne slushatelyu;
+- dolzhen pokryvat minimum `worker`, `ITR` i `mixed` voprosy, esli kurs potentsialno vedetsya dlya raznykh auditoriy;
+- po kazhdomu voprosu dolzhny byt korotkiy otvet, rasshirennyy otvet, granitsy dopustimoy interpretatsii i signal, kogda nuzhna ogovorka, lokalnyy reglament ili eskalatsiya;
+- bank dolzhen snyat s lektora neobkhodimost improvizirovat v samykh riskovykh i spornykh mestakh.
 
 Trebovanie k worker materials:
 

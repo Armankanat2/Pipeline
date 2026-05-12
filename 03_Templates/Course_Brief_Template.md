@@ -13,6 +13,8 @@
 
 - Professiya:
 - Tip auditorii: `worker / ITR / mixed`
+- Nuzhen li voobshche `ITR` track dlya etogo kursa: `yes / no`
+- Esli `no`, to vse ITR-artefakty i ITR-sloy ne sobirayutsya:
 - Uroven podgotovki:
 - Yazyk auditorii:
 - Ogranicheniya po vospriyatiyu:
@@ -55,6 +57,7 @@
 - Nuzhna li attestatsiya:
 - Nuzhna li otdelnaya `worker` versiya:
 - Nuzhna li otdelnaya `ITR` versiya:
+- Esli `ITR` versiya ne nuzhna, propuskaem `01_itr_requirements.md`, ITR teaching paths i ITR test cases:
 - Nuzhny li metodicheskie materialy dlya rabochikh:
 - Nuzhen li format `A3` pod stend, pechat i laminatsiyu:
 - Trebuetsya li blok `pered rabotoy / vo vremya raboty / posle raboty`:
@@ -76,8 +79,8 @@
 
 - TB:
 - Normativy:
-- Organizatsionnye voprosy dlya ITR:
-- Roli i otvetstvennost:
+- Organizatsionnye voprosy dlya ITR: `zapolnyaetsya tolko esli ITR-track = yes`
+- Roli i otvetstvennost: `worker-only / mixed / ITR-expanded`
 - Vnutrennie reglamenty:
 - Obyazatelnye temy:
 - Kritichnye oshibki:

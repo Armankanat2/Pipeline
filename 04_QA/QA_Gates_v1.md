@@ -90,6 +90,7 @@ Proveryaem:
 - u kazhdogo slayda est li odna mysl;
 - prost li yazyk;
 - est li speaker notes;
+- net li razryva mezhdu `slide script` i budushchim lektorskim konturom;
 - ponyatno li, kakoy nuzhen vizual;
 - est li perekhody mezhdu blokami.
 
@@ -120,6 +121,10 @@ Proveryaem:
 - est li vse tipy proverki;
 - klassifitsirovany li zamechaniya;
 - net li kritichnykh oshibok;
+- pokryvaet li `instructor guide` `100%` aktualnogo `slide script`;
+- sobran li `lecturer questions bank` po riskovym i spornym voprosam;
+- est li teaching paths dlya `worker` i `ITR`, esli kurs podderzhivaet obe auditorii;
+- mozhno li peredat kurs novomu lektoru bez avtora ryadom;
 - ponyatno li eto rabochemu bez metodista ryadom, esli kurs dlya `worker` track;
 - dostatochno li raskryty organizatsionnye i upravlencheskie voprosy, esli kurs dlya `ITR` track;
 - ponyaten li obem pravok;
@@ -154,6 +159,7 @@ Proveryaem:
 - polon li paket;
 - pravylnye li versii;
 - est li release note;
+- est li instructor guide i lecturer questions bank v aktualnoy release-versii;
 - ponyatno li, chto peredano;
 - mozhno li bezopasno ispolzovat paket.
 

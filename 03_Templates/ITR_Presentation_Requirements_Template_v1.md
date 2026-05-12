@@ -4,6 +4,12 @@
 
 Shablon nuzhen dlya sborki usilennoy versii kursa dlya inzhenerov, masterov i prorabov. Takaya versiya ne dolzhna byt prosto bolee dlinnoy, ona dolzhna byt organizatsionno bolee glubokoy.
 
+Vazhno:
+
+- etot shablon ne ispolzuetsya po umolchaniyu;
+- ego nuzhno otkryvat tolko togda, kogda v brief yavno zafiksirovano, chto kursu nuzhen `ITR` track;
+- esli kurs delaetsya tolko dlya rabochikh, etot artefakt ne sozdaetsya.
+
 ## Obshchaya informatsiya
 
 - Nazvanie kursa:

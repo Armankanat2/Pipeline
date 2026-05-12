@@ -13,6 +13,8 @@
 
 - Professiya: montazhnik stroitelnykh lesov
 - Tip auditorii: `worker` seychas, s perspektivoy `ITR`-adaptatsii
+- Nuzhen li voobshche `ITR` track dlya etogo kursa: net, v tekushchey sborke
+- Esli `no`, to vse ITR-artefakty i ITR-sloy ne sobirayutsya: da, do otdelnogo zaprosa
 - Uroven podgotovki: novichok / bazovyy uroven
 - Yazyk auditorii: prostoy russkiy
 - Ogranicheniya po vospriyatiyu: chast auditorii mozhet plokho vosprinimat slozhnye terminy i dlinnye teksty
@@ -54,7 +56,8 @@
 - Est li rekomenduemyy generic-kontsept po umolchaniyu: `D-06 Corporate Neutral`
 - Nuzhna li attestatsiya: utochnyaetsya
 - Nuzhna li otdelnaya `worker` versiya: da
-- Nuzhna li otdelnaya `ITR` versiya: vozmozhna v sleduyushchey iteratsii
+- Nuzhna li otdelnaya `ITR` versiya: net v tekushchey sborke, tolko po otdelnomu zaprosu
+- Esli `ITR` versiya ne nuzhna, propuskaem `01_itr_requirements.md`, ITR teaching paths i ITR test cases: da
 - Nuzhny li metodicheskie materialy dlya rabochikh: da, kak dopolnitelnyy klientskiy paket
 - Nuzhen li format `A3` pod stend, pechat i laminatsiyu: da
 - Trebuetsya li blok `pered rabotoy / vo vremya raboty / posle raboty`: da
@@ -76,8 +79,8 @@
 
 - TB: rabota na vysote, dopusk, ispolzovanie SIZ, proverka ustoychivosti, zapret na opasnye deystviya
 - Normativy: dokumenty po rabote na vysote i pravilam montazha lesov
-- Organizatsionnye voprosy dlya ITR: dopusk, raspredelenie otvetstvennosti, kontrol i stop-resheniya
-- Roli i otvetstvennost: rabochiy / master / prorab / otvetstvennyy za bezopasnost
+- Organizatsionnye voprosy dlya ITR: ne vklyucheny v tekushchuyu worker-sborku
+- Roli i otvetstvennost: worker-sloy s bazovym ponimaniem granits polnomochiy, bez otdelnogo ITR-rasshireniya
 - Vnutrennie reglamenty: budut dobavleny pri nalichii
 - Obyazatelnye temy: elementy lesov, podgotovka mesta, sborka, kreplenie, proverka, ekspluatatsiya, demontazh
 - Kritichnye oshibki: neustoychivaya sborka, otsutstvie krepleniya, narushenie TB, rabota bez proverki konstruktsii

@@ -28,6 +28,22 @@ Shablon nuzhen dlya sborki rabochey metodichki ili `PDF` dlya lektora, kotoryy d
 - Est li rezervnye QR-sloty bez ssylki:
 - Est li direct links dlya on-line versii:
 
+## 0. Delivery profile dlya lektora
+
+- Track auditorii: `worker / ITR / mixed`
+- Tselevoi format provedenia: `Short / Standard / Deep`
+- Rezhim: `with-test / no-test`
+- Delivery mode: `instructor-led / blended / online-support`
+- Chto obyazatelno ne poteryat pri etom profile:
+
+## 0a. Teaching paths po auditorii
+
+| Auditoriia | Na chem delat glavniy aktsent | Chto ne peregruzhat | Kakie voprosy veroyatny |
+|---|---|---|---|
+| Worker |  |  |  |
+| ITR |  |  |  |
+| Mixed |  |  |  |
+
 ## 1. Pasport kursa
 
 - Dlya kogo kurs:
@@ -64,6 +80,13 @@ Shablon nuzhen dlya sborki rabochey metodichki ili `PDF` dlya lektora, kotoryy d
 | Standard |  |  |
 | Deep |  |  |
 
+## 5a. Coverage control
+
+- Aktualnyy diapazon `slide script`:
+- Pokryto v etoy versii guide:
+- Est li slaydy bez lektorskikh notes:
+- Reshenie po pokrytiyu: `full / partial`
+
 ## 6. Poslaydovye poyasneniya
 
 | Slayd | Glavnaya mysl | Chto skazat obyazatelno | Tipichnyy vopros ili risk | QR-slot |
@@ -75,6 +98,13 @@ Shablon nuzhen dlya sborki rabochey metodichki ili `PDF` dlya lektora, kotoryy d
 | Vopros | Korotkiy otvet | Rasshirennyy otvet | Kogda nuzhna ogovorka |
 |---|---|---|---|
 |  |  |  |  |
+
+## 7a. Slozhnye voprosy i granitsy
+
+- Nazvanie svyazannogo fayla ili banka voprosov:
+- Est li otdelnye worker-voprosy:
+- Est li otdelnye ITR-voprosy:
+- Est li voprosy, gde nuzhen pasport konkretnoy sistemy ili lokalnyy reglament:
 
 ## 8. Video i materialy dlya podgotovki
 
@@ -90,10 +120,12 @@ Shablon nuzhen dlya sborki rabochey metodichki ili `PDF` dlya lektora, kotoryy d
 - Prosmotreny video i materialy
 - Poveren tayming
 - Otkryty FAQ i otvety na veroyatnye voprosy
+- Otkryt otdelnyy `lecturer questions bank`
 - Poveren format `with-test / no-test`
 - Povereno, chto QR-sloty ne meshaut chteniyu stranitsy
 
 ## Reshenie po gotovnosti
 
 - Instructor guide gotov k eksportu v `PDF`: `yes / no`
+- Pokrytie `slide script` polnoe: `yes / no`
 - Chto nado dosobrat:

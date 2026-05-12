@@ -35,4 +35,4 @@
 
 ## Reshenie na tekushchiy moment
 
-Script teper razvernut po moduliam `01-07`, test contour rasshiren do `20` voprosov po moduliam `01-07`, a worker behavior map sobrana kak svyazka mezhdu architecture, script, testom i worker-materialami. Sledushchiy fokus - dosobrat asset layer pod novye slaydy `20-43`, potom vernut'sya k QA i moduliam `08-09`.
+Script teper razvernut po moduliam `01-07`, test contour rasshiren do `20` voprosov po moduliam `01-07`, a worker behavior map sobrana kak svyazka mezhdu architecture, script, testom i worker-materialami. Lektorskiy contour usilen: `instructor guide` teper pokryvaet slaydy `01-43`, dobavlen otdelnyy `lecturer questions bank`, a v `Pipeline` zafiksirovany `lecturer-ready` pravila i QA-checks. Sledushchiy fokus - dosobrat asset layer pod novye slaydy `20-43`, potom vernut'sya k QA i moduliam `08-09`.

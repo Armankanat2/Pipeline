@@ -81,7 +81,7 @@ Minimalnoe razmeshchenie artefaktov:
 | QA Review | `09_qa_report.md` | `02_Research/<Course>/09_QA` |
 | Test Creation | `10_test_pack.md` + `10_answer_key.md` | `02_Research/<Course>/10_Test` |
 | Pilot | `11_pilot_report.md` | `02_Research/<Course>/11_Pilot` |
-| Release | `12_instructor_guide.md` + `12_release_note.md` + final pack | `05_Release/<Course>` |
+| Release | `12_instructor_guide.md` + `12_lecturer_questions_bank.md` + `12_release_note.md` + final pack | `05_Release/<Course>` |
 | Maintenance | `13_update_log.md` | `05_Release/<Course>` |
 
 ## 6. Workflow po etapam
@@ -106,6 +106,8 @@ Deystviya:
 - esli nuzhny raznye zakazchiki, sobrat brand profile;
 - podgotovit design options pack, esli klientu nuzhen vybor mezhdu gotovymi vizualnymi shell-resheniyami;
 - zafiksirovat tselevoy slozhnostnyy track: `worker / ITR / mixed`;
+- otdelno proverit, nuzhen li voobshche `ITR` track dlya etogo kursa;
+- esli `ITR` track ne nuzhen, ne sobirat `01_itr_requirements.md` i ne razduvat kurs organizatsionnym sloem;
 - esli nuzhna ITR-versiya, podgotovit `01_itr_requirements.md` so spiskom organizatsionnykh trebovaniy i voprosov, kotorye nado raskryt glubzhe;
 - opredelit tsel, auditoriyu, format i soglasuyushchikh;
 - opredelit, nuzhen li `online-ready` ili `self-paced` kontur;
@@ -150,6 +152,7 @@ Deystviya:
 
 - sformulirovat, chto dolzhen umet slushatel;
 - svyazat outcomes s prakticheskim povedeniem;
+- ne dobavlyat ITR-outcomes, esli kurs ne imeet ITR-track;
 - podumat, kak eto proverit.
 
 Rezultat:
@@ -166,7 +169,7 @@ Deystviya:
 - opredelit, chto v module yavlyaetsya `core`, `standard` i `extended`;
 - zafiksirovat slide budget dlya `Short`, `Standard` i `Deep`.
 - dlya `worker` track sobrat obyazatelnyy `worker behavior map` iz `5-7 critical behaviors per course`;
-- dlya `ITR` track zafiksirovat organizatsionnye voprosy i upravlencheskie bloki, kotorye trebuyut usilennogo osveshcheniya.
+- tolko dlya `ITR` track zafiksirovat organizatsionnye voprosy i upravlencheskie bloki, kotorye trebuyut usilennogo osveshcheniya.
 
 Rezultat:
 
@@ -180,10 +183,11 @@ Deystviya:
 - opisat kazhdyy slayd;
 - ukazat, dlya kakogo tracka slayd sobiraetsya: `worker / ITR / mixed`;
 - zadat tezis, tsel, vizual i speaker notes;
+- dlya kazhdogo novogo slayda srazu zafiksirovat opornuyu lektorskuyu podachu, chtoby `instructor guide` mog pokryvat script bez otstavaniya;
 - esli nuzhen online-kontur, zadat osnovu dlya voiceover, direct link i QR-slot;
 - svyazat slaydy s outcomes i testom;
 - dlya `worker` track svyazat slaydy s critical behaviors;
-- dlya `ITR` track svyazat slaydy s organizatsionnymi voprosami, rolami i upravlencheskimi resheniyami;
+- tolko dlya `ITR` track svyazat slaydy s organizatsionnymi voprosami, rolami i upravlencheskimi resheniyami;
 - pometchat, kakie slaydy obyazatelny dlya vsekh versiy kursa, a kakie mozhno ubrat v korotkoy sborke bez polomki logiki.
 
 Rezultat:
@@ -227,6 +231,8 @@ Deystviya:
 - proyti metodicheskiy review;
 - proyti tekhnicheskiy review;
 - proyti dizayn-review;
+- proverit, chto `instructor guide` pokryvaet `100%` aktualnogo `slide script`;
+- proyti `lecturer-ready` review: est li teaching paths, khvataet li tayminga, est li opora na slozhnye voprosy i ponyatno li, kak peredavat kurs drugomu lektoru;
 - proverit, ponyatno li eto rabochemu bez metodista ryadom, esli kurs sobiraetsya dlya `worker` track;
 - proverit, dostatochno li raskryty organizatsionnye i upravlencheskie voprosy, esli kurs sobiraetsya dlya `ITR` track;
 - klassifitsirovat pravki.
@@ -273,6 +279,7 @@ Deystviya:
 - eksportirovat klientskie versii v `PPTX` i `PDF`;
 - pri on-line konture sobrat `voiceover-ready` ili ozvuchennuyu versiyu i proverit paru `QR + direct link`;
 - sobrat instructor guide dlya lektora i eksportirovat ego v `PDF`;
+- sobrat otdelnyy `lecturer questions bank` i proverit, chto on sootvetstvuet aktualnoy versii script i testa;
 - proverit, chto instructor guide `QR-ready`, i na kazhdoy stranitse ostavlen slot pod opzionalnyy QR-kod;
 - prilozhit otdelnyy klyuch otvetov;
 - prinyat poslednie pravki;
@@ -482,7 +489,7 @@ V `05_Release/<Course>` dolzhny lezhat:
 - `02_PDF/01_With_Test` - PDF-ekvivalenty versiy so vstroyennym blokom voprosov;
 - `02_PDF/02_No_Test` - PDF-ekvivalenty versiy bez bloka voprosov;
 - `03_Test` - finalnyy test pack, otdelnyy `answer_key` i `test_check_sheet`;
-- `04_Notes` - `speaker_notes`, instructor guide ili metodichka;
+- `04_Notes` - `speaker_notes`, instructor guide, lecturer questions bank ili metodichka;
 - `06_Worker_Materials` - A3-stendovye instruktsii i drugie pechatnye metodicheskie materialy dlya rabochikh;
 - `07_Worker_Handouts` - A5-razdatochnye materialy dlya rabochikh;
 - pri neobkhodimosti on-line versiya s ozvuchkoy i pryamymi ssylkami;
@@ -507,6 +514,7 @@ Minimalnaya matrica faylov:
 - `course-code_[client-code]_12_worker-handout_vX.Y.pdf`
 - `course-code_[client-code]_12_worker-handout_vX.Y.pptx`
 - `course-code_[client-code]_10_test-check-sheet_vX.Y.md`
+- `course-code_[client-code]_12_lecturer-questions-bank_vX.Y.pdf`
 
 Esli zakazchiku nuzhny ne vse versii, v release note nuzhno priamo ukazat, kakie sloty ostalis neispolzovannymi.
 
@@ -544,6 +552,13 @@ Minimalnye trebovaniya k `03_Test/test_check_sheet`:
 - dlya kazhdogo voprosa est korotkiy kommentariy dlya lektora;
 - obem dokumenta dolzhen masshtabirovat'sya po chislu voprosov v prezentatsii.
 
+Minimalnye trebovaniya k `04_Notes`:
+
+- `instructor guide` dolzhen pokryvat `100%` aktualnogo `slide script`;
+- v `notes` dolzhny byt razvedeny teaching paths minimum dlya `worker` i `ITR`, esli kurs podderzhivaet obe auditorii;
+- dolzhen byt otdelnyy `lecturer questions bank` so slozhnymi voprosami, granitsami interpretatsii i signalami dlya eskalatsii;
+- notes-package dolzhen pozvolyat novomu lektoru podgotovit zanyatie bez avtora kursa ryadom.
+
 ### Client containers
 
 Esli odin i tot zhe kurs vypuskaetsya dlya neskolkikh zakazchikov, release-papka rabotaet kak `release hub`:
@@ -570,6 +585,8 @@ Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 - `Test_Pack_Template_v1.md`
 - `Answer_Key_Template_v1.md`
 - `Test_Check_Sheet_Template_v1.md`
+- `Lecturer_Questions_Bank_Template_v1.md`
+- `Lecturer_Ready_QA_Checklist_Template_v1.md`
 - `Worker_Instruction_Template_v1.md`
 - `Worker_Handout_Template_v1.md`
 - `Update_Log_Template_v1.md`
