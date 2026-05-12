@@ -62,6 +62,20 @@ Chtoby klient sravnival kontsepty chestno, dlya vsekh `10` variantov nuzhno poka
 - sovmestimost s budushchim logo i tsvetami zakazchika
 - naskolko kontsept podkhodit pod kurs dlya rabochikh i TB-tematiku
 
+## Post-selection handoff
+
+Posle vybora kontsepta dizayner dolzhen poluchit ne tolko kod `D-0X`, no i production-bazu dlya sborki.
+
+- Vybrannyy kontsept: poka ne vybran
+- Chto schitaetsya bazovym visual shell: budet zafiksirovano v `design system spec`
+- Kakie tipograficheskie pravila zakrepleny: budet zafiksirovano posle vybora
+- Kakie setki i otstupy ispolzuyutsya: budet zafiksirovano posle vybora
+- Kak vyglyadyat tablitsy, skhemy i testovye slaydy: nuzhno zakrepit posle vybora
+- Kakie bloki obyazatelno imeyut branded-slot: cover, final, metadata-slots
+- Kak v etom kontsepte razmeshchayutsya QR / direct-link pair: nuzhno zakrepit v `design system spec`
+- Kak kontsept adaptiruetsya v `A3` i `A5`: nuzhno zakrepit v `print production spec`
+- Nuzhen li otdelnyy `design system spec` posle vybora: `yes`
+
 ## Rekomenduemaya odinakovaya osnova dlya preview
 
 - Cover: `Montazhnik lesov. Bezopasnaya sborka i ekspluatatsiya`

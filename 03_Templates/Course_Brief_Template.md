@@ -58,6 +58,8 @@
 - Kolichestvo dizayn-kontseptov dlya pokaza klientu:
 - Vybrannyy dizayn-kontsept:
 - Est li rekomenduemyy generic-kontsept po umolchaniyu:
+- Nuzhen li otdelnyy `design system spec`:
+- Nuzhen li otdelnyy `print production spec`:
 - Nuzhna li attestatsiya:
 - Nuzhna li otdelnaya `worker` versiya:
 - Nuzhna li otdelnaya `ITR` versiya:

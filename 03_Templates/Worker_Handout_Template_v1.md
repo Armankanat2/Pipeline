@@ -21,6 +21,7 @@ Shablon nuzhen dlya sborki `Materials 2` - A5-razdatochnogo materiala dlya raboc
 - Format vydachi: `PDF / PPTX / print-ready`
 - Bazovyy variant:
 - Nuzhen li custom-variant:
+- Svyazannyy `print production spec`:
 
 ## 3. Dva varianta sborki
 

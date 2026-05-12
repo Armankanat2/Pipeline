@@ -35,6 +35,16 @@
 - Dopolnitelnye ikonki ili elementy: poka ne predostavleny
 - Pravovye ogranicheniya po ispolzovaniyu: nuzhno utverzhdat s klientom
 
+## Brand application map
+
+- Kakie master-slides brandiruyutsya: cover, final, branded metadata-slots
+- Chto mozhno menyat bez soglasovaniya metodiki: logo, klientskoe nazvanie, accent colors v ramkakh chitaemosti
+- Chto mozhno menyat tolko po soglasovaniyu: slogany, kontaktniy blok, klientskie dobavochnye slaydy
+- Chto fiksirovano i ne menyaetsya: kontentnaya struktura, warning semantics, testovaya logika
+- Kakie accent colors yavlyayutsya obyazatelnymi dlya navigatsii i risk-blokov: nuzhno zafiksirovat posle vybora kontsepta
+- Kakie tsvetovye roli mozhno pereopredelyat: fonovye i branded accent-roli
+- Kakie branded-elementy obyazatelny v `PPTX`, `PDF`, `A3`, `A5`: logo-slot, nazvanie zakazchika, edinaya visual semantics
+
 ## Pravila primeneniya
 
 - Mozhno li menyat oblozhku: da
@@ -43,6 +53,8 @@
 - Mozhno li menyat vnutrennie accent colors: da, bez ushcherba chitaemosti
 - Mozhno li dobavlyat klientskie slaydy: da, luchshe v nachale ili v kontse, chtoby ne lomat osnovnoy potok
 - Nuzhno li menyat kontakty v PDF i PPTX: da, esli oni est v klientskom pakete
+- Mozhno li menyat QR-zone i mesta pod direct links: tolko po pravilam design system i print spec
+- Nuzhno li sokhranyat edinuyu vizualnuyu logiku mezhdu prezentatsiey, `A3` i `A5`: da
 
 ## Reshenie po gotovnosti
 

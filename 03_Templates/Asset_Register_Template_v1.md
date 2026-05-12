@@ -2,7 +2,7 @@
 
 ## Naznachenie
 
-Shablon nuzhen dlya ucheta foto, video, skhem, ikonok i drugih materialov, kotorye ispolzuyutsya v kurse.
+Shablon nuzhen dlya ucheta foto, video, skhem, ikonok i drugikh materialov, kotorye ispolzuyutsya v kurse.
 
 ## Obshchaya informatsiya
 
@@ -13,9 +13,9 @@ Shablon nuzhen dlya ucheta foto, video, skhem, ikonok i drugih materialov, kotor
 
 ## Reestr assets
 
-| ID | Tip | Opisanie | Istochnik | Status | Gde ispolzuetsya | Primechanie |
-|---|---|---|---|---|---|---|
-| A-01 | photo / video / scheme / icon |  |  | approved / draft / replace / missing |  |  |
+| ID | Tip | Opisanie | Istochnik | Prava / legalnost | Redaktiruemost | Kachestvo / razreshenie | Status | Gde ispolzuetsya | Primechanie |
+|---|---|---|---|---|---|---|---|---|---|
+| A-01 | photo / video / scheme / icon |  |  | free / licensed / client-owned / to clarify | editable / flatten / redraw-needed | print-safe / screen-only / low / unknown | approved / draft / replace / missing |  |  |
 
 ## Rekomenduemye statusy
 
@@ -39,6 +39,7 @@ Shablon nuzhen dlya ucheta foto, video, skhem, ikonok i drugih materialov, kotor
 - Tsvetovaya palitra:
 - Klientskie titulnye / finalnye slaydy:
 - Kontaktniy blok:
+- Design-system tokens / pravila:
 - Status gotovnosti brand-shell:
 
 ## Problemy po assets
@@ -46,6 +47,8 @@ Shablon nuzhen dlya ucheta foto, video, skhem, ikonok i drugih materialov, kotor
 - Chto ne khvataet:
 - Chto slabogo kachestva:
 - Chto trebuet soglasovaniya:
+- Chto nuzhno pererisovat ili sobrat dizaynerski:
+- Kakie assets ne godyatsya dlya pechati:
 
 ## Reshenie po gotovnosti
 

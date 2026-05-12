@@ -58,6 +58,8 @@
 - Kolichestvo dizayn-kontseptov dlya pokaza klientu: `10`
 - Vybrannyy dizayn-kontsept: poka ne vybran
 - Est li rekomenduemyy generic-kontsept po umolchaniyu: `D-06 Corporate Neutral`
+- Nuzhen li otdelnyy `design system spec`: da
+- Nuzhen li otdelnyy `print production spec`: da
 - Nuzhna li attestatsiya: utochnyaetsya
 - Nuzhna li otdelnaya `worker` versiya: da
 - Nuzhna li otdelnaya `ITR` versiya: net v tekushchey sborke, tolko po otdelnomu zaprosu

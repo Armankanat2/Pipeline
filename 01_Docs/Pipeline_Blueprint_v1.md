@@ -27,6 +27,7 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya sobiraet ne tolko pre
 - `online-portable core`;
 - `lecturer-ready handoff`;
 - `writer-first scripting`;
+- `design-system-driven production`;
 - `reusability over custom work`;
 - `clarity over beauty`;
 - `fast review loops`;
@@ -88,6 +89,8 @@ Minimalnyy nabor artefaktov po kursu:
 - `01_course_brief.md`
 - `01_brand_profile.md` pri multi-client ili branded release
 - `01_design_options_pack.md` pri vybore vizualnogo napravleniya do sborki deck
+- `01_design_system_spec.md` posle vybora kontsepta i do massovoy visual production
+- `01_print_production_spec.md` esli kurs predpolagaet A3/A5/lamination/print-ready materialy
 - `01_itr_requirements.md` pri sborke versii dlya ITR ili slozhnogo organizatsionnogo kontura
 - `02_source_register.md`
 - `03_job_map.md`
@@ -347,6 +350,15 @@ Trebovanie k design selection layer:
 - nado derzhat `10` gotovykh kontseptov kak bazovyy paket vybora;
 - vybor dizayna dolzhen fiksirovat'sya v brief i pri neobkhodimosti v brand profile;
 - esli klient ne vybral kontsept, po umolchaniyu dolzhen byt rekomendovannyy `generic` variant.
+
+Trebovanie k design production layer:
+
+- posle vybora kontsepta dolzhen poyavlyat'sya otdelnyy `design system spec`, a ne tolko nazvanie kontsepta;
+- v `design system spec` dolzhny byt zafiksirovany tipograficheskaya shkala, setka, pravila tablits, skhem, foto, ikonok, QR-blokov i branded-slotov;
+- dizayner ne dolzhen ruchno priumyvat eti pravila zanovo dlya kazhdogo kursa ili klienta;
+- granitsy mezhdu `generic shell`, `brand shell` i nezamenyaemym uchebnym yadrom dolzhny byt operatsionno ponyatny, a ne tolko kontseptualno opisany;
+- dlya pechatnykh materialov dolzhen byt otdelnyy `print production spec` s pravilami chitaemosti, eksporta, safe zones, laminatsii i QR/ssylok na pechati;
+- `A3`, `A5`, PPTX i PDF ne dolzhny sobirat'sya kak chetyre raznykh vizualnykh mira bez obshchey design-system logiki.
 
 Trebovanie k klientskomu approval cycle:
 

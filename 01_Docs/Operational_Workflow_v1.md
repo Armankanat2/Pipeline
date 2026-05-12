@@ -69,6 +69,8 @@ Minimalnoe razmeshchenie artefaktov:
 | Intake | `01_course_brief.md` | `02_Research/<Course>/01_Brief` |
 | Intake | `01_brand_profile.md` | `02_Research/<Course>/01_Brief` |
 | Intake | `01_design_options_pack.md` | `02_Research/<Course>/01_Brief` |
+| Intake | `01_design_system_spec.md` | `02_Research/<Course>/01_Brief` |
+| Intake | `01_print_production_spec.md` | `02_Research/<Course>/01_Brief` |
 | Intake | `01_itr_requirements.md` | `02_Research/<Course>/01_Brief` |
 | Source Audit | `02_source_register.md` | `02_Research/<Course>/02_Sources` |
 | Job Decomposition | `03_job_map.md` | `02_Research/<Course>/03_Job_Map` |
@@ -106,6 +108,8 @@ Deystviya:
 - esli nuzhny raznye zakazchiki, sobrat brand profile;
 - poluchit ot klienta iskhodnye materialy dlya podgotovki kursa i vizualnogo shell: logotipy, palitru, brandbook, refy, lokalnye reglamenty, pri nalichii gotovye teksty, foto i video;
 - podgotovit design options pack, esli klientu nuzhen vybor mezhdu gotovymi vizualnymi shell-resheniyami;
+- esli kontsept uzhe vybran ili opredelen generic fallback, sobrat `design system spec` dlya production;
+- esli v pakete est `A3`, `A5`, laminatsiya ili drugie pechatnye materialy, sobrat `print production spec`;
 - zafiksirovat tselevoy slozhnostnyy track: `worker / ITR / mixed`;
 - otdelno proverit, nuzhen li voobshche `ITR` track dlya etogo kursa;
 - esli `ITR` track ne nuzhen, ne sobirat `01_itr_requirements.md` i ne razduvat kurs organizatsionnym sloem;
@@ -123,6 +127,8 @@ Rezultat:
 
 - `01_course_brief.md`
 - pri neobkhodimosti `01_design_options_pack.md`
+- pri neobkhodimosti `01_design_system_spec.md`
+- pri neobkhodimosti `01_print_production_spec.md`
 - pri neobkhodimosti `01_itr_requirements.md`
 
 ### Stage 02 - Source Audit
@@ -209,6 +215,7 @@ Deystviya:
 
 - podobrat foto, skhemy, ikony i drugie assets;
 - otdelit kontentnye assets ot brand assets;
+- proverit po kazhdomu assetu ne tolko nalichie, no i prava, kachestvo, redaktiruemost i vozmozhnost legalnoy pererisovki;
 - dlya kazhdogo klyuchevogo bloka proverit nalichie `correct / incorrect / risk` visuals;
 - proverit nalichie logotipov, palitry, klientskikh nazvaniy i drugikh white-label elementov;
 - proverit ikh kachestvo i umestnost;
@@ -225,7 +232,10 @@ Deystviya:
 - sobrat draft deka po script;
 - primenit master-template;
 - primenit vybrannyy dizayn-kontsept ili rekomendovannyy `generic`, esli klient ne sdelal vybora;
+- primenit `design system spec`, a ne sobirat visual language slayd za slaydom zanovo;
 - vnesti brand shell cherez temu, mastery i peremennye bloky, a ne ruchnuyu perekrasku kazhdogo slayda;
+- primenit pravila `brand application map`: chto mozhno menyat, chto fiksirovano, kakie master-slides brandiruyutsya;
+- esli est `A3` / `A5`, sobirat ikh po `print production spec`, a ne po otdelnoy improvizatsii;
 - esli kurs idet v on-line, proverit klikabelnost ssylok, mest pod QR i ponyatnost bez lektora;
 - esli kurs nuzhdaetsya v budushchey online-portability, proverit, chto deck ne yavlyaetsya edinstvennym mestom, gde zhivet logika povtoreniya, ozvuchki i referensov;
 - proverit chitaemost i logiku.
@@ -241,6 +251,8 @@ Deystviya:
 - proyti metodicheskiy review;
 - proyti tekhnicheskiy review;
 - proyti dizayn-review;
+- proverit, chto design-system pravila ne rozpalis na ruchnye lokalnye isklyucheniya;
+- proverit, chto QR, print i branded-pravila soblyudeny odinakovo vo vsekh nositelyakh;
 - sobrat odin konsolidirovannyy klientskiy review-pack po draft-proektu;
 - prinyat i zafiksirovat `1-y` krug klientskikh zamechaniy, esli kurs idet cherez soglasovanie s zakazchikom;
 - vnesti `1-y` krug klientskikh pravok vnutri tekushchego revision-loop;
@@ -573,6 +585,7 @@ Minimalnye trebovaniya k `06_Worker_Materials`:
 - klienskiy brand shell obyazatelen;
 - stranitsy prenumerovany;
 - kachestvo grafiki i tipografiki dostatochno dlya pechati i laminatsii;
+- print-safe polya, razmery i kontrast dolzhny sootvetstvovat `print production spec`;
 - pri neobkhodimosti ostavleny `QR-ready` sloty ili para `QR + direct link`.
 
 Minimalnye trebovaniya k `07_Worker_Handouts`:
@@ -583,6 +596,7 @@ Minimalnye trebovaniya k `07_Worker_Handouts`:
   - custom-napolnenie po tablitse tem iz prezentatsii;
 - brand shell zakazchika obyazatelen;
 - dolzhny byt zafiksirovany nazvanie, logotipy i drugie obyazatelnye vizualnye identifikatory;
+- print-safe pravila i minimalnaya chitaemost dolzhny byt provereny po `print production spec`;
 - esli po tablitse ne khvataet dannykh, dolzhen formirovat'sya spisok utochnyayushchikh voprosov.
 
 Minimalnye trebovaniya k `03_Test/test_check_sheet`:
@@ -624,6 +638,8 @@ Esli odin i tot zhe kurs vypuskaetsya dlya neskolkikh zakazchikov, release-papka
 
 Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 
+- `Design_System_Spec_Template_v1.md`
+- `Print_Production_Spec_Template_v1.md`
 - `Source_Register_Template_v1.md`
 - `Job_Map_Template_v1.md`
 - `Learning_Outcomes_Template_v1.md`

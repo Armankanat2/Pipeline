@@ -40,6 +40,16 @@ Shablon nuzhen dlya sborki white-label versiy odnogo i togo zhe kursa pod raznyk
 - Dopolnitelnye ikonki ili elementy:
 - Pravovye ogranicheniya po ispolzovaniyu:
 
+## Brand application map
+
+- Kakie master-slides brandiruyutsya:
+- Chto mozhno menyat bez soglasovaniya metodiki:
+- Chto mozhno menyat tolko po soglasovaniyu:
+- Chto fiksirovano i ne menyaetsya:
+- Kakie accent colors yavlyayutsya obyazatelnymi dlya navigatsii i risk-blokov:
+- Kakie tsvetovye roli mozhno pereopredelyat:
+- Kakie branded-elementy obyazatelny v `PPTX`, `PDF`, `A3`, `A5`:
+
 ## Pravila primeneniya
 
 - Mozhno li vybirat iz gotovykh dizayn-kontseptov:
@@ -50,6 +60,8 @@ Shablon nuzhen dlya sborki white-label versiy odnogo i togo zhe kursa pod raznyk
 - Mozhno li menyat vnutrennie accent colors:
 - Mozhno li dobavlyat klientskie slaydy:
 - Nuzhno li menyat kontakty v PDF i PPTX:
+- Mozhno li menyat QR-zone i mesta pod direct links:
+- Nuzhno li sokhranyat edinuyu vizualnuyu logiku mezhdu prezentatsiey, `A3` i `A5`:
 
 ## Reshenie po gotovnosti
 

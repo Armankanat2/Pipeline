@@ -74,6 +74,20 @@ Kazhdyy kontsept dolzhen pokazyvat odin i tot zhe nabor preview-slaydov, chtoby 
 - umestnost dlya professii i auditorii
 - naskolko kontsept podkhodit pod brand shell
 
+## Post-selection handoff
+
+Posle vybora kontsepta dizayneru dolzhen peredavat'sya ne tolko kod kontsepta, no i production-nabor resheniy.
+
+- Vybrannyy kontsept:
+- Chto schitaetsya bazovym visual shell:
+- Kakie tipograficheskie pravila zakrepleny:
+- Kakie setki i otstupy ispolzuyutsya:
+- Kak vyglyadyat tablitsy, skhemy i testovye slaydy:
+- Kakie bloki obyazatelno imeyut branded-slot:
+- Kak v etom kontsepte razmeshchayutsya QR / direct-link pair:
+- Kak kontsept adaptiruetsya v `A3` i `A5`:
+- Nuzhen li otdelnyy `design system spec` posle vybora: `yes / no`
+
 ## Struktura kartochki kontsepta
 
 ### D-01

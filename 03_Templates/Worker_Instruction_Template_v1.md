@@ -24,6 +24,7 @@ Shablon nuzhen dlya sborki pechatnogo metodicheskogo materiala dlya rabochikh. E
 - Format vydachi: `PDF / PPTX / print-ready`
 - Prednaznachenie: `stend / vyveska / laminatsiya / mobilnyy PDF`
 - Nuzhna li laminatsiya:
+- Svyazannyy `print production spec`:
 
 ## 3. Brand shell
 
