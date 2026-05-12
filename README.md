@@ -21,6 +21,8 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `03_Templates/Job_Map_Template_v1.md`
 - `03_Templates/Learning_Outcomes_Template_v1.md`
 - `03_Templates/Course_Architecture_Template_v1.md`
+- `03_Templates/Worker_Behavior_Map_Template_v1.md`
+- `03_Templates/ITR_Presentation_Requirements_Template_v1.md`
 - `03_Templates/Task_Board_Template_v1.md`
 - `03_Templates/Release_Note_Template_v1.md`
 - `03_Templates/QA_Report_Template_v1.md`

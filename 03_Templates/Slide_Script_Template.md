@@ -8,6 +8,7 @@ Odin blok zapolnyaetsya na odin slayd ili na mikroseriyu iz 2-3 svyazannykh slay
 
 - Nomer slayda:
 - Modul:
+- Track: `worker / ITR / mixed`
 - Tip slayda:
 - Sloy kontenta: `core / standard / extended`
 - Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
@@ -17,6 +18,7 @@ Odin blok zapolnyaetsya na odin slayd ili na mikroseriyu iz 2-3 svyazannykh slay
 - Vizual:
 - Tekst na slayde:
 - Speaker notes:
+- Worker behavior / ITR focus:
 - Voiceover / narration:
 - Direct link:
 - QR-slot:
@@ -30,6 +32,8 @@ Odin blok zapolnyaetsya na odin slayd ili na mikroseriyu iz 2-3 svyazannykh slay
 - Odin slayd = odna mysl.
 - Tekst korotkiy i govorimyy.
 - Vizual dolzhen usilit smysl, a ne dublirovat ego.
+- Dlya `worker` track vazhno, chtoby slayd vel k konkretnomu deystviyu, zapretu ili stop-resheniyu.
+- Dlya `ITR` track vazhno, chtoby slayd raskryval organizatsionnoe reshenie, rol ili kontrolnuyu tochku.
 - Notes dolzhny pomogat prepodavatelyu, a ne zamenyat slayd.
 - Esli kurs idet v on-line, u resursa dolzhna byt para `direct link + QR`, a ne tolko QR.
 - Esli kurs idet bez lektora, `voiceover` dolzhen byt ponyaten bez dopolnitelnogo ustnogo kommentariya.

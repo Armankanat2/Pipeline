@@ -2,7 +2,7 @@
 
 ## 1. Tsel
 
-Postroit povtoryaemuyu sistemu proizvodstva uchebnykh kursov dlya rabochikh spetsialnostey, gde novyy kurs mozhno sobirat ne s nulya, a iz standartnykh etapov, shablonov i proverok.
+Postroit povtoryaemuyu sistemu proizvodstva uchebnykh kursov dlya rabochikh spetsialnostey i liniynogo ITR, gde novyy kurs mozhno sobirat ne s nulya, a iz standartnykh etapov, shablonov i proverok.
 
 ## 2. Rezultat proekta
 
@@ -84,10 +84,12 @@ Minimalnyy nabor artefaktov po kursu:
 - `01_course_brief.md`
 - `01_brand_profile.md` pri multi-client ili branded release
 - `01_design_options_pack.md` pri vybore vizualnogo napravleniya do sborki deck
+- `01_itr_requirements.md` pri sborke versii dlya ITR ili slozhnogo organizatsionnogo kontura
 - `02_source_register.md`
 - `03_job_map.md`
 - `04_learning_outcomes.md`
 - `05_course_architecture.md`
+- `05_worker_behavior_map.md` pri sborke worker-track versii
 - `06_slide_script.md`
 - `07_asset_register.md`
 - `08_<course-code>_draft_vX.Y.pptx`
@@ -158,6 +160,11 @@ V klientskom konture eti versii mozhno nazyvat:
 - `srednyaya` = `Standard`;
 - `dlinnaya` = `Deep`.
 
+Dopolnitelno sistema dolzhna podderzhivat dva slozhnostnykh tracka:
+
+- `Worker` - prakticheskiy uroven dlya rabochikh, s fokusom na deystviya, zaprety, stop-logiku i vizualnoe raspoznavanie riskov;
+- `ITR` - usilennyy uroven dlya inzhenerov, masterov i prorabov, s fokusom na organizatsiyu rabot, roli, otvetstvennost, dokumenty, kontrol i upravlencheskie resheniya.
+
 Dopolnitelno:
 
 - `1 slayd = 1 mysl`;
@@ -180,11 +187,25 @@ Pravilo sborki:
 - `core` kontent dolzhen sobirat minimalno zhiznesposobnuyu versiyu kursa;
 - `extended` kontent ne dolzhen lomat strukturu pri udalenii.
 
+Pravilo dlya `worker` tracka:
+
+- v kazhdom worker-kurse dolzhny byt zafiksirovany `5-7 critical behaviors per course`;
+- eti povedencheskie opory dolzhny byt svyazany s modules, slaydami, testom i worker-materialami;
+- worker-versiya dolzhna byt ponyatna bez metodista ryadom, na yazyke deystviy i ogranicheniy.
+
+Pravilo dlya `ITR` tracka:
+
+- ITR-versiya dolzhna usilivat organizatsionnye, normativnye i upravlencheskie voprosy;
+- v ney dolzhny byt yavno raskryty roli, raspredelenie otvetstvennosti, dopusk, kontrol, dokumenty, eskalatsiya i prinyatie resheniy;
+- prostoe rasshirenie worker-versii bez dobavleniya organizatsionnoy logiki ne schitaetsya polnotsennoy ITR-sborkoy.
+
 Pravilo dlya testa:
 
 - test mozhno derzhat kak bank voprosov, a ne kak odin zafiksirovannyy nabor;
 - dlya korotkikh i dlinnikh versiy kursa dopustimy raznye obemy testa, esli sokhranyaetsya pokrytie `core` outcomes.
 - blok voprosov mozhet byt vstroen v prezentatsiyu, no dolzhen ostavatsya otklyuchaemym bez polomki osnovnogo uchebnogo potoka.
+- dlya `worker` tracka minimalno nuzhny kvoty na vizualnye i situatsionnye voprosy;
+- dlya `ITR` tracka nuzhny keysy po organizatsii rabot, kontrolyu i raspredeleniyu otvetstvennosti.
 
 ## 12. Release Package
 

@@ -78,6 +78,8 @@ Proveryaem:
 - est li logika `ot prostogo k slozhnomu`;
 - net li peregruza;
 - ne propushchena li TB;
+- est li `5-7 critical behaviors`, esli kurs sobiraetsya dlya `worker` track;
+- vydeleny li organizatsionnye i upravlencheskie bloky, esli kurs sobiraetsya dlya `ITR` track;
 - est li modul povtoreniya;
 - sootvetstvuet li struktura formatu kursa.
 
@@ -98,7 +100,7 @@ Proveryaem:
 - khvataet li assets na kurs;
 - sootvetstvuyut li oni teme;
 - net li somnitelnykh vizualov;
-- pokryty li oshibki i pravilnye primery;
+- pokryty li `correct / incorrect / risk` visuals po klyuchevym blokam;
 - ne nuzhny li dosbory.
 
 ### Stage 08 - Visual Production
@@ -118,6 +120,8 @@ Proveryaem:
 - est li vse tipy proverki;
 - klassifitsirovany li zamechaniya;
 - net li kritichnykh oshibok;
+- ponyatno li eto rabochemu bez metodista ryadom, esli kurs dlya `worker` track;
+- dostatochno li raskryty organizatsionnye i upravlencheskie voprosy, esli kurs dlya `ITR` track;
 - ponyaten li obem pravok;
 - gotov li kurs k testu.
 
@@ -128,6 +132,8 @@ Proveryaem:
 - test svyazan s outcomes;
 - est li situatsionnye voprosy;
 - est li vizualnye voprosy;
+- vypolneny li minimalnye kvoty po vizualnym i situatsionnym voprosam dlya `worker` track;
+- est li organizatsionnye keysy i voprosy po kontrolyu dlya `ITR` track;
 - ponyatny li formulirovki;
 - validen li klyuch.
 

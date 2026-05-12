@@ -35,4 +35,4 @@
 
 ## Reshenie na tekushchiy moment
 
-Script teper razvernut po moduliam `01-07`, a test contour rasshiren do `20` voprosov po moduliam `01-07`. Sledushchiy fokus - dosobrat asset layer pod novye slaydy `20-43`, potom vernut'sya k QA i moduliam `08-09`.
+Script teper razvernut po moduliam `01-07`, test contour rasshiren do `20` voprosov po moduliam `01-07`, a worker behavior map sobrana kak svyazka mezhdu architecture, script, testom i worker-materialami. Sledushchiy fokus - dosobrat asset layer pod novye slaydy `20-43`, potom vernut'sya k QA i moduliam `08-09`.

@@ -69,10 +69,12 @@ Minimalnoe razmeshchenie artefaktov:
 | Intake | `01_course_brief.md` | `02_Research/<Course>/01_Brief` |
 | Intake | `01_brand_profile.md` | `02_Research/<Course>/01_Brief` |
 | Intake | `01_design_options_pack.md` | `02_Research/<Course>/01_Brief` |
+| Intake | `01_itr_requirements.md` | `02_Research/<Course>/01_Brief` |
 | Source Audit | `02_source_register.md` | `02_Research/<Course>/02_Sources` |
 | Job Decomposition | `03_job_map.md` | `02_Research/<Course>/03_Job_Map` |
 | Learning Outcomes | `04_learning_outcomes.md` | `02_Research/<Course>/04_Outcomes` |
 | Course Architecture | `05_course_architecture.md` | `02_Research/<Course>/05_Architecture` |
+| Course Architecture | `05_worker_behavior_map.md` | `02_Research/<Course>/05_Architecture` |
 | Scriptwriting | `06_slide_script.md` | `02_Research/<Course>/06_Script` |
 | Asset Collection | `07_asset_register.md` | `02_Research/<Course>/07_Assets` |
 | Visual Production | `course-code_08_draft_vX.Y.pptx` | `02_Research/<Course>/08_Deck` |
@@ -103,6 +105,8 @@ Deystviya:
 - zapolnit course brief;
 - esli nuzhny raznye zakazchiki, sobrat brand profile;
 - podgotovit design options pack, esli klientu nuzhen vybor mezhdu gotovymi vizualnymi shell-resheniyami;
+- zafiksirovat tselevoy slozhnostnyy track: `worker / ITR / mixed`;
+- esli nuzhna ITR-versiya, podgotovit `01_itr_requirements.md` so spiskom organizatsionnykh trebovaniy i voprosov, kotorye nado raskryt glubzhe;
 - opredelit tsel, auditoriyu, format i soglasuyushchikh;
 - opredelit, nuzhen li `online-ready` ili `self-paced` kontur;
 - zafiksirovat sostav klientskogo paketa;
@@ -113,6 +117,7 @@ Rezultat:
 
 - `01_course_brief.md`
 - pri neobkhodimosti `01_design_options_pack.md`
+- pri neobkhodimosti `01_itr_requirements.md`
 
 ### Stage 02 - Source Audit
 
@@ -132,6 +137,7 @@ Deystviya:
 
 - razbit professiyu na bloki raboty;
 - vydelit instrumenty, oshibki, risk points i TB;
+- esli nuzhen `ITR` track, vydelit organizatsionnye roli, tochki kontrolya, resheniya o dopuske, eskalatsii i raspredelenii otvetstvennosti;
 - sdelat bazovuyu kartu professii.
 
 Rezultat:
@@ -159,19 +165,25 @@ Deystviya:
 - razmetit nagruzku i format;
 - opredelit, chto v module yavlyaetsya `core`, `standard` i `extended`;
 - zafiksirovat slide budget dlya `Short`, `Standard` i `Deep`.
+- dlya `worker` track sobrat obyazatelnyy `worker behavior map` iz `5-7 critical behaviors per course`;
+- dlya `ITR` track zafiksirovat organizatsionnye voprosy i upravlencheskie bloki, kotorye trebuyut usilennogo osveshcheniya.
 
 Rezultat:
 
 - `05_course_architecture.md`
+- dlya `worker` track pri neobkhodimosti `05_worker_behavior_map.md`
 
 ### Stage 06 - Scriptwriting
 
 Deystviya:
 
 - opisat kazhdyy slayd;
+- ukazat, dlya kakogo tracka slayd sobiraetsya: `worker / ITR / mixed`;
 - zadat tezis, tsel, vizual i speaker notes;
 - esli nuzhen online-kontur, zadat osnovu dlya voiceover, direct link i QR-slot;
 - svyazat slaydy s outcomes i testom;
+- dlya `worker` track svyazat slaydy s critical behaviors;
+- dlya `ITR` track svyazat slaydy s organizatsionnymi voprosami, rolami i upravlencheskimi resheniyami;
 - pometchat, kakie slaydy obyazatelny dlya vsekh versiy kursa, a kakie mozhno ubrat v korotkoy sborke bez polomki logiki.
 
 Rezultat:
@@ -184,6 +196,7 @@ Deystviya:
 
 - podobrat foto, skhemy, ikony i drugie assets;
 - otdelit kontentnye assets ot brand assets;
+- dlya kazhdogo klyuchevogo bloka proverit nalichie `correct / incorrect / risk` visuals;
 - proverit nalichie logotipov, palitry, klientskikh nazvaniy i drugikh white-label elementov;
 - proverit ikh kachestvo i umestnost;
 - zafiksirovat status assets.
@@ -214,6 +227,8 @@ Deystviya:
 - proyti metodicheskiy review;
 - proyti tekhnicheskiy review;
 - proyti dizayn-review;
+- proverit, ponyatno li eto rabochemu bez metodista ryadom, esli kurs sobiraetsya dlya `worker` track;
+- proverit, dostatochno li raskryty organizatsionnye i upravlencheskie voprosy, esli kurs sobiraetsya dlya `ITR` track;
 - klassifitsirovat pravki.
 
 Rezultat:
@@ -226,6 +241,8 @@ Deystviya:
 
 - sobrat voprosy po outcomes;
 - sdelat situatsionnye i vizualnye voprosy;
+- dlya `worker` track obespechit minimum `30%` situatsionnykh i minimum `30%` vizualnykh voprosov, esli yest dostatochnaya visual baza;
+- dlya `ITR` track dobavit voprosy po organizatsii rabot, dopusku, kontrolyu i raspredeleniyu otvetstvennosti;
 - podgotovit otdelnyy klyuch;
 - zafiksirovat, kak blok voprosov vkluchaetsya v prezentatsiyu i kak sobiraetsya versiya bez nego.
 

@@ -12,6 +12,7 @@
 ## 2. Auditiriya
 
 - Professiya: montazhnik stroitelnykh lesov
+- Tip auditorii: `worker` seychas, s perspektivoy `ITR`-adaptatsii
 - Uroven podgotovki: novichok / bazovyy uroven
 - Yazyk auditorii: prostoy russkiy
 - Ogranicheniya po vospriyatiyu: chast auditorii mozhet plokho vosprinimat slozhnye terminy i dlinnye teksty
@@ -27,6 +28,7 @@
 
 - Ochnyy / online / smeshannyy: smeshannyy proektnyy format
 - Delivery mode: `instructor-led` seychas, s perspektivoy `blended` i `self-paced online`
+- Tselevoy slozhnostnyy track: `worker` seychas, s budushchey vozmozhnostyu `ITR`
 - Dlitelnost: kurs v razrabotke za `3 nedeli`, tsel kursa `100-120 slaydov`
 - Trebuemyy obem slaydov: `Deep`
 - Bazovyy profil: `Deep`
@@ -51,6 +53,8 @@
 - Vybrannyy dizayn-kontsept: poka ne vybran
 - Est li rekomenduemyy generic-kontsept po umolchaniyu: `D-06 Corporate Neutral`
 - Nuzhna li attestatsiya: utochnyaetsya
+- Nuzhna li otdelnaya `worker` versiya: da
+- Nuzhna li otdelnaya `ITR` versiya: vozmozhna v sleduyushchey iteratsii
 - Nuzhny li metodicheskie materialy dlya rabochikh: da, kak dopolnitelnyy klientskiy paket
 - Nuzhen li format `A3` pod stend, pechat i laminatsiyu: da
 - Trebuetsya li blok `pered rabotoy / vo vremya raboty / posle raboty`: da
@@ -72,6 +76,8 @@
 
 - TB: rabota na vysote, dopusk, ispolzovanie SIZ, proverka ustoychivosti, zapret na opasnye deystviya
 - Normativy: dokumenty po rabote na vysote i pravilam montazha lesov
+- Organizatsionnye voprosy dlya ITR: dopusk, raspredelenie otvetstvennosti, kontrol i stop-resheniya
+- Roli i otvetstvennost: rabochiy / master / prorab / otvetstvennyy za bezopasnost
 - Vnutrennie reglamenty: budut dobavleny pri nalichii
 - Obyazatelnye temy: elementy lesov, podgotovka mesta, sborka, kreplenie, proverka, ekspluatatsiya, demontazh
 - Kritichnye oshibki: neustoychivaya sborka, otsutstvie krepleniya, narushenie TB, rabota bez proverki konstruktsii

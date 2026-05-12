@@ -12,6 +12,7 @@
 ## 2. Auditiriya
 
 - Professiya:
+- Tip auditorii: `worker / ITR / mixed`
 - Uroven podgotovki:
 - Yazyk auditorii:
 - Ogranicheniya po vospriyatiyu:
@@ -27,6 +28,7 @@
 
 - Ochnyy / online / smeshannyy:
 - Delivery mode: `instructor-led / blended / self-paced online`
+- Tselevoy slozhnostnyy track: `worker / ITR / mixed`
 - Dlitelnost:
 - Trebuemyy obem slaydov:
 - Bazovyy profil: `Short / Standard / Deep`
@@ -51,6 +53,8 @@
 - Vybrannyy dizayn-kontsept:
 - Est li rekomenduemyy generic-kontsept po umolchaniyu:
 - Nuzhna li attestatsiya:
+- Nuzhna li otdelnaya `worker` versiya:
+- Nuzhna li otdelnaya `ITR` versiya:
 - Nuzhny li metodicheskie materialy dlya rabochikh:
 - Nuzhen li format `A3` pod stend, pechat i laminatsiyu:
 - Trebuetsya li blok `pered rabotoy / vo vremya raboty / posle raboty`:
@@ -72,6 +76,8 @@
 
 - TB:
 - Normativy:
+- Organizatsionnye voprosy dlya ITR:
+- Roli i otvetstvennost:
 - Vnutrennie reglamenty:
 - Obyazatelnye temy:
 - Kritichnye oshibki:

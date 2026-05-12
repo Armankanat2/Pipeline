@@ -9,6 +9,7 @@ Shablon nuzhen dlya sborki karkasa kursa iz moduley, blokov i logiki prokhozhden
 - Nazvanie kursa:
 - Kod kursa:
 - Format kursa:
+- Tselevoy track: `worker / ITR / mixed`
 - Tselevoy obem:
 - Owner:
 
@@ -28,6 +29,8 @@ Shablon nuzhen dlya sborki karkasa kursa iz moduley, blokov i logiki prokhozhden
 
 - Vvedenie:
 - Bezopasnost:
+- `Worker critical behaviors`:
+- `ITR organizational focus`:
 - Praktika / situatsii:
 - Povtorenie:
 - Proverka:
