@@ -186,10 +186,14 @@ Deystviya:
 
 - opisat kazhdyy slayd;
 - ukazat, dlya kakogo tracka slayd sobiraetsya: `worker / ITR / mixed`;
-- zadat tezis, tsel, vizual i speaker notes;
-- dlya kazhdogo novogo slayda srazu zafiksirovat opornuyu lektorskuyu podachu, chtoby `instructor guide` mog pokryvat script bez otstavaniya;
-- esli nuzhen online-kontur, zadat osnovu dlya voiceover, direct link i QR-slot;
-- esli kurs potentsialno dolzhen pereyti v online, zafiksirovat dlya slayda ili mikrobloka: `on-screen text`, `narration`, `interaction hook`, `knowledge check hook`, `resource / reference role`;
+- snachala sobrat obyazatelnyy `writer core`: tsel, odna mysl, chto dolzhen ponyat slushatel, tekst na slayde, speaker notes, source basis, perekhod, vizualnoe namerenie i zavisimost ot assets;
+- zafiksirovat, na chem osnovan slayd: normativ, istochnik, ekspertnoe pravilo, worker behavior ili vnutrennyy modulnyy vyvod;
+- zafiksirovat perekhod: pochemu etot slayd idet zdes i k kakomu sleduyushchemu resheniyu on vedet;
+- otmetit asset dependency: `mozhno sobrat vnutri prezentatsii / nuzhen storonniy asset / est blokiruyushchiy visual gap`;
+- tolko posle stabilizatsii writer core dobavlyat downstream-polya dlya lecture, testa i online;
+- dlya kazhdogo novogo slayda posle writer core zafiksirovat opornuyu lektorskuyu podachu, chtoby `instructor guide` mog pokryvat script bez otstavaniya;
+- esli nuzhen online-kontur, posle stabilizatsii writer core zadat osnovu dlya voiceover, direct link i QR-slot;
+- esli kurs potentsialno dolzhen pereyti v online, posle stabilizatsii writer core zafiksirovat dlya slayda ili mikrobloka: `on-screen text`, `narration`, `interaction hook`, `knowledge check hook`, `resource / reference role`;
 - svyazat slaydy s outcomes i testom;
 - dlya `worker` track svyazat slaydy s critical behaviors;
 - tolko dlya `ITR` track svyazat slaydy s organizatsionnymi voprosami, rolami i upravlencheskimi resheniyami;

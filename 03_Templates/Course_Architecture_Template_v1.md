@@ -15,15 +15,23 @@ Shablon nuzhen dlya sborki karkasa kursa iz moduley, blokov i logiki prokhozhden
 
 ## Struktura kursa
 
-| Modul | Tsel modulia | Klyuchevye temy | Svazannye outcomes | Profil pokrytiya | Slide budget | Primechanie |
-|---|---|---|---|---|---|---|
-|  |  |  |  | core / standard / extended | Short / Standard / Deep |  |
+| Modul | Tsel modulia | Klyuchevye temy | Svazannye outcomes | Klyuchevoy risk ili konflikt | Profil pokrytiya | Slide budget | Primechanie |
+|---|---|---|---|---|---|---|---|
+|  |  |  |  |  | core / standard / extended | Short / Standard / Deep |  |
 
 ## Posledovatelnost moduley
 
 1. 
 2. 
 3. 
+
+## Logika perekhodov
+
+- Pochemu modul `01` otkryvaet kurs:
+- Kakoy most vedet iz `01` v `02`:
+- Gde kurs menyaet fokus s obyasneniya na raspoznavanie oshibok:
+- Gde nuzhna pauza na zakreplenie ili mini-praktiku:
+- Kak kurs podvodit k testu ili finalnomu povtoreniyu:
 
 ## Obyazatelnye bloki
 
@@ -59,6 +67,8 @@ Shablon nuzhen dlya sborki karkasa kursa iz moduley, blokov i logiki prokhozhden
 - Chto nuzhno utochnit:
 - Gde est risk peregruza:
 - Kakie moduli mozhno sokratit ili obedinit:
+- Gde slaba source base dlya script:
+- Gde bez vizualov script budet slabym:
 
 ## Reshenie po gotovnosti
 

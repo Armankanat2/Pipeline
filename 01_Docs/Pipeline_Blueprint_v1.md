@@ -26,6 +26,7 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya sobiraet ne tolko pre
 - `multi-delivery readiness`;
 - `online-portable core`;
 - `lecturer-ready handoff`;
+- `writer-first scripting`;
 - `reusability over custom work`;
 - `clarity over beauty`;
 - `fast review loops`;
@@ -212,6 +213,15 @@ Pravilo sborki:
 - `extended` kontent ne dolzhen lomat strukturu pri udalenii.
 - odno i to zhe uchebnoe yadro dolzhno pozvolyat sobirat versii dlya raznykh grupp ili urovney podgotovki bez polnoy peresborki kursa;
 - uvelichenie kursa dlya bolee slozhnoy auditorii dolzhno idti cherez dobavlenie dopolnitelnoy informatsii, keysov, razborov i organizatsionnykh blokov poverkh yadra, a ne cherez lomku bazovoy logiki.
+
+Pravilo dlya scriptwriting:
+
+- script dolzhen byt osnovnym kontentnym sloem kursa, a ne svodkoy srazu dlya vsekh downstream-zadach;
+- u kartochki slayda est obyazatelnyy `writer core`: tsel, odna mysl, chto dolzhen ponyat slushatel, tekst na slayde, speaker notes, source basis, perekhod i vizualnoe namerenie;
+- source basis dolzhen pokazyvat, na chem derzhitsya slayd: normativ, source register, ekspertnaya logika, worker behavior ili vnutrenniy modulnyy vyvod;
+- perekhod mezhdu slaydami i modulami dolzhen byt yavno vidim v script, a ne derzhat'sya "na intuicii avtora";
+- zavisimost slayda ot assets dolzhna byt vidna uzhe v script: mozhno li sobrat vizual vnutri prezentatsii, nuzhen li storonniy asset, ili est blokiruyushchiy visual gap;
+- online, lecturer i release-layer polya mogut doobogashchat kartochku posle stabilizatsii writer core, a ne do nachala smyslovoy sborki.
 
 Pravilo dlya `worker` tracka:
 

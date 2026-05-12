@@ -89,9 +89,13 @@ Proveryaem:
 
 - u kazhdogo slayda est li odna mysl;
 - prost li yazyk;
+- sobran li obyazatelnyy `writer core`, a ne tolko nabor razroznennykh poley;
 - est li speaker notes;
+- ponyatno li, na chem osnovan slayd (`source basis`);
+- viden li perekhod mezhdu slaydami i blokami, a ne tolko spisok tem;
 - net li razryva mezhdu `slide script` i budushchim lektorskim konturom;
 - ponyatno li, kakoy nuzhen vizual;
+- chestno li otmechena asset dependency i net li slaydov, kotorye derzhatsya na nesushchestvuyushchem vizuale;
 - est li perekhody mezhdu blokami.
 
 ### Stage 07 - Asset Collection

@@ -4,6 +4,8 @@
 
 Expanded draft for modules `01-07`.
 
+Etot draft sobran po rannemu formatu kartochki. Dlya sleduyushchikh iteratsiy nuzhno postepenno dobavit polya `source basis`, `asset dependency`, `perekhody`, a takzhe enrichment-layer (`on-screen`, `narration`, `knowledge check hook` i drugie polya) posle stabilizatsii writer core.
+
 ## Pokrytie etoy iteratsii
 
 V etoy versii razvernuty moduli:
@@ -19,6 +21,7 @@ V etoy versii razvernuty moduli:
 Sleduyushchaya iteratsiya:
 
 - moduli `08-09` kak sleduyushchiy prioritet dlya script
+- backfill novykh writer-first poley po moduliam `01-07`, ne lomaia uzhe sobrannuyu logiku
 
 ## Kartochki slaydov
 
