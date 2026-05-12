@@ -1,6 +1,6 @@
 # Pipeline
 
-Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh prezentatsiya yavlyaetsya tsentralnym, no ne edinstvennym artefaktom, a brending mozhet menyat'sya pod raznykh zakazchikov bez peresborki uchebnogo yadra.
+Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh prezentatsiya yavlyaetsya tsentralnym, no ne edinstvennym artefaktom, a brending mozhet menyat'sya pod raznykh zakazchikov bez peresborki uchebnogo yadra. Pipeline takzhe mozhet gotovit `online-ready` i `self-paced` versii kursov.
 
 ## Struktura
 

@@ -8,7 +8,8 @@ Shablon nuzhen dlya sborki rabochey metodichki ili `PDF` dlya lektora, kotoryy d
 
 - dokument dolzhen byt udoben dlya pechati i eksporta v `PDF`;
 - kazhdaya stranitsa dolzhna ostavlyat mesto pod opzionalnyy `QR`-slot;
-- `QR` ne dolzhen byt obyazatelnym dlya tekushchey versii, no struktura dolzhna podderzhivat ego dobavlenie bez peresborki vsego fayla.
+- `QR` ne dolzhen byt obyazatelnym dlya tekushchey versii, no struktura dolzhna podderzhivat ego dobavlenie bez peresborki vsego fayla;
+- esli resurs budet ispolzovat'sya v on-line, nuzhno predusmatrivat `direct link` kak paru k QR.
 
 ## Obshchaya informatsiya
 
@@ -25,6 +26,7 @@ Shablon nuzhen dlya sborki rabochey metodichki ili `PDF` dlya lektora, kotoryy d
 - Chto mozhet byt zakodirovano: `video / skhema / dokument / FAQ / demo`
 - Est li v etoy versii aktivnye QR:
 - Est li rezervnye QR-sloty bez ssylki:
+- Est li direct links dlya on-line versii:
 
 ## 1. Pasport kursa
 

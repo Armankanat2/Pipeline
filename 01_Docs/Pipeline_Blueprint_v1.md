@@ -23,6 +23,7 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya sobiraet ne tolko pre
 - `learning first, slides second`;
 - `modular scalability over fixed length`;
 - `content-brand separation`;
+- `multi-delivery readiness`;
 - `reusability over custom work`;
 - `clarity over beauty`;
 - `fast review loops`;
@@ -164,6 +165,12 @@ Dopolnitelno:
 - obyazatelnyy blok po bezopasnosti;
 - test dolzhen proverat ponimanie, a ne zapominanie opredeleniy.
 
+Delivery modes:
+
+- `instructor-led` - klassicheskoe provedenie s lektorom;
+- `blended` - lektor + video / ssylki / dopolnitelnye materialy;
+- `self-paced online` - prokhozhdenie bez lektora, s ozvuchkoy, ssylkami i vstroennoy navigatsiey.
+
 Pravilo sborki:
 
 - karkas moduley dolzhen ostavatsya stabilnym;
@@ -184,6 +191,7 @@ Finalnyy paket dolzhen vklyuchat:
 
 - `PPTX` minimum dlya soglasovannykh versiy kursa;
 - `PDF` minimum dlya soglasovannykh versiy kursa;
+- pri neobkhodimosti `online-ready` ili `self-paced` variant s ozvuchkoy;
 - versii s blokom voprosov, esli on nuzhen v samoy prezentatsii;
 - pri neobkhodimosti versii bez bloka voprosov;
 - speaker notes;
@@ -198,9 +206,19 @@ Trebovanie k instructor guide:
 
 - dolzhen rabotat kak samostoyatelnyy material dlya podgotovki lektora;
 - dolzhen vklyuchat kursovoy passport, bystryy vkhod v professiyu, normativnyy minimum, stsenariy zanyatiya, poslaydovye poyasneniya, FAQ, tayming, spisok video i materialov, cheklist podgotovki;
-- dolzhen byt `QR-ready`: na kazhdoy stranitse dolzhno byt mesto pod opzionalnyy QR-kod na video, skhemu ili dopolnitelnyy resurs.
+- dolzhen byt `QR-ready`: na kazhdoy stranitse dolzhno byt mesto pod opzionalnyy QR-kod na video, skhemu ili dopolnitelnyy resurs;
+- dlya on-line kontura dolzhen podderzhivat paru `QR + direct link`, a ne tolko QR v odinochku.
 
-## 13. Pravilo white-label sborki
+## 13. Pravilo online-ready sborki
+
+Esli kurs gotovitsya dlya on-line ili `self-paced` ispolzovaniya, nuzhno obespechit:
+
+- `voiceover-ready` strukturu: u slayda est ponyatnyy tekst dlya ozvuchki ili ego osnova;
+- `QR + direct link pair`: kazhdyy vneshniy resurs imeet ne tolko QR, no i obychnuyu ssylku;
+- dostatochnuyu ponyatnost bez zhivogo lektora;
+- tayming i logiku perekhodov dlya samostoyatelnogo prokhozhdeniya.
+
+## 14. Pravilo white-label sborki
 
 Esli kurs vypuskaetsya dlya neskolkikh zakazchikov, nuzhno otdelyat:
 
@@ -227,7 +245,7 @@ Ne dolzhno zaviset ot klienta bez osobogo razloga:
 - osnovnoy slide script;
 - bank voprosov i answer key, esli net klientskikh normativnykh dopolneniy.
 
-## 14. Maintenance Loop
+## 15. Maintenance Loop
 
 Posle reliza kurs ne zakryvaetsya navsegda.
 
@@ -239,7 +257,7 @@ Nuzhno fiksirovat:
 - planovuyu datu sleduyushchego prosmotra;
 - spisok ustarevshikh slaydov ili moduley.
 
-## 15. Plan pervoy iteratsii
+## 16. Plan pervoy iteratsii
 
 Pervaya sborka sistemy:
 
@@ -249,7 +267,7 @@ Pervaya sborka sistemy:
 4. Sozdat bazovye shablony.
 5. Proyti pilot na odnom kurse.
 
-## 16. Sleduyushchiy prakticheskiy shag
+## 17. Sleduyushchiy prakticheskiy shag
 
 V ramkakh etogo proekta sleduet sobirat:
 

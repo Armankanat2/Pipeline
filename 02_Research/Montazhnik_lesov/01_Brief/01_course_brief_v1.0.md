@@ -26,6 +26,7 @@
 ## 4. Format kursa
 
 - Ochnyy / online / smeshannyy: smeshannyy proektnyy format
+- Delivery mode: `instructor-led` seychas, s perspektivoy `blended` i `self-paced online`
 - Dlitelnost: kurs v razrabotke za `3 nedeli`, tsel kursa `100-120 slaydov`
 - Trebuemyy obem slaydov: `Deep`
 - Bazovyy profil: `Deep`
@@ -36,6 +37,9 @@
 - Dopustimyy diapazon voprosov: `15-30`
 - Mozhno li otklyuchat blok voprosov v prezentatsii: da
 - Nuzhen li otdelnyy klyuch otvetov: da
+- Nuzhna li ozvuchka: zhelatelno kak perspektivnyy kontur dlya on-line versii
+- Nuzhny li direct links v prezentatsii: da, esli budet `online-ready` versiya
+- Nuzhny li QR-kody v prezentatsii: da, kak dopolnitelnyy kanal k video i materialam
 - Finalnye formaty vydachi: `PPTX` i `PDF`
 - Nuzhna li attestatsiya: utochnyaetsya
 

@@ -26,6 +26,7 @@
 ## 4. Format kursa
 
 - Ochnyy / online / smeshannyy:
+- Delivery mode: `instructor-led / blended / self-paced online`
 - Dlitelnost:
 - Trebuemyy obem slaydov:
 - Bazovyy profil: `Short / Standard / Deep`
@@ -36,6 +37,9 @@
 - Dopustimyy diapazon voprosov:
 - Mozhno li otklyuchat blok voprosov v prezentatsii:
 - Nuzhen li otdelnyy klyuch otvetov:
+- Nuzhna li ozvuchka:
+- Nuzhny li direct links v prezentatsii:
+- Nuzhny li QR-kody v prezentatsii:
 - Finalnye formaty vydachi: `PPTX / PDF`
 - Nuzhna li attestatsiya:
 

@@ -102,6 +102,7 @@ Deystviya:
 - zapolnit course brief;
 - esli nuzhny raznye zakazchiki, sobrat brand profile;
 - opredelit tsel, auditoriyu, format i soglasuyushchikh;
+- opredelit, nuzhen li `online-ready` ili `self-paced` kontur;
 - zafiksirovat sostav klientskogo paketa;
 - zafiksirovat ogranicheniya.
 
@@ -165,6 +166,7 @@ Deystviya:
 
 - opisat kazhdyy slayd;
 - zadat tezis, tsel, vizual i speaker notes;
+- esli nuzhen online-kontur, zadat osnovu dlya voiceover, direct link i QR-slot;
 - svyazat slaydy s outcomes i testom;
 - pometchat, kakie slaydy obyazatelny dlya vsekh versiy kursa, a kakie mozhno ubrat v korotkoy sborke bez polomki logiki.
 
@@ -193,6 +195,7 @@ Deystviya:
 - sobrat draft deka po script;
 - primenit master-template;
 - vnesti brand shell cherez temu, mastery i peremennye bloky, a ne ruchnuyu perekrasku kazhdogo slayda;
+- esli kurs idet v on-line, proverit klikabelnost ssylok, mest pod QR i ponyatnost bez lektora;
 - proverit chitaemost i logiku.
 
 Rezultat:
@@ -246,6 +249,7 @@ Deystviya:
 - sdelat pri neobkhodimosti varianty `with-test` i `no-test`;
 - pri multi-client release sobrat branded pakety po klientam bez izmeneniya uchebnogo yadra;
 - eksportirovat klientskie versii v `PPTX` i `PDF`;
+- pri on-line konture sobrat `voiceover-ready` ili ozvuchennuyu versiyu i proverit paru `QR + direct link`;
 - sobrat instructor guide dlya lektora i eksportirovat ego v `PDF`;
 - proverit, chto instructor guide `QR-ready`, i na kazhdoy stranitse ostavlen slot pod opzionalnyy QR-kod;
 - prilozhit otdelnyy klyuch otvetov;
@@ -445,6 +449,7 @@ V `05_Release/<Course>` dolzhny lezhat:
 - `02_PDF/02_No_Test` - PDF-ekvivalenty versiy bez bloka voprosov;
 - `03_Test` - finalnyy test pack i otdelnyy `answer_key`;
 - `04_Notes` - `speaker_notes`, instructor guide ili metodichka;
+- pri neobkhodimosti on-line versiya s ozvuchkoy i pryamymi ssylkami;
 - `05_Admin` - `release_note`, `update_log` i soprovozhdayushchie release-fayly.
 
 Minimalnaya matrica faylov:
