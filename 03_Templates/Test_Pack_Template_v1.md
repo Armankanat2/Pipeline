@@ -11,6 +11,7 @@ Shablon nuzhen dlya sborki testa, kotoryy proveryaet outcomes, a ne tolko zapomi
 - Versiya:
 - Data sborki:
 - Owner:
+- Est li otdelnyy answer key:
 
 ## Struktura testa
 
@@ -18,6 +19,15 @@ Shablon nuzhen dlya sborki testa, kotoryy proveryaet outcomes, a ne tolko zapomi
 - Prokhodnoy porog:
 - Format:
 - Nuzhen li vizualnyy blok:
+- Voprosy v `Short`:
+- Voprosy v `Standard`:
+- Voprosy v `Deep`:
+
+## Bank voprosov
+
+- Minimalnyy `core` nabor:
+- Dopolnitelnyy `standard` nabor:
+- Rasshirennyy `deep` nabor:
 
 ## Matritsa pokrytiya outcomes
 
@@ -37,8 +47,10 @@ Shablon nuzhen dlya sborki testa, kotoryy proveryaet outcomes, a ne tolko zapomi
 - Est li situatsionnye voprosy:
 - Est li vizualnye voprosy:
 - Net li zubrezhki radi zubrezhki:
+- Sokhranyaetsya li pokrytie `core` outcomes v samoy korotkoy versii testa:
 
 ## Reshenie po gotovnosti
 
 - Test gotov k pilotu / release: `yes / no`
+- Answer key gotov k vydache zakazchiku: `yes / no`
 - Chto nuzhno peresobrat:

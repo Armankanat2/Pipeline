@@ -67,6 +67,7 @@ Minimalnoe razmeshchenie artefaktov:
 | Etap | Artefakt | Gde khranit |
 |---|---|---|
 | Intake | `01_course_brief.md` | `02_Research/<Course>/01_Brief` |
+| Intake | `01_brand_profile.md` | `02_Research/<Course>/01_Brief` |
 | Source Audit | `02_source_register.md` | `02_Research/<Course>/02_Sources` |
 | Job Decomposition | `03_job_map.md` | `02_Research/<Course>/03_Job_Map` |
 | Learning Outcomes | `04_learning_outcomes.md` | `02_Research/<Course>/04_Outcomes` |
@@ -75,7 +76,7 @@ Minimalnoe razmeshchenie artefaktov:
 | Asset Collection | `07_asset_register.md` | `02_Research/<Course>/07_Assets` |
 | Visual Production | `course-code_08_draft_vX.Y.pptx` | `02_Research/<Course>/08_Deck` |
 | QA Review | `09_qa_report.md` | `02_Research/<Course>/09_QA` |
-| Test Creation | `10_test_pack.md` | `02_Research/<Course>/10_Test` |
+| Test Creation | `10_test_pack.md` + `10_answer_key.md` | `02_Research/<Course>/10_Test` |
 | Pilot | `11_pilot_report.md` | `02_Research/<Course>/11_Pilot` |
 | Release | `12_release_note.md` + final pack | `05_Release/<Course>` |
 | Maintenance | `13_update_log.md` | `05_Release/<Course>` |
@@ -99,7 +100,9 @@ Na vykhode:
 Deystviya:
 
 - zapolnit course brief;
+- esli nuzhny raznye zakazchiki, sobrat brand profile;
 - opredelit tsel, auditoriyu, format i soglasuyushchikh;
+- zafiksirovat sostav klientskogo paketa;
 - zafiksirovat ogranicheniya.
 
 Rezultat:
@@ -148,7 +151,9 @@ Deystviya:
 
 - sobrat moduli kursa;
 - opredelit poryadok blokov;
-- razmetit nagruzku i format.
+- razmetit nagruzku i format;
+- opredelit, chto v module yavlyaetsya `core`, `standard` i `extended`;
+- zafiksirovat slide budget dlya `Short`, `Standard` i `Deep`.
 
 Rezultat:
 
@@ -160,7 +165,8 @@ Deystviya:
 
 - opisat kazhdyy slayd;
 - zadat tezis, tsel, vizual i speaker notes;
-- svyazat slaydy s outcomes i testom.
+- svyazat slaydy s outcomes i testom;
+- pometchat, kakie slaydy obyazatelny dlya vsekh versiy kursa, a kakie mozhno ubrat v korotkoy sborke bez polomki logiki.
 
 Rezultat:
 
@@ -171,6 +177,8 @@ Rezultat:
 Deystviya:
 
 - podobrat foto, skhemy, ikony i drugie assets;
+- otdelit kontentnye assets ot brand assets;
+- proverit nalichie logotipov, palitry, klientskikh nazvaniy i drugikh white-label elementov;
 - proverit ikh kachestvo i umestnost;
 - zafiksirovat status assets.
 
@@ -184,6 +192,7 @@ Deystviya:
 
 - sobrat draft deka po script;
 - primenit master-template;
+- vnesti brand shell cherez temu, mastery i peremennye bloky, a ne ruchnuyu perekrasku kazhdogo slayda;
 - proverit chitaemost i logiku.
 
 Rezultat:
@@ -209,11 +218,12 @@ Deystviya:
 
 - sobrat voprosy po outcomes;
 - sdelat situatsionnye i vizualnye voprosy;
-- podgotovit klyuch.
+- podgotovit otdelnyy klyuch;
+- zafiksirovat, kak blok voprosov vkluchaetsya v prezentatsiyu i kak sobiraetsya versiya bez nego.
 
 Rezultat:
 
-- `10_test_pack.md`
+- `10_test_pack.md` i `10_answer_key.md`
 
 ### Stage 11 - Pilot
 
@@ -232,6 +242,11 @@ Rezultat:
 Deystviya:
 
 - sobrat finalnye fayly;
+- sobrat soglasovannye versii prezentatsii `Short / Standard / Deep` ili klientskie `korotkaya / srednyaya / dlinnaya`;
+- sdelat pri neobkhodimosti varianty `with-test` i `no-test`;
+- pri multi-client release sobrat branded pakety po klientam bez izmeneniya uchebnogo yadra;
+- eksportirovat klientskie versii v `PPTX` i `PDF`;
+- prilozhit otdelnyy klyuch otvetov;
 - prinyat poslednie pravki;
 - zafiksirovat versiyu.
 
@@ -295,27 +310,48 @@ Primer:
 - `09_qa_report_v0.1.md`
 - `12_release_note_v1.0.md`
 
+### Pravilo mashtabiruemosti kursa
+
+Pri sborke kursa nuzhno derzhat tri urovnya kontenta:
+
+- `core` - minimum, bez kotorogo kurs terayet smysl ili bezopasnost;
+- `standard` - rekomenduemyy obem dlya tipovoy versii;
+- `extended` - rasshirenie, keysy, dopolnitelnye vizualy, uslozhnennye razbory.
+
+Pravilo primeneniya:
+
+- `Short` sobiraetsya iz `core` + vybrannykh `standard` blokov;
+- `Standard` sobiraetsya iz `core` + osnovnogo `standard` sloya;
+- `Deep` sobiraetsya iz `core` + `standard` + `extended`.
+
+Vazhno:
+
+- ne delat otdelnye nesvyazannye skripty pod kazhduyu dlinu;
+- ne razrushat svyazku `outcome -> modul -> slayd -> test` pri sokrashchenii kursa;
+- sokrashchat snachala `extended`, potom chast `standard`, no ne `core`.
+
 ### Prezentatsii
 
 Format:
 
-`course-code_NN_stage_vX.Y.pptx`
+`course-code_[client-code]_NN_profile_variant_vX.Y.pptx`
 
 Primer:
 
-- `RV_08_draft_v0.1.pptx`
-- `RV_08_review_v0.7.pptx`
-- `RV_12_release_v1.0.pptx`
+- `RV_ACME_08_deep_with-test_v0.1.pptx`
+- `RV_ACME_08_standard_no-test_v0.7.pptx`
+- `RV_GENERIC_12_short_with-test_v1.0.pptx`
 
 ### PDF
 
 Format:
 
-`course-code_12_release_vX.Y.pdf`
+`course-code_[client-code]_12_profile_variant_vX.Y.pdf`
 
 Primer:
 
-- `RV_12_release_v1.0.pdf`
+- `RV_ACME_12_short_with-test_v1.0.pdf`
+- `RV_ACME_12_standard_no-test_v1.0.pdf`
 
 ## 9. Versioning Rules
 
@@ -401,12 +437,40 @@ Minimalnyy ritm:
 
 V `05_Release/<Course>` dolzhny lezhat:
 
-- finalnyy `PPTX`;
-- finalnyy `PDF`;
-- `speaker_notes` ili metodichka;
-- finalnyy test;
-- release note;
-- update log pri nalichii obnovleniy.
+- `01_PPTX/01_With_Test` - versii prezentatsii so vstroyennym blokom voprosov;
+- `01_PPTX/02_No_Test` - versii prezentatsii bez bloka voprosov;
+- `02_PDF/01_With_Test` - PDF-ekvivalenty versiy so vstroyennym blokom voprosov;
+- `02_PDF/02_No_Test` - PDF-ekvivalenty versiy bez bloka voprosov;
+- `03_Test` - finalnyy test pack i otdelnyy `answer_key`;
+- `04_Notes` - `speaker_notes` ili metodichka;
+- `05_Admin` - `release_note`, `update_log` i soprovozhdayushchie release-fayly.
+
+Minimalnaya matrica faylov:
+
+- `course-code_[client-code]_12_short_with-test_vX.Y.pptx`
+- `course-code_[client-code]_12_standard_with-test_vX.Y.pptx`
+- `course-code_[client-code]_12_deep_with-test_vX.Y.pptx`
+- `course-code_[client-code]_12_short_no-test_vX.Y.pptx`
+- `course-code_[client-code]_12_standard_no-test_vX.Y.pptx`
+- `course-code_[client-code]_12_deep_no-test_vX.Y.pptx`
+- `course-code_[client-code]_12_short_with-test_vX.Y.pdf`
+- `course-code_[client-code]_12_standard_with-test_vX.Y.pdf`
+- `course-code_[client-code]_12_deep_with-test_vX.Y.pdf`
+- `course-code_[client-code]_12_short_no-test_vX.Y.pdf`
+- `course-code_[client-code]_12_standard_no-test_vX.Y.pdf`
+- `course-code_[client-code]_12_deep_no-test_vX.Y.pdf`
+
+Esli zakazchiku nuzhny ne vse versii, v release note nuzhno priamo ukazat, kakie sloty ostalis neispolzovannymi.
+
+### Client containers
+
+Esli odin i tot zhe kurs vypuskaetsya dlya neskolkikh zakazchikov, release-papka rabotaet kak `release hub`:
+
+- kornevoy `05_Release/<Course>` mozhno derzhat kak `generic` bazu bez klientskogo brendinga;
+- klientskie pakety lezhat v `05_Release/<Course>/10_Clients/<CLIENT_CODE>`;
+- vnutri kazhdogo klientskogo paketa povtoryaetsya odna i ta zhe release-logika: `PPTX`, `PDF`, `Test`, `Notes`, `Admin`;
+- `CLIENT_CODE` dolzhen byt korotkim, ASCII-sovmestimym i stabilnym, naprimer `ACME`, `ROSTEH`, `PROMSTROY`;
+- zamenyaem brand shell, no ne dubliruem bez nuzhdy metodicheskie artefakty.
 
 ## 15. Chto delat dalshe
 
@@ -422,4 +486,5 @@ Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 - `Asset_Register_Template_v1.md`
 - `Pilot_Report_Template_v1.md`
 - `Test_Pack_Template_v1.md`
+- `Answer_Key_Template_v1.md`
 - `Update_Log_Template_v1.md`

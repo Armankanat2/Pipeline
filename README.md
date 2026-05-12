@@ -1,6 +1,6 @@
 # Pipeline
 
-Production pipeline для создания презентаций
+Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh prezentatsiya yavlyaetsya tsentralnym, no ne edinstvennym artefaktom, a brending mozhet menyat'sya pod raznykh zakazchikov bez peresborki uchebnogo yadra.
 
 ## Struktura
 
@@ -8,7 +8,7 @@ Production pipeline для создания презентаций
 - `02_Research` - issledovaniya, analiz, chernoviki i sobrannye materialy.
 - `03_Templates` - shablony dokumentov, struktur, cheklistov i prezentatsiy.
 - `04_QA` - kriterii proverki, review-materialy i kontrol kachestva.
-- `05_Release` - finalnye versii i gotovye rezul'taty.
+- `05_Release` - finalnye klientskie pakety i gotovye rezul'taty.
 
 ## Startovyy paket
 
@@ -28,6 +28,8 @@ Production pipeline для создания презентаций
 - `03_Templates/Pilot_Report_Template_v1.md`
 - `03_Templates/Slide_Script_Template.md`
 - `03_Templates/Test_Pack_Template_v1.md`
+- `03_Templates/Answer_Key_Template_v1.md`
+- `03_Templates/Brand_Profile_Template_v1.md`
 - `03_Templates/Update_Log_Template_v1.md`
 - `04_QA/QA_Gates_v1.md`
 

@@ -23,6 +23,8 @@ Shablon nuzhen dlya fiksatsii izmerimykh rezultatov obucheniya, svyazannykh s re
 - Outcome svyazan s realnym deystviem ili resheniem
 - Outcome ne formuliruetsya kak obshchee `ponimaet`
 - Outcome mozhno svyazat s testom ili slaydom
+- `core` outcomes dolzhny sokhranyatsya vo vsekh versiyakh kursa
+- `supporting` outcomes mogut usilivat `Standard` i `Deep`, no ne dolzhny lomat `Short`
 
 ## Pokrytie po blokam
 

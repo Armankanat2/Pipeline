@@ -33,6 +33,14 @@ Shablon nuzhen dlya ucheta foto, video, skhem, ikonok i drugih materialov, kotor
 - TB:
 - Prakticheskie situatsii:
 
+## Brand assets
+
+- Logotipy:
+- Tsvetovaya palitra:
+- Klientskie titulnye / finalnye slaydy:
+- Kontaktniy blok:
+- Status gotovnosti brand-shell:
+
 ## Problemy po assets
 
 - Chto ne khvataet:

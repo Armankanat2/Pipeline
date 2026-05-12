@@ -4,6 +4,7 @@
 
 - Nazvanie kursa:
 - Kod kursa:
+- Klient / client code:
 - Versiya release:
 - Data release:
 - Owner:
@@ -13,9 +14,31 @@
 
 - PPTX:
 - PDF:
+- Kakie versii vstroyeny v release: `korotkaya / srednyaya / dlinnaya`
+- Est li variant bez bloka voprosov:
+- Title-only override: `yes / no`
 - Speaker notes / metodichka:
 - Test pack:
+- Answer key:
+- Brand profile:
 - Dopolnitelnye materialy:
+
+## Matritsa release-faylov
+
+| Slot | Format | Variant | Fayl | Status |
+|---|---|---|---|---|
+| Short with test | PPTX | `korotkaya / with-test` |  | planned / ready / skipped |
+| Standard with test | PPTX | `srednyaya / with-test` |  | planned / ready / skipped |
+| Deep with test | PPTX | `dlinnaya / with-test` |  | planned / ready / skipped |
+| Short no test | PPTX | `korotkaya / no-test` |  | planned / ready / skipped |
+| Standard no test | PPTX | `srednyaya / no-test` |  | planned / ready / skipped |
+| Deep no test | PPTX | `dlinnaya / no-test` |  | planned / ready / skipped |
+| Short with test | PDF | `korotkaya / with-test` |  | planned / ready / skipped |
+| Standard with test | PDF | `srednyaya / with-test` |  | planned / ready / skipped |
+| Deep with test | PDF | `dlinnaya / with-test` |  | planned / ready / skipped |
+| Short no test | PDF | `korotkaya / no-test` |  | planned / ready / skipped |
+| Standard no test | PDF | `srednyaya / no-test` |  | planned / ready / skipped |
+| Deep no test | PDF | `dlinnaya / no-test` |  | planned / ready / skipped |
 
 ## Osnovnoe soderzhanie reliza
 

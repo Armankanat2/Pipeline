@@ -9,6 +9,8 @@ Odin blok zapolnyaetsya na odin slayd ili na mikroseriyu iz 2-3 svyazannykh slay
 - Nomer slayda:
 - Modul:
 - Tip slayda:
+- Sloy kontenta: `core / standard / extended`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
 - Tsel slayda:
 - Odna glavnaya mysl:
 - Chto dolzhen ponyat slushatel:
@@ -26,3 +28,5 @@ Odin blok zapolnyaetsya na odin slayd ili na mikroseriyu iz 2-3 svyazannykh slay
 - Vizual dolzhen usilit smysl, a ne dublirovat ego.
 - Notes dolzhny pomogat prepodavatelyu, a ne zamenyat slayd.
 - Esli slayd ne vedet k outcome, ego nado proverit na neobkhodimost.
+- `core` slaydy ne dolzhny propadat pri sborke korotkoy versii.
+- `extended` slaydy dolzhny udalatsya bez polomki perekhodov i logiki modulia.

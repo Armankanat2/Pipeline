@@ -4,12 +4,12 @@
 
 - Nazvanie kursa: `Montazhnik lesov`
 - Kod kursa: `ML`
-- Tekushchiy stage: `Job Decomposition / Outcomes start`
+- Tekushchiy stage: `Asset planning / Script continuation`
 - Owner: vy
 - Prioritet: vysokiy
 - Deadline: `2026-05-30`
-- Sledushchiy artefakt: `04_learning_outcomes_v0.1.md`
-- Status gate: `pass with assumptions`
+- Sledushchiy artefakt: `06_slide_script_v0.2.md`
+- Status gate: `pass with open asset gaps`
 - Poslednee obnovlenie: `2026-05-12`
 
 ## Tekushchie zadachi
@@ -19,10 +19,10 @@
 - [x] Zafiksirovat 3-nedelnyy plan
 - [x] Sobrat pervye istochniki po montazhu lesov
 - [x] Sobrat job map professii
-- [ ] Zafiksirovat learning outcomes
-- [ ] Sobrat architecture kursa
-- [ ] Nachat slide script
-- [ ] Podobrat assets
+- [x] Zafiksirovat learning outcomes
+- [x] Sobrat architecture kursa
+- [x] Nachat slide script
+- [x] Podobrat assets
 - [ ] Proyti QA
 - [ ] Sobrat test
 - [ ] Podgotovit pilot ili release
@@ -35,4 +35,4 @@
 
 ## Reshenie na tekushchiy moment
 
-Job map sobrana na bazovom normativnom urovne. Sledushchiy fokus - perevesti rabochie bloki v `learning outcomes` i parallelno dosobrat pasport sistemy, lokalnye reglamenty i vizualy.
+Asset register sobran dlya moduley `01-04`, ponyatny prioritetnye vizualy i glavnye defitsity. Sledushchiy fokus - prodolzhit script dlya moduley `05-07` i parallelno zakryvat `Prioritet 1` po assets.

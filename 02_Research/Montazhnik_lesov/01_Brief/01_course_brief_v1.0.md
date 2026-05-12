@@ -5,6 +5,7 @@
 - Nazvanie kursa: `Montazhnik lesov`
 - Kod kursa: `ML`
 - Zakazchik: vnutrenniy uchebnyy proekt
+- Model zakazchika: `multi-client / white-label`
 - Data zaprosa: `2026-05-09`
 - Prioritet: vysokiy
 
@@ -25,9 +26,17 @@
 ## 4. Format kursa
 
 - Ochnyy / online / smeshannyy: smeshannyy proektnyy format
-- Dlitelnost: kurs v razrabotke za `3 nedeli`, tsel kursa `60-90 slaydov`
-- Trebuemyy obem slaydov: `Standard`
+- Dlitelnost: kurs v razrabotke za `3 nedeli`, tsel kursa `100-120 slaydov`
+- Trebuemyy obem slaydov: `Deep`
+- Bazovyy profil: `Deep`
+- Dopustimye versii etogo kursa: `Short / Standard / Deep`
+- Klientskie nazvaniya versiy: `korotkaya / srednyaya / dlinnaya`
 - Nuzhen li test: da
+- Gde razmeshchaetsya test: v kontse prezentatsii
+- Dopustimyy diapazon voprosov: `15-30`
+- Mozhno li otklyuchat blok voprosov v prezentatsii: da
+- Nuzhen li otdelnyy klyuch otvetov: da
+- Finalnye formaty vydachi: `PPTX` i `PDF`
 - Nuzhna li attestatsiya: utochnyaetsya
 
 ## 5. Obyazatelnyy kontent
@@ -61,12 +70,21 @@
 - Pravovye ogranicheniya: nelzya opiratsya na neverifitsirovannye trebovaniya TB
 - Ogranicheniya po platforme: markdown-first workflow + finalnaya prezentatsiya
 
-## 9. Riski
+## 9. Brand profile
+
+- Nuzhen li klientskiy branding: da, kak minimum dlya logotipa, tsvetov i nazvaniya zakazchika
+- Chto menyaetsya: `logo / tsveta / nazvanie / pri neobkhodimosti kontakty i finalnye slaydy`
+- Est li neskolko zakazchikov: da, eto nuzhno predusmotret zaranee
+- Nuzhen li universalnyy generic-paket: da
+- Est li brandbook ili refy: poka net
+- Kto soglasovyvaet brending: budet zaviset ot konkretnogo zakazchika
+
+## 10. Riski
 
 - Chego ne khvataet na starte: proverennykh istochnikov, polevykh foto i ekspertnoy validatsii
 - Chto mozhet zatormozit rabotu: poisk normativov i sootvetstvuyushchikh vizualov
 - Gde nuzhna rannyaya eskalatsiya: esli ne naydem dostatochnuyu tekhnicheskuyu bazu po montazhu lesov
 
-## 10. Dopolnitelnyy rezultat
+## 11. Dopolnitelnyy rezultat
 
 Etot kurs yavlyaetsya ne tolko produktom, no i uchebnym trekom dlya osvoeniya vami samogo pipeline.

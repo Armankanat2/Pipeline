@@ -6,7 +6,7 @@ Postroit povtoryaemuyu sistemu proizvodstva uchebnykh kursov dlya rabochikh spet
 
 ## 2. Rezultat proekta
 
-Na vykhode dolzhna poyavitsya operational system, kotoraya vklyuchaet:
+Na vykhode dolzhna poyavitsya operational system, kotoraya sobiraet ne tolko prezentatsii, no i polnyy paket dlya zakazchika, i vklyuchaet:
 
 - pipeline proizvodstva;
 - nabor shablonov;
@@ -21,6 +21,8 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya vklyuchaet:
 - `one stage -> one output`;
 - `one output -> one gate`;
 - `learning first, slides second`;
+- `modular scalability over fixed length`;
+- `content-brand separation`;
 - `reusability over custom work`;
 - `clarity over beauty`;
 - `fast review loops`;
@@ -50,7 +52,7 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya vklyuchaet:
 | 07 | Asset Collection | Podobrat vizualy i istochniki | Asset pack |
 | 08 | Visual Production | Sobrat prezentatsiyu | Draft deck |
 | 09 | QA Review | Proverit metodiku, dizayn i korrektnost | QA report |
-| 10 | Test Creation | Sozdat kontrol znaniy | Test pack |
+| 10 | Test Creation | Sozdat kontrol znaniy | Test pack i answer key |
 | 11 | Pilot | Proverit kurs na auditornom teste | Pilot report |
 | 12 | Release | Sformirovat finalnyy paket | Release pack |
 | 13 | Maintenance | Obnovlyat kurs po regulyarnomu tsiklu | Update log |
@@ -79,6 +81,7 @@ Backlog
 Minimalnyy nabor artefaktov po kursu:
 
 - `01_course_brief.md`
+- `01_brand_profile.md` pri multi-client ili branded release
 - `02_source_register.md`
 - `03_job_map.md`
 - `04_learning_outcomes.md`
@@ -88,6 +91,7 @@ Minimalnyy nabor artefaktov po kursu:
 - `08_<course-code>_draft_vX.Y.pptx`
 - `09_qa_report.md`
 - `10_test_pack.md`
+- `10_answer_key.md`
 - `11_pilot_report.md`
 - `12_release_note.md`
 - `13_update_log.md`
@@ -145,6 +149,12 @@ Vmesto zhostkogo standarta na `110 slaydov` ispolzuem tri paketa:
 - `Standard` - `60-90` slaydov;
 - `Deep` - `90-120` slaydov.
 
+V klientskom konture eti versii mozhno nazyvat:
+
+- `korotkaya` = `Short`;
+- `srednyaya` = `Standard`;
+- `dlinnaya` = `Deep`.
+
 Dopolnitelno:
 
 - `1 slayd = 1 mysl`;
@@ -153,18 +163,63 @@ Dopolnitelno:
 - obyazatelnyy blok po bezopasnosti;
 - test dolzhen proverat ponimanie, a ne zapominanie opredeleniy.
 
+Pravilo sborki:
+
+- karkas moduley dolzhen ostavatsya stabilnym;
+- pri perekhode mezhdu `Short`, `Standard` i `Deep` menyayetsya ne logika kursa, a glubina prokrytiya;
+- kazhdyy modul dolzhen imet sloi `core`, `standard` i pri neobkhodimosti `extended`;
+- `core` kontent dolzhen sobirat minimalno zhiznesposobnuyu versiyu kursa;
+- `extended` kontent ne dolzhen lomat strukturu pri udalenii.
+
+Pravilo dlya testa:
+
+- test mozhno derzhat kak bank voprosov, a ne kak odin zafiksirovannyy nabor;
+- dlya korotkikh i dlinnikh versiy kursa dopustimy raznye obemy testa, esli sokhranyaetsya pokrytie `core` outcomes.
+- blok voprosov mozhet byt vstroen v prezentatsiyu, no dolzhen ostavatsya otklyuchaemym bez polomki osnovnogo uchebnogo potoka.
+
 ## 12. Release Package
 
 Finalnyy paket dolzhen vklyuchat:
 
-- `PPTX`;
-- `PDF`;
+- `PPTX` minimum dlya soglasovannykh versiy kursa;
+- `PDF` minimum dlya soglasovannykh versiy kursa;
+- versii s blokom voprosov, esli on nuzhen v samoy prezentatsii;
+- pri neobkhodimosti versii bez bloka voprosov;
 - speaker notes;
-- test i klyuch;
+- test / bank voprosov;
+- otdelnyy klyuch otvetov;
 - kratkuyu metodichku dlya prepodavatelya;
+- klientskiy brand layer: logo, tsveta, nazvanie zakazchika, pri neobkhodimosti kontaktnyy blok;
 - release note s versiyey.
 
-## 13. Maintenance Loop
+## 13. Pravilo white-label sborki
+
+Esli kurs vypuskaetsya dlya neskolkikh zakazchikov, nuzhno otdelyat:
+
+- `uchebnoe yadro` - logika, struktura, outcomes, testovaya matritsa;
+- `brand shell` - logo, tsveta, nazvanie kompanii, kontakty, titulnye i finalnye slaydy.
+
+Menyat mozhno bez peresborki metodiki:
+
+- logotipy;
+- tsvetovuyu palitru;
+- nazvanie zakazchika;
+- nazvanie professii na titulnom slayde, esli uchebnoe soderzhanie kursa ostayetsya tem zhe;
+- kontaktnye i spravochnye bloki;
+- oblozhku i closing slaydy.
+
+Spetsialnyy sluchay:
+
+- esli menyayetsya tolko professionalnoe nazvanie na pervoy stranitse, a outcomes, struktura i soderzhanie kursa ostayutsya bez izmeneniy, eto schitaetsya `title-only override`, a ne novym kursom.
+
+Ne dolzhno zaviset ot klienta bez osobogo razloga:
+
+- outcomes;
+- logika moduley;
+- osnovnoy slide script;
+- bank voprosov i answer key, esli net klientskikh normativnykh dopolneniy.
+
+## 14. Maintenance Loop
 
 Posle reliza kurs ne zakryvaetsya navsegda.
 
@@ -176,7 +231,7 @@ Nuzhno fiksirovat:
 - planovuyu datu sleduyushchego prosmotra;
 - spisok ustarevshikh slaydov ili moduley.
 
-## 14. Plan pervoy iteratsii
+## 15. Plan pervoy iteratsii
 
 Pervaya sborka sistemy:
 
@@ -186,7 +241,7 @@ Pervaya sborka sistemy:
 4. Sozdat bazovye shablony.
 5. Proyti pilot na odnom kurse.
 
-## 15. Sleduyushchiy prakticheskiy shag
+## 16. Sleduyushchiy prakticheskiy shag
 
 V ramkakh etogo proekta sleduet sobirat:
 
