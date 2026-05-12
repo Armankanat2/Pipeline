@@ -93,6 +93,7 @@ Minimalnyy nabor artefaktov po kursu:
 - `10_test_pack.md`
 - `10_answer_key.md`
 - `11_pilot_report.md`
+- `12_instructor_guide.md`
 - `12_release_note.md`
 - `13_update_log.md`
 
@@ -189,8 +190,15 @@ Finalnyy paket dolzhen vklyuchat:
 - test / bank voprosov;
 - otdelnyy klyuch otvetov;
 - kratkuyu metodichku dlya prepodavatelya;
+- instructor guide v vide `PDF`, po kotoromu novyy lektor mozhet podgotovitsya k provedeniyu zanyatiya;
 - klientskiy brand layer: logo, tsveta, nazvanie zakazchika, pri neobkhodimosti kontaktnyy blok;
 - release note s versiyey.
+
+Trebovanie k instructor guide:
+
+- dolzhen rabotat kak samostoyatelnyy material dlya podgotovki lektora;
+- dolzhen vklyuchat kursovoy passport, bystryy vkhod v professiyu, normativnyy minimum, stsenariy zanyatiya, poslaydovye poyasneniya, FAQ, tayming, spisok video i materialov, cheklist podgotovki;
+- dolzhen byt `QR-ready`: na kazhdoy stranitse dolzhno byt mesto pod opzionalnyy QR-kod na video, skhemu ili dopolnitelnyy resurs.
 
 ## 13. Pravilo white-label sborki
 

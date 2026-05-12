@@ -78,7 +78,7 @@ Minimalnoe razmeshchenie artefaktov:
 | QA Review | `09_qa_report.md` | `02_Research/<Course>/09_QA` |
 | Test Creation | `10_test_pack.md` + `10_answer_key.md` | `02_Research/<Course>/10_Test` |
 | Pilot | `11_pilot_report.md` | `02_Research/<Course>/11_Pilot` |
-| Release | `12_release_note.md` + final pack | `05_Release/<Course>` |
+| Release | `12_instructor_guide.md` + `12_release_note.md` + final pack | `05_Release/<Course>` |
 | Maintenance | `13_update_log.md` | `05_Release/<Course>` |
 
 ## 6. Workflow po etapam
@@ -246,6 +246,8 @@ Deystviya:
 - sdelat pri neobkhodimosti varianty `with-test` i `no-test`;
 - pri multi-client release sobrat branded pakety po klientam bez izmeneniya uchebnogo yadra;
 - eksportirovat klientskie versii v `PPTX` i `PDF`;
+- sobrat instructor guide dlya lektora i eksportirovat ego v `PDF`;
+- proverit, chto instructor guide `QR-ready`, i na kazhdoy stranitse ostavlen slot pod opzionalnyy QR-kod;
 - prilozhit otdelnyy klyuch otvetov;
 - prinyat poslednie pravki;
 - zafiksirovat versiyu.
@@ -442,7 +444,7 @@ V `05_Release/<Course>` dolzhny lezhat:
 - `02_PDF/01_With_Test` - PDF-ekvivalenty versiy so vstroyennym blokom voprosov;
 - `02_PDF/02_No_Test` - PDF-ekvivalenty versiy bez bloka voprosov;
 - `03_Test` - finalnyy test pack i otdelnyy `answer_key`;
-- `04_Notes` - `speaker_notes` ili metodichka;
+- `04_Notes` - `speaker_notes`, instructor guide ili metodichka;
 - `05_Admin` - `release_note`, `update_log` i soprovozhdayushchie release-fayly.
 
 Minimalnaya matrica faylov:

@@ -30,6 +30,7 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `03_Templates/Test_Pack_Template_v1.md`
 - `03_Templates/Answer_Key_Template_v1.md`
 - `03_Templates/Brand_Profile_Template_v1.md`
+- `03_Templates/Instructor_Guide_Template_v1.md`
 - `03_Templates/Update_Log_Template_v1.md`
 - `04_QA/QA_Gates_v1.md`
 

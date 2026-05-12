@@ -9,7 +9,7 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 - `02_PDF/01_With_Test` - PDF-versii so vstroyennym blokom voprosov
 - `02_PDF/02_No_Test` - PDF-versii bez bloka voprosov
 - `03_Test` - test pack i answer key
-- `04_Notes` - speaker notes ili metodichka
+- `04_Notes` - speaker notes, instructor guide ili metodichka
 - `05_Admin` - release note, update log i release-administrirovanie
 - `10_Clients` - branded release-konteinery pod konkretnykh zakazchikov
 
@@ -44,6 +44,7 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 
 - `03_Test/10_test_pack_v1.0.md`
 - `03_Test/10_answer_key_v1.0.md`
+- `04_Notes/12_instructor_guide_v1.0.pdf`
 - `04_Notes/12_speaker_notes_v1.0.md` ili ekvivalentnaya metodichka
 - `05_Admin/12_release_note_v1.0.md`
 - `05_Admin/13_update_log_v1.0.md`
