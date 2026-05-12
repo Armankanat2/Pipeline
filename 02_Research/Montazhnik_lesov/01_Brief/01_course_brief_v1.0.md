@@ -42,6 +42,22 @@
 - Nuzhny li QR-kody v prezentatsii: da, kak dopolnitelnyy kanal k video i materialam
 - Finalnye formaty vydachi: `PPTX` i `PDF`
 - Nuzhna li attestatsiya: utochnyaetsya
+- Nuzhny li metodicheskie materialy dlya rabochikh: da, kak dopolnitelnyy klientskiy paket
+- Nuzhen li format `A3` pod stend, pechat i laminatsiyu: da
+- Trebuetsya li blok `pered rabotoy / vo vremya raboty / posle raboty`: da
+- Nuzhen li blok `chego delat nelzya`: da, s tipovymi oshibkami
+- Bazovoe metodicheskoe posobie na baze prezentatsii: da
+- Bazovyy obem listov dlya rabochikh materialov: `1-5`
+- Nuzhno li dopolnitelnoe metodicheskoe posobie po zaprosu klienta: da, kak opzionalnyy kontur
+- Summarnyy dopustimyy obem worker-paketa: `3-10`, esli klientu nuzhno rasshirenie
+- Est li tablitsa tem iz prezentatsii dlya sborki worker-materiala: da, nuzhno vesti v shablone worker instruction
+- Nuzhno li formirovat spisok utochnyayushchikh voprosov pri nepolnykh dannykh: da
+- Nuzhny li `QR-ready` sloty v rabochikh materialakh: da, kak budushchaya optsionalnaya nadstroika
+- Nuzhny li A5-razdatochnye materialy dlya rabochikh: da
+- Nuzhen li bazovyy A5-handout s ochen melkym shriftom: da, kak kompaktnaia vydavaemaya instruktsiya
+- Nuzhna li custom-sborka A5-handout po tablitse tem iz prezentatsii: da
+- Est li tablitsa tem dlya A5-handout: da, nuzhno vesti v otdelnom shablone
+- Nuzhno li formirovat spisok utochnyayushchikh voprosov dlya A5-handout: da
 
 ## 5. Obyazatelnyy kontent
 

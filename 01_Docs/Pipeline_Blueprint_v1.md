@@ -199,6 +199,9 @@ Finalnyy paket dolzhen vklyuchat:
 - otdelnyy klyuch otvetov;
 - kratkuyu metodichku dlya prepodavatelya;
 - instructor guide v vide `PDF`, po kotoromu novyy lektor mozhet podgotovitsya k provedeniyu zanyatiya;
+- pri neobkhodimosti metodicheskie materialy dlya rabochikh dvukh tipov:
+  - `Materials 1`: A3-stendovye instruktsii, gotovye k pechati i laminatsii;
+  - `Materials 2`: A5-razdatochnye materialy dlya vydachi na ruki;
 - klientskiy brand layer: logo, tsveta, nazvanie zakazchika, pri neobkhodimosti kontaktnyy blok;
 - release note s versiyey.
 
@@ -208,6 +211,32 @@ Trebovanie k instructor guide:
 - dolzhen vklyuchat kursovoy passport, bystryy vkhod v professiyu, normativnyy minimum, stsenariy zanyatiya, poslaydovye poyasneniya, FAQ, tayming, spisok video i materialov, cheklist podgotovki;
 - dolzhen byt `QR-ready`: na kazhdoy stranitse dolzhno byt mesto pod opzionalnyy QR-kod na video, skhemu ili dopolnitelnyy resurs;
 - dlya on-line kontura dolzhen podderzhivat paru `QR + direct link`, a ne tolko QR v odinochku.
+
+Trebovanie k worker materials:
+
+- material adresovan rabochim, a ne lektoru ili metodistu;
+- format bazovo `A3` kak stendovaya versiya, s dopustimoy variatsiey orientatsii pod dizayn;
+- dolzhen povtoryat brand shell zakazchika: tsveta, shrifty, nazvanie, logotip, pri neobkhodimosti slogan;
+- bazovaya versiya sobiraetsya na osnove tem iz prezentatsii cherez tablitsu sootneseniya `tema prezentatsii -> blok materiala`;
+- dolzhen pokryvat blok `pered rabotoy / vo vremya raboty / posle raboty`;
+- dolzhen vklyuchat blok `chego delat nelzya` s tipovymi oshibkami;
+- bazovoe metodicheskoe posobie obyazatelno dolzhno umeshchat'sya v `1-5` listov;
+- pri dopolnitelnom zaprose mozhno gotovit rasshirennoe dopolnitelnoe posobie poverkh bazovogo;
+- summarnyy obem worker-paketa obychno lezhit v diapazone `3-10` listov, esli eto soglasovano s klientom;
+- izobrazheniya i tekst dolzhny byt prigodny dlya pechati i laminatsii;
+- nuzhno predusmatrivat do `5` variantov vizualnogo resheniya: naprimer `checklist-poster`, `step card`, `photo guide`, `icon board`, `comic`;
+- stranitsy dolzhny byt yavnym obrazom prenumerovany;
+- esli po tablitse tem ne khvataet dannykh, nuzhno sformirovat spisok utochnyayushchikh voprosov, a ne zapolnyat probely na ugad;
+- pri neobkhodimosti mozhno ostavlyat `QR-ready` sloty na kazhdoy stranitse dlya budushchikh video ili dopolnitelnykh resursov.
+
+Trebovanie k `Materials 2`:
+
+- eto razdatochnyy format `A5` dlya vydachi rabotniku;
+- bazovyy variant mozhno delat kak sverkhkompaktnuyu instruktsiyu s ochen melkym shriftom, no s obyazatelnym brand shell zakazchika;
+- vnutri dolzhny sokhranyat'sya logotipy kompanii, nazvanie i drugie obyazatelnye identifikatory;
+- vtoroy variant dolzhen sobirat'sya cherez tablitsu, analogichnuyu `Materials 1`: `tema prezentatsii -> blok A5-materiala`;
+- esli po tablitse ne khvataet dannykh, nuzhno sobirat spisok utochnyayushchikh voprosov;
+- format mozhet byt odnostoronnyy ili mnogostranichnyy, no dolzhen ostavat'sya udobnym dlya razdachi i khraneniya u rabochego.
 
 ## 13. Pravilo online-ready sborki
 

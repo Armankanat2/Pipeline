@@ -18,6 +18,8 @@
 - Est li variant bez bloka voprosov: da, zaplanirovan
 - Title-only override: dopustim, esli klientu nuzhno pomenyat tolko nazvanie professii na oblozhke
 - Speaker notes / metodichka: planned
+- Worker materials: planned, kak bazovoe A3-stendovoe posobie `1-5` listov + opzionalnoe dopolnitelnoe posobie po zaprosu klienta
+- Worker handouts A5: planned, kak bazovyy kompaktniy handout + custom-handout po tablitse tem
 - Test pack: draft only
 - Answer key: draft only
 - Brand profile: generic white-label base

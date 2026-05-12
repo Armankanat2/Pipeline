@@ -18,6 +18,8 @@
 - Est li variant bez bloka voprosov:
 - Title-only override: `yes / no`
 - Speaker notes / metodichka:
+- Worker materials:
+- Worker handouts A5:
 - Test pack:
 - Answer key:
 - Brand profile:

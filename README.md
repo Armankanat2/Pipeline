@@ -1,6 +1,6 @@
 # Pipeline
 
-Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh prezentatsiya yavlyaetsya tsentralnym, no ne edinstvennym artefaktom, a brending mozhet menyat'sya pod raznykh zakazchikov bez peresborki uchebnogo yadra. Pipeline takzhe mozhet gotovit `online-ready` i `self-paced` versii kursov.
+Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh prezentatsiya yavlyaetsya tsentralnym, no ne edinstvennym artefaktom, a brending mozhet menyat'sya pod raznykh zakazchikov bez peresborki uchebnogo yadra. Pipeline takzhe mozhet gotovit `online-ready` i `self-paced` versii kursov, a takzhe dopolnyat paket metodicheskimi materialami dlya rabochikh.
 
 ## Struktura
 
@@ -31,6 +31,8 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `03_Templates/Answer_Key_Template_v1.md`
 - `03_Templates/Brand_Profile_Template_v1.md`
 - `03_Templates/Instructor_Guide_Template_v1.md`
+- `03_Templates/Worker_Instruction_Template_v1.md`
+- `03_Templates/Worker_Handout_Template_v1.md`
 - `03_Templates/Update_Log_Template_v1.md`
 - `04_QA/QA_Gates_v1.md`
 

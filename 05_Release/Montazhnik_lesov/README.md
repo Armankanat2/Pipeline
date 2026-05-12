@@ -11,6 +11,8 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 - `03_Test` - test pack i answer key
 - `04_Notes` - speaker notes, instructor guide ili metodichka
 - `05_Admin` - release note, update log i release-administrirovanie
+- `06_Worker_Materials` - A3-stendovye instruktsii i pechatnye materialy dlya rabochikh
+- `07_Worker_Handouts` - A5-razdatochnye materialy dlya rabochikh
 - `10_Clients` - branded release-konteinery pod konkretnykh zakazchikov
 
 ## Logika raboty s klientami
@@ -46,6 +48,14 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 - `03_Test/10_answer_key_v1.0.md`
 - `04_Notes/12_instructor_guide_v1.0.pdf`
 - `04_Notes/12_speaker_notes_v1.0.md` ili ekvivalentnaya metodichka
+- `06_Worker_Materials/12_worker_instruction_v1.0.pdf`
+- `06_Worker_Materials/12_worker_instruction_v1.0.pptx`
+- `06_Worker_Materials/12_worker_instruction_extra_v1.0.pdf` pri dopolnitelnom zaprose klienta
+- `06_Worker_Materials/12_worker_instruction_extra_v1.0.pptx` pri dopolnitelnom zaprose klienta
+- `07_Worker_Handouts/12_worker_handout_v1.0.pdf`
+- `07_Worker_Handouts/12_worker_handout_v1.0.pptx`
+- `07_Worker_Handouts/12_worker_handout_custom_v1.0.pdf` pri sborke po tablitse tem
+- `07_Worker_Handouts/12_worker_handout_custom_v1.0.pptx` pri sborke po tablitse tem
 - `05_Admin/12_release_note_v1.0.md`
 - `05_Admin/13_update_log_v1.0.md`
 

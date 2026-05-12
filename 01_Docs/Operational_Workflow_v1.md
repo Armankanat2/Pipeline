@@ -449,6 +449,8 @@ V `05_Release/<Course>` dolzhny lezhat:
 - `02_PDF/02_No_Test` - PDF-ekvivalenty versiy bez bloka voprosov;
 - `03_Test` - finalnyy test pack i otdelnyy `answer_key`;
 - `04_Notes` - `speaker_notes`, instructor guide ili metodichka;
+- `06_Worker_Materials` - A3-stendovye instruktsii i drugie pechatnye metodicheskie materialy dlya rabochikh;
+- `07_Worker_Handouts` - A5-razdatochnye materialy dlya rabochikh;
 - pri neobkhodimosti on-line versiya s ozvuchkoy i pryamymi ssylkami;
 - `05_Admin` - `release_note`, `update_log` i soprovozhdayushchie release-fayly.
 
@@ -466,8 +468,36 @@ Minimalnaya matrica faylov:
 - `course-code_[client-code]_12_short_no-test_vX.Y.pdf`
 - `course-code_[client-code]_12_standard_no-test_vX.Y.pdf`
 - `course-code_[client-code]_12_deep_no-test_vX.Y.pdf`
+- `course-code_[client-code]_12_worker-instruction_vX.Y.pdf`
+- `course-code_[client-code]_12_worker-instruction_vX.Y.pptx`
+- `course-code_[client-code]_12_worker-handout_vX.Y.pdf`
+- `course-code_[client-code]_12_worker-handout_vX.Y.pptx`
 
 Esli zakazchiku nuzhny ne vse versii, v release note nuzhno priamo ukazat, kakie sloty ostalis neispolzovannymi.
+
+Minimalnye trebovaniya k `06_Worker_Materials`:
+
+- osnovnoy format `A3` dlya stendovoy versii;
+- bazovoe posobie `1-5` listov;
+- pri zaprose klienta mozhno sobrat dopolnitelnoe rasshirennoe posobie;
+- summarnyy obem worker-paketa obychno `3-10` listov, esli eto soglasovano;
+- yavnaya struktura `pered rabotoy / vo vremya raboty / posle raboty / chego delat nelzya`;
+- kontent sobiraetsya cherez tablitsu `tema prezentatsii -> blok worker-materiala`;
+- esli vkhodnaya tablitsa ne daet dostatochno dannykh, sobiraetsya spisok utochnyayushchikh voprosov;
+- klienskiy brand shell obyazatelen;
+- stranitsy prenumerovany;
+- kachestvo grafiki i tipografiki dostatochno dlya pechati i laminatsii;
+- pri neobkhodimosti ostavleny `QR-ready` sloty ili para `QR + direct link`.
+
+Minimalnye trebovaniya k `07_Worker_Handouts`:
+
+- bazovyy format `A5`;
+- dopustimy dva rezhima sborki:
+  - bazovaya kompaktnaia instruktsiya s ochen melkym shriftom;
+  - custom-napolnenie po tablitse tem iz prezentatsii;
+- brand shell zakazchika obyazatelen;
+- dolzhny byt zafiksirovany nazvanie, logotipy i drugie obyazatelnye vizualnye identifikatory;
+- esli po tablitse ne khvataet dannykh, dolzhen formirovat'sya spisok utochnyayushchikh voprosov.
 
 ### Client containers
 
@@ -494,4 +524,6 @@ Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 - `Pilot_Report_Template_v1.md`
 - `Test_Pack_Template_v1.md`
 - `Answer_Key_Template_v1.md`
+- `Worker_Instruction_Template_v1.md`
+- `Worker_Handout_Template_v1.md`
 - `Update_Log_Template_v1.md`
