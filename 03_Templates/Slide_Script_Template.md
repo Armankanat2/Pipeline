@@ -17,9 +17,13 @@ Odin blok zapolnyaetsya na odin slayd ili na mikroseriyu iz 2-3 svyazannykh slay
 - Chto dolzhen ponyat slushatel:
 - Vizual:
 - Tekst na slayde:
+- On-screen text dlya online:
 - Speaker notes:
 - Worker behavior / ITR focus:
 - Voiceover / narration:
+- Interaction prompt:
+- Knowledge check hook:
+- Reference / resource role:
 - Direct link:
 - QR-slot:
 - Online mode note:
@@ -37,6 +41,7 @@ Odin blok zapolnyaetsya na odin slayd ili na mikroseriyu iz 2-3 svyazannykh slay
 - Notes dolzhny pomogat prepodavatelyu, a ne zamenyat slayd.
 - Esli kurs idet v on-line, u resursa dolzhna byt para `direct link + QR`, a ne tolko QR.
 - Esli kurs idet bez lektora, `voiceover` dolzhen byt ponyaten bez dopolnitelnogo ustnogo kommentariya.
+- Dlya budushchego online-produkta nuzhno razvesti `on-screen`, `voiceover`, `interaction` i `reference`, a ne derzhat vse v odnom slaydovom tekste.
 - Esli slayd ne vedet k outcome, ego nado proverit na neobkhodimost.
 - `core` slaydy ne dolzhny propadat pri sborke korotkoy versii.
 - `extended` slaydy dolzhny udalatsya bez polomki perekhodov i logiki modulia.

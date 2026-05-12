@@ -22,6 +22,7 @@
 - Worker handouts A5:
 - Test pack:
 - Answer key:
+- Online handoff pack:
 - Brand profile:
 - Dopolnitelnye materialy:
 
@@ -41,6 +42,10 @@
 | Short no test | PDF | `korotkaya / no-test` |  | planned / ready / skipped |
 | Standard no test | PDF | `srednyaya / no-test` |  | planned / ready / skipped |
 | Deep no test | PDF | `dlinnaya / no-test` |  | planned / ready / skipped |
+| Online adaptation map | MD | `online handoff` |  | planned / ready / skipped |
+| Module summary pack | MD | `online handoff` |  | planned / ready / skipped |
+| Narration pack | MD | `online handoff` |  | planned / ready / skipped |
+| Online handoff pack | MD | `online handoff` |  | planned / ready / skipped |
 
 ## Osnovnoe soderzhanie reliza
 

@@ -35,7 +35,9 @@
 - Trebuemyy obem slaydov:
 - Bazovyy profil: `Short / Standard / Deep`
 - Dopustimye versii etogo kursa: `Short / Standard / Deep`
-- Klientskie nazvaniya versiy: `korotkaya / srednyaya / dlinnaya`
+- Razmery profiley: `Short = do 60 + test / Standard = 80-90 + test / Deep = 110-120 + test`
+- Klientskie nazvaniya versiy: `korotkaya ili malaya / srednyaya / dlinnaya ili bolshaya`
+- Mozhno li rasshiryat kurs poverkh yadra bez peresborki logiki:
 - Nuzhen li test:
 - Gde razmeshchaetsya test:
 - Dopustimyy diapazon voprosov:
@@ -49,6 +51,8 @@
 - Nuzhna li ozvuchka:
 - Nuzhny li direct links v prezentatsii:
 - Nuzhny li QR-kody v prezentatsii:
+- Nuzhna li `online portability`, dazhe esli online-versiya ne sobiraetsya srazu:
+- Nuzhen li `online handoff pack` dlya budushchey integratsii v novyy produkt:
 - Finalnye formaty vydachi: `PPTX / PDF`
 - Nuzhen li paket vybora dizayna do starta production:
 - Kolichestvo dizayn-kontseptov dlya pokaza klientu:

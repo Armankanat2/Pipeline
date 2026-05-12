@@ -81,7 +81,7 @@ Minimalnoe razmeshchenie artefaktov:
 | QA Review | `09_qa_report.md` | `02_Research/<Course>/09_QA` |
 | Test Creation | `10_test_pack.md` + `10_answer_key.md` | `02_Research/<Course>/10_Test` |
 | Pilot | `11_pilot_report.md` | `02_Research/<Course>/11_Pilot` |
-| Release | `12_instructor_guide.md` + `12_lecturer_questions_bank.md` + `12_release_note.md` + final pack | `05_Release/<Course>` |
+| Release | `12_instructor_guide.md` + `12_lecturer_questions_bank.md` + `12_online_adaptation_map.md` + `12_module_summary_pack.md` + `12_narration_pack.md` + `12_online_handoff_pack.md` + `12_release_note.md` + final pack | `05_Release/<Course>` |
 | Maintenance | `13_update_log.md` | `05_Release/<Course>` |
 
 ## 6. Workflow po etapam
@@ -109,6 +109,7 @@ Deystviya:
 - otdelno proverit, nuzhen li voobshche `ITR` track dlya etogo kursa;
 - esli `ITR` track ne nuzhen, ne sobirat `01_itr_requirements.md` i ne razduvat kurs organizatsionnym sloem;
 - esli nuzhna ITR-versiya, podgotovit `01_itr_requirements.md` so spiskom organizatsionnykh trebovaniy i voprosov, kotorye nado raskryt glubzhe;
+- otdelno proverit, nuzhna li `online portability`, dazhe esli kurs poka ne vypuskaetsya kak LMS ili self-paced produkt;
 - opredelit tsel, auditoriyu, format i soglasuyushchikh;
 - opredelit, nuzhen li `online-ready` ili `self-paced` kontur;
 - zafiksirovat sostav klientskogo paketa;
@@ -185,6 +186,7 @@ Deystviya:
 - zadat tezis, tsel, vizual i speaker notes;
 - dlya kazhdogo novogo slayda srazu zafiksirovat opornuyu lektorskuyu podachu, chtoby `instructor guide` mog pokryvat script bez otstavaniya;
 - esli nuzhen online-kontur, zadat osnovu dlya voiceover, direct link i QR-slot;
+- esli kurs potentsialno dolzhen pereyti v online, zafiksirovat dlya slayda ili mikrobloka: `on-screen text`, `narration`, `interaction hook`, `knowledge check hook`, `resource / reference role`;
 - svyazat slaydy s outcomes i testom;
 - dlya `worker` track svyazat slaydy s critical behaviors;
 - tolko dlya `ITR` track svyazat slaydy s organizatsionnymi voprosami, rolami i upravlencheskimi resheniyami;
@@ -218,6 +220,7 @@ Deystviya:
 - primenit vybrannyy dizayn-kontsept ili rekomendovannyy `generic`, esli klient ne sdelal vybora;
 - vnesti brand shell cherez temu, mastery i peremennye bloky, a ne ruchnuyu perekrasku kazhdogo slayda;
 - esli kurs idet v on-line, proverit klikabelnost ssylok, mest pod QR i ponyatnost bez lektora;
+- esli kurs nuzhdaetsya v budushchey online-portability, proverit, chto deck ne yavlyaetsya edinstvennym mestom, gde zhivet logika povtoreniya, ozvuchki i referensov;
 - proverit chitaemost i logiku.
 
 Rezultat:
@@ -249,6 +252,7 @@ Deystviya:
 - sdelat situatsionnye i vizualnye voprosy;
 - dlya `worker` track obespechit minimum `30%` situatsionnykh i minimum `30%` vizualnykh voprosov, esli yest dostatochnaya visual baza;
 - dlya `ITR` track dobavit voprosy po organizatsii rabot, dopusku, kontrolyu i raspredeleniyu otvetstvennosti;
+- esli kurs planiruetsya dlya budushchego online, pometchat, kakie voprosy mogut stat `module knowledge checks`, a kakie ostanutsya finalnym quiz;
 - podgotovit otdelnyy klyuch;
 - zafiksirovat, kak blok voprosov vkluchaetsya v prezentatsiyu i kak sobiraetsya versiya bez nego.
 
@@ -280,6 +284,7 @@ Deystviya:
 - pri on-line konture sobrat `voiceover-ready` ili ozvuchennuyu versiyu i proverit paru `QR + direct link`;
 - sobrat instructor guide dlya lektora i eksportirovat ego v `PDF`;
 - sobrat otdelnyy `lecturer questions bank` i proverit, chto on sootvetstvuet aktualnoy versii script i testa;
+- sobrat `online adaptation map`, `module summary pack`, `narration pack` i finalnyy `online handoff pack`, esli kurs dolzhen byt portable v budushchiy online-produkt;
 - proverit, chto instructor guide `QR-ready`, i na kazhdoy stranitse ostavlen slot pod opzionalnyy QR-kod;
 - prilozhit otdelnyy klyuch otvetov;
 - prinyat poslednie pravki;
@@ -359,11 +364,18 @@ Pravilo primeneniya:
 - `Standard` sobiraetsya iz `core` + osnovnogo `standard` sloya;
 - `Deep` sobiraetsya iz `core` + `standard` + `extended`.
 
+Razmery versiy:
+
+- `Short` = klientskaya `korotkaya` ili `malaya`, do `60` slaydov + test;
+- `Standard` = klientskaya `srednyaya`, `80-90` slaydov + test;
+- `Deep` = klientskaya `dlinnaya` ili `bolshaya`, `110-120` slaydov + test.
+
 Vazhno:
 
 - ne delat otdelnye nesvyazannye skripty pod kazhduyu dlinu;
 - ne razrushat svyazku `outcome -> modul -> slayd -> test` pri sokrashchenii kursa;
 - sokrashchat snachala `extended`, potom chast `standard`, no ne `core`.
+- esli kurs nuzhno nemnogo rasshirit dlya drugoy gruppy ili bolee glubokogo varianta, rasshirenie delayetsya za schet dobavleniya `standard` i `extended` blokov poverkh yadra.
 
 ### Pravilo vybora dizayna
 
@@ -490,6 +502,7 @@ V `05_Release/<Course>` dolzhny lezhat:
 - `02_PDF/02_No_Test` - PDF-ekvivalenty versiy bez bloka voprosov;
 - `03_Test` - finalnyy test pack, otdelnyy `answer_key` i `test_check_sheet`;
 - `04_Notes` - `speaker_notes`, instructor guide, lecturer questions bank ili metodichka;
+- `08_Online_Handoff` - pakety dlya budushchego perenosa kursa v LMS, web-course ili drugoy self-paced produkt;
 - `06_Worker_Materials` - A3-stendovye instruktsii i drugie pechatnye metodicheskie materialy dlya rabochikh;
 - `07_Worker_Handouts` - A5-razdatochnye materialy dlya rabochikh;
 - pri neobkhodimosti on-line versiya s ozvuchkoy i pryamymi ssylkami;
@@ -515,6 +528,10 @@ Minimalnaya matrica faylov:
 - `course-code_[client-code]_12_worker-handout_vX.Y.pptx`
 - `course-code_[client-code]_10_test-check-sheet_vX.Y.md`
 - `course-code_[client-code]_12_lecturer-questions-bank_vX.Y.pdf`
+- `course-code_[client-code]_12_online-adaptation-map_vX.Y.md`
+- `course-code_[client-code]_12_module-summary-pack_vX.Y.md`
+- `course-code_[client-code]_12_narration-pack_vX.Y.md`
+- `course-code_[client-code]_12_online-handoff-pack_vX.Y.md`
 
 Esli zakazchiku nuzhny ne vse versii, v release note nuzhno priamo ukazat, kakie sloty ostalis neispolzovannymi.
 
@@ -559,13 +576,21 @@ Minimalnye trebovaniya k `04_Notes`:
 - dolzhen byt otdelnyy `lecturer questions bank` so slozhnymi voprosami, granitsami interpretatsii i signalami dlya eskalatsii;
 - notes-package dolzhen pozvolyat novomu lektoru podgotovit zanyatie bez avtora kursa ryadom.
 
+Minimalnye trebovaniya k `08_Online_Handoff`:
+
+- dolzhen byt `online adaptation map` po moduliam i slaydam;
+- dolzhen byt `module summary pack` s LMS-ready vkhodom i vykhodom po modulyam;
+- dolzhen byt `narration pack` s transcript-ready tekstom;
+- dolzhno byt ponyatno, chto perekhodit v video, chto v interaktiv, chto v quiz, a chto ostayotsya reference-blokom;
+- paket dolzhen umenshat obem povtornogo proektirovaniya pri sborke novogo online-produkta.
+
 ### Client containers
 
 Esli odin i tot zhe kurs vypuskaetsya dlya neskolkikh zakazchikov, release-papka rabotaet kak `release hub`:
 
 - kornevoy `05_Release/<Course>` mozhno derzhat kak `generic` bazu bez klientskogo brendinga;
 - klientskie pakety lezhat v `05_Release/<Course>/10_Clients/<CLIENT_CODE>`;
-- vnutri kazhdogo klientskogo paketa povtoryaetsya odna i ta zhe release-logika: `PPTX`, `PDF`, `Test`, `Notes`, `Admin`;
+- vnutri kazhdogo klientskogo paketa povtoryaetsya odna i ta zhe release-logika: `PPTX`, `PDF`, `Test`, `Notes`, `Online_Handoff`, `Admin`, a pri neobkhodimosti i worker-materialy;
 - `CLIENT_CODE` dolzhen byt korotkim, ASCII-sovmestimym i stabilnym, naprimer `ACME`, `ROSTEH`, `PROMSTROY`;
 - zamenyaem brand shell, no ne dubliruem bez nuzhdy metodicheskie artefakty.
 
@@ -587,6 +612,10 @@ Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 - `Test_Check_Sheet_Template_v1.md`
 - `Lecturer_Questions_Bank_Template_v1.md`
 - `Lecturer_Ready_QA_Checklist_Template_v1.md`
+- `Online_Adaptation_Map_Template_v1.md`
+- `Module_Summary_Pack_Template_v1.md`
+- `Narration_Pack_Template_v1.md`
+- `Online_Handoff_Pack_Template_v1.md`
 - `Worker_Instruction_Template_v1.md`
 - `Worker_Handout_Template_v1.md`
 - `Update_Log_Template_v1.md`

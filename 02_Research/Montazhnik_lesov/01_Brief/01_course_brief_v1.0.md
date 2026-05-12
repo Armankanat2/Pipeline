@@ -31,11 +31,13 @@
 - Ochnyy / online / smeshannyy: smeshannyy proektnyy format
 - Delivery mode: `instructor-led` seychas, s perspektivoy `blended` i `self-paced online`
 - Tselevoy slozhnostnyy track: `worker` seychas, s budushchey vozmozhnostyu `ITR`
-- Dlitelnost: kurs v razrabotke za `3 nedeli`, tsel kursa `100-120 slaydov`
+- Dlitelnost: kurs v razrabotke za `3 nedeli`, tsel kursa `110-120 slaydov`
 - Trebuemyy obem slaydov: `Deep`
 - Bazovyy profil: `Deep`
 - Dopustimye versii etogo kursa: `Short / Standard / Deep`
-- Klientskie nazvaniya versiy: `korotkaya / srednyaya / dlinnaya`
+- Razmery profiley: `Short = do 60 + test / Standard = 80-90 + test / Deep = 110-120 + test`
+- Klientskie nazvaniya versiy: `korotkaya ili malaya / srednyaya / dlinnaya ili bolshaya`
+- Mozhno li rasshiryat kurs poverkh yadra bez peresborki logiki: da
 - Nuzhen li test: da
 - Gde razmeshchaetsya test: v kontse prezentatsii
 - Dopustimyy diapazon voprosov: `15-30`
@@ -49,6 +51,8 @@
 - Nuzhna li ozvuchka: zhelatelno kak perspektivnyy kontur dlya on-line versii
 - Nuzhny li direct links v prezentatsii: da, esli budet `online-ready` versiya
 - Nuzhny li QR-kody v prezentatsii: da, kak dopolnitelnyy kanal k video i materialam
+- Nuzhna li `online portability`, dazhe esli online-versiya ne sobiraetsya srazu: da
+- Nuzhen li `online handoff pack` dlya budushchey integratsii v novyy produkt: da
 - Finalnye formaty vydachi: `PPTX` i `PDF`
 - Nuzhen li paket vybora dizayna do starta production: da
 - Kolichestvo dizayn-kontseptov dlya pokaza klientu: `10`

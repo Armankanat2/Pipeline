@@ -41,6 +41,9 @@ Shablon nuzhen dlya sborki karkasa kursa iz moduley, blokov i logiki prokhozhden
 - Chto obyazatelno dlya `Short`:
 - Chto dobavlyaetsya v `Standard`:
 - Chto dobavlyaetsya v `Deep`:
+- Razmer `Short`: do `60` slaydov + test
+- Razmer `Standard`: `80-90` slaydov + test
+- Razmer `Deep`: `110-120` slaydov + test
 
 ## Pravilo sborki
 
@@ -49,6 +52,7 @@ Shablon nuzhen dlya sborki karkasa kursa iz moduley, blokov i logiki prokhozhden
 - `Deep` dobavlyaet razbory, keysy, foto-serii i rasshirennye primery bez loma struktury
 - Udalyaemye bloki dolzhny byt pomecheny kak `extended` ili chast `standard`, no ne kritichnyy `core`
 - Blok voprosov, esli on vstroen v prezentatsiyu, dolzhen byt otdelyaemym i ne razrushat logiku lektsionnoy versii
+- Perekhod mezhdu gruppami ili bolee glubokimi variantami dolzhen delat'sya cherez narashchivanie informatsii poverkh yadra, a ne cherez novuyu arhitekturu s nulya
 
 ## Otkrytye resheniya
 

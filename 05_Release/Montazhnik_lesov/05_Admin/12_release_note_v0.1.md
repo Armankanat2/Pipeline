@@ -22,6 +22,7 @@
 - Worker handouts A5: planned, kak bazovyy kompaktniy handout + custom-handout po tablitse tem
 - Test pack: draft only
 - Answer key: draft only
+- Online handoff pack: planned, kak budushchiy eksportnyy contour dlya LMS ili drugogo online-produkta
 - Test check sheet: planned
 - Brand profile: generic white-label base
 - Dopolnitelnye materialy: net
@@ -30,18 +31,18 @@
 
 | Slot | Format | Variant | Fayl | Status |
 |---|---|---|---|---|
-| Short with test | PPTX | `korotkaya / with-test` | `ML_12_short_with-test_v1.0.pptx` | planned |
-| Standard with test | PPTX | `srednyaya / with-test` | `ML_12_standard_with-test_v1.0.pptx` | planned |
-| Deep with test | PPTX | `dlinnaya / with-test` | `ML_12_deep_with-test_v1.0.pptx` | planned |
-| Short no test | PPTX | `korotkaya / no-test` | `ML_12_short_no-test_v1.0.pptx` | planned |
-| Standard no test | PPTX | `srednyaya / no-test` | `ML_12_standard_no-test_v1.0.pptx` | planned |
-| Deep no test | PPTX | `dlinnaya / no-test` | `ML_12_deep_no-test_v1.0.pptx` | planned |
-| Short with test | PDF | `korotkaya / with-test` | `ML_12_short_with-test_v1.0.pdf` | planned |
-| Standard with test | PDF | `srednyaya / with-test` | `ML_12_standard_with-test_v1.0.pdf` | planned |
-| Deep with test | PDF | `dlinnaya / with-test` | `ML_12_deep_with-test_v1.0.pdf` | planned |
-| Short no test | PDF | `korotkaya / no-test` | `ML_12_short_no-test_v1.0.pdf` | planned |
-| Standard no test | PDF | `srednyaya / no-test` | `ML_12_standard_no-test_v1.0.pdf` | planned |
-| Deep no test | PDF | `dlinnaya / no-test` | `ML_12_deep_no-test_v1.0.pdf` | planned |
+| Short with test | PPTX | `korotkaya / with-test` | `ML_GENERIC_12_short_with-test_v1.0.pptx` | planned |
+| Standard with test | PPTX | `srednyaya / with-test` | `ML_GENERIC_12_standard_with-test_v1.0.pptx` | planned |
+| Deep with test | PPTX | `dlinnaya / with-test` | `ML_GENERIC_12_deep_with-test_v1.0.pptx` | planned |
+| Short no test | PPTX | `korotkaya / no-test` | `ML_GENERIC_12_short_no-test_v1.0.pptx` | planned |
+| Standard no test | PPTX | `srednyaya / no-test` | `ML_GENERIC_12_standard_no-test_v1.0.pptx` | planned |
+| Deep no test | PPTX | `dlinnaya / no-test` | `ML_GENERIC_12_deep_no-test_v1.0.pptx` | planned |
+| Short with test | PDF | `korotkaya / with-test` | `ML_GENERIC_12_short_with-test_v1.0.pdf` | planned |
+| Standard with test | PDF | `srednyaya / with-test` | `ML_GENERIC_12_standard_with-test_v1.0.pdf` | planned |
+| Deep with test | PDF | `dlinnaya / with-test` | `ML_GENERIC_12_deep_with-test_v1.0.pdf` | planned |
+| Short no test | PDF | `korotkaya / no-test` | `ML_GENERIC_12_short_no-test_v1.0.pdf` | planned |
+| Standard no test | PDF | `srednyaya / no-test` | `ML_GENERIC_12_standard_no-test_v1.0.pdf` | planned |
+| Deep no test | PDF | `dlinnaya / no-test` | `ML_GENERIC_12_deep_no-test_v1.0.pdf` | planned |
 
 ## Osnovnoe soderzhanie reliza
 
@@ -58,6 +59,7 @@
 ## Ogranicheniya tekushchey versii
 
 - Chto ne voshlo v release: sam deck, finalnyy test, finalnyy answer key, speaker notes
+- Chto ne voshlo v online handoff: finalnye release-grade versii adaptation map, module summaries, narration pack i online handoff pack eshche ne sobrany; poka est tolko starter drafts
 - Chto nuzhno proverit na pilote: naskolko rabochey okazhetsya svyazka `with-test / no-test` i khvataet li variantov dliny
 - Chto nuzhno peresmotret v sleduyushchey versii: realnuyu nuzhnost vsekh shesti kombinatsiy prezentatsii dlya zakazchika
 

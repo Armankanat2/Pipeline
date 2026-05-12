@@ -32,6 +32,7 @@ Shablon nuzhen dlya sborki rabochey metodichki ili `PDF` dlya lektora, kotoryy d
 
 - Track auditorii: `worker / ITR / mixed`
 - Tselevoi format provedenia: `Short / Standard / Deep`
+- Razmer profilya: `Short = do 60 + test / Standard = 80-90 + test / Deep = 110-120 + test`
 - Rezhim: `with-test / no-test`
 - Delivery mode: `instructor-led / blended / online-support`
 - Chto obyazatelno ne poteryat pri etom profile:

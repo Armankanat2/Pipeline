@@ -131,6 +131,8 @@ Done if:
 - sobran finalnyy paket;
 - finalnye fayly nazvany po pravilu versiy;
 - release note zapolnen;
+- esli v release est lektorskiy contour, v pakete est aktualnye `instructor guide` i `lecturer questions bank`;
+- esli kurs dolzhen byt portable v budushchiy online-produkt, v pakete est aktualnyy `online handoff` contour;
 - versiya kursa zafiksirovana;
 - paket gotov k peredache.
 

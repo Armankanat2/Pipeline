@@ -5,7 +5,7 @@
 - Nazvanie kursa: `Montazhnik lesov`
 - Kod kursa: `ML`
 - Format kursa: `Deep`
-- Tselevoy obem: `100-120 slaydov`
+- Tselevoy obem: `110-120 slaydov`
 - Owner: vy
 
 ## Struktura kursa
@@ -53,7 +53,15 @@
 - `medium`: 8-12 slaydov
 - `heavy`: 12-18 slaydov
 
-Pri takom raspredelenii kurs ukladyvaetsya v diapazon `100-120` slaydov, gde posledniy blok otdelen pod test i razbor situatsiy.
+Razmery profiley:
+
+- `Short` = do `60` slaydov + test
+- `Standard` = `80-90` slaydov + test
+- `Deep` = `110-120` slaydov + test
+
+Pri takom raspredelenii kurs ukladyvaetsya v diapazon `110-120` slaydov, gde posledniy blok otdelen pod test i razbor situatsiy.
+
+Yadro kursa dolzhno ostavat'sya stabilnym: pri perekhode mezhdu versiyami ili gruppami my ne peresobiraem logiku s nulya, a dobavlyaem dopolnitelnye razbory, foto-serii, keysy i rasshirennye kommentarii poverkh bazovogo worker-kontura.
 
 ## Otkrytye resheniya
 

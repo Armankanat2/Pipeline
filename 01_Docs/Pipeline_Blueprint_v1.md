@@ -24,6 +24,7 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya sobiraet ne tolko pre
 - `modular scalability over fixed length`;
 - `content-brand separation`;
 - `multi-delivery readiness`;
+- `online-portable core`;
 - `lecturer-ready handoff`;
 - `reusability over custom work`;
 - `clarity over beauty`;
@@ -100,6 +101,10 @@ Minimalnyy nabor artefaktov po kursu:
 - `11_pilot_report.md`
 - `12_instructor_guide.md`
 - `12_lecturer_questions_bank.md`
+- `12_online_adaptation_map.md`
+- `12_module_summary_pack.md`
+- `12_narration_pack.md`
+- `12_online_handoff_pack.md`
 - `12_release_note.md`
 - `13_update_log.md`
 
@@ -150,17 +155,17 @@ Etap schitaetsya zavershennym tolko togda, kogda:
 
 ## 11. Format kursov
 
-Vmesto zhostkogo standarta na `110 slaydov` ispolzuem tri paketa:
+Vmesto zhostkogo standarta na odin obem ispolzuem tri paketa:
 
-- `Short` - `25-40` slaydov;
-- `Standard` - `60-90` slaydov;
-- `Deep` - `90-120` slaydov.
+- `Short` - do `60` slaydov + test;
+- `Standard` - `80-90` slaydov + test;
+- `Deep` - `110-120` slaydov + test.
 
 V klientskom konture eti versii mozhno nazyvat:
 
-- `korotkaya` = `Short`;
+- `korotkaya` ili `malaya` = `Short`;
 - `srednyaya` = `Standard`;
-- `dlinnaya` = `Deep`.
+- `dlinnaya` ili `bolshaya` = `Deep`.
 
 Dopolnitelno sistema dolzhna podderzhivat dva slozhnostnykh tracka:
 
@@ -189,6 +194,14 @@ Delivery modes:
 - `blended` - lektor + video / ssylki / dopolnitelnye materialy;
 - `self-paced online` - prokhozhdenie bez lektora, s ozvuchkoy, ssylkami i vstroennoy navigatsiey.
 
+Pravilo online-portable core:
+
+- prezentatsiya ne dolzhna byt edinstvennym nositelem uchebnogo soderzhaniya;
+- uchebnoe yadro kursa dolzhno byt prigodno dlya povtornoy sborki v budushchiy online-produkt bez perepisyvaniya s nulya;
+- dlya kursa, kotoryy mozhet pereyti v online, nuzhno sobirat otdelnyy `online handoff`-kontur;
+- etot kontur dolzhen opisivat, kak slaydy i moduli perenodyatsya v budushchie video, interaktivy, micro-checks, reference blocks i finalnyy quiz;
+- online-layer dolzhen byt rasshireniem `content core`, a ne otdelnym paralelnym kursom.
+
 Pravilo sborki:
 
 - karkas moduley dolzhen ostavatsya stabilnym;
@@ -196,6 +209,8 @@ Pravilo sborki:
 - kazhdyy modul dolzhen imet sloi `core`, `standard` i pri neobkhodimosti `extended`;
 - `core` kontent dolzhen sobirat minimalno zhiznesposobnuyu versiyu kursa;
 - `extended` kontent ne dolzhen lomat strukturu pri udalenii.
+- odno i to zhe uchebnoe yadro dolzhno pozvolyat sobirat versii dlya raznykh grupp ili urovney podgotovki bez polnoy peresborki kursa;
+- uvelichenie kursa dlya bolee slozhnoy auditorii dolzhno idti cherez dobavlenie dopolnitelnoy informatsii, keysov, razborov i organizatsionnykh blokov poverkh yadra, a ne cherez lomku bazovoy logiki.
 
 Pravilo dlya `worker` tracka:
 
@@ -240,6 +255,7 @@ Finalnyy paket dolzhen vklyuchat:
 - kratkuyu metodichku dlya prepodavatelya;
 - instructor guide v vide `PDF`, po kotoromu novyy lektor mozhet podgotovitsya k provedeniyu zanyatiya;
 - otdelnyy `lecturer questions bank` so slozhnymi voprosami, granitsami otvetov i podskazkami po eskalatsii;
+- pri neobkhodimosti `online handoff pack` dlya perenosa kursa v budushchiy online-produkt bez peresborki yadra;
 - pri neobkhodimosti metodicheskie materialy dlya rabochikh dvukh tipov:
   - `Materials 1`: A3-stendovye instruktsii, gotovye k pechati i laminatsii;
   - `Materials 2`: A5-razdatochnye materialy dlya vydachi na ruki;
@@ -261,6 +277,14 @@ Trebovanie k `lecturer questions bank`:
 - dolzhen pokryvat minimum `worker`, `ITR` i `mixed` voprosy, esli kurs potentsialno vedetsya dlya raznykh auditoriy;
 - po kazhdomu voprosu dolzhny byt korotkiy otvet, rasshirennyy otvet, granitsy dopustimoy interpretatsii i signal, kogda nuzhna ogovorka, lokalnyy reglament ili eskalatsiya;
 - bank dolzhen snyat s lektora neobkhodimost improvizirovat v samykh riskovykh i spornykh mestakh.
+
+Trebovanie k `online handoff pack`:
+
+- paket adresovan ne studentu i ne lektoru, a komande, kotoraya budet sobirat budushchiy online-produkt;
+- dolzhen hranit ne odin finalnyy nositel, a nabor pereispolzuemykh sloev: `online adaptation map`, `module summary pack`, `narration pack`, pri neobkhodimosti resource map i online quiz hooks;
+- dolzhen pozvolyat perenosit kurs v LMS, video-kurs ili drugoy self-paced format bez povtornogo proektirovaniya vsego soderzhaniya;
+- dolzhen otdelyat, chto idet v `on-screen`, chto idet v `voiceover`, chto idet v `interaction`, chto ostayotsya kak `reference`;
+- dolzhen byt sinkhronizirovan s tekushchim `slide script`, outcomes i testovoy logikoy.
 
 Trebovanie k worker materials:
 
@@ -321,6 +345,9 @@ Esli kurs gotovitsya dlya on-line ili `self-paced` ispolzovaniya, nuzhno obespec
 - `QR + direct link pair`: kazhdyy vneshniy resurs imeet ne tolko QR, no i obychnuyu ssylku;
 - dostatochnuyu ponyatnost bez zhivogo lektora;
 - tayming i logiku perekhodov dlya samostoyatelnogo prokhozhdeniya.
+- `online adaptation map`: tablitzu, gde zafiksirovano, chto iz kursa stanet video, chto interaktivom, chto reference-blokom, a chto quiz-uzlom;
+- `module summary pack`: korotkie vkhodnye i vykhodnye blokhi dlya kazhdogo modulia, prigodnye dlya LMS ili web-lesson;
+- `narration pack`: tekst ozvuchki i transcript-ready fragmenty, kotorye mozhno otdelno peredat v online-production.
 
 ## 14. Pravilo white-label sborki
 

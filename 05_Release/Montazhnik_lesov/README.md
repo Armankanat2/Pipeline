@@ -9,10 +9,11 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 - `02_PDF/01_With_Test` - PDF-versii so vstroyennym blokom voprosov
 - `02_PDF/02_No_Test` - PDF-versii bez bloka voprosov
 - `03_Test` - test pack i answer key
-- `04_Notes` - speaker notes, instructor guide ili metodichka
+- `04_Notes` - speaker notes, instructor guide, lecturer questions bank ili metodichka
 - `05_Admin` - release note, update log i release-administrirovanie
 - `06_Worker_Materials` - A3-stendovye instruktsii i pechatnye materialy dlya rabochikh
 - `07_Worker_Handouts` - A5-razdatochnye materialy dlya rabochikh
+- `08_Online_Handoff` - pakety dlya budushchey sborki LMS, web-course ili drugogo self-paced produkta
 - `10_Clients` - branded release-konteinery pod konkretnykh zakazchikov
 
 ## Logika raboty s klientami
@@ -26,21 +27,21 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 
 ### PPTX
 
-- `ML_12_short_with-test_v1.0.pptx`
-- `ML_12_standard_with-test_v1.0.pptx`
-- `ML_12_deep_with-test_v1.0.pptx`
-- `ML_12_short_no-test_v1.0.pptx`
-- `ML_12_standard_no-test_v1.0.pptx`
-- `ML_12_deep_no-test_v1.0.pptx`
+- `ML_GENERIC_12_short_with-test_v1.0.pptx`
+- `ML_GENERIC_12_standard_with-test_v1.0.pptx`
+- `ML_GENERIC_12_deep_with-test_v1.0.pptx`
+- `ML_GENERIC_12_short_no-test_v1.0.pptx`
+- `ML_GENERIC_12_standard_no-test_v1.0.pptx`
+- `ML_GENERIC_12_deep_no-test_v1.0.pptx`
 
 ### PDF
 
-- `ML_12_short_with-test_v1.0.pdf`
-- `ML_12_standard_with-test_v1.0.pdf`
-- `ML_12_deep_with-test_v1.0.pdf`
-- `ML_12_short_no-test_v1.0.pdf`
-- `ML_12_standard_no-test_v1.0.pdf`
-- `ML_12_deep_no-test_v1.0.pdf`
+- `ML_GENERIC_12_short_with-test_v1.0.pdf`
+- `ML_GENERIC_12_standard_with-test_v1.0.pdf`
+- `ML_GENERIC_12_deep_with-test_v1.0.pdf`
+- `ML_GENERIC_12_short_no-test_v1.0.pdf`
+- `ML_GENERIC_12_standard_no-test_v1.0.pdf`
+- `ML_GENERIC_12_deep_no-test_v1.0.pdf`
 
 ### Soprovozhdayushchie release-fayly
 
@@ -49,6 +50,10 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 - `03_Test/10_test_check_sheet_v1.0.md`
 - `04_Notes/12_instructor_guide_v1.0.pdf`
 - `04_Notes/12_speaker_notes_v1.0.md` ili ekvivalentnaya metodichka
+- `08_Online_Handoff/12_online_adaptation_map_v1.0.md`
+- `08_Online_Handoff/12_module_summary_pack_v1.0.md`
+- `08_Online_Handoff/12_narration_pack_v1.0.md`
+- `08_Online_Handoff/12_online_handoff_pack_v1.0.md`
 - `06_Worker_Materials/12_worker_instruction_v1.0.pdf`
 - `06_Worker_Materials/12_worker_instruction_v1.0.pptx`
 - `06_Worker_Materials/12_worker_instruction_extra_v1.0.pdf` pri dopolnitelnom zaprose klienta
