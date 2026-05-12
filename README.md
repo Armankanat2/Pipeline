@@ -1,6 +1,6 @@
 # Pipeline
 
-Eto kornevaya papka pervogo proekta po postroeniyu production pipeline.
+Production pipeline для создания презентаций
 
 ## Struktura
 
