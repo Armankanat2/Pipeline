@@ -71,6 +71,9 @@ Minimalnoe razmeshchenie artefaktov:
 | Intake | `01_design_options_pack.md` | `02_Research/<Course>/01_Brief` |
 | Intake | `01_design_system_spec.md` | `02_Research/<Course>/01_Brief` |
 | Intake | `01_print_production_spec.md` | `02_Research/<Course>/01_Brief` |
+| Intake | `01_publishing_handoff_spec.md` | `02_Research/<Course>/01_Brief` |
+| Intake | `01_language_style_guide.md` | `02_Research/<Course>/01_Brief` |
+| Intake | `01_terminology_glossary.md` | `02_Research/<Course>/01_Brief` |
 | Intake | `01_itr_requirements.md` | `02_Research/<Course>/01_Brief` |
 | Source Audit | `02_source_register.md` | `02_Research/<Course>/02_Sources` |
 | Job Decomposition | `03_job_map.md` | `02_Research/<Course>/03_Job_Map` |
@@ -83,7 +86,7 @@ Minimalnoe razmeshchenie artefaktov:
 | QA Review | `09_qa_report.md` | `02_Research/<Course>/09_QA` |
 | Test Creation | `10_test_pack.md` + `10_answer_key.md` | `02_Research/<Course>/10_Test` |
 | Pilot | `11_pilot_report.md` | `02_Research/<Course>/11_Pilot` |
-| Release | `12_instructor_guide.md` + `12_lecturer_questions_bank.md` + `12_online_adaptation_map.md` + `12_module_summary_pack.md` + `12_narration_pack.md` + `12_online_handoff_pack.md` + `12_release_note.md` + final pack | `05_Release/<Course>` |
+| Release | `12_instructor_guide.md` + `12_lecturer_questions_bank.md` + `12_online_adaptation_map.md` + `12_module_summary_pack.md` + `12_narration_pack.md` + `12_online_handoff_pack.md` + `12_publishing_handoff_pack.md` + `12_preflight_checklist.md` + `12_release_note.md` + final pack | `05_Release/<Course>` |
 | Maintenance | `13_update_log.md` | `05_Release/<Course>` |
 
 ## 6. Workflow po etapam
@@ -110,6 +113,9 @@ Deystviya:
 - podgotovit design options pack, esli klientu nuzhen vybor mezhdu gotovymi vizualnymi shell-resheniyami;
 - esli kontsept uzhe vybran ili opredelen generic fallback, sobrat `design system spec` dlya production;
 - esli v pakete est `A3`, `A5`, laminatsiya ili drugie pechatnye materialy, sobrat `print production spec`;
+- esli paket budet peredavatsya vo vneshniy publishing contour, sobrat `publishing handoff spec` s trebovaniyami k source bundle, fontam, pravam, eksportu i preflight;
+- zafiksirovat `language style guide`, esli kurs budet peredavat'sya mezhdu lyudmi ili vyvodit'sya v klientskiy paket;
+- zafiksirovat `terminology glossary` dlya kritichnykh terminov, sokrashcheniy i normativnykh formulyrovok;
 - zafiksirovat tselevoy slozhnostnyy track: `worker / ITR / mixed`;
 - otdelno proverit, nuzhen li voobshche `ITR` track dlya etogo kursa;
 - esli `ITR` track ne nuzhen, ne sobirat `01_itr_requirements.md` i ne razduvat kurs organizatsionnym sloem;
@@ -129,6 +135,9 @@ Rezultat:
 - pri neobkhodimosti `01_design_options_pack.md`
 - pri neobkhodimosti `01_design_system_spec.md`
 - pri neobkhodimosti `01_print_production_spec.md`
+- pri neobkhodimosti `01_publishing_handoff_spec.md`
+- pri neobkhodimosti `01_language_style_guide.md`
+- pri neobkhodimosti `01_terminology_glossary.md`
 - pri neobkhodimosti `01_itr_requirements.md`
 
 ### Stage 02 - Source Audit
@@ -216,6 +225,7 @@ Deystviya:
 - podobrat foto, skhemy, ikony i drugie assets;
 - otdelit kontentnye assets ot brand assets;
 - proverit po kazhdomu assetu ne tolko nalichie, no i prava, kachestvo, redaktiruemost i vozmozhnost legalnoy pererisovki;
+- proverit, est li po klyuchevym visualam ponyatnyy rights-status: `own / client-provided / licensed / needs approval / blocked`;
 - dlya kazhdogo klyuchevogo bloka proverit nalichie `correct / incorrect / risk` visuals;
 - proverit nalichie logotipov, palitry, klientskikh nazvaniy i drugikh white-label elementov;
 - proverit ikh kachestvo i umestnost;
@@ -251,6 +261,7 @@ Deystviya:
 - proyti metodicheskiy review;
 - proyti tekhnicheskiy review;
 - proyti dizayn-review;
+- proyti proofreading-review po language style guide i glossary;
 - proverit, chto design-system pravila ne rozpalis na ruchnye lokalnye isklyucheniya;
 - proverit, chto QR, print i branded-pravila soblyudeny odinakovo vo vsekh nositelyakh;
 - sobrat odin konsolidirovannyy klientskiy review-pack po draft-proektu;
@@ -261,8 +272,10 @@ Deystviya:
 - vse, chto poyavlyaetsya posle `2-go` klientskogo kruga i menyaet scope, oformlyat kak otdelnyy change request ili novuyu doprabotku, a ne kak beskonechnyy review-loop;
 - proverit, chto `instructor guide` pokryvaet `100%` aktualnogo `slide script`;
 - proyti `lecturer-ready` review: est li teaching paths, khvataet li tayminga, est li opora na slozhnye voprosy i ponyatno li, kak peredavat kurs drugomu lektoru;
+- yesli paket gotovitsya dlya izdatelya ili tipografii, proyti publishing-review: polnota source bundle, rights clearance, font list, export profile, print/digital preflight;
 - proverit, ponyatno li eto rabochemu bez metodista ryadom, esli kurs sobiraetsya dlya `worker` track;
 - proverit, dostatochno li raskryty organizatsionnye i upravlencheskie voprosy, esli kurs sobiraetsya dlya `ITR` track;
+- proverit, net li bitoy kodirovki, plavayushchikh terminov, sluchaynykh smesey alfavitov i neredaktirovannykh yazykovykh khvostov;
 - klassifitsirovat pravki.
 
 Rezultat:
@@ -310,8 +323,11 @@ Deystviya:
 - sobrat instructor guide dlya lektora i eksportirovat ego v `PDF`;
 - sobrat otdelnyy `lecturer questions bank` i proverit, chto on sootvetstvuet aktualnoy versii script i testa;
 - sobrat `online adaptation map`, `module summary pack`, `narration pack` i finalnyy `online handoff pack`, esli kurs dolzhen byt portable v budushchiy online-produkt;
+- sobrat `publishing handoff pack`, yesli paket dolzhen byt peredan izdatelyu, tipografii ili vo vneshniy production contour;
+- prilozhit `preflight checklist` so statusami print-ready / digital-ready / rights-cleared / fonts-confirmed;
 - proverit, chto instructor guide `QR-ready`, i na kazhdoy stranitse ostavlen slot pod opzionalnyy QR-kod;
 - prilozhit otdelnyy klyuch otvetov;
+- prilozhit ili obnovit `proofreading QA checklist`, esli paket idet vo vneshniy kontur;
 - prinyat poslednie pravki;
 - zafiksirovat versiyu.
 
@@ -541,6 +557,7 @@ V `05_Release/<Course>` dolzhny lezhat:
 - `03_Test` - finalnyy test pack, otdelnyy `answer_key` i `test_check_sheet`;
 - `04_Notes` - `speaker_notes`, instructor guide, lecturer questions bank ili metodichka;
 - `08_Online_Handoff` - pakety dlya budushchego perenosa kursa v LMS, web-course ili drugoy self-paced produkt;
+- `09_Publishing_Handoff` - source bundle, publishing handoff pack i preflight-dokumenty dlya izdatelya ili vneshnego production;
 - `06_Worker_Materials` - A3-stendovye instruktsii i drugie pechatnye metodicheskie materialy dlya rabochikh;
 - `07_Worker_Handouts` - A5-razdatochnye materialy dlya rabochikh;
 - pri neobkhodimosti on-line versiya s ozvuchkoy i pryamymi ssylkami;
@@ -570,6 +587,8 @@ Minimalnaya matrica faylov:
 - `course-code_[client-code]_12_module-summary-pack_vX.Y.md`
 - `course-code_[client-code]_12_narration-pack_vX.Y.md`
 - `course-code_[client-code]_12_online-handoff-pack_vX.Y.md`
+- `course-code_[client-code]_12_publishing-handoff-pack_vX.Y.md`
+- `course-code_[client-code]_12_preflight-checklist_vX.Y.md`
 
 Esli zakazchiku nuzhny ne vse versii, v release note nuzhno priamo ukazat, kakie sloty ostalis neispolzovannymi.
 
@@ -624,6 +643,15 @@ Minimalnye trebovaniya k `08_Online_Handoff`:
 - dolzhno byt ponyatno, chto perekhodit v video, chto v interaktiv, chto v quiz, a chto ostayotsya reference-blokom;
 - paket dolzhen umenshat obem povtornogo proektirovaniya pri sborke novogo online-produkta.
 
+Minimalnye trebovaniya k `09_Publishing_Handoff`:
+
+- dolzhen byt spisok finalnykh faylov i ikh release-status;
+- dolzhen byt spisok ispolzuemykh shriftov i ponyatno, mozhno li ikh peredavat v production contour;
+- dolzhen byt status prav po klyuchevym assetam i brand-materialam;
+- dolzhny byt zafiksirovany eksportnye profili dlya print i digital;
+- dolzhno byt ponyatno, chto vkhodit v source bundle: redaktiruemye fayly, assets, linked-resources, primechaniya po svyazyam;
+- dolzhen byt otdelnyy preflight-checklist s flagami `print-ready / digital-ready / rights-cleared / fonts-confirmed`.
+
 ### Client containers
 
 Esli odin i tot zhe kurs vypuskaetsya dlya neskolkikh zakazchikov, release-papka rabotaet kak `release hub`:
@@ -631,6 +659,7 @@ Esli odin i tot zhe kurs vypuskaetsya dlya neskolkikh zakazchikov, release-papka
 - kornevoy `05_Release/<Course>` mozhno derzhat kak `generic` bazu bez klientskogo brendinga;
 - klientskie pakety lezhat v `05_Release/<Course>/10_Clients/<CLIENT_CODE>`;
 - vnutri kazhdogo klientskogo paketa povtoryaetsya odna i ta zhe release-logika: `PPTX`, `PDF`, `Test`, `Notes`, `Online_Handoff`, `Admin`, a pri neobkhodimosti i worker-materialy;
+- yesli klientskiy paket ukhodit vo vneshniy production contour, v nem takzhe povtoryaetsya `Publishing_Handoff`;
 - `CLIENT_CODE` dolzhen byt korotkim, ASCII-sovmestimym i stabilnym, naprimer `ACME`, `ROSTEH`, `PROMSTROY`;
 - zamenyaem brand shell, no ne dubliruem bez nuzhdy metodicheskie artefakty.
 
@@ -638,8 +667,12 @@ Esli odin i tot zhe kurs vypuskaetsya dlya neskolkikh zakazchikov, release-papka
 
 Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 
+- `Language_Style_Guide_Template_v1.md`
+- `Terminology_Glossary_Template_v1.md`
+- `Proofreading_QA_Checklist_Template_v1.md`
 - `Design_System_Spec_Template_v1.md`
 - `Print_Production_Spec_Template_v1.md`
+- `Publishing_Handoff_Spec_Template_v1.md`
 - `Source_Register_Template_v1.md`
 - `Job_Map_Template_v1.md`
 - `Learning_Outcomes_Template_v1.md`
@@ -658,6 +691,8 @@ Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 - `Module_Summary_Pack_Template_v1.md`
 - `Narration_Pack_Template_v1.md`
 - `Online_Handoff_Pack_Template_v1.md`
+- `Publishing_Handoff_Pack_Template_v1.md`
+- `Preflight_Checklist_Template_v1.md`
 - `Worker_Instruction_Template_v1.md`
 - `Worker_Handout_Template_v1.md`
 - `Update_Log_Template_v1.md`

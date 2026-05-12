@@ -105,6 +105,7 @@ Proveryaem:
 - khvataet li assets na kurs;
 - sootvetstvuyut li oni teme;
 - net li somnitelnykh vizualov;
+- ponyaten li rights-status po klyuchevym assetam;
 - pokryty li `correct / incorrect / risk` visuals po klyuchevym blokam;
 - ne nuzhny li dosbory.
 
@@ -125,12 +126,16 @@ Proveryaem:
 - est li vse tipy proverki;
 - klassifitsirovany li zamechaniya;
 - net li kritichnykh oshibok;
+- proyden li otdelnyy proofreading-review;
+- yesli est publishing contour, proyden li publishing-review i ponyatny li source bundle, shrifty i eksportnye profili;
 - pokryvaet li `instructor guide` `100%` aktualnogo `slide script`;
 - sobran li `lecturer questions bank` po riskovym i spornym voprosam;
 - est li teaching paths dlya `worker` i `ITR`, esli kurs podderzhivaet obe auditorii;
 - mozhno li peredat kurs novomu lektoru bez avtora ryadom;
 - ponyatno li eto rabochemu bez metodista ryadom, esli kurs dlya `worker` track;
 - dostatochno li raskryty organizatsionnye i upravlencheskie voprosy, esli kurs dlya `ITR` track;
+- yedinaya li terminologiya mezhdu brief, script, testom i release;
+- net li bitoy kodirovki, smesey alfavitov i sluchaynykh perekhodov mezhdu translitom i kirillitsey bez pravila;
 - ponyaten li obem pravok;
 - gotov li kurs k testu.
 
@@ -164,6 +169,9 @@ Proveryaem:
 - pravylnye li versii;
 - est li release note;
 - est li instructor guide i lecturer questions bank v aktualnoy release-versii;
+- proyden li proofreading checklist dlya release-grade dokumentov;
+- yesli est publishing contour, est li publishing handoff pack i preflight checklist;
+- rights-cleared li klyuchevye assets i brand-materialy;
 - ponyatno li, chto peredano;
 - mozhno li bezopasno ispolzovat paket.
 

@@ -23,9 +23,15 @@
 - Test pack:
 - Answer key:
 - Online handoff pack:
+- Publishing handoff pack:
+- Preflight checklist:
 - Brand profile:
 - Dopolnitelnye materialy:
 - Vybrannyy dizayn-kontsept:
+- Rights cleared po assetam: `yes / no / partial`
+- Font package / font list confirmed: `yes / no`
+- Print-ready status: `yes / no / partial`
+- Digital-ready status: `yes / no / partial`
 - Klientskiy review round 1:
 - Klientskiy review round 2:
 - Change request posle bazovogo paketa:
@@ -50,6 +56,8 @@
 | Module summary pack | MD | `online handoff` |  | planned / ready / skipped |
 | Narration pack | MD | `online handoff` |  | planned / ready / skipped |
 | Online handoff pack | MD | `online handoff` |  | planned / ready / skipped |
+| Publishing handoff pack | MD | `publishing handoff` |  | planned / ready / skipped |
+| Preflight checklist | MD | `publishing handoff` |  | planned / ready / skipped |
 
 ## Osnovnoe soderzhanie reliza
 
@@ -83,6 +91,7 @@
 - Finalnaya papka release:
 - QA report:
 - Pilot report:
+- Publishing handoff folder:
 
 ## Reshenie
 

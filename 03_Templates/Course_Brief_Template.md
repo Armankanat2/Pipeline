@@ -60,6 +60,10 @@
 - Est li rekomenduemyy generic-kontsept po umolchaniyu:
 - Nuzhen li otdelnyy `design system spec`:
 - Nuzhen li otdelnyy `print production spec`:
+- Nuzhen li otdelnyy `publishing handoff spec`:
+- Budet li paket peredavat'sya vo vneshniy publishing / print / production contour:
+- Nuzhen li finalnyy `publishing handoff pack`:
+- Nuzhen li otdelnyy `preflight checklist`:
 - Nuzhna li attestatsiya:
 - Nuzhna li otdelnaya `worker` versiya:
 - Nuzhna li otdelnaya `ITR` versiya:
@@ -101,6 +105,8 @@
 - Foto:
 - Video:
 - Skhemy:
+- Ishodniki logotipov i brand-assets:
+- Spisok shriftov ili brandbook s tipografikoy:
 - Ekspertnye kommentarii:
 
 ## 7. Soglasovanie
@@ -120,6 +126,7 @@
 - Sroki:
 - Resursy:
 - Pravovye ogranicheniya:
+- Ogranicheniya po licenziyam na foto, video, ikony i shrifty:
 - Ogranicheniya po platforme:
 
 ## 9. Brand profile

@@ -22,6 +22,7 @@ Done if:
 - opredelena auditoriya;
 - ponyatna tsel kursa;
 - zafiksirovany sroki i format;
+- yesli nuzhen vneshniy production contour, zafiksirovan publishing handoff scope;
 - opredelen zakazchik ili soglasuyushchiy.
 
 ## Stage 02 - Source Audit
@@ -80,6 +81,7 @@ Done if:
 
 - podobrany nuzhnye foto, skhemy i illyustratsii;
 - istochnik ili proiskhozhdenie assets ponyatny;
+- po klyuchevym assetam ponyaten rights-status;
 - assets sootvetstvuyut kursu;
 - assets dostatochno dlya sborki;
 - problemnye assets pometcheny.
@@ -101,7 +103,9 @@ Done if:
 - proyden metodicheskiy review;
 - proyden dizayn-review;
 - proyden tekhnicheskiy review;
+- proyden proofreading-review;
 - vse zamechaniya klassifitsirovany;
+- terminologiya i yazykovye pravila ne protivorechat glossary i style guide;
 - ponyatno, chto obyazatelno pravit do reliza.
 
 ## Stage 10 - Test Creation
@@ -133,6 +137,10 @@ Done if:
 - release note zapolnen;
 - esli v release est lektorskiy contour, v pakete est aktualnye `instructor guide` i `lecturer questions bank`;
 - esli kurs dolzhen byt portable v budushchiy online-produkt, v pakete est aktualnyy `online handoff` contour;
+- esli paket ukhodit vo vneshniy production contour, v pakete est aktualnyy `publishing handoff` contour i `preflight checklist`;
+- release-grade dokumenty ne soderzhat bitoy kodirovki i sluchaynykh smesey alfavitov;
+- po klyuchevym assetam i brand-materialam net neproyasnennykh pravovykh blokov;
+- proyden proofreading checklist;
 - versiya kursa zafiksirovana;
 - paket gotov k peredache.
 

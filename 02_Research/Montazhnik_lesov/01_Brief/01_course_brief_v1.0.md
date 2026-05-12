@@ -60,6 +60,12 @@
 - Est li rekomenduemyy generic-kontsept po umolchaniyu: `D-06 Corporate Neutral`
 - Nuzhen li otdelnyy `design system spec`: da
 - Nuzhen li otdelnyy `print production spec`: da
+- Nuzhen li otdelnyy `publishing handoff spec`: da
+- Nuzhen li otdelnyy `language style guide`: da
+- Nuzhen li otdelnyy `terminology glossary`: da
+- Budet li paket peredavat'sya vo vneshniy publishing / print / production contour: potentsialno da
+- Nuzhen li finalnyy `publishing handoff pack`: da
+- Nuzhen li otdelnyy `preflight checklist`: da
 - Nuzhna li attestatsiya: utochnyaetsya
 - Nuzhna li otdelnaya `worker` versiya: da
 - Nuzhna li otdelnaya `ITR` versiya: net v tekushchey sborke, tolko po otdelnomu zaprosu
@@ -101,6 +107,8 @@
 - Foto: nuzhno sobrat
 - Video: nuzhno sobrat
 - Skhemy: nuzhno sobrat
+- Ishodniki logotipov i brand-assets: poka net
+- Spisok shriftov ili brandbook s tipografikoy: poka net
 - Ekspertnye kommentarii: zhelatelny
 
 ## 7. Soglasovanie
@@ -120,6 +128,7 @@
 - Sroki: proekt i obuchenie dolzhny byt zaversheny do `2026-05-30`
 - Resursy: solo mode s AI support
 - Pravovye ogranicheniya: nelzya opiratsya na neverifitsirovannye trebovaniya TB
+- Ogranicheniya po licenziyam na foto, video, ikony i shrifty: ne ispolzovat finalno bez ponyatnogo rights-status
 - Ogranicheniya po platforme: markdown-first workflow + finalnaya prezentatsiya
 
 ## 9. Brand profile

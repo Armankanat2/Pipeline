@@ -28,6 +28,8 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya sobiraet ne tolko pre
 - `lecturer-ready handoff`;
 - `writer-first scripting`;
 - `design-system-driven production`;
+- `editorial consistency before release`;
+- `publishing-ready handoff`;
 - `reusability over custom work`;
 - `clarity over beauty`;
 - `fast review loops`;
@@ -91,6 +93,9 @@ Minimalnyy nabor artefaktov po kursu:
 - `01_design_options_pack.md` pri vybore vizualnogo napravleniya do sborki deck
 - `01_design_system_spec.md` posle vybora kontsepta i do massovoy visual production
 - `01_print_production_spec.md` esli kurs predpolagaet A3/A5/lamination/print-ready materialy
+- `01_publishing_handoff_spec.md` esli paket budet peredavatsya v izdательство, tipografiyu ili vneshniy production contour
+- `01_language_style_guide.md` dlya yedinoy tekstovoy politiki
+- `01_terminology_glossary.md` dlya stabilnosti terminov i sokrashcheniy
 - `01_itr_requirements.md` pri sborke versii dlya ITR ili slozhnogo organizatsionnogo kontura
 - `02_source_register.md`
 - `03_job_map.md`
@@ -110,6 +115,8 @@ Minimalnyy nabor artefaktov po kursu:
 - `12_module_summary_pack.md`
 - `12_narration_pack.md`
 - `12_online_handoff_pack.md`
+- `12_publishing_handoff_pack.md`
+- `12_preflight_checklist.md`
 - `12_release_note.md`
 - `13_update_log.md`
 
@@ -225,6 +232,22 @@ Pravilo dlya scriptwriting:
 - perekhod mezhdu slaydami i modulami dolzhen byt yavno vidim v script, a ne derzhat'sya "na intuicii avtora";
 - zavisimost slayda ot assets dolzhna byt vidna uzhe v script: mozhno li sobrat vizual vnutri prezentatsii, nuzhen li storonniy asset, ili est blokiruyushchiy visual gap;
 - online, lecturer i release-layer polya mogut doobogashchat kartochku posle stabilizatsii writer core, a ne do nachala smyslovoy sborki.
+
+Pravilo dlya editorial layer:
+
+- u proekta dolzhna byt yedinaya yazykovaya politika: chto ostayotsya v translite, chto vypuskaetsya po-russki, a chto mozhno derzhat po-angliyski kak sistemnyy termin;
+- bitaya kodirovka, slomannye kirillicheskie simvoly i sluchaynye smesi alfavitov ne dopuskayutsya v release-grade dokumentakh;
+- klyuchevye terminy, sokrashcheniya i formulyrovki dolzhny byt zafiksirovany v otdelnom glossary, a ne plavat mezhdu dokumentami;
+- pered release dolzhna byt otdelnaya proofread-proverka na chitaemost, terminologicheskuyu stabilnost, yazyikovuyu odnorodnost i tekhnicheskuyu chistotu teksta;
+- esli vnutrennyaya markdown-baza ispolzuet translit ili tekhnicheskiy format, eto dolzhno byt yavno opisano v language style guide, chtoby korrrektor ne gadal o norme.
+
+Pravilo dlya publishing layer:
+
+- yesli paket peredayotsya vo vneshniy production contour, dolzhen byt otdelnyy `publishing handoff`, a ne tolko nabor finalnykh PDF/PPTX;
+- publishing contour dolzhen soderzhat minimum: status prav na assets, spisok ispolzuemykh shriftov, eksportnye parametry, print/digital gotovnost i preflight-status;
+- release-grade paket ne schitaetsya publishing-ready, poka ne provereno, chto vneshniye visuals mozhno legalno ispolzovat, a source bundle mozhno peredat bez poteri svyazey;
+- dlya pechatnykh i branded-materialov dolzhny byt yavno zafiksirovany trim/bleed/safe-zone pravila, a takzhe status testovoy pechati, esli ona nuzhna;
+- izdательskiy handoff dolzhen umenshat ruchnuyu pereukladku paketa so storony tipografii, vydavtsa ili vneshnego production-podryadchika.
 
 Pravilo dlya `worker` tracka:
 

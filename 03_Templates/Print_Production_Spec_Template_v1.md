@@ -28,8 +28,10 @@ Shablon nuzhen dlya pechatnykh i print-ready materialov: `A3`, `A5`, laminatsiya
 - Safe zone:
 - Pole pod numeratsiyu:
 - Trebuemyy format eksporta:
+- PDF-standard / eksportnyy profil:
 - Trebuemoe razreshenie:
 - Tsvetovaya model:
+- Trebuyutsya li trim marks:
 
 ## 4. Chitaemost
 
@@ -56,6 +58,7 @@ Shablon nuzhen dlya pechatnykh i print-ready materialov: `A3`, `A5`, laminatsiya
 - Trebuetsya li podpis:
 - Nuzhna li para `QR + direct link`:
 - Gde QR nelzya stavit:
+- Nuzhna li proverka QR na testovoy pechati:
 
 ## 7. Laminatsiya i ekspluatatsiya
 
@@ -74,6 +77,8 @@ Shablon nuzhen dlya pechatnykh i print-ready materialov: `A3`, `A5`, laminatsiya
 - Proverena numeratsiya
 - Proveren kontrast
 - Proveren eksport v finalnyy format
+- Provereny PDF-standard i marks
+- Provedena testovaya pechat, esli nuzhna
 
 ## 9. Reshenie po gotovnosti
 

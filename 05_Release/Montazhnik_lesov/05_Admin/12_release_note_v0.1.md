@@ -23,10 +23,16 @@
 - Test pack: draft only
 - Answer key: draft only
 - Online handoff pack: planned, kak budushchiy eksportnyy contour dlya LMS ili drugogo online-produkta
+- Publishing handoff pack: planned, kak contour peredachi vo vneshniy production / publishing
+- Preflight checklist: planned
 - Test check sheet: planned
 - Brand profile: generic white-label base
 - Dopolnitelnye materialy: net
 - Vybrannyy dizayn-kontsept: poka ne vybran, dopustim `D-06 Corporate Neutral` kak generic fallback
+- Rights cleared po assetam: partial
+- Font package / font list confirmed: no
+- Print-ready status: no
+- Digital-ready status: partial
 - Klientskiy review round 1: planned
 - Klientskiy review round 2: planned
 - Change request posle bazovogo paketa: poka net
@@ -47,6 +53,8 @@
 | Short no test | PDF | `korotkaya / no-test` | `ML_GENERIC_12_short_no-test_v1.0.pdf` | planned |
 | Standard no test | PDF | `srednyaya / no-test` | `ML_GENERIC_12_standard_no-test_v1.0.pdf` | planned |
 | Deep no test | PDF | `dlinnaya / no-test` | `ML_GENERIC_12_deep_no-test_v1.0.pdf` | planned |
+| Publishing handoff pack | MD | `publishing handoff` | `ML_GENERIC_12_publishing-handoff-pack_v1.0.md` | planned |
+| Preflight checklist | MD | `publishing handoff` | `ML_GENERIC_12_preflight-checklist_v1.0.md` | planned |
 
 ## Osnovnoe soderzhanie reliza
 
@@ -66,6 +74,7 @@
 
 - Chto ne voshlo v release: sam deck, finalnyy test, finalnyy answer key, speaker notes
 - Chto ne voshlo v online handoff: finalnye release-grade versii adaptation map, module summaries, narration pack i online handoff pack eshche ne sobrany; poka est tolko starter drafts
+- Chto ne voshlo v publishing handoff: finalnyy source bundle, rights-cleared asset summary, font list, finalnyy preflight i testovaya pechat
 - Chto nuzhno proverit na pilote: naskolko rabochey okazhetsya svyazka `with-test / no-test` i khvataet li variantov dliny
 - Chto nuzhno peresmotret v sleduyushchey versii: realnuyu nuzhnost vsekh shesti kombinatsiy prezentatsii dlya zakazchika
 
@@ -81,6 +90,7 @@
 - Finalnaya papka release: `05_Release/Montazhnik_lesov`
 - QA report: poka net finalnogo reporta
 - Pilot report: poka net
+- Publishing handoff folder: `05_Release/Montazhnik_lesov/09_Publishing_Handoff`
 
 ## Reshenie
 
