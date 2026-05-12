@@ -37,6 +37,11 @@
 - Dopustimyy diapazon voprosov:
 - Mozhno li otklyuchat blok voprosov v prezentatsii:
 - Nuzhen li otdelnyy klyuch otvetov:
+- Nuzhen li lecturer test check sheet:
+- Kolichestvo variantov otveta na vopros:
+- Bukvennye metki variantov otveta v rabochey baze:
+- Bukvennye metki variantov otveta v finalnom klientskom makete:
+- Tolko odin pravilnyy otvet na vopros:
 - Nuzhna li ozvuchka:
 - Nuzhny li direct links v prezentatsii:
 - Nuzhny li QR-kody v prezentatsii:

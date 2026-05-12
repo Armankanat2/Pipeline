@@ -46,6 +46,7 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 
 - `03_Test/10_test_pack_v1.0.md`
 - `03_Test/10_answer_key_v1.0.md`
+- `03_Test/10_test_check_sheet_v1.0.md`
 - `04_Notes/12_instructor_guide_v1.0.pdf`
 - `04_Notes/12_speaker_notes_v1.0.md` ili ekvivalentnaya metodichka
 - `06_Worker_Materials/12_worker_instruction_v1.0.pdf`

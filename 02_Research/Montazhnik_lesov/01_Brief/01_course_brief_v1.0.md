@@ -37,6 +37,11 @@
 - Dopustimyy diapazon voprosov: `15-30`
 - Mozhno li otklyuchat blok voprosov v prezentatsii: da
 - Nuzhen li otdelnyy klyuch otvetov: da
+- Nuzhen li lecturer test check sheet: da
+- Kolichestvo variantov otveta na vopros: `4`
+- Bukvennye metki variantov otveta v rabochey baze: `A / B / V / G`
+- Bukvennye metki variantov otveta v finalnom klientskom makete: `А / Б / В / Г`
+- Tolko odin pravilnyy otvet na vopros: da
 - Nuzhna li ozvuchka: zhelatelno kak perspektivnyy kontur dlya on-line versii
 - Nuzhny li direct links v prezentatsii: da, esli budet `online-ready` versiya
 - Nuzhny li QR-kody v prezentatsii: da, kak dopolnitelnyy kanal k video i materialam

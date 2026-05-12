@@ -29,6 +29,7 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `03_Templates/Slide_Script_Template.md`
 - `03_Templates/Test_Pack_Template_v1.md`
 - `03_Templates/Answer_Key_Template_v1.md`
+- `03_Templates/Test_Check_Sheet_Template_v1.md`
 - `03_Templates/Brand_Profile_Template_v1.md`
 - `03_Templates/Instructor_Guide_Template_v1.md`
 - `03_Templates/Worker_Instruction_Template_v1.md`

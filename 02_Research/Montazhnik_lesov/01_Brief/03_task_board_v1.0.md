@@ -4,12 +4,12 @@
 
 - Nazvanie kursa: `Montazhnik lesov`
 - Kod kursa: `ML`
-- Tekushchiy stage: `Asset planning / Script continuation`
+- Tekushchiy stage: `Script expanded / Asset follow-up`
 - Owner: vy
 - Prioritet: vysokiy
 - Deadline: `2026-05-30`
-- Sledushchiy artefakt: `06_slide_script_v0.2.md`
-- Status gate: `pass with open asset gaps`
+- Sledushchiy artefakt: `07_asset_register_v0.2.md`
+- Status gate: `pass with open asset and QA gaps`
 - Poslednee obnovlenie: `2026-05-12`
 
 ## Tekushchie zadachi
@@ -24,7 +24,7 @@
 - [x] Nachat slide script
 - [x] Podobrat assets
 - [ ] Proyti QA
-- [ ] Sobrat test
+- [x] Sobrat test
 - [ ] Podgotovit pilot ili release
 
 ## Blokery
@@ -35,4 +35,4 @@
 
 ## Reshenie na tekushchiy moment
 
-Asset register sobran dlya moduley `01-04`, ponyatny prioritetnye vizualy i glavnye defitsity. Sledushchiy fokus - prodolzhit script dlya moduley `05-07` i parallelno zakryvat `Prioritet 1` po assets.
+Script teper razvernut po moduliam `01-07`, a test contour rasshiren do `20` voprosov po moduliam `01-07`. Sledushchiy fokus - dosobrat asset layer pod novye slaydy `20-43`, potom vernut'sya k QA i moduliam `08-09`.

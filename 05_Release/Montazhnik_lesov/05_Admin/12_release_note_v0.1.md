@@ -22,6 +22,7 @@
 - Worker handouts A5: planned, kak bazovyy kompaktniy handout + custom-handout po tablitse tem
 - Test pack: draft only
 - Answer key: draft only
+- Test check sheet: planned
 - Brand profile: generic white-label base
 - Dopolnitelnye materialy: net
 

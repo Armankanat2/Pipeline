@@ -18,6 +18,10 @@ Shablon nuzhen dlya sborki testa, kotoryy proveryaet outcomes, a ne tolko zapomi
 - Kolichestvo voprosov:
 - Prokhodnoy porog:
 - Format:
+- Kolichestvo variantov otveta na vopros: `4`
+- Markirovka variantov v rabochey baze: `A / B / V / G`
+- Markirovka variantov v finalnom klientskom makete: kirillicheskie bukvennye metki
+- Tolko odin pravilnyy otvet: `yes`
 - Nuzhen li vizualnyy blok:
 - Voprosy v `Short`:
 - Voprosy v `Standard`:
@@ -37,7 +41,7 @@ Shablon nuzhen dlya sborki testa, kotoryy proveryaet outcomes, a ne tolko zapomi
 
 ## Voprosy
 
-| ID | Tip | Vopros | Varianty otveta | Pravilnyy otvet | Svazannyy outcome | Primechanie |
+| ID | Tip | Vopros | Varianty otveta `A / B / V / G` v rabochey baze | Pravilnyy otvet | Svazannyy outcome | Primechanie |
 |---|---|---|---|---|---|---|
 | Q-01 | single / multiple / visual / situational |  |  |  |  |  |
 

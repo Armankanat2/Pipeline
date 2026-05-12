@@ -197,6 +197,7 @@ Finalnyy paket dolzhen vklyuchat:
 - speaker notes;
 - test / bank voprosov;
 - otdelnyy klyuch otvetov;
+- otdelnyy `test check sheet` dlya lektora s voprosom, variantami, pravilnym otvetom i obyasneniem;
 - kratkuyu metodichku dlya prepodavatelya;
 - instructor guide v vide `PDF`, po kotoromu novyy lektor mozhet podgotovitsya k provedeniyu zanyatiya;
 - pri neobkhodimosti metodicheskie materialy dlya rabochikh dvukh tipov:
@@ -237,6 +238,20 @@ Trebovanie k `Materials 2`:
 - vtoroy variant dolzhen sobirat'sya cherez tablitsu, analogichnuyu `Materials 1`: `tema prezentatsii -> blok A5-materiala`;
 - esli po tablitse ne khvataet dannykh, nuzhno sobirat spisok utochnyayushchikh voprosov;
 - format mozhet byt odnostoronnyy ili mnogostranichnyy, no dolzhen ostavat'sya udobnym dlya razdachi i khraneniya u rabochego.
+
+Trebovanie k `test check sheet`:
+
+- material adresovan lektoru ili proveryayushchemu, a ne slushatelyu;
+- obem zavisit ot kolichestva voprosov v testovom bloke prezentatsii;
+- po kazhdomu voprosu dolzhny byt:
+  - tekst voprosa;
+  - `4` varianta otveta;
+  - bukvennaya markirovka variantov `A / B / V / G` v markdown-baze;
+  - v finalnom klientskom russkoyazychnom makete varianty dolzhny vypuskat'sya kak `A / B / V / G` na kirillitse: `А / Б / В / Г`;
+  - tolko `1` pravilnyy otvet;
+  - otmetka pravilnogo otveta;
+  - obyasnenie, pochemu on pravilnyy;
+  - szhatyy kommentariy dlya lektora.
 
 ## 13. Pravilo online-ready sborki
 

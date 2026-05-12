@@ -447,7 +447,7 @@ V `05_Release/<Course>` dolzhny lezhat:
 - `01_PPTX/02_No_Test` - versii prezentatsii bez bloka voprosov;
 - `02_PDF/01_With_Test` - PDF-ekvivalenty versiy so vstroyennym blokom voprosov;
 - `02_PDF/02_No_Test` - PDF-ekvivalenty versiy bez bloka voprosov;
-- `03_Test` - finalnyy test pack i otdelnyy `answer_key`;
+- `03_Test` - finalnyy test pack, otdelnyy `answer_key` i `test_check_sheet`;
 - `04_Notes` - `speaker_notes`, instructor guide ili metodichka;
 - `06_Worker_Materials` - A3-stendovye instruktsii i drugie pechatnye metodicheskie materialy dlya rabochikh;
 - `07_Worker_Handouts` - A5-razdatochnye materialy dlya rabochikh;
@@ -472,6 +472,7 @@ Minimalnaya matrica faylov:
 - `course-code_[client-code]_12_worker-instruction_vX.Y.pptx`
 - `course-code_[client-code]_12_worker-handout_vX.Y.pdf`
 - `course-code_[client-code]_12_worker-handout_vX.Y.pptx`
+- `course-code_[client-code]_10_test-check-sheet_vX.Y.md`
 
 Esli zakazchiku nuzhny ne vse versii, v release note nuzhno priamo ukazat, kakie sloty ostalis neispolzovannymi.
 
@@ -499,6 +500,16 @@ Minimalnye trebovaniya k `07_Worker_Handouts`:
 - dolzhny byt zafiksirovany nazvanie, logotipy i drugie obyazatelnye vizualnye identifikatory;
 - esli po tablitse ne khvataet dannykh, dolzhen formirovat'sya spisok utochnyayushchikh voprosov.
 
+Minimalnye trebovaniya k `03_Test/test_check_sheet`:
+
+- po kazhdomu voprosu dolzhny byt `4` varianta otveta;
+- varianty markiruyutsya kak `A / B / V / G` v markdown-baze;
+- v finalnom klientskom russkoyazychnom makete eti metki vypuskayutsya kak `А / Б / В / Г`;
+- pravilnyy otvet tolko odin;
+- dlya kazhdogo voprosa est obyazatelnoe obyasnenie, pochemu pravilnyy imenno etot variant;
+- dlya kazhdogo voprosa est korotkiy kommentariy dlya lektora;
+- obem dokumenta dolzhen masshtabirovat'sya po chislu voprosov v prezentatsii.
+
 ### Client containers
 
 Esli odin i tot zhe kurs vypuskaetsya dlya neskolkikh zakazchikov, release-papka rabotaet kak `release hub`:
@@ -524,6 +535,7 @@ Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 - `Pilot_Report_Template_v1.md`
 - `Test_Pack_Template_v1.md`
 - `Answer_Key_Template_v1.md`
+- `Test_Check_Sheet_Template_v1.md`
 - `Worker_Instruction_Template_v1.md`
 - `Worker_Handout_Template_v1.md`
 - `Update_Log_Template_v1.md`

@@ -12,6 +12,7 @@ Shablon nuzhen dlya vydachi zakazchiku ili prepodavatelyu otdelnogo klyucha otve
 - Data sborki:
 - Owner:
 - Dlya kakoy versii kursa:
+- Est li svyazannyy `test check sheet`:
 
 ## Pravila ispolzovaniya
 
