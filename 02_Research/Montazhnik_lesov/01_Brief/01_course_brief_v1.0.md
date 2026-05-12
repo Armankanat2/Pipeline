@@ -91,6 +91,9 @@
 
 ## 6. Materialy na vkhode
 
+- Klient predostavil iskhodnye materialy dlya production: chastichno, poka kak model budushchego white-label zakazchika
+- Chto imenno polucheno ot klienta: obshchiy zapros, trebovaniya k paketu i logika white-label / branded release
+- Chego ne khvataet ot klienta na starte: brandbook, logotipy, palitra, refy, lokalnye reglamenty, gotovye foto/video
 - Uchebniki: nuzhno sobrat
 - Instruktsii: nuzhno sobrat
 - Foto: nuzhno sobrat
@@ -103,7 +106,12 @@
 - Kto proveryaet metodiku: vnutrenniy metodicheskiy review
 - Kto proveryaet tekhnicheskuyu korrektnost: tekhnicheskiy ekspert po lesam, kogda budet opredelen
 - Kto utverzhdaet final: v ramkakh tekushchego etapa vy
-- Skolko krugov pravok dopustimo: do `3`
+- Nuzhen li formalnyy vybor dizayn-kontsepta klientom do production: da
+- Kto utverzhdaet vybrannyy dizayn-kontsept: konkretniy zakazchik ili ego soglasuyushchiy
+- Budet li klientskiy review gotovogo draft-proekta: da
+- Skolko klientskikh krugov pravok dopustimo v bazovom pakete: `2`
+- Mozhet li byt `3-y` klientskiy krug pravok: tolko po otdelnomu soglasovaniyu / `change request`
+- Chto schitaetsya vykhodom za ramki bazovogo paketa posle `2-go` kruga pravok: novye sushchestvennye izmeneniya v scope, soderzhanii ili dopolnitelnykh deliverables
 
 ## 8. Ogranicheniya
 

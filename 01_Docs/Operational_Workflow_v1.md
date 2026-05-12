@@ -104,6 +104,7 @@ Deystviya:
 
 - zapolnit course brief;
 - esli nuzhny raznye zakazchiki, sobrat brand profile;
+- poluchit ot klienta iskhodnye materialy dlya podgotovki kursa i vizualnogo shell: logotipy, palitru, brandbook, refy, lokalnye reglamenty, pri nalichii gotovye teksty, foto i video;
 - podgotovit design options pack, esli klientu nuzhen vybor mezhdu gotovymi vizualnymi shell-resheniyami;
 - zafiksirovat tselevoy slozhnostnyy track: `worker / ITR / mixed`;
 - otdelno proverit, nuzhen li voobshche `ITR` track dlya etogo kursa;
@@ -113,7 +114,9 @@ Deystviya:
 - opredelit tsel, auditoriyu, format i soglasuyushchikh;
 - opredelit, nuzhen li `online-ready` ili `self-paced` kontur;
 - zafiksirovat sostav klientskogo paketa;
+- zafiksirovat, kakie imenno iskhodnye materialy klient predostavil na starte i chego ne khvataet;
 - zafiksirovat, budet li klient vybirat odin iz `10` dizayn-kontseptov i kakoy variant vybran;
+- zafiksirovat bazovoe pravilo klientskogo soglasovaniya: `1` vybor dizayna + `2` klientskikh kruga pravok po gotovomu projektu;
 - zafiksirovat ogranicheniya.
 
 Rezultat:
@@ -234,6 +237,12 @@ Deystviya:
 - proyti metodicheskiy review;
 - proyti tekhnicheskiy review;
 - proyti dizayn-review;
+- sobrat odin konsolidirovannyy klientskiy review-pack po draft-proektu;
+- prinyat i zafiksirovat `1-y` krug klientskikh zamechaniy, esli kurs idet cherez soglasovanie s zakazchikom;
+- vnesti `1-y` krug klientskikh pravok vnutri tekushchego revision-loop;
+- pri neobkhodimosti prinyat i zafiksirovat `2-y` krug klientskikh zamechaniy;
+- vnesti `2-y` i finalnyy klientskiy krug pravok vnutri bazovogo paketa;
+- vse, chto poyavlyaetsya posle `2-go` klientskogo kruga i menyaet scope, oformlyat kak otdelnyy change request ili novuyu doprabotku, a ne kak beskonechnyy review-loop;
 - proverit, chto `instructor guide` pokryvaet `100%` aktualnogo `slide script`;
 - proyti `lecturer-ready` review: est li teaching paths, khvataet li tayminga, est li opora na slozhnye voprosy i ponyatno li, kak peredavat kurs drugomu lektoru;
 - proverit, ponyatno li eto rabochemu bez metodista ryadom, esli kurs sobiraetsya dlya `worker` track;
@@ -437,12 +446,25 @@ Krug review:
 2. Tekhnicheskiy review
 3. Finalnyy review pered release
 
+Standartnyy klientskiy cycle soglasovaniya bez izmeneniya struktury:
+
+1. Klient peredaet iskhodnye materialy i ogranicheniya na Stage `01 Intake`
+2. Klient vybirayet dizayn-kontsept ili soglashaetsya na `generic`
+3. Posle Stage `08 Visual Production` klient poluchaet gotovyy draft-proekt na review
+4. V bazovyy paket vkhodit `1-y` klientskiy krug pravok
+5. V bazovyy paket vkhodit `2-y` i finalnyy klientskiy krug pravok
+6. `3-y` klientskiy krug pravok vozmozhen tolko po otdelnomu soglasovaniyu kak isklyuchenie
+7. Vse novye sushchestvennye izmeneniya posle etogo idut kak change request, rasshirenie scope ili novaya iteratsiya
+
 Pravilo raboty s pravkami:
 
 - vse zamechaniya zapisivayutsya v odin QA report;
 - kazhdaya pravka imeet prioritet: `critical`, `important`, `optional`;
 - v release obyazatelno zakryvayutsya `critical`;
 - `optional` ne dolzhny blokirovat vypusk.
+- klientskie pravki ne dolzhny ukhodit v beskonechnyy tsikl: bazovyy limit `2` klientskikh kruga;
+- `3-y` krug pravok ne vklyuchen po umolchaniyu i vozmozhen tolko po otdelnomu soglasovaniyu;
+- esli posle `2-go` kruga poyavlyaetsya novyy obem rabot, ego nuzhno perevodit v change request, a ne schitat avtomaticheskim prodolzheniem bazovogo paketa.
 
 ## 11. Definition of Ready dlya perekhoda
 

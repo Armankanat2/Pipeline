@@ -26,6 +26,10 @@
 - Test check sheet: planned
 - Brand profile: generic white-label base
 - Dopolnitelnye materialy: net
+- Vybrannyy dizayn-kontsept: poka ne vybran, dopustim `D-06 Corporate Neutral` kak generic fallback
+- Klientskiy review round 1: planned
+- Klientskiy review round 2: planned
+- Change request posle bazovogo paketa: poka net
 
 ## Matritsa release-faylov
 
@@ -55,6 +59,8 @@
 - `critical`: net
 - `important`: release-folder structure defined
 - `optional`: net
+- Status `round 1` klientskikh pravok: eshche ne nachat
+- Status `round 2` klientskikh pravok: eshche ne nachat
 
 ## Ogranicheniya tekushchey versii
 

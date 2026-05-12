@@ -30,6 +30,7 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya sobiraet ne tolko pre
 - `clarity over beauty`;
 - `fast review loops`;
 - `updateable system`, a ne razovaya prezentatsiya.
+- `controlled client approval flow`, a ne beskonechnye pravki.
 
 ## 4. Rekomenduemyy instrumentariy
 
@@ -336,6 +337,18 @@ Trebovanie k design selection layer:
 - nado derzhat `10` gotovykh kontseptov kak bazovyy paket vybora;
 - vybor dizayna dolzhen fiksirovat'sya v brief i pri neobkhodimosti v brand profile;
 - esli klient ne vybral kontsept, po umolchaniyu dolzhen byt rekomendovannyy `generic` variant.
+
+Trebovanie k klientskomu approval cycle:
+
+- klientskiy stsenariy dolzhen ukladyvat'sya v tekushchiy pipeline bez otdelnogo "vnesistemnogo" kontura;
+- na starte klient predostavlyaet iskhodnye materialy: brandbook, logotipy, refy, normativnye ili korporativnye dopolneniya, pri nalichii gotovye teksty i vizualy;
+- do visual production klient mozhet vybrat odin iz `10` dizayn-kontseptov ili soglasit'sya na rekomenduemyy `generic` variant;
+- posle sborki draft-deck klient poluchaet odin konsolidirovannyy paket na review, a ne razbrosannye fragmenty;
+- v bazovyy paket soglasovaniya vhodit `2` klientskikh kruga pravok;
+- tretiy klientskiy krug pravok ne schitaetsya normoy i dopustim tolko po otdelnomu soglasovaniyu;
+- posle vtorogo klientskogo kruga pravok dalneyshee rasshirenie ili novye sushchestvennye izmeneniya dolzhny rassmatrivatsya kak novyy scope, doprabotka ili otdelnyy change request;
+- esli zaprashivaetsya tretiy krug pravok, ego nuzhno yavno oformit kak change request ili spetsialno odobrennoe isklyuchenie;
+- kolichestvo dopustimykh klientskikh krugov pravok dolzhno byt yavno zafiksirovano v brief.
 
 ## 13. Pravilo online-ready sborki
 

@@ -91,6 +91,9 @@
 
 ## 6. Materialy na vhode
 
+- Klient predostavil iskhodnye materialy dlya production:
+- Chto imenno polucheno ot klienta:
+- Chego ne khvataet ot klienta na starte:
 - Uchebniki:
 - Instruktsii:
 - Foto:
@@ -103,7 +106,12 @@
 - Kto proveryaet metodiku:
 - Kto proveryaet tekhnicheskuyu korrektnost:
 - Kto utverzhdaet final:
-- Skolko krugov pravok dopustimo:
+- Nuzhen li formalnyy vybor dizayn-kontsepta klientom do production:
+- Kto utverzhdaet vybrannyy dizayn-kontsept:
+- Budet li klientskiy review gotovogo draft-proekta:
+- Skolko klientskikh krugov pravok dopustimo v bazovom pakete: `2`
+- Mozhet li byt `3-y` klientskiy krug pravok: tolko po otdelnomu soglasovaniyu / `change request`
+- Chto schitaetsya vykhodom za ramki bazovogo paketa posle `2-go` kruga pravok:
 
 ## 8. Ogranicheniya
 

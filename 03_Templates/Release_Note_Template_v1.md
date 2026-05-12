@@ -25,6 +25,10 @@
 - Online handoff pack:
 - Brand profile:
 - Dopolnitelnye materialy:
+- Vybrannyy dizayn-kontsept:
+- Klientskiy review round 1:
+- Klientskiy review round 2:
+- Change request posle bazovogo paketa:
 
 ## Matritsa release-faylov
 
@@ -58,6 +62,8 @@
 - `critical`:
 - `important`:
 - `optional`:
+- Status `round 1` klientskikh pravok:
+- Status `round 2` klientskikh pravok:
 
 ## Ogranicheniya tekushchey versii
 
