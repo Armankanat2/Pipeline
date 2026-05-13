@@ -54,15 +54,15 @@ Rekomenduemyy format ID:
 
 Primer:
 
-- `ML-M02-S01`
-- `ML-M02-S02`
-- `ML-M04-S03`
+- `CRS-M02-S01`
+- `CRS-M02-S02`
+- `CRS-M04-S03`
 
 ## 4. Reestr segmentov
 
 | Segment ID | Modul / slayd | Track | Content layer | Route relevance | Stable ID est | Primechanie |
 |---|---|---|---|---|---|---|
-| ML-M01-S01 | `01 / 01-03` | `worker / ITR / mixed` | `core / standard / extended` | `all / korotkaya / srednyaya / dlinnaya` | `yes / no` |  |
+| CRS-M01-S01 | `01 / 01-03` | `worker / ITR / mixed` | `core / standard / extended` | `all / korotkaya / srednyaya / dlinnaya` | `yes / no` |  |
 
 ## 5. Master Transcript Blocks
 
@@ -70,13 +70,13 @@ Kazhdyy blok zapolnyaetsya na odin stabilnyy segment, a ne obyazatelno na odin s
 
 | Segment ID | On-screen summary | Voiceover master text | Simplified RU | Micro-check wording | Reference note | Critical terms |
 |---|---|---|---|---|---|---|
-| ML-M01-S01 |  |  |  |  |  |  |
+| CRS-M01-S01 |  |  |  |  |  |  |
 
 ## 6. Segment Delivery Mapping
 
 | Segment ID | Chto idet v audio | Chto idet v subtitles | Chto ostayotsya on-screen | Chto idet v reference | Asset-bound risk |
 |---|---|---|---|---|---|
-| ML-M01-S01 | `full / short / none` | `full / short / none` | `core message / title only / key phrase` | `link / glossary / FAQ / none` | `yes / no` |
+| CRS-M01-S01 | `full / short / none` | `full / short / none` | `core message / title only / key phrase` | `link / glossary / FAQ / none` | `yes / no` |
 
 ## 7. Kriticheskie terminologicheskie pravila
 
@@ -92,19 +92,19 @@ Zdes nuzhno chestno pometchat segmenty, gde chast smysla zhivet v kartinke, skhe
 
 | Segment ID | Gde est tekst v assete | Mozhno li kompensirovat audio/subtitles | Nuzhna li asset-refactor pozhe |
 |---|---|---|---|
-| ML-M01-S01 | `yes / no` | `yes / no` | `yes / no` |
+| CRS-M01-S01 | `yes / no` | `yes / no` | `yes / no` |
 
 ## 9. Variant / Track Sensitivity
 
 | Segment ID | Dlya kakikh variantov | Dlya kakikh trackov | Chto menyaetsya | Chto ostayotsya stabilnym |
 |---|---|---|---|---|
-| ML-M01-S01 | `all / korotkaya / srednyaya / dlinnaya` | `all / worker / ITR` |  |  |
+| CRS-M01-S01 | `all / korotkaya / srednyaya / dlinnaya` | `all / worker / ITR` |  |  |
 
 ## 10. Language Pack Readiness
 
 | Segment ID | Gotov dlya perevoda | Gotov dlya ozvuchki | Gotov dlya subtitrov | Chto nado dosobrat |
 |---|---|---|---|---|
-| ML-M01-S01 | `yes / no` | `yes / no` | `yes / no` |  |
+| CRS-M01-S01 | `yes / no` | `yes / no` | `yes / no` |  |
 
 ## 11. Conflict Check
 

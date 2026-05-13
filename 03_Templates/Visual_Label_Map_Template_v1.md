@@ -21,7 +21,7 @@ On ne zamenyaet `Asset Register` i ne dubliruet `Terminology Glossary`, a fiksir
 - Bazovyy yazyk:
 - Kakie language add-ons aktivny:
 - Svyazannyy `asset register`:
-- Svyazannyy `terminology glossary`:
+- Svyazannyy bazovyy `terminology glossary`:
 - Svyazannyy `multilang glossary`:
 
 ## 2. Rol visual label map
@@ -30,12 +30,14 @@ On ne zamenyaet `Asset Register` i ne dubliruet `Terminology Glossary`, a fiksir
 - Dlya kakogo delivery-scenariya on nuzhen:
 - Kakie assets schitayutsya multilingual-sensitive:
 - Chto v etoy iteratsii ne pokryvaetsya:
+- Bazovyy glossary schitaetsya primary source dlya safety-smysla i term-locka.
+- Multilang glossary schitaetsya secondary source dlya target-language form i delivery-adaptatsii.
 
 ## 3. Asset-to-Label Registry
 
-| Asset ID | Label ID | Asset type | Gde na assete zhivet label | Chto eto za obekt | Svazannyy Term ID | Asset-bound | Editable separately | Nuzhen redraw pozhe | Status |
-|---|---|---|---|---|---|---|---|---|---|
-| A-01 | L-01-01 | photo / scheme / icon / raster label | top / left / callout / caption / embedded |  | G-01 / ML-T01 | yes / no | yes / no | yes / no / maybe | draft / approved / blocked |
+| Asset ID | Label ID | Asset type | Gde na assete zhivet label | Chto eto za obekt | Bazovyy Term ID | Multilang Term ID | Asset-bound | Editable separately | Nuzhen redraw pozhe | Status |
+|---|---|---|---|---|---|---|---|---|---|---|
+| A-01 | L-01-01 | photo / scheme / icon / raster label | top / left / callout / caption / embedded |  | G-01 | ML-T01 | yes / no | yes / no | yes / no / maybe | draft / approved / blocked |
 
 ## 4. Label Language Matrix
 
@@ -47,9 +49,9 @@ Dlya kazhdogo `Label ID` nuzhno derzhat etalon i target-language formy otdelno o
 
 ## 5. Glossary Link Check
 
-| Label ID | Svazannyy Term ID | Sovpadaet li s glossary | Mozhno li ispolzovat uproshchennuyu formu | Nedopustimaya forma | Pochemu kritichno |
-|---|---|---|---|---|---|
-| L-01-01 | G-01 / ML-T01 | yes / no / partial | yes / no / partial |  |  |
+| Label ID | Bazovyy Term ID | Multilang Term ID | Sovpadaet li s glossary | Mozhno li ispolzovat uproshchennuyu formu | Nedopustimaya forma | Pochemu kritichno |
+|---|---|---|---|---|---|---|
+| L-01-01 | G-01 | ML-T01 | yes / no / partial | yes / no / partial |  |  |
 
 ## 6. Usage Mapping
 

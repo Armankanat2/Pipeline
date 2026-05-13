@@ -20,8 +20,14 @@ Done if:
 
 - ukazana professiya;
 - opredelena auditoriya;
+- zafiksirovan tselevoy track: `worker / ITR / mixed`;
 - ponyatna tsel kursa;
 - zafiksirovany sroki i format;
+- zafiksirovany ogranicheniya i kritichnye source-gaps;
+- razvedeny `base intake` i `optional intake expansion`;
+- po kazhdomu expansion-sloyu est reshenie: `required now / deferred / not applicable`;
+- esli kurs vyvoditsya iz chisto vnutrennego drafta v review ili release-contour, zafiksirovany `language style guide` i `terminology glossary`;
+- otdelno prinyato reshenie, nuzhen li voobshche `ITR` track;
 - esli nuzhen vneshniy production kontur, zafiksirovan publishing handoff scope;
 - opredelen zakazchik ili soglasuyushchiy.
 

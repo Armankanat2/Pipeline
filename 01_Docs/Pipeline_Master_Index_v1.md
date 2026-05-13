@@ -71,6 +71,13 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | `01_Docs/Multilingual_Delivery_Concept_v0.1.md` | `concept` | baza dlya mnogoiazychnogo delivery |
 | `01_Docs/Language_Rollout_Plan_v0.1.md` | `plan` | marshrut dlya language packs |
 
+### 3.3 Authoritative core vs notes-sloi
+
+- `README.md`, `Pipeline_Blueprint_v1.md`, `Operational_Workflow_v1.md`, `Definition_of_Done_v1.md` i `QA_Gates_v1.md` schitayutsya authoritative source dlya pravila sistemy.
+- Dokumenty vida `*_Notes_v0.1.md`, `*_Concept_v0.1.md`, `*_Plan_v0.1.md` i drugie neaktivnye sloi schitayutsya vspomogatelnymi nablyudatelnymi dokumentami i ne mogut perepisyvat authoritative core.
+- Esli notes-dokument protivorechit authoritative core, pravitsya notes-dokument ili on schitaetsya ustarevshim signalom, a ne naoborot.
+- Pri sborke novoy professii source of truth beretsya iz authoritative core i task board konkretnogo kursa, a ne iz starogo notes-sloya drugogo keysa.
+
 ## 4. Struktura repozitoriya
 
 | Papka | Soderzhanie |
