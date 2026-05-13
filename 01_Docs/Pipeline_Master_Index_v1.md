@@ -205,9 +205,15 @@ Osnovnaya ideya:
 
 ### Tekushchee sostoyanie na moment sborki index
 
-- stage: `Script expanded / Asset follow-up`
-- sleduyushchiy artefakt: `07_asset_register_v0.2.md`
-- posle etogo logicheskaya svyazka: `asset layer -> QA -> pilot/release`
+- source of truth po statusu: task board kursa
+- stage: `Course-core stabilization / pre-QA sync`
+- chto realno uzhe est:
+  - `06_slide_script_v0.1.md` razvernut po moduliam `01-07`, dlya `08-09` est skeleton, no net polnogo razvorota;
+  - `07_asset_register_v0.2.md` i deck-planning po slaydam `20-43` uzhe sobrany;
+  - test contour est kak draft-bank, no QA contour eshche ne proyden;
+  - release-, notes- i online-layer uzhe nachaty kak starter drafts, no ne schitayutsya finalnym release.
+- sleduyushchiy artefakt dlya zhestkogo zamykaniya core: `06_slide_script_v0.2.md`
+- posle etogo logicheskaya svyazka: `course-core closure -> QA readiness -> QA report -> final test / pilot / release`
 
 ## 10. Kak polzovatsya indexom v rabote
 

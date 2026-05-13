@@ -8,7 +8,7 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `02_Research` - issledovaniya, analiz, chernoviki i sobrannye materialy.
 - `03_Templates` - shablony dokumentov, struktur, cheklistov i prezentatsiy.
 - `04_QA` - kriterii proverki, review-materialy i kontrol kachestva.
-- `05_Release` - finalnye klientskie pakety i gotovye rezul'taty.
+- `05_Release` - finalnye klientskie pakety i gotovye rezul'taty; starter drafts i neapproved materialy ne dolzhny zhyt zdes kak release.
 
 ## Startovyy paket
 

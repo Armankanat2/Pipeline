@@ -107,6 +107,9 @@ Na vykhode:
 
 Deystviya:
 
+- snachala razvesti `base intake` i `optional intake expansion`;
+- `base intake` obyazatelno dolzhen zakryt: tsel, auditoriyu, format, srok, track, ogranicheniya, source gaps i release-boundaries;
+- dlya kazhdogo expansion-sloya prinyat otdelnoe reshenie: `required now / deferred / not applicable`;
 - zapolnit course brief;
 - esli nuzhny raznye zakazchiki, sobrat brand profile;
 - poluchit ot klienta iskhodnye materialy dlya podgotovki kursa i vizualnogo shell: logotipy, palitru, brandbook, refy, lokalnye reglamenty, pri nalichii gotovye teksty, foto i video;
@@ -139,6 +142,12 @@ Rezultat:
 - pri neobkhodimosti `01_language_style_guide.md`
 - pri neobkhodimosti `01_terminology_glossary.md`
 - pri neobkhodimosti `01_itr_requirements.md`
+
+Pravilo Stage `01`:
+
+- esli expansion-sloy ne nuzhen seychas, ego nado pometit kak `deferred` ili `not applicable`, a ne imitirovat ego nalichie;
+- Stage `01` ne dolzhen prevrashchat'sya v sborku vsekh budushchikh konturov odnovremenno;
+- dlya pervogo prokhoda kursa prioritet imeet zhiznesposobnyy `base intake`, a ne polnyy katalog rasshireniy.
 
 ### Stage 02 - Source Audit
 
@@ -377,6 +386,16 @@ Pravilo:
 
 - `Research` = rabotaem
 - `Release` = vydano
+
+Pravilo pre-release granitsy:
+
+- starter drafts, working drafts i neapproved materialy ne dolzhny zhyt v `05_Release` kak esli eto uzhe gotovyy paket;
+- do release-odobreniya ikh rabochaya zona ostayetsya v `02_Research`, dazhe esli oni opisyvayut budushchiy release-, notes-, online- ili publishing-contour;
+- v `05_Release` do approval dopustimo derzhat tolko:
+  - pustuyu release-strukturu;
+  - README i organizatsionnye zaglushki papok;
+  - yavno pomechennye admin-konteynery, esli oni nuzhny dlya sborki karkasa release.
+- kak tolko artefakt nachinaet schitat'sya release-grade i prokhodit svoy contour proverki, on mozhet pereekhhat v `05_Release`.
 
 ## 8. Naming Convention
 

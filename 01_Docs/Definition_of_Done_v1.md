@@ -71,8 +71,12 @@ Done if:
 
 - u kazhdogo slayda est tsel;
 - u kazhdogo slayda est osnovnaya mysl;
+- sobran obyazatelnyy `writer core`, a ne tolko chast kartochki;
 - est speaker notes;
-- est ukazaniya po vizualu;
+- ponyatno, na chem osnovan slayd (`source basis`);
+- viden perekhod: pochemu etot slayd stoit zdes i k kakomu sleduyushchemu resheniyu on vedet;
+- est ukazaniya po vizualu i chestno zafiksirovana asset dependency;
+- slaydy s blokiruyushchim visual gap ne zamaskirovany pod "gotovo";
 - net slaydov s dvumya raznymi smyslami.
 
 ## Stage 07 - Asset Collection
@@ -106,6 +110,8 @@ Done if:
 - proyden proofreading-review;
 - vse zamechaniya klassifitsirovany;
 - terminologiya i yazykovye pravila ne protivorechat glossary i style guide;
+- yesli est lektorskiy contour, `instructor guide` pokryvaet `100%` aktualnogo `slide script`;
+- yesli est publishing contour, ponyatny source bundle, rights-status, fonty i eksportnye pravila;
 - ponyatno, chto obyazatelno pravit do reliza.
 
 ## Stage 10 - Test Creation
@@ -135,6 +141,7 @@ Done if:
 - sobran finalnyy paket;
 - finalnye fayly nazvany po pravilu versiy;
 - release note zapolnen;
+- release-paket ne podmenyaetsya planned-slotami i starter drafts vmesto finalnykh faylov;
 - esli v release est lektorskiy kontur, v pakete est aktualnye `instructor guide` i `lecturer questions bank`;
 - esli kurs dolzhen byt portable v budushchiy online-produkt, v pakete est aktualnyy `online handoff` kontur;
 - esli v online-kontur dobavlen `gateway-ready` sloy, ego `gateway spec / manifest / event map` ne protivorechat release-versii kursa i ostayutsya optional rasshireniem, a ne obyazatelnym blokatorom release;

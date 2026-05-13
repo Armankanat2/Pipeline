@@ -4,13 +4,14 @@
 
 - Nazvanie kursa: `Montazhnik lesov`
 - Kod kursa: `ML`
-- Tekushchiy stage: `Script expanded / Asset follow-up`
+- Tekushchiy stage: `Course-core stabilization / pre-QA sync`
 - Owner: vy
 - Prioritet: vysokiy
 - Deadline: `2026-05-30`
-- Sledushchiy artefakt: `07_asset_register_v0.2.md`
-- Status gate: `pass with open asset and QA gaps`
-- Poslednee obnovlenie: `2026-05-12`
+- Source of truth po statusu: etot task board
+- Sledushchiy artefakt: `06_slide_script_v0.2.md`
+- Status gate: `revise before QA`
+- Poslednee obnovlenie: `2026-05-14`
 
 ## Tekushchie zadachi
 
@@ -21,10 +22,14 @@
 - [x] Sobrat job map professii
 - [x] Zafiksirovat learning outcomes
 - [x] Sobrat architecture kursa
-- [x] Nachat slide script
-- [x] Podobrat assets
-- [ ] Proyti QA
-- [x] Sobrat test
+- [x] Razvernut slide script po moduliam `01-07`
+- [x] Sobrat `07_asset_register_v0.2.md`
+- [x] Sobrat visual production plan i Batch 1 checklist
+- [x] Podgotovit draft test-bank
+- [ ] Razvernut moduli `08-09` do polnogo `course-core`
+- [ ] Proyti QA readiness sync
+- [ ] Proyti formalnyy QA
+- [ ] Finalizirovat test contour posle QA
 - [ ] Podgotovit pilot ili release
 
 ## Blokery
@@ -35,4 +40,4 @@
 
 ## Reshenie na tekushchiy moment
 
-Script teper razvernut po moduliam `01-07`, test contour rasshiren do `20` voprosov po moduliam `01-07`, a worker behavior map sobrana kak svyazka mezhdu architecture, script, testom i worker-materialami. Lektorskiy contour usilen: `instructor guide` teper pokryvaet slaydy `01-43`, dobavlen otdelnyy `lecturer questions bank`, a v `Pipeline` zafiksirovany `lecturer-ready` pravila i QA-checks. Dopolnitelno sobran starter `online handoff` contour: adaptation map, module summaries, narration pack i release-slot pod budushchiy LMS ili web-course. Sledushchiy fokus - dosobrat asset layer pod novye slaydy `20-43`, potom vernut'sya k QA i moduliam `08-09`.
+Course-core usilen, no eshche ne zamknut: script razvernut po moduliam `01-07`, dlya `08-09` est tolko skeleton; `07_asset_register_v0.2.md`, visual production plan i Batch 1 checklist uzhe sobrany; test contour est kak draft-bank, no ne dolzhen schitatsya finalizirovannym do QA. Lektorskiy, online- i release-sloi uzhe nachaty, no schitayutsya starter drafts, a ne priznakom gotovogo release. Sledushchiy fokus - zakryt `08-09`, potom proyti QA readiness i tolko posle etogo dvigat formalnyy QA, finalnyy test contour i release.

@@ -120,6 +120,28 @@ Minimalnyy nabor artefaktov po kursu:
 - `12_release_note.md`
 - `13_update_log.md`
 
+Pravilo `base vs optional`:
+
+- `base` - artefakty, bez kotorykh kurs ne prokhodit bazovyy production-marshrut;
+- `optional` - artefakty, kotorye podklyuchayutsya tolko kogda est realnyy delivery-, klientskiy ili publishing-zapros;
+- optional sloi ne dolzhny maskirovat'sya pod obyazatelnyy minimum.
+
+Bazovyy minimum dlya kazhdogo kursa:
+
+- `01_course_brief.md`
+- `02_source_register.md`
+- `03_job_map.md`
+- `04_learning_outcomes.md`
+- `05_course_architecture.md`
+- `06_slide_script.md`
+- `07_asset_register.md`
+- `09_qa_report.md`
+- `10_test_pack.md`
+- `10_answer_key.md`
+- `12_release_note.md`
+
+`01_language_style_guide.md` i `01_terminology_glossary.md` schitayutsya bazovoy editorial-oporoy, kak tolko kurs vykhodit za predely chisto vnutrennego drafta i peredayotsya v review ili release-contour.
+
 ## 8. Roli
 
 Minimalnaya model dlya komandy:
