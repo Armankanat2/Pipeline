@@ -23,6 +23,8 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `01_Docs/Pipeline_Gap_Audit_2026-05-12_v1.md`
 - `03_Templates/Course_Brief_Template.md`
 - `03_Templates/Source_Register_Template_v1.md`
+- `03_Templates/Language_Style_Guide_Template_v1.md`
+- `03_Templates/Terminology_Glossary_Template_v1.md`
 - `03_Templates/Job_Map_Template_v1.md`
 - `03_Templates/Learning_Outcomes_Template_v1.md`
 - `03_Templates/Master_Transcript_Template_v1.md`

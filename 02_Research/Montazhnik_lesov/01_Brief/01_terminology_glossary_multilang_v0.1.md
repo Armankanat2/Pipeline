@@ -10,7 +10,8 @@
 - Pervaya volna yazykov: `uz / tg / hi`
 - Vtoraya volna yazykov: `en / kk / ky`
 - Svyazannyy `master transcript`: `06_master_transcript_v0.1.md`
-- Svyazannyy `language style guide`: poka net otdelnogo course-level fayla
+- Svyazannyy `language style guide`: `01_language_style_guide_v0.1.md`
+- Svyazannyy bazovyy `terminology glossary`: `01_terminology_glossary_v0.1.md`
 
 ## Rol glossary
 
@@ -18,6 +19,7 @@
 - Dlya kakogo delivery-scenariya on nuzhen: `audio-first`, `subtitles`, `gateway`, `QR + direct link`
 - Kakie yazyki schitayutsya obyazatelnymi v etoy iteratsii: tolko `ru`; `uz / tg / hi` gotovyatsya kak `language add-on`
 - Kto utverzhdaet kriticheskie terminy: owner kursa + budushchiy language review / SME review
+- Etot glossary ne zamenyaet bazovyy `01_terminology_glossary_v0.1.md`, a rasshiryaet ego dlya multilingual-delivery
 
 ## Klassifikatsiya terminov
 

@@ -2,7 +2,8 @@
 
 ## Status
 
-Starter draft for future `ITR` adaptation.
+Deferred future layer for `ITR` adaptation.
+Dlya tekushchego `worker-only` course-core etot fayl schitaetsya `not applicable seychas` i ne vhodit v obyazatelnyy contour sborki.
 
 ## Obshchaya informatsiya
 
@@ -43,7 +44,8 @@ Etot podkhod nuzhen ne tolko dlya `Montazhnik lesov`, no i dlya budushchikh kurs
 
 ## Reshenie po gotovnosti
 
-- ITR-draft gotov dlya perenosa v architecture: `starter draft / yes`
+- Dlya tekushchego `worker-only` contoura status: `deferred / not applicable now`
+- Dlya budushchey ITR-adaptatsii status: `starter draft / future layer`
 - Chto nuzhno dosobrat:
   - normativnye osnovaniya dlya konkretnogo ITR-kursa;
   - matritsu roley i otvetstvennosti;

@@ -9,7 +9,8 @@
 - Bazovyy yazyk: `ru`
 - Aktivnye language add-ons: `uz / tg`, `hi` planned
 - Svyazannyy `asset register`: `07_asset_register_v0.1.md`
-- Svyazannyy `terminology glossary`: `01_Brief/01_terminology_glossary_multilang_v0.1.md`
+- Svyazannyy bazovyy `terminology glossary`: `01_Brief/01_terminology_glossary_v0.1.md`
+- Svyazannyy `multilang glossary`: `01_Brief/01_terminology_glossary_multilang_v0.1.md`
 - Svyazannyy `master transcript`: `06_Script/06_master_transcript_v0.1.md`
 
 ## 2. Rol visual label map
