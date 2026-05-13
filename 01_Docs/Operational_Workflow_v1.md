@@ -329,6 +329,7 @@ Deystviya:
 - sobrat instructor guide dlya lektora i eksportirovat ego v `PDF`;
 - sobrat otdelnyy `lecturer questions bank` i proverit, chto on sootvetstvuet aktualnoy versii script i testa;
 - sobrat `online adaptation map`, `module summary pack`, `narration pack` i finalnyy `online handoff pack`, esli kurs dolzhen byt portable v budushchiy online-produkt;
+- esli kurs sobiraetsya kak `Future-ready`, optionalno dobavit `gateway spec`, `gateway manifest` i `gateway event map` kak rasshirenie `online handoff`, a ne kak novyy obyazatelnyy stage;
 - sobrat `publishing handoff pack`, esli paket dolzhen byt peredan izdatelyu, tipografii ili vo vneshniy production kontur;
 - prilozhit `preflight checklist` so statusami print-ready / digital-ready / rights-cleared / fonts-confirmed;
 - proverit, chto instructor guide `QR-ready`, i na kazhdoy stranitse ostavlen slot pod optionalnyy QR-kod;
@@ -657,6 +658,8 @@ Minimalnye trebovaniya k `08_Online_Handoff`:
 - dolzhen byt `narration pack` s transcript-ready tekstom;
 - dolzhno byt ponyatno, chto perekhodit v video, chto v interaktiv, chto v quiz, a chto ostayotsya reference-blokom;
 - paket dolzhen umenshat obem povtornogo proektirovaniya pri sborke novogo online-produkta.
+- esli kurs pometchen kak `Future-ready`, paket mozhet optionalno vklyuchat `gateway spec`, `gateway manifest` i `gateway event map`;
+- nalichie `gateway`-artefaktov ne obyazatelno dlya `Base`-release i ne dolzhno blokirovat vypusk kursa.
 
 Minimalnye trebovaniya k `09_Publishing_Handoff`:
 

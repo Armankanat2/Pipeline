@@ -64,6 +64,9 @@
 | Module summary pack | MD | `online handoff` | `12_module_summary_pack_v1.0.md` | planned |
 | Narration pack | MD | `online handoff` | `12_narration_pack_v1.0.md` | planned |
 | Online handoff pack | MD | `online handoff` | `12_online_handoff_pack_v1.0.md` | planned |
+| Gateway spec | MD | `online gateway optional` | `12_gateway_spec_v1.0.md` | starter draft exists as `v0.1` |
+| Gateway manifest | MD | `online gateway optional` | `12_gateway_manifest_v1.0.md` | starter draft exists as `v0.1` |
+| Gateway event map | MD | `online gateway optional` | `12_gateway_event_map_v1.0.md` | starter draft exists as `v0.1` |
 | Publishing handoff pack | MD | `publishing handoff` | `12_publishing_handoff_pack_v1.0.md` | planned |
 | Preflight checklist | MD | `publishing handoff` | `12_preflight_checklist_v1.0.md` | planned |
 
@@ -85,6 +88,7 @@
 
 - Chto ne voshlo v release: sam deck, finalnyy test, finalnyy answer key, speaker notes
 - Chto ne voshlo v online handoff: finalnye release-grade versii adaptation map, module summaries, narration pack i online handoff pack eshche ne sobrany; poka est tolko starter drafts
+- Chto ne voshlo v gateway-ready contour: est primery `gateway spec v0.1`, `gateway manifest v0.1` i `gateway event map v0.1`; release-grade `v1.0` route/event detalizatsiya i platform-specific telemetry format eshche ne sobrany
 - Chto ne voshlo v publishing handoff: finalnyy source bundle, rights-cleared asset summary, font list, finalnyy preflight i testovaya pechat
 - Chto nuzhno proverit na pilote: naskolko rabochey okazhetsya svyazka `with-test / no-test` i khvataet li variantov dliny
 - Chto nuzhno peresmotret v sleduyushchey versii: realnuyu nuzhnost vsekh shesti kombinatsiy prezentatsii dlya zakazchika

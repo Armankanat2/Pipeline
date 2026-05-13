@@ -52,7 +52,9 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 - `04_Notes/12_instructor_guide_v1.0.pdf`
 - `04_Notes/12_speaker_notes_v1.0.md` ili ekvivalentnaya metodichka
 - `08_Online_Handoff/12_online_adaptation_map_v1.0.md`
+- `08_Online_Handoff/12_gateway_spec_v1.0.md` optionalno
 - `08_Online_Handoff/12_gateway_manifest_v1.0.md`
+- `08_Online_Handoff/12_gateway_event_map_v1.0.md` optionalno
 - `08_Online_Handoff/12_module_summary_pack_v1.0.md`
 - `08_Online_Handoff/12_narration_pack_v1.0.md`
 - `08_Online_Handoff/12_online_handoff_pack_v1.0.md`

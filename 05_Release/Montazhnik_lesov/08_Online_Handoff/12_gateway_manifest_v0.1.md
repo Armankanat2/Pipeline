@@ -7,8 +7,8 @@
 - Versiya: `v0.1`
 - Owner: vy
 - Uroven sborki: `Future-ready`
-- Svyazannyy `gateway spec`: poka net otdelnogo primer-zapolneniya, ispolzuetsya `Gateway_Spec_Template_v1`
-- Svyazannyy `gateway event map`: poka net otdelnogo primer-zapolneniya, ispolzuetsya `Gateway_Event_Map_Template_v1`
+- Svyazannyy `gateway spec`: `12_gateway_spec_v0.1.md`
+- Svyazannyy `gateway event map`: `12_gateway_event_map_v0.1.md`
 - Status manifesta: `working / starter draft`
 
 ## Rol manifesta
@@ -24,7 +24,7 @@
 |---|---|---|---|---|---|
 | ML-GW-BLD-01 | `srednyaya` | `worker` | `standard` | `starter draft` | moduli `01-07`, slaydy `01-43`, narration contour, module summaries, bazovye micro-check hooks |
 | ML-GW-BLD-02 | `korotkaya` | `worker` | `core` | `partial candidate` | moduli `01-04` kak compact route + final safety recap po `05-07` |
-| ML-GW-BLD-03 | `dlinnaya` | `worker` | `extended` | `planned` | rasshirennaya worker-sborka posle dosborki modulya `08-09`, finalnogo quiz mapping i asset contour |
+| ML-GW-BLD-03 | `dlinnaya` | `worker` | `extended` | `planned only` | rasshirennaya worker-sborka posle dosborki moduley `08-11`, finalnogo recap/quiz contour i asset contour |
 | ML-GW-BLD-04 | `srednyaya` | `ITR` | `standard` | `planned only` | budushchaya adaptatsiya na baze `01_itr_requirements_v0.1` bez gotovogo online-content pack |
 
 ## Reestr content-blokov
@@ -100,7 +100,7 @@ Kazhdyy blok zavazan na uzhe sushchestvuyushchie artefakty `online handoff`.
 
 ## Gaps i nedostayushchie elementy
 
-- Kakikh blokov poka ne khvataet dlya `gateway-ready` sborki: moduli `08-09`, finalnyy recap po `10`, finalnyy test routing po `11`
+- Kakikh blokov poka ne khvataet dlya `gateway-ready` sborki: moduli `08-11`, vklyuchaya finalnyy recap po `10` i test routing po `11`
 - Gde net ustoychivykh ID: u chasty direct-link i asset contour
 - Gde content est, no ne razdelen po sloyam: v module `05-07`, gde slishkom mnogo logiki zhivet v presentational sequence
 - Gde est risk, chto odin blok slishkom zavisit ot prezentatsionnoy logiki: `ML-M05-07-ASSEMBLY-OPS`

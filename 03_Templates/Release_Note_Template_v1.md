@@ -63,6 +63,9 @@
 | Module summary pack | MD | `online handoff` |  | planned / ready / skipped |
 | Narration pack | MD | `online handoff` |  | planned / ready / skipped |
 | Online handoff pack | MD | `online handoff` |  | planned / ready / skipped |
+| Gateway spec | MD | `online gateway optional` |  | planned / ready / skipped |
+| Gateway manifest | MD | `online gateway optional` |  | planned / ready / skipped |
+| Gateway event map | MD | `online gateway optional` |  | planned / ready / skipped |
 | Publishing handoff pack | MD | `publishing handoff` |  | planned / ready / skipped |
 | Preflight checklist | MD | `publishing handoff` |  | planned / ready / skipped |
 

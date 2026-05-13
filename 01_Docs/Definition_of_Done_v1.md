@@ -137,6 +137,7 @@ Done if:
 - release note zapolnen;
 - esli v release est lektorskiy kontur, v pakete est aktualnye `instructor guide` i `lecturer questions bank`;
 - esli kurs dolzhen byt portable v budushchiy online-produkt, v pakete est aktualnyy `online handoff` kontur;
+- esli v online-kontur dobavlen `gateway-ready` sloy, ego `gateway spec / manifest / event map` ne protivorechat release-versii kursa i ostayutsya optional rasshireniem, a ne obyazatelnym blokatorom release;
 - esli paket ukhodit vo vneshniy production kontur, v pakete est aktualnyy `publishing handoff` kontur i `preflight checklist`;
 - release-grade dokumenty ne soderzhat bitoy kodirovki i sluchaynykh smesey alfavitov;
 - po klyuchevym assetam i brand-materialam net neproyasnennykh pravovykh blokov;
