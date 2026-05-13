@@ -23,6 +23,19 @@ Sleduyushchaya iteratsiya:
 - moduli `08-09` kak sleduyushchiy prioritet dlya script
 - backfill novykh writer-first poley po moduliam `01-07`, ne lomaia uzhe sobrannuyu logiku
 
+## Generic-safe content rule
+
+- Etot script dolzhen ostavat'sya v `generic-safe` granitse, poka net pasporta konkretnoy sistemy lesov, lokalnykh reglamentov i ekspertnoy validatsii
+- Mozhno zhestko fiksirovat:
+  - logiku dopuska, SIZ, stop-signalov i eskalatsii;
+  - bazovye printsipy podgotovki ploshchadki, priemki elementov, proverki i bezopasnoy posledovatelnosti rabot;
+  - obshchuyu logiku ustoychivosti, krepleniy, nagruzki i zapreta na opasnuyu improvizatsiyu.
+- Nelzya bez dopolnitelnykh istochnikov fiksirovat kak obyazatelnuyu normu:
+  - tochnyy poryadok sborki imenno dlya konkretnoi sistemy;
+  - konkretnye skhemy krepleniya i shag krepleniy;
+  - tochnye dopustimye nagruzki i lokalnye poryadki dopuska, esli oni zavisyat ot rabotodatelya ili pasporta sistemy.
+- Esli v slayde voznikayet risk system-specific utverzhdeniya, prioritet u printsipa, a ne u lozhnoi konkretnosti.
+
 ## Kartochki slaydov
 
 ### Slayd 01
@@ -756,6 +769,30 @@ Sleduyushchaya iteratsiya:
 - Svyazannyy vopros testa: `Q-43`
 - Primechanie dlya dizayna: odna kompaktnaya skhema, podkhodyashchaya i dlya short-versii
 
+## Predvaritelnyy skeleton moduley `08-09`
+
+Etot skeleton nuzhen, chtoby zakryt nepreryvnost course-core bez perenosa testa iz kontsa prezentatsii.
+
+### Modul `08`. Tipovye oshibki i avariynye predposylki
+
+- `Slayd 44` `principle`: oshibki nado lovit do intsidenta, a ne posle nego
+- `Slayd 45` `comparison`: tipovye oshibki pri montazhe `mozhno / nelzya`
+- `Slayd 46` `comparison`: tipovye oshibki pri ekspluatatsii `dopustimo / opasno`
+- `Slayd 47` `hazard signs`: priznaki opasnoy konstruktsii i situatsii `stop / ne stop`
+- `Slayd 48` `scenario`: problemnyy keys s resheniem `prodolzhit / ostanovit / eskalirovat`
+- `Slayd 49` `summary`: red flags modulia `08` v odnom opornom spiske
+
+### Modul `09`. Bezopasnyy demontazh
+
+- `Slayd 50` `principle`: demontazh eto otdelnaya bezopasnaya operatsiya, a ne "obratnaya sborka bez pravil"
+- `Slayd 51` `sequence`: bazovaya logika demontazha po shagham
+- `Slayd 52` `zone control`: opasnaya zona, marshruty, snyatie elementov bez sbrosa vniz
+- `Slayd 53` `comparison`: pravilnyy i opasnyy demontazh
+- `Slayd 54` `scenario`: keys po spornomu deystviyu pri demontazhe s resheniem `stop / prodolzhit / eskalirovat`
+- `Slayd 55` `summary`: printsipy bezopasnogo demontazha kak most k itogam kursa
+
+- Finalnyy testovyy blok etim skeletonom ne perenositsya i po-prezhnemu ostayetsya v kontse prezentatsii posle obuchayushchego contoura.
+
 ## Primechanie po variativnosti
 
 - `Short`: ostavlyaem slaydy `01`, `02`, `04`, `05`, `06`, `09`, `10`, `11`, `14`, `15`, `17`, `19`, `20`, `21`, `22`, `23`, `26`, `27`, `28`, `29`, `31`, `35`, `36`, `37`, `38`, `39`, `43`
@@ -766,6 +803,6 @@ Sleduyushchaya iteratsiya:
 
 V sleduyushchey iteratsii nuzhno razvernut:
 
-- `08` Tipovye oshibki i avariynye predposylki
-- `09` Bezopasnyy demontazh
+- `08` Tipovye oshibki i avariynye predposylki po etomu skeletonu
+- `09` Bezopasnyy demontazh po etomu skeletonu
 - rasshirit testovyy blok po modulyam `05-07`, kogda novyy script budet stabilen

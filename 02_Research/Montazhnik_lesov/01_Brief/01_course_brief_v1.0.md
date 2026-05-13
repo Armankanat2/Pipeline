@@ -87,6 +87,22 @@
 - Est li tablitsa tem dlya A5-handout: da, nuzhno vesti v otdelnom shablone
 - Nuzhno li formirovat spisok utochnyayushchikh voprosov dlya A5-handout: da
 
+## 4A. Obyazatelnyy course-core etoy iteratsii
+
+- Tekushchiy `reference build` sobiraetsya kak `worker`-kurs bez otdelnogo `ITR`-rasshireniya
+- Obyazatelno dovoditsya yadro `01-11`, gde finalnyy test ostayetsya v kontse prezentatsii
+- Kurs v etoy iteratsii dolzhen ostavatsya `generic-safe`: bez lozhnoy privyazki k konkretnoy sisteme lesov tam, gde net pasporta sistemy i ekspertnoy validatsii
+- Obyazatelnyy vykhod etoy iteratsii: stabilnyy `PPTX/PDF` worker-core s bazovoy logikoy dopuska, sborki, proverki, ekspluatatsii i demontazha
+- Dizayn, worker-materialy, `A3`, `A5`, `online portability` i branded-sloty podderzhivayutsya kak kontury sborki, no ne dolzhny razmyvat obyazatelnyy course-core
+
+## 4B. Ne vhodit v obyazatelnuyu pobedu etoy iteratsii
+
+- finalnaya white-label zrelost dlya neskolkikh zakazchikov
+- polnostyu sobrannyy `online handoff pack`
+- gotovyy publishing / print contour vo vneshniy production bez dopolnitelnogo preflight
+- glubokaya klientskaya adaptatsiya `A5` i worker-paketa
+- system-specific claims po tipu lesov bez `S-10`, `S-11` i `S-13`
+
 ## 5. Obyazatelnyy kontent
 
 - TB: rabota na vysote, dopusk, ispolzovanie SIZ, proverka ustoychivosti, zapret na opasnye deystviya

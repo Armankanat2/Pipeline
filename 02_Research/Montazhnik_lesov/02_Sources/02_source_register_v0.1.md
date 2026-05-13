@@ -39,6 +39,20 @@
 - Legacy-istochnik dlya sopostavleniya so starymi sistemami: `GOST 24258-88`
 - Foto, video i skhemy realnykh uzlov i tipovykh oshibok
 
+## Specificity boundary
+
+- Chto uzhe mozhno utverzhdat kak `generic-safe`:
+  - bazovuyu logiku dopuska, SIZ, stop-signalov i eskalatsii;
+  - printsip podgotovki ploshchadki, priemki elementov i proverki pered ekspluatatsiey;
+  - obshchuyu logiku ustoychivosti, krepleniy i nedopustimosti opasnoy improvizatsii.
+- Chto nelzya zhestko utverzhdat bez `S-10`, `S-11` i `S-13`:
+  - tochnuyu posledovatelnost sborki imenno dlya konkretnoy sistemy lesov;
+  - konkretnye skhemy krepleniya, shag krepleniy i dopustimye nagruzki;
+  - lokalnyy poryadok dopuska, osmotra i ekspluatatsii, esli on zavisit ot reglamentov rabotodatelya.
+- Kak eto vliyaet na course-core seychas:
+  - moduli `03`, `06`, `07` i `09` mozhno delat kak `generic-safe core`;
+  - vse system-specific formulirovki v etikh modulyakh nuzhno otkladyvat do polucheniya `S-10`, `S-11` i `S-13`.
+
 ## Gap analysis
 
 - Chego ne khvataet:

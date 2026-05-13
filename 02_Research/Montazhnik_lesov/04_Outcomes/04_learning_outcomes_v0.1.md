@@ -23,7 +23,7 @@
 | LO-10 | Bezopasnaya ekspluatatsiya | Slushatel mozhet opredelit deystviya polzovatelya, kotorye privodyat k peregruzke, padeniyu predmetov ili drugomu opasnomu rezhimu raboty | Dat situatsionnye voprosy po ekspluatatsii i poprosit vybrat bezopasnoye reshenie | situational | core |
 | LO-11 | Tipovye oshibki | Slushatel mozhet raspoznat tipovye oshibki pri montazhe, ekspluatatsii i demontazhe na foto ili v opisanii situatsii | Pokazat foto / opisanie i poprosit klassifitsirovat oshibku | visual / situational | core |
 | LO-12 | Demontazh | Slushatel mozhet vyстроit bezopasnuyu posledovatelnost demontazha i opredelit deystviya, kotorye mogut privesti k obvalu | Dat scenario demontazha i poprosit nayti opasnye deystviya ili rasstavit shagi po poryadku | situational / test | core |
-| LO-13 | Ogranicheniya i eskalatsiya | Slushatel mozhet opredelit, v kakikh sluchayakh nuzhno ostanovit raboty i peredat vopros masteru, ekspertu ili otvetstvennomu za bezopasnost | Dat problemnyy keys i poprosit prinyat reshenie `prodolzhit / ostanovit / eskalirovat` | situational | supporting |
+| LO-13 | Ogranicheniya i eskalatsiya | Slushatel mozhet opredelit, v kakikh sluchayakh nuzhno ostanovit raboty i peredat vopros masteru, ekspertu ili otvetstvennomu za bezopasnost | Dat problemnyy keys i poprosit prinyat reshenie `prodolzhit / ostanovit / eskalirovat` | situational | core |
 
 ## Pravila formulirovki
 
@@ -38,6 +38,13 @@
 - Prakticheskie deystviya: `LO-03`, `LO-04`, `LO-05`, `LO-06`, `LO-07`, `LO-08`, `LO-09`, `LO-12`
 - Tipovye oshibki: `LO-05`, `LO-07`, `LO-10`, `LO-11`, `LO-12`
 - Dopusk / proverka: `LO-01`, `LO-02`, `LO-09`, `LO-13`
+
+## Evidence dependency
+
+- `generic-safe enough uzhe seychas`: `LO-01`, `LO-02`, `LO-04`, `LO-06`, `LO-09`, `LO-10`, `LO-13`
+- `silno nuzhdayutsya v vizualnoy podderzhke`: `LO-03`, `LO-05`, `LO-07`, `LO-11`
+- `nuzhdayutsya v utochnenii po pasportu sistemy`: `LO-08`, `LO-12`
+- `nuzhdayutsya v ekspertnoy proverke pered finalnym release`: `LO-03`, `LO-05`, `LO-07`, `LO-08`, `LO-11`, `LO-12`, `LO-13`
 
 ## Gap analysis
 

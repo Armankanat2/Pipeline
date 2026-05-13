@@ -47,6 +47,14 @@
 - Proverka: modul `11`
 - Mozhno li otklyuchit blok voprosov bez peresborki osnovnogo potoka: da, modul `11` dolzhen ostavatsya otdelyaemym ot lektsionnogo kontura
 
+## Reference build boundary
+
+- Tekushchaya pervaya etalonnaya sborka eto `worker`-course-core bez otdelnogo `ITR`-sloya
+- V obyazatelnuyu pobedu etogo `reference build` vkhodit stabilnaya logika moduley `01-11`, gde finalnyy test ostayetsya v module `11` v kontse prezentatsii
+- `LO-13 / stop-eskalatsiya` schitaetsya odnim iz osnovnykh spiney kursa, a ne vspomogatelnym dopolneniem
+- Moduli `03`, `06`, `07` i `09` ostayutsya chastyu course-core, no do polucheniya pasporta sistemy i ekspertnoi validatsii ikh nado derzhat v `generic-safe` granitse
+- Modul `11` ostayetsya finalnym proverochno-testovym blokom i ne dolzhen peretashchit na sebya ves obuchayushchiy contour; osnovnaya metodicheskaya rabota po-prezhnemu delaetsya v modulakh `01-10`
+
 ## Logika raspredeleniya nagruzki
 
 - `short`: 5-8 slaydov
