@@ -96,9 +96,9 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | `01` | Intake | ramka kursa i usloviya sborki | `01_course_brief.md` |
 | `02` | Source Audit | reestr istochnikov i probelov | `02_source_register.md` |
 | `03` | Job Decomposition | karta professii, riskov i oshibok | `03_job_map.md` |
-| `04` | Learning Outcomes | proverяемye outcomes | `04_learning_outcomes.md` |
+| `04` | Learning Outcomes | proveryaemye outcomes | `04_learning_outcomes.md` |
 | `05` | Course Architecture | logika modulya i struktura kursa | `05_course_architecture.md` |
-| `06` | Scriptwriting | pokadrovy / poslaĭdovy kontur | `06_slide_script.md` |
+| `06` | Scriptwriting | pokadrovy / poslaydovy kontur | `06_slide_script.md` |
 | `07` | Asset Collection | visual layer i rights-status | `07_asset_register.md` |
 | `08` | Visual Production | draft deck | `course-code_08_draft_vX.Y.pptx` |
 | `09` | QA Review | konsolidirovannaya proverka | `09_qa_report.md` |
