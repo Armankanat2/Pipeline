@@ -16,6 +16,8 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `01_Docs/Definition_of_Done_v1.md`
 - `01_Docs/Operational_Workflow_v1.md`
 - `01_Docs/Feedback_Learning_Loop_v0.1.md`
+- `01_Docs/Language_Rollout_Plan_v0.1.md`
+- `01_Docs/Multilingual_Delivery_Concept_v0.1.md`
 - `01_Docs/Online_Gateway_Concept_v0.1.md`
 - `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md`
 - `01_Docs/Pipeline_Gap_Audit_2026-05-12_v1.md`
@@ -23,6 +25,8 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `03_Templates/Source_Register_Template_v1.md`
 - `03_Templates/Job_Map_Template_v1.md`
 - `03_Templates/Learning_Outcomes_Template_v1.md`
+- `03_Templates/Master_Transcript_Template_v1.md`
+- `03_Templates/Terminology_Glossary_Multilang_Template_v1.md`
 - `03_Templates/Course_Architecture_Template_v1.md`
 - `03_Templates/Worker_Behavior_Map_Template_v1.md`
 - `03_Templates/ITR_Presentation_Requirements_Template_v1.md`

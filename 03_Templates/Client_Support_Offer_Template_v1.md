@@ -130,6 +130,8 @@ Otmetit nuzhnye moduli:
 - obnovlenie `instructor guide` i `lecturer questions bank`;
 - obnovlenie `online handoff`-kontura;
 - release-perevypusk `PPTX / PDF`;
+- podklyuchenie novykh `language packs` poverkh bazovogo `ru` release;
+- obnovlenie sushchestvuyushchikh `language packs`, audio i subtitles;
 - podgotovka obosnovannogo spiska pravok s prioritetami;
 - otchetnost po signalam i prinyatym resheniyam.
 
@@ -139,6 +141,7 @@ Otdelno zafiksirovat, chto servis ne oznachaet:
 
 - beskonechnye pravki bez version-rule;
 - peresborku uchebnogo yadra po odnomu klientskomu pozhelaniyu;
+- avtomaticheskoe vklyuchenie inostrannykh yazykov v kazhdyy bazovyy paket bez zaprosa zakazchika;
 - vklyuchenie novogo scope bez otdelnogo soglasovaniya;
 - srochnoe vnesenie izmeneniy v aktivnyy release bez formalnogo resheniya;
 - izmenenie globalnykh pravil vsego `Pipeline` po odnomu kursu bez proverki na pattern.
@@ -151,6 +154,7 @@ Otdelno zafiksirovat, chto servis ne oznachaet:
 - Format peredachi pravok: `package update / release update / service cycle`
 - Kto so storony klienta sobiraet kommentarii:
 - Kto so storony klienta imeet pravo zakazyvat izmeneniya:
+- Kto so storony klienta mozhet zakazyvat novye yazyki ili multilingual-support:
 - Kto so storony komandy vedet maintenance:
 
 ## 8. Itogovoe predlozhenie

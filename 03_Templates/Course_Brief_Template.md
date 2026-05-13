@@ -17,6 +17,9 @@
 - Esli `no`, to vse ITR-artefakty i ITR-sloy ne sobirayutsya:
 - Uroven podgotovki:
 - Yazyk auditorii:
+- Bazovyy obyazatelnyy yazyk release: `ru`
+- Nuzhny li inostrannye yazyki tolko po zaprosu zakazchika: `yes / no`
+- Zaprosheny li language add-ons na etom kurse:
 - Ogranicheniya po vospriyatiyu:
 - Ozhidaemoe kolichestvo slushateley:
 
@@ -49,6 +52,9 @@
 - Bukvennye metki variantov otveta v finalnom klientskom makete:
 - Tolko odin pravilnyy otvet na vopros:
 - Nuzhna li ozvuchka:
+- Nuzhen li multilingual contour poverkh `ru`:
+- Kakie yazyki zaprashivaet zakazchik:
+- Otnositsya li mnogoiazychnyy sloy k bazovomu paketu ili k otdelnomu rasshireniyu:
 - Nuzhny li direct links v prezentatsii:
 - Nuzhny li QR-kody v prezentatsii:
 - Nuzhna li `online portability`, dazhe esli online-versiya ne sobiraetsya srazu:
@@ -120,6 +126,7 @@
 - Skolko klientskikh krugov pravok dopustimo v bazovom pakete: `2`
 - Mozhet li byt `3-y` klientskiy krug pravok: tolko po otdelnomu soglasovaniyu / `change request`
 - Chto schitaetsya vykhodom za ramki bazovogo paketa posle `2-go` kruga pravok:
+- Schitaetsya li podklyuchenie novogo yazyka otdelnym `change request / add-on`:
 
 ## 8. Ogranicheniya
 
