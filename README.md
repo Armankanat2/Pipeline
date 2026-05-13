@@ -15,6 +15,8 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `01_Docs/Pipeline_Blueprint_v1.md`
 - `01_Docs/Definition_of_Done_v1.md`
 - `01_Docs/Operational_Workflow_v1.md`
+- `01_Docs/Feedback_Learning_Loop_v0.1.md`
+- `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md`
 - `01_Docs/Pipeline_Gap_Audit_2026-05-12_v1.md`
 - `03_Templates/Course_Brief_Template.md`
 - `03_Templates/Source_Register_Template_v1.md`

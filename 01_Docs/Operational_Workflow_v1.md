@@ -304,7 +304,13 @@ Deystviya:
 
 - provesti probnyy zapusk;
 - sobrat feedback;
-- razobrat oshibki i provaly po vnimaniyu.
+- razobrat oshibki i provaly po vnimaniyu;
+- otdelit edinichnye mneniya ot povtoryaemykh patternov;
+- zafiksirovat kazhdyy znachimyy signal cherez obyazatelnuyu klassifikatsiyu: `source / type / frequency / impact`;
+- ne zapuskat pravki kursa priamo iz kommentariya bez klassifikatsii prichiny;
+- proverit signal cherez `conflict check`: `pattern > single`, `core > client`, `method > convenience`, `version > speed`, `pipeline > local`;
+- zafiksirovat, kakie signaly mogut stat kandidatom na `patch`, `minor`, `major` ili `escalate`;
+- ne menyat release-pryamuyu versiyu kursa vo vremya pilota bez otdelnogo version-rule resheniya.
 
 Rezultat:
 
@@ -341,7 +347,14 @@ Deystviya:
 
 - sledit za izmeneniyami v normativakh;
 - obnovlyat kurs po grafiku;
-- vesti zhurnal izmeneniy.
+- vesti zhurnal izmeneniy;
+- sobirat signaly iz `pilot`, `test`, `QA`, `client`, `lecturer`, `learner`, `regulation` i ekspluatatsii;
+- klassifitsirovat signaly po edinym polyam: `source / type / frequency / impact`;
+- ne smeshivat `bug fix`, `content improvement` i `scope expansion`;
+- primenyat zhestkie prioritety pri konfliktakh: `pattern > single`, `core > client`, `method > convenience`, `version > speed`, `pipeline > local`;
+- prinimat po kazhdomu signalu formalnoe reshenie: `ignore / monitor / patch / minor / major / escalate to pipeline`;
+- vnosit izmeneniya tolko cherez `version rule`, a ne tikhoy pravkoy v release;
+- ne menyat pravila vsego `Pipeline` po odnomu lokalnomu sluchayu bez proverki na povtoryaemost.
 
 Rezultat:
 
