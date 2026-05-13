@@ -16,6 +16,7 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `01_Docs/Definition_of_Done_v1.md`
 - `01_Docs/Operational_Workflow_v1.md`
 - `01_Docs/Feedback_Learning_Loop_v0.1.md`
+- `01_Docs/Online_Gateway_Concept_v0.1.md`
 - `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md`
 - `01_Docs/Pipeline_Gap_Audit_2026-05-12_v1.md`
 - `03_Templates/Course_Brief_Template.md`
@@ -39,6 +40,9 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `03_Templates/Client_Feedback_Form_Short_Template_v1.md`
 - `03_Templates/Client_Support_Offer_Template_v1.md`
 - `03_Templates/Design_Options_Pack_Template_v1.md`
+- `03_Templates/Gateway_Event_Map_Template_v1.md`
+- `03_Templates/Gateway_Manifest_Template_v1.md`
+- `03_Templates/Gateway_Spec_Template_v1.md`
 - `03_Templates/Instructor_Guide_Template_v1.md`
 - `03_Templates/Worker_Instruction_Template_v1.md`
 - `03_Templates/Worker_Handout_Template_v1.md`

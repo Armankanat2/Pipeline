@@ -5,6 +5,7 @@ Syuda kladetsya paket dlya budushchey sborki `LMS`, `web-course` ili drugogo `se
 Ozhidaemye fayly:
 
 - `12_online_adaptation_map_v0.1.md`
+- `12_gateway_manifest_v0.1.md`
 - `12_module_summary_pack_v0.1.md`
 - `12_narration_pack_v0.1.md`
 - `12_online_handoff_pack_v0.1.md`
