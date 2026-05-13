@@ -334,6 +334,7 @@ Deystviya:
 - proverit, chto instructor guide `QR-ready`, i na kazhdoy stranitse ostavlen slot pod optionalnyy QR-kod;
 - prilozhit otdelnyy klyuch otvetov;
 - prilozhit ili obnovit `proofreading QA checklist`, esli paket idet vo vneshniy kontur;
+- esli klient daet formalnye zamechaniya posle review ili ekspluatatsii, sobirat ikh cherez vneshnyuyu `client feedback short form`, a ne po razroznennym kommentariyam;
 - prinyat poslednie pravki;
 - zafiksirovat versiyu.
 
@@ -349,6 +350,7 @@ Deystviya:
 - obnovlyat kurs po grafiku;
 - vesti zhurnal izmeneniy;
 - sobirat signaly iz `pilot`, `test`, `QA`, `client`, `lecturer`, `learner`, `regulation` i ekspluatatsii;
+- v sluchae klientskikh pravok ili zamechaniy snachala prinimat ikh cherez vneshnyuyu `client feedback short form`, zatem perenosit vo vnutrennyuyu `client feedback form` i v reestr signalov;
 - klassifitsirovat signaly po edinym polyam: `source / type / frequency / impact`;
 - ne smeshivat `bug fix`, `content improvement` i `scope expansion`;
 - primenyat zhestkie prioritety pri konfliktakh: `pattern > single`, `core > client`, `method > convenience`, `version > speed`, `pipeline > local`;
