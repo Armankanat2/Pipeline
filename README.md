@@ -39,12 +39,15 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `01_Docs/Resource_Focus_Model_v0.1.md`
 - `01_Docs/Continuous_Improvement_Loop_v0.1.md`
 - `01_Docs/Legal_Source_Policy_v0.1.md`
+- `01_Docs/High_Risk_Education_Regulatory_Base_v0.1.md`
 - `01_Docs/Language_Rollout_Plan_v0.1.md`
 - `01_Docs/Multilingual_Delivery_Concept_v0.1.md`
 - `01_Docs/Online_Gateway_Concept_v0.1.md`
 - `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md`
 - `01_Docs/Pipeline_Gap_Audit_2026-05-12_v1.md`
 - `03_Templates/Variant_Profile_Template_v1.md`
+- `03_Templates/Profession_Register_Template_v1.md`
+- `03_Templates/Profession_Requirement_Card_Template_v1.md`
 - `03_Templates/Legal_Review_Form_Template_v1.md`
 - `03_Templates/Change_Request_Template_v1.md`
 - `03_Templates/Decision_Log_Template_v1.md`

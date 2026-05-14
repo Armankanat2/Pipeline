@@ -64,6 +64,7 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | `01_Docs/Resource_Focus_Model_v0.1.md` | kak sistema kontsentriruet usiliya na uzkikh mestakh |
 | `01_Docs/Continuous_Improvement_Loop_v0.1.md` | kak signaly prevrashchayutsya v uluchsheniya shablonov, protsessa i pravil |
 | `01_Docs/Legal_Source_Policy_v0.1.md` | kak rabotat s RF-law references bez vymyshlennoy normativki i tikhikh zamen |
+| `01_Docs/High_Risk_Education_Regulatory_Base_v0.1.md` | bazovaya normativnaya karta dlya worker professions i high-risk works |
 | `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md` | kak ne razduvat sistemu pri smotrenii v budushchie kontury |
 
 ### 3.2 Issledovatelskie, no poka neblokiruyushchie sloi
@@ -71,6 +72,7 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | Dokument | Status | Zachem nuzhen |
 |---|---|---|
 | `01_Docs/Legal_Risk_Register_v0.1.md` | `inactive / research-only` | pravovaya watchlist bez ostanovki production-raboty |
+| `02_Research/Profession_Base_High_Risk` | `active / buildout` | reestr profession base dlya opasnykh i vysokoriskovykh worker-keysov |
 | `01_Docs/Online_Gateway_Concept_v0.1.md` | `concept` | baza dlya budushchego online/gateway contour |
 | `01_Docs/Multilingual_Delivery_Concept_v0.1.md` | `concept` | baza dlya mnogoiazychnogo delivery |
 | `01_Docs/Language_Rollout_Plan_v0.1.md` | `plan` | marshrut dlya language packs |
@@ -220,6 +222,14 @@ Eti kontury ne vsegda nuzhny, no sistema uzhe umeet ikh derzhat.
 | legal review form | `03_Templates/Legal_Review_Form_Template_v1.md` |
 | legal source policy | `01_Docs/Legal_Source_Policy_v0.1.md` |
 | legal compliance checklist | `04_QA/Legal_Compliance_Checklist_v1.md` |
+
+### 7.7 Profession intelligence contour
+
+| Artefakt | Shablon / pravilo |
+|---|---|
+| high-risk education regulatory base | `01_Docs/High_Risk_Education_Regulatory_Base_v0.1.md` |
+| profession register | `03_Templates/Profession_Register_Template_v1.md` |
+| profession requirement card | `03_Templates/Profession_Requirement_Card_Template_v1.md` |
 
 ## 8. QA-logika
 
