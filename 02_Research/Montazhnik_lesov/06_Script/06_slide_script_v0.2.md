@@ -79,15 +79,15 @@ Sleduyushchaya iteratsiya:
 
 - Nomer slayda: `03`
 - Modul: `01. Vvedenie v kurs i granitsy otvetstvennosti`
-- Tip slayda: `roles`
+- Tip slayda: `role definition`
 - Sloy kontenta: `standard`
 - Dlya kakogo profilya obyazatelen: `Standard / Deep`
-- Tsel slayda: otdelit zonu otvetstvennosti montazhnika ot resheniy, kotorye on ne dolzhen prinimat v odinochku
-- Odna glavnaya mysl: bezopasnost nachinaetsya s ponimaniya granits sobstvennykh polnomochiy
-- Chto dolzhen ponyat slushatel: est situatsii, gde nado ne "dorabotat samomu", a ostanovit raboty i eskalirovat
-- Vizual: tablitsa `Mozhno samostoyatelno / Nuzhna eskalatsiya`
-- Tekst na slayde: `Ne kazhdoe reshenie mozhno prinimat na lesakh samostoyatelno`
-- Speaker notes: privedite 2-3 primera: neyasnaya skhema krepleniya, povrezhdennye elementi, spornyy dopusk
+- Tsel slayda: obyasnit, kto takoy montazhnik lesov i v chem ego rabochaya rol
+- Odna glavnaya mysl: montazhnik lesov - eto rabochiy, kotoryy sobiraet, razbiraet, proverayet i vedet raboty na lesakh v granitsakh svoego dopuska i instruktsiy
+- Chto dolzhen ponyat slushatel: rol montazhnika - ne pro "sdelat lyuboy tsenoy", a pro bezopasnuyu sborku, proverku, ekspluatatsiyu i ostanovku rabot pri riske
+- Vizual: tablitsa `Chto delaet montazhnik / Chto on ne dolzhen reshat odin`
+- Tekst na slayde: `Montazhnik lesov rabotaet po dopusku, pravilam i bez opasnoy improvizatsii`
+- Speaker notes: korotko svyazhite professiyu s sborkoy, razborkoy, proverkoy, ekspluatatsiey i granitsami polnomochiy; ostavte most k sleduyushchemu slaydu pro dopusk k rabote
 - Svyazannyy learning outcome: `LO-13`
 - Svyazannyy vopros testa: `Q-03`
 - Primechanie dlya dizayna: dve kontrastnye kolonki
@@ -100,11 +100,11 @@ Sleduyushchaya iteratsiya:
 - Sloy kontenta: `core`
 - Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
 - Tsel slayda: zadat bazovoe pravilo modulia po dopusku
-- Odna glavnaya mysl: raboty na lesakh nachinayutsya ne s instrumenta, a s dopuska i proverki usloviy
-- Chto dolzhen ponyat slushatel: dazhe pravilnyy montazh mozhet stat opasnym, esli raboty nachaty bez podgotovki
-- Vizual: schema `Dopusk -> SIZ -> Ploshchadka -> Montazh`
-- Tekst na slayde: `Nachalo rabot bez dopuska = oshibka eshche do pervogo elementa`
-- Speaker notes: svyazhite slayd s `782n`, obucheniem, instruktagom i proverkoy usloviy
+- Odna glavnaya mysl: k rabote montazhnikom lesov dopuskayetsya tolko rabotnik, proshyedshiy obyazatelnuyu podgotovku i proverki, vklyuchaya raboty na vysote
+- Chto dolzhen ponyat slushatel: raboty na lesakh nachinayutsya ne s instrumenta, a s dopuska, medosmotra, obucheniya, instruktagha i proverki usloviy
+- Vizual: schema `Medosmotr -> Obuchenie po vysote -> Instruktag -> Dopuskaetsya k rabote`
+- Tekst na slayde: `Rabota na lesakh - eto rabota na vysote, k ney dopuskayut tolko posle podgotovki`
+- Speaker notes: svyazhite slayd s `782n`; podcherknite, chto rabota na vysote otnositsya k opasnym vidam rabot, poetomu dopusk bez proydennogo obucheniya i obyazatelnykh proverok nedopustim
 - Svyazannyy learning outcome: `LO-01`
 - Svyazannyy vopros testa: `Q-04`
 - Primechanie dlya dizayna: lineynaya schema s 4 shagami
@@ -118,10 +118,10 @@ Sleduyushchaya iteratsiya:
 - Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
 - Tsel slayda: dat minimum usloviy pered nachalom rabot
 - Odna glavnaya mysl: pered nachalom montazha est obyazatelnyy minimum proverok
-- Chto dolzhen ponyat slushatel: raboty ne nachinayutsya, esli ne podtverzhdeny obuchenie, instruktag, SIZ i usloviya raboty
+- Chto dolzhen ponyat slushatel: raboty ne nachinayutsya, esli ne podtverzhdeny medosmotr, obuchenie po rabote na vysote, instruktag, SIZ i usloviya raboty
 - Vizual: cheklist iz 5 punktov
-- Tekst na slayde: `Pered startom prover: dopusk, instruktag, SIZ, sostav brigady, usloviya ploshchadki`
-- Speaker notes: ne razduvayte cheklist; eto dolzhen byt zapominaemyy minimum
+- Tekst na slayde: `Pered startom prover: medosmotr, obuchenie po vysote, instruktag, SIZ, gotovnost mesta rabot`
+- Speaker notes: ne razduvayte cheklist; eto dolzhen byt zapominaemyy minimum dopuska imenno dlya montazhnika lesov
 - Svyazannyy learning outcome: `LO-01`
 - Svyazannyy vopros testa: `Q-05`
 - Primechanie dlya dizayna: ikonki dlya kazhdogo punkta
@@ -133,12 +133,12 @@ Sleduyushchaya iteratsiya:
 - Tip slayda: `equipment`
 - Sloy kontenta: `core`
 - Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
-- Tsel slayda: zakrepit bazovyy nabor SIZ
-- Odna glavnaya mysl: otsutstvie ili neispravnost SIZ delaet rabotu nedopustimoy
-- Chto dolzhen ponyat slushatel: SIZ eto ne formalnost, a uslovie dopuska k rabote
-- Vizual: komplekt SIZ s podpisyami
-- Tekst na slayde: `SIZ dolzhny byt ne prosto vydany, a prigodny k rabote`
-- Speaker notes: podcherknite, chto konkretnyy sostav mozhet utochnyat'sya lokalno, no printsip ne menyaetsya
+- Tsel slayda: zakrepit bazovyy nabor obshcheproizvodstvennykh SIZ pered perekhodom k vysotnym riskam
+- Odna glavnaya mysl: obshcheproizvodstvennye SIZ - eto bazovoe uslovie bezopasnogo dopuska, a ne formalnost
+- Chto dolzhen ponyat slushatel: bez ispravnykh obshcheproizvodstvennykh SIZ rabota nedopustima eshche do otdelnogo razgovora o rabote na vysote
+- Vizual: komplekt obshcheproizvodstvennykh SIZ s podpisyami
+- Tekst na slayde: `Obshcheproizvodstvennye SIZ dolzhny byt ispravny i gotovy do starta rabot`
+- Speaker notes: podcherknite, chto seychas my govorim imenno pro bazovyy obshcheproizvodstvennyy kontur; SIZ dlya raboty na vysote budut usilivat etot bazovyy minimum, a ne zamenyat ego
 - Svyazannyy learning outcome: `LO-02`
 - Svyazannyy vopros testa: `Q-06`
 - Primechanie dlya dizayna: foto-komplekt ili vektornaya schema
@@ -772,29 +772,213 @@ Sleduyushchaya iteratsiya:
 - Svyazannyy vopros testa: `Q-43`
 - Primechanie dlya dizayna: odna kompaktnaya skhema, podkhodyashchaya i dlya short-versii
 
-## Predvaritelnyy skeleton moduley `08-09`
+### Slayd 44
 
-Etot skeleton nuzhen, chtoby zakryt nepreryvnost course-core bez perenosa testa iz kontsa prezentatsii.
+- Nomer slayda: `44`
+- Modul: `08. Tipovye oshibki i avariynye predposylki`
+- Tip slayda: `principle`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: perevesti modul `08` iz "strashnykh istoriy" v rabotu s rannimi signalami opasnosti
+- Odna glavnaya mysl: intsident redko nachinaetsya bez predvaritelnykh priznakov, esli brigada umeyet ikh zamechat
+- Chto dolzhen ponyat slushatel: tipovye oshibki nuzhno ostanavlivat na stadii risk-signala, a ne posle avarii
+- Vizual: schema `signal -> stop -> ustranenie -> prodolzhenie`
+- Tekst na slayde: `Opasnuyu situatsiyu nado lovit do intsidenta, a ne posle nego`
+- Speaker notes: svyazhite modul s predydushchim algoritmom `proverka -> dopusk -> rezhim raboty -> stop pri riskakh`; vazhno ne dramatizirovat, a pokazat upravlyaemuyu logiku reagirovaniya
+- Svyazannyy learning outcome: `LO-11`, `LO-13`
+- Svyazannyy vopros testa: `Q-44`
+- Primechanie dlya dizayna: odna kompaktnaya lineynaya logika, bez dekorativnogo "alarm" stilya
 
-### Modul `08`. Tipovye oshibki i avariynye predposylki
+### Slayd 45
 
-- `Slayd 44` `principle`: oshibki nado lovit do intsidenta, a ne posle nego
-- `Slayd 45` `comparison`: tipovye oshibki pri montazhe `mozhno / nelzya`
-- `Slayd 46` `comparison`: tipovye oshibki pri ekspluatatsii `dopustimo / opasno`
-- `Slayd 47` `hazard signs`: priznaki opasnoy konstruktsii i situatsii `stop / ne stop`
-- `Slayd 48` `scenario`: problemnyy keys s resheniem `prodolzhit / ostanovit / eskalirovat`
-- `Slayd 49` `summary`: red flags modulia `08` v odnom opornom spiske
+- Nomer slayda: `45`
+- Modul: `08. Tipovye oshibki i avariynye predposylki`
+- Tip slayda: `comparison`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: pokazat tipovye oshibki pri montazhe kak raspoznavaemye patterny
+- Odna glavnaya mysl: opasnyy montazh obychno vidno po narusheniyu logiki, a ne po odnomu "plokhomu" dvizheniyu
+- Chto dolzhen ponyat slushatel: perekos, propusk svyazey, nepolnyy nizhniy kontur ili prodolzhenie sborki pri spornom sostoyanii - eto ne "rabochaya meloch", a signal k stopu
+- Vizual: sravnenie `mozhno / nelzya` po startu ili prodolzheniyu montazha
+- Tekst na slayde: `Esli narushena logika sborki, rabotu nado ostanovit, a ne "dotyagivat"`
+- Speaker notes: berite primer ne iz odnoi modeli lesov, a iz universalnykh risk-patternov; ne ukhodyte v pasportnye uzly
+- Svyazannyy learning outcome: `LO-07`, `LO-08`, `LO-11`
+- Svyazannyy vopros testa: `Q-45`
+- Primechanie dlya dizayna: dva odinakovo postroennykh kontura s markerami narusheniy, bez peregruza podpisyami
 
-### Modul `09`. Bezopasnyy demontazh
+### Slayd 46
 
-- `Slayd 50` `principle`: demontazh eto otdelnaya bezopasnaya operatsiya, a ne "obratnaya sborka bez pravil"
-- `Slayd 51` `sequence`: bazovaya logika demontazha po shagham
-- `Slayd 52` `zone control`: opasnaya zona, marshruty, snyatie elementov bez sbrosa vniz
-- `Slayd 53` `comparison`: pravilnyy i opasnyy demontazh
-- `Slayd 54` `scenario`: keys po spornomu deystviyu pri demontazhe s resheniem `stop / prodolzhit / eskalirovat`
-- `Slayd 55` `summary`: printsipy bezopasnogo demontazha kak most k itogam kursa
+- Nomer slayda: `46`
+- Modul: `08. Tipovye oshibki i avariynye predposylki`
+- Tip slayda: `comparison`
+- Sloy kontenta: `standard`
+- Dlya kakogo profilya obyazatelen: `Standard / Deep`
+- Tsel slayda: perevesti oshibki ekspluatatsii v worker-ponyatnyy visual contrast
+- Odna glavnaya mysl: dazhe proverennye lesa bystro stanovitsya opasnymi, esli narushaetsya rezhim nagruzki, marshrutov i zashchity
+- Chto dolzhen ponyat slushatel: opasnyy rezhim ekspluatatsii vidno po povedeniyu na yaruse, a ne tolko po tekhnicheskomu sostoyaniyu konstruktsii
+- Vizual: `dopustimo / opasno` po ekspluatatsii yarusa
+- Tekst na slayde: `Opasnost pri ekspluatatsii chasto nachinaetsya s "udobnogo" narusheniya`
+- Speaker notes: svyazhite slayd s nagruzkoy, marshrutami i padeniem predmetov iz modulya `07`; eto most k hazard-recognition, a ne povtor samogo modulia
+- Svyazannyy learning outcome: `LO-10`, `LO-11`
+- Svyazannyy vopros testa: `Q-46`
+- Primechanie dlya dizayna: odin yarus v dvukh sostoyaniyakh, chtoby signal chitalsya bez dlinnykh poyasneniy
 
-- Finalnyy testovyy blok etim skeletonom ne perenositsya i po-prezhnemu ostayetsya v kontse prezentatsii posle obuchayushchego contoura.
+### Slayd 47
+
+- Nomer slayda: `47`
+- Modul: `08. Tipovye oshibki i avariynye predposylki`
+- Tip slayda: `hazard signs`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: dat opornyy hazard-board dlya raspoznavaniya stop-signalov
+- Odna glavnaya mysl: red flags dolzhny schityvat'sya do proisshestviya i vyzyvat nemedlennuyu ostanovku ili ustranenie
+- Chto dolzhen ponyat slushatel: esli v skheme, zashchite, dostupe ili rezhime raboty est yavnyy risk-signal, ego nelzya normalizovat argumentom "eshche nemnogo"
+- Vizual: odna problemnaya situatsiya s markerami `stop-sign`
+- Tekst na slayde: `Red flag na lesakh ne obsuzhdayut kak normu - ego ostanavlivayut`
+- Speaker notes: etot slayd dolzhen stat oporoy dlya `TV-04` i Q-21; signal `stop / ustranit / potom prodolzhit` dolzhen byt prochitan bez ustnogo rasshifrovaniya
+- Svyazannyy learning outcome: `LO-11`, `LO-13`
+- Svyazannyy vopros testa: `Q-21`
+- Primechanie dlya dizayna: sobirat kak controllable hazard board, a ne kak fotokolazh s dramatizatsiey
+
+### Slayd 48
+
+- Nomer slayda: `48`
+- Modul: `08. Tipovye oshibki i avariynye predposylki`
+- Tip slayda: `scenario`
+- Sloy kontenta: `standard`
+- Dlya kakogo profilya obyazatelen: `Standard / Deep`
+- Tsel slayda: zakrepit reshenie `prodolzhit / ostanovit / eskalirovat` pri spornom risk-signale
+- Odna glavnaya mysl: risk-situatsiya trebuet ne smelosti, a pravilnogo resheniya po granitsam polnomochiy
+- Chto dolzhen ponyat slushatel: dazhe esli brigada "uzhe skoro zakonchit", spornyy hazard ne dolzhen prokhodit bez ostanovki i otsenki
+- Vizual: keys-kartochka s 3-4 usloviyami i variantami resheniya
+- Tekst na slayde: `Keys: chto delat, esli risk-signal uzhe est, a rabotu khotyat prodolzhit?`
+- Speaker notes: odno uslovie dolzhno byt yavnym blockerom, eshche 1-2 pogranichnymi; vyvodite slushatelya na LO-13, a ne tolko na "ugaday pravilnyy otvet"
+- Svyazannyy learning outcome: `LO-11`, `LO-13`
+- Svyazannyy vopros testa: `Q-48`
+- Primechanie dlya dizayna: kompaktnaya scenario-card bez peregruza; tsentr slayda = reshenie
+
+### Slayd 49
+
+- Nomer slayda: `49`
+- Modul: `08. Tipovye oshibki i avariynye predposylki`
+- Tip slayda: `summary`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: sobrat red flags modulia `08` v odin opornyy spisok
+- Odna glavnaya mysl: tipovye oshibki luchshe zapominayutsya ne po istoriyam, a po korotkim markeram dlya raspoznavaniya
+- Chto dolzhen ponyat slushatel: esli vidny narushenie logiki sborki, opasnyy rezhim ekspluatatsii ili yavnyy hazard sign, nuzhen stop i proverka
+- Vizual: board `zametil -> ostanovil -> soobshchil -> vernulsya posle ustraneniya`
+- Tekst na slayde: `Red flags nuzhny ne dlya straha, a dlya upravlyaemogo stopa`
+- Speaker notes: eto most k modulyu `09`; podcherknite, chto ta zhe distsiplina nuzhna i pri demontazhe
+- Svyazannyy learning outcome: `LO-11`, `LO-13`
+- Svyazannyy vopros testa: `Q-49`
+- Primechanie dlya dizayna: 4 krupnykh markera, podkhodyashchikh dlya re-use v worker-sheet
+
+### Slayd 50
+
+- Nomer slayda: `50`
+- Modul: `09. Bezopasnyy demontazh`
+- Tip slayda: `principle`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: otdelit demontazh ot lozhnogo predstavleniya, chto eto prosto "obratnaya sborka"
+- Odna glavnaya mysl: demontazh trebuyet svoei bezopasnoy logiki, kontrolya zony i upravlyaemoy posledovatelnosti
+- Chto dolzhen ponyat slushatel: na etape razborki risk ne ischezaet, a chasto vozrastaet iz-za poteri zhestkosti i improvizatsii
+- Vizual: schema `ostanovka raboty -> podgotovka zony -> upravlyaemyy demontazh`
+- Tekst na slayde: `Demontazh - eto otdelnaya opasnaia operatsiya, a ne "sobrat v obratnom poryadke"`
+- Speaker notes: ne ukhodyte v system-specific poryadok dlya odnoi modeli; fokus na principakh upravlyaemosti i zapreta sbrosa vniz
+- Svyazannyy learning outcome: `LO-12`
+- Svyazannyy vopros testa: `Q-50`
+- Primechanie dlya dizayna: tri bloka s silnym razdeleniem `stop / podgotovka / deystvie`
+
+### Slayd 51
+
+- Nomer slayda: `51`
+- Modul: `09. Bezopasnyy demontazh`
+- Tip slayda: `sequence`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: dat bazovuyu generic-safe sequence-logiku demontazha
+- Odna glavnaya mysl: elementy snimayutsya ne po sluchaynoy udobnosti, a po upravlyaemoy posledovatelnosti s sokhraneniem kontrolya
+- Chto dolzhen ponyat slushatel: narushenie poryadka ili popytka uskoryat demontazh za schet riskov = pryamaya opasnost
+- Vizual: step-strip minimum iz `4` shagov
+- Tekst na slayde: `Demontazh idet po posledovatelnosti, a ne po printsipu "chto blizhe, to i snimaem"`
+- Speaker notes: etot slayd dolzhen stat oporoy dlya `TV-05` i Q-22; izbegayte lozhnoi konkretnosti po pasportnym uzlam
+- Svyazannyy learning outcome: `LO-12`
+- Svyazannyy vopros testa: `Q-22`
+- Primechanie dlya dizayna: vizual dolzhen chitatsya kak algorithm board, a ne kak prostoy spisok
+
+### Slayd 52
+
+- Nomer slayda: `52`
+- Modul: `09. Bezopasnyy demontazh`
+- Tip slayda: `zone control`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: svyazat demontazh s kontrolem opasnoy zony i marshrutov
+- Odna glavnaya mysl: bez kontrolya zony, podachi i snyatiya elementov demontazh bystro perekhodit v opasnyy rezhim
+- Chto dolzhen ponyat slushatel: nuzhno derzhat pod kontrolem niz, podkhody i put elementa posle snyatiya; sbros vniz nedopustim
+- Vizual: zona rabot s markerami `opasnaya zona / marshrut / mesto priyoma`
+- Tekst na slayde: `Snyatie elementa bez kontrolya zony = risk dlya vsekh vokrug`
+- Speaker notes: zdes vazhno zamknut kurs s modul'em `04` pro opasnuyu zonu i modul'em `07` pro padeniye predmetov
+- Svyazannyy learning outcome: `LO-12`, `LO-13`
+- Svyazannyy vopros testa: `Q-52`
+- Primechanie dlya dizayna: odna prostranstvennaya skhema s yavno vydelennym `no-go` putem
+
+### Slayd 53
+
+- Nomer slayda: `53`
+- Modul: `09. Bezopasnyy demontazh`
+- Tip slayda: `comparison`
+- Sloy kontenta: `standard`
+- Dlya kakogo profilya obyazatelen: `Standard / Deep`
+- Tsel slayda: pokazat kontrast mezhdu upravlyaemym i opasnym demontazhom
+- Odna glavnaya mysl: opasnyy demontazh vidno po narushenii posledovatelnosti, potere kontrolya zony i popytke uskorit rabotu
+- Chto dolzhen ponyat slushatel: "bystree" pri demontazhe ochen chasto oznachaet "opasnee"
+- Vizual: `pravilno / opasno` po stsenariyu demontazha
+- Tekst na slayde: `Demontazh bez poryadka i kontrolya zony bystro stanovitsya opasnym`
+- Speaker notes: ne delayte sravnenie zavisyashchim ot odnoi modeli lesov; derzhite fokus na povedencheskom i protsessnom kontraste
+- Svyazannyy learning outcome: `LO-12`
+- Svyazannyy vopros testa: `Q-53`
+- Primechanie dlya dizayna: markerami vydelyat imenno narusheniya poryadka i kontrolya, a ne dekorativnyy "krasnyy/zelonyy"
+
+### Slayd 54
+
+- Nomer slayda: `54`
+- Modul: `09. Bezopasnyy demontazh`
+- Tip slayda: `scenario`
+- Sloy kontenta: `standard`
+- Dlya kakogo profilya obyazatelen: `Standard / Deep`
+- Tsel slayda: razobrat spornoe deystvie pri demontazhe cherez reshenie `stop / prodolzhit / eskalirovat`
+- Odna glavnaya mysl: pri demontazhe opasno "dodelat na avose", esli posledovatelnost ili zona uzhe vybyli iz-pod kontrolya
+- Chto dolzhen ponyat slushatel: esli net bezopasnogo puti snyatiya, priema ili peredachi elementa, rabotu nado ostanovit i peresobrat plan deystviy
+- Vizual: scenario-card s odnim kriticheskim i 1-2 pogranichnymi usloviyami
+- Tekst na slayde: `Keys: mozhno li prodolzhit demontazh v etoy situatsii?`
+- Speaker notes: vyvedite slushatelya na argumentatsiyu po granitsam polnomochiy i kontrolyu zony, a ne tolko na "otvet B"
+- Svyazannyy learning outcome: `LO-12`, `LO-13`
+- Svyazannyy vopros testa: `Q-54`
+- Primechanie dlya dizayna: minimum teksta, tsentr slayda = reshenie i osnovanie dlya nego
+
+### Slayd 55
+
+- Nomer slayda: `55`
+- Modul: `09. Bezopasnyy demontazh`
+- Tip slayda: `summary`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: zavershit kurs opornymi printsipami bezopasnogo demontazha
+- Odna glavnaya mysl: bezopasnyy demontazh derzhitsya na discipline poryadka, kontrolya zony i otkaza ot improvizatsii
+- Chto dolzhen ponyat slushatel: final kursa - eto ne "znaet termin", a umeet ostanovit opasnoe deystvie i deystvovat po upravlyaemoy logike
+- Vizual: algoritm `podgotovka -> posledovatelnost -> kontrol zony -> stop pri riskakh`
+- Tekst na slayde: `Bezopasnyy demontazh - eto poryadok, kontrol i stop pri riskakh`
+- Speaker notes: etot slayd dolzhen byt mostom k finalnomu testu; sdelayte ego dostatochno kompaktnym, chtoby posle nego logichno pereyti k proverke znaniy
+- Svyazannyy learning outcome: `LO-12`, `LO-13`
+- Svyazannyy vopros testa: `Q-55`
+- Primechanie dlya dizayna: odna silnaya summary-skhema, podkhodyashchaya i dlya short-track
+
+## Placement note po modulyam `08-09`
+
+- Finalnyy testovyy blok etim razvorotom ne perenositsya i po-prezhnemu ostayetsya v kontse prezentatsii posle obuchayushchego contoura.
 
 ## Primechanie po variativnosti
 
@@ -804,8 +988,8 @@ Etot skeleton nuzhen, chtoby zakryt nepreryvnost course-core bez perenosa testa 
 
 ## Sleduyushchiy fokus
 
-V sleduyushchey iteratsii nuzhno razvernut:
+V sleduyushchey iteratsii nuzhno:
 
-- `08` Tipovye oshibki i avariynye predposylki po etomu skeletonu
-- `09` Bezopasnyy demontazh po etomu skeletonu
-- rasshirit testovyy blok po modulyam `05-07`, kogda novyy script budet stabilen
+- sobrat `A-44` - `A-48` kak realnye controllable visuals dlya `TV-01` - `TV-05`;
+- proverit targeted QA po assessment-validity i worker-ponyatnosti;
+- pri nuzhde usilit svyazku `slides 47 / 51` s testovym contourom, ne vykhodya za generic-safe granitsu.
