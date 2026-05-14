@@ -3,7 +3,7 @@
 ## Status
 
 - Status: `active`
-- Data sborki: `2026-05-13`
+- Data sborki: `2026-05-14`
 - Owner: `vy`
 - Naznachenie: yedinaya tochka vkhoda v `Pipeline`
 
