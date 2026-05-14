@@ -8,3 +8,6 @@ Desktop.ini
 # Generic temp files
 *.tmp
 *.temp
+
+# PowerPoint preview exports
+*_preview/
