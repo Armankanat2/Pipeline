@@ -96,6 +96,7 @@ Minimalnoe razmeshchenie artefaktov:
 | Release | `12_instructor_guide.md` + `12_lecturer_questions_bank.md` + `12_online_adaptation_map.md` + `12_module_summary_pack.md` + `12_narration_pack.md` + `12_online_handoff_pack.md` + `12_publishing_handoff_pack.md` + `12_preflight_checklist.md` + `12_release_note.md` + final pack | `05_Release/<Course>` |
 | Maintenance | `13_update_log.md` | `05_Release/<Course>` |
 | Control | `Course_Profile.md`, `Decision_Log.md`, `Focus_Board.md` | `02_Research/<Course>/_Control` |
+| Control | `Legal_Review_*.md` | `02_Research/<Course>/_Control` |
 | Feedback | `Pilot_Report.md`, `Retrospective.md`, `Improvement_Items.md` | `02_Research/<Course>/_Feedback` |
 
 ## 5A. Control i Feedback contour
@@ -185,6 +186,9 @@ Pravilo Stage `01`:
 Deystviya:
 
 - sobrat normativy, reglamenty, foto, video i ekspertnye materialy;
+- esli kurs ispol'zuet zakonodatel'nuyu bazu RF, dopuskat tol'ko real'no sushchestvuyushchie normativnye akty;
+- ne pridumyvat nazvaniya, nomera, stat'i, punkty, prikazy, GOSTy, SP ili postanovleniya;
+- po kazhdomu normativnomu istochniku zafiksirovat uroven' istochnika: `official / trusted mirror / needs verification`;
 - otdelit obyazatelnye istochniki ot vspomogatelnykh;
 - zafiksirovat probely.
 
@@ -303,6 +307,7 @@ Deystviya:
 - proyti tekhnicheskiy review;
 - proyti dizayn-review;
 - proyti proofreading-review po language style guide i glossary;
+- esli kurs soderzhit RF-law references, proyti `04_QA/Legal_Compliance_Checklist_v1.md`;
 - proverit, chto design-system pravila ne rozpalis na ruchnye lokalnye isklyucheniya;
 - proverit, chto QR, print i branded-pravila soblyudeny odinakovo vo vsekh nositelyakh;
 - sobrat odin konsolidirovannyy klientskiy review-pack po draft-proektu;
@@ -417,6 +422,11 @@ Rezultat:
 Deystviya:
 
 - sledit za izmeneniyami v normativakh;
+- po komande pol'zovatelya zapuskat poluruchnoy `legal review` po normativnym ssylkam;
+- rekomenduemyi ritm takoy proverki vnutri `Pipeline` - raz v `6` mesyatsev, no eto servisnyy tsikl, a ne model real'nogo zakonodatel'nogo protsessa;
+- pered lyuboy zamenoy ssylki, nomera ili statusa zapolnyat `Legal Review Form`;
+- bez review-formy ne delat massovuyu ili poluavtomaticheskuyu zamenu po kursu;
+- esli zakon ili inoy dokument ne podtverzhden, ne schitat ego validnoy osnovoy dlya korrektsii kursa;
 - obnovlyat kurs po grafiku;
 - vesti zhurnal izmeneniy;
 - sobirat signaly iz `pilot`, `test`, `QA`, `client`, `lecturer`, `learner`, `regulation` i ekspluatatsii;
@@ -426,6 +436,7 @@ Deystviya:
 - primenyat zhestkie prioritety pri konfliktakh: `pattern > single`, `core > client`, `method > convenience`, `version > speed`, `pipeline > local`;
 - prinimat po kazhdomu signalu formalnoe reshenie: `ignore / monitor / patch / minor / major / escalate to pipeline`;
 - vnosit izmeneniya tolko cherez `version rule`, a ne tikhoy pravkoy v release;
+- esli review-forma podtverdila zamenyu, snachala obnovit zatronutye artefakty v `Research`, potom zerkalit releasable izmeneniya v `Update Log`;
 - ne menyat pravila vsego `Pipeline` po odnomu lokalnomu sluchayu bez proverki na povtoryaemost.
 
 Rezultat:
@@ -485,6 +496,7 @@ Primer:
 - `05_course_architecture_v0.3.md`
 - `09_qa_report_v0.1.md`
 - `12_release_note_v1.0.md`
+- `Legal_Review_2026-05_v0.1.md`
 
 ### Pravilo mashtabiruemosti kursa
 
@@ -793,3 +805,4 @@ Sleduyushchie dokumenty, kotorye nuzhno sobirat posle etogo workflow:
 - `Worker_Instruction_Template_v1.md`
 - `Worker_Handout_Template_v1.md`
 - `Update_Log_Template_v1.md`
+- `Legal_Review_Form_Template_v1.md`

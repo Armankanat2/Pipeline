@@ -55,6 +55,7 @@
 - Bottlenecks: `_Control/Bottleneck_Register.md`
 - Critical path: `_Control/Critical_Path_Map.md`
 - Focus board: `_Control/Focus_Board.md`
+- Legal review: `_Control/Legal_Review_2026-05_v0.1.md`
 
 ## Feedback contour
 

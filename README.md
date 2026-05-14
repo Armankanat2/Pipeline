@@ -38,12 +38,14 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `01_Docs/Adaptive_Rules_v0.1.md`
 - `01_Docs/Resource_Focus_Model_v0.1.md`
 - `01_Docs/Continuous_Improvement_Loop_v0.1.md`
+- `01_Docs/Legal_Source_Policy_v0.1.md`
 - `01_Docs/Language_Rollout_Plan_v0.1.md`
 - `01_Docs/Multilingual_Delivery_Concept_v0.1.md`
 - `01_Docs/Online_Gateway_Concept_v0.1.md`
 - `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md`
 - `01_Docs/Pipeline_Gap_Audit_2026-05-12_v1.md`
 - `03_Templates/Variant_Profile_Template_v1.md`
+- `03_Templates/Legal_Review_Form_Template_v1.md`
 - `03_Templates/Change_Request_Template_v1.md`
 - `03_Templates/Decision_Log_Template_v1.md`
 - `03_Templates/Bottleneck_Register_Template_v1.md`
@@ -71,6 +73,7 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `03_Templates/Worker_Handout_Template_v1.md`
 - `03_Templates/Update_Log_Template_v1.md`
 - `04_QA/Feedback_Intake_Rules_v1.md`
+- `04_QA/Legal_Compliance_Checklist_v1.md`
 - `04_QA/Improvement_Backlog.md`
 
 ## Pervyy aktivnyy kurs

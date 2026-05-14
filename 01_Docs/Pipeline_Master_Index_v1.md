@@ -63,6 +63,7 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | `01_Docs/Adaptive_Rules_v0.1.md` | kak kurs adaptiruetsya bez lomki yadra |
 | `01_Docs/Resource_Focus_Model_v0.1.md` | kak sistema kontsentriruet usiliya na uzkikh mestakh |
 | `01_Docs/Continuous_Improvement_Loop_v0.1.md` | kak signaly prevrashchayutsya v uluchsheniya shablonov, protsessa i pravil |
+| `01_Docs/Legal_Source_Policy_v0.1.md` | kak rabotat s RF-law references bez vymyshlennoy normativki i tikhikh zamen |
 | `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md` | kak ne razduvat sistemu pri smotrenii v budushchie kontury |
 
 ### 3.2 Issledovatelskie, no poka neblokiruyushchie sloi
@@ -151,6 +152,7 @@ I feedback-loop:
 | `11` | pilot report | `03_Templates/Pilot_Report_Template_v1.md` | `02_Research/<Course>/11_Pilot` |
 | `13` | update log | `03_Templates/Update_Log_Template_v1.md` | `05_Release/<Course>` |
 | control | course profile / decision log / focus board | sootvetstvuyushchie control docs | `02_Research/<Course>/_Control` |
+| control | legal review form | `03_Templates/Legal_Review_Form_Template_v1.md` | `02_Research/<Course>/_Control` |
 | feedback | pilot / retrospective / improvement items | sootvetstvuyushchie docs i templates | `02_Research/<Course>/_Feedback` |
 
 ## 7. Optional-kontury
@@ -211,6 +213,14 @@ Eti kontury ne vsegda nuzhny, no sistema uzhe umeet ikh derzhat.
 | short feedback form | `03_Templates/Client_Feedback_Form_Short_Template_v1.md` |
 | client support offer | `03_Templates/Client_Support_Offer_Template_v1.md` |
 
+### 7.6 Legal review contour
+
+| Artefakt | Shablon / pravilo |
+|---|---|
+| legal review form | `03_Templates/Legal_Review_Form_Template_v1.md` |
+| legal source policy | `01_Docs/Legal_Source_Policy_v0.1.md` |
+| legal compliance checklist | `04_QA/Legal_Compliance_Checklist_v1.md` |
+
 ## 8. QA-logika
 
 Osnovnaya ideya:
@@ -222,11 +232,13 @@ Osnovnaya ideya:
 - glavnaya shkala i pravilo prokhoda: `04_QA/QA_Gates_v1.md`
 - opredelenie gotovnosti artefaktov: `01_Docs/Definition_of_Done_v1.md`
 - priem signalov i ikh minimalnaya klassifikatsiya: `04_QA/Feedback_Intake_Rules_v1.md`
+- dlya kursov s RF-law references dopolnitel'naya proverka: `04_QA/Legal_Compliance_Checklist_v1.md`
 - sistemnyy backlog uluchsheniy: `04_QA/Improvement_Backlog.md`
 
 ### Kriticheskie proverki, kotorye nelzya zabyvat
 
 - stage 06: u slayda dolzhna byt odna mysl, source basis i chestnaya asset dependency;
+- stage 02 i stage 13: RF-law references dolzhny prokhodit cherez `Legal Source Policy` i review-formu, a ne tikhuyu zamenu;
 - stage 07: po klyuchevym visualam dolzhen byt ponyaten rights-status;
 - stage 09: script, notes, terminology i publishing contour dolzhny byt sostykovany;
 - stage 12: release ne dolzhen vykhodit bez rights-cleared key assets, ponyatnogo handoff i proverennoy release-komplektnosti.
