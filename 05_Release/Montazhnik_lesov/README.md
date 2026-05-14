@@ -73,4 +73,10 @@ Eta papka nuzhna kak release hub kursa `Montazhnik lesov`: zdes khranitsya unive
 
 ## Tekushchiy status
 
-Papka podgotovlena kak release-skeleton. Napolnenie faylami budet delat'sya na stage `12 Release`.
+Papka podgotovlena kak release-skeleton. Chast' faylov vnutri mozhet sushchestvovat kak `release-staging drafts`, no oni ne schitayutsya utverzhdennym release, poka ne proydut svoi contour proverki.
+
+Source of truth do approval:
+
+- stage-artefakty i control-sostoyanie zhivut v `02_Research/Montazhnik_lesov`;
+- task board i QA-opisaniya imeyut prioritet nad release-staging chernovikami;
+- release-grade status nachinaetsya tol'ko posle yavnogo podtverzhdeniya i release-note resheniya.

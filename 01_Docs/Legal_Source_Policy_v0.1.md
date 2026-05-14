@@ -44,6 +44,14 @@ Pravilo:
 - `trusted mirror` dopustim tol'ko kak rabochiy vremenniy kanal s pometkoy;
 - `needs verification` ne dolzhen stanovit'sya osnovaniem dlya final'noy pravki ili release.
 
+## 4A. Rabochiy status v source register
+
+- Dlya RF-law reference nado razlichat `sushchestvovanie dokumenta` i `periodicheskuyu legal review-proverku`.
+- Status `active` v rabochem `source register` dopustim, esli dokument real'no sushchestvuet, est ponyatnyy uroven' istochnika i net otkrytogo signala o vozmozhnom izmenenii.
+- Status `not started` v pole `Legal review` oznachaet, chto tekushchiy polugodovoy review-cikl eshche ne zapushchen po komande; sam po sebe etot status ne ravnyaetsya `invalid`.
+- Kak tolko po dokumentu poyavlyaetsya review-signal ili otkryvaetsya review-forma, istochnik pri neobkhodimosti perevoditsya v `review` do zakrytiya proverki.
+- Esli est signal o vozmozhnom izmenenii statusa, nomera ili ssylki, nel'zya delat vid, chto dokument prosto ostayotsya bezuslovno `active`.
+
 ## 5. Poluruchnoy review-ritm
 
 V etom `Pipeline` ispol'zuetsya ne postoyannyy monitoring zakonodatel'stva, a poluruchnaya reviziya po komande.

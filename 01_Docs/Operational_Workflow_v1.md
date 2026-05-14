@@ -451,7 +451,7 @@ Logika dvizheniya faylov:
 2. Vse pravila sistemy zhivut v `01_Docs`.
 3. Vse universalnye shablony zhivut v `03_Templates`.
 4. Globalnye QA pravila i rubriki zhivut v `04_QA`, a kursovye QA reports zhivut v `02_Research/<Course>/09_QA`.
-5. Tolko utverzhdennye finaly peremeshchayutsya v `05_Release`.
+5. V `05_Release` zhivut utverzhdennye finaly i, kak isklyuchenie, yavno pomechennye `release-staging drafts`, kotorye ne vydany za final.
 
 Pravilo:
 
@@ -465,8 +465,10 @@ Pravilo pre-release granitsy:
 - v `05_Release` do approval dopustimo derzhat tolko:
   - pustuyu release-strukturu;
   - README i organizatsionnye zaglushki papok;
-  - yavno pomechennye admin-konteynery, esli oni nuzhny dlya sborki karkasa release.
+  - yavno pomechennye admin-konteynery, esli oni nuzhny dlya sborki karkasa release;
+  - otdel'nye `release-staging drafts`, esli oni pryamo pomecheny kak `starter draft / not approved / release-staging`, ne vydany za final i ne podmenyayut source of truth iz `02_Research`.
 - kak tolko artefakt nachinaet schitat'sya release-grade i prokhodit svoy contour proverki, on mozhet pereekhhat v `05_Release`.
+- esli `release-staging draft` ustarel po sravneniyu s task board, QA ili control-dokami, istochnikom istiny schitayutsya `02_Research` i authoritative core, a ne release-chernovik.
 
 ## 8. Naming Convention
 

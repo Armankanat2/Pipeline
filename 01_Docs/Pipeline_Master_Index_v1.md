@@ -257,15 +257,15 @@ Osnovnaya ideya:
 ### Tekushchee sostoyanie na moment obnovlennogo control review
 
 - source of truth po statusu: task board kursa
-- stage: `QA readiness / pre-formal QA`
+- stage: `post-formal QA / revise`
 - chto realno uzhe est:
   - `06_slide_script_v0.2.md` razvernut po moduliam `01-09`;
-  - `07_asset_register_v0.2.md` i deck-planning po slaydam `20-43` uzhe sobrany;
-  - test contour est kak draft-bank, no QA contour eshche ne proyden;
+  - `07_asset_register_v0.3.md` i build-ready paket dlya `A-44 - A-48` uzhe sobrany;
+  - formal'nyy QA proyden s resheniem `revise`, posle chego sobran `10_test_pack_v0.2.md`;
   - release-, notes- i online-layer uzhe nachaty kak starter drafts, no ne schitayutsya finalnym release.
-- sleduyushchiy artefakt dlya zhestkogo perekhoda dal'she: `09_qa_report.md`
-- posle etogo logicheskaya svyazka: `QA readiness -> formalnyy QA -> final test / pilot / release`
-- control-focus poverkh etogo: `test contour + QA readiness consolidation`
+- sleduyushchiy artefakt dlya zhestkogo perekhoda dal'she: real build dlya `A-44 - A-48` i targeted QA po test-validity
+- posle etogo logicheskaya svyazka: `post-QA fix -> targeted QA -> final test / pilot / release`
+- control-focus poverkh etogo: `visual anchor build + evidence gap + legal follow-up po normativnym istochnikam`
 
 ### Rabochiy marshrut dlya aktivnogo kursa
 

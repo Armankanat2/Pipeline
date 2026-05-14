@@ -49,6 +49,8 @@ Proveryaem:
 - ne propushchena li bezopasnost;
 - est li istochniki po praktike;
 - ne slishkom li mnogo musornogo materiala;
+- esli est RF-law references, ukazan li uroven' istochnika i net li vymyshlennykh normativnykh ssylok;
+- esli status normativnogo istochnika ne podtverzhden, pomechen li on kak `review` ili `needs verification`, a ne kak `active`;
 - ponyatno li, chego ne khvataet.
 
 ### Stage 03 - Job Decomposition
@@ -127,6 +129,7 @@ Proveryaem:
 - klassifitsirovany li zamechaniya;
 - net li kritichnykh oshibok;
 - proyden li otdelnyy proofreading-review;
+- esli kurs soderzhit RF-law references, proyden li `Legal_Compliance_Checklist_v1.md`;
 - yesli est publishing contour, proyden li publishing-review i ponyatny li source bundle, shrifty i eksportnye profili;
 - pokryvaet li `instructor guide` `100%` aktualnogo `slide script`;
 - sobran li `lecturer questions bank` po riskovym i spornym voprosam;
@@ -183,4 +186,5 @@ Proveryaem:
 - est li review cadence;
 - vedetsya li update log;
 - est li signal na obnovlenie;
+- esli kurs zavisit ot RF-law references, est li legal review cadence i review-forma pered zamenoy statusa / ssylki / nomera;
 - sistemna li podderzhka kursa.

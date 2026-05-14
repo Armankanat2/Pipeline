@@ -39,6 +39,8 @@ Done if:
 - ponimayem, chego ne khvataet;
 - kritichnye normativy vydeleny otdelno;
 - istochniki razdeleny na obyazatelnye i vspomogatelnye;
+- dlya RF-law references ukazan uroven' istochnika;
+- normativnye istochniki s nepodtverzhdennoy aktual'nost'yu ne ostayutsya v statuse `active`;
 - neispolzuemye ili somnitel'nye istochniki pometcheny.
 
 ## Stage 03 - Job Decomposition
@@ -116,6 +118,7 @@ Done if:
 - proyden proofreading-review;
 - vse zamechaniya klassifitsirovany;
 - terminologiya i yazykovye pravila ne protivorechat glossary i style guide;
+- esli kurs soderzhit RF-law references, proyden `Legal_Compliance_Checklist_v1.md`;
 - yesli est lektorskiy contour, `instructor guide` pokryvaet `100%` aktualnogo `slide script`;
 - yesli est publishing contour, ponyatny source bundle, rights-status, fonty i eksportnye pravila;
 - ponyatno, chto obyazatelno pravit do reliza.
@@ -148,6 +151,7 @@ Done if:
 - finalnye fayly nazvany po pravilu versiy;
 - release note zapolnen;
 - release-paket ne podmenyaetsya planned-slotami i starter drafts vmesto finalnykh faylov;
+- esli v `05_Release` est `release-staging drafts`, oni yavno pomecheny kak nefinalnye i ne vydayutsya za gotovyy release;
 - esli v release est lektorskiy kontur, v pakete est aktualnye `instructor guide` i `lecturer questions bank`;
 - esli kurs dolzhen byt portable v budushchiy online-produkt, v pakete est aktualnyy `online handoff` kontur;
 - esli v online-kontur dobavlen `gateway-ready` sloy, ego `gateway spec / manifest / event map` ne protivorechat release-versii kursa i ostayutsya optional rasshireniem, a ne obyazatelnym blokatorom release;
@@ -166,4 +170,5 @@ Done if:
 - est grafik prosmotra;
 - vedetsya update log;
 - izmeneniya v normativakh mogut byt otrazheny;
+- esli kurs zavisit ot RF-law references, review-forma sozdana do zameny statusa, ssylki ili nomera;
 - izvestno, kogda kurs nuzhno peresmotret.

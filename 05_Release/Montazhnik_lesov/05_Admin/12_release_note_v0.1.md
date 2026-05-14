@@ -103,7 +103,7 @@
 
 - Rabochaya papka kursa: `02_Research/Montazhnik_lesov`
 - Finalnaya papka release: `05_Release/Montazhnik_lesov`
-- QA report: poka net finalnogo reporta
+- QA report: est formalnyy `02_Research/Montazhnik_lesov/09_QA/09_qa_report_v0.1.md`, no net finalnogo post-fix reporta
 - Pilot report: poka net
 - Publishing handoff folder: `05_Release/Montazhnik_lesov/09_Publishing_Handoff`
 

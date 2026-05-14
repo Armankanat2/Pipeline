@@ -10,7 +10,7 @@
 - Deadline: `2026-05-30`
 - Aktivnyy variant: `Standard`
 - Source of truth po statusu: etot task board
-- Sledushchiy artefakt: `08_Deck/08_assessment_visual_build_spec_v0.1.md`
+- Sledushchiy artefakt: real build `A-44 - A-48` -> targeted QA po test-validity
 - Status gate: `revise before pilot / release`
 - Tekushchiy bottleneck: `real build of A-44 - A-48 + evidence gap`
 - Aktivnyy focus board: `_Control/Focus_Board.md`
