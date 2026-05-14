@@ -13,7 +13,7 @@
 
 Etot dokument nuzhen kak most mezhdu:
 
-- `06_slide_script_v0.1.md`
+- `06_slide_script_v0.2.md`
 - `07_asset_register_v0.2.md`
 - `01_design_system_spec_v0.1.md`
 - budushchim `08_draft_deck`

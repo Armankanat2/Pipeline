@@ -9,7 +9,7 @@
 - Track: `worker`
 - Uroven sborki: `Future-ready`
 - Nuzhen li multilingual contour: `later / by client request`
-- Svyazannyy `slide script`: `06_slide_script_v0.1.md`
+- Svyazannyy `slide script`: `06_slide_script_v0.2.md`
 - Svyazannyy `narration pack`: `12_narration_pack_v0.1.md`
 
 ## Rol master transcript
