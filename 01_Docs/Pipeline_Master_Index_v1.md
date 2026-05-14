@@ -60,6 +60,9 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | `04_QA/QA_Gates_v1.md` | pravila prokhoda mezhdu etapami |
 | `01_Docs/Pipeline_Gap_Audit_2026-05-12_v1.md` | chto v sisteme uzhe zakryto i chego ne khvatalo |
 | `01_Docs/Feedback_Learning_Loop_v0.1.md` | kak posle release rabotat s signalami i obratnoy svyazyu |
+| `01_Docs/Adaptive_Rules_v0.1.md` | kak kurs adaptiruetsya bez lomki yadra |
+| `01_Docs/Resource_Focus_Model_v0.1.md` | kak sistema kontsentriruet usiliya na uzkikh mestakh |
+| `01_Docs/Continuous_Improvement_Loop_v0.1.md` | kak signaly prevrashchayutsya v uluchsheniya shablonov, protsessa i pravil |
 | `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md` | kak ne razduvat sistemu pri smotrenii v budushchie kontury |
 
 ### 3.2 Issledovatelskie, no poka neblokiruyushchie sloi
@@ -88,6 +91,13 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | `04_QA` | pravila proverki i gates |
 | `05_Release` | gotovye release-kontury i klientskie pakety |
 
+### 4.1 Nadstroika poverkh stage-papok
+
+| Kontur | Rol |
+|---|---|
+| `_Control` | upravlenie variantom, resheniyami, fokusom i uzkimi mestami kursa |
+| `_Feedback` | sborka signalov, retrospective i perevod opyta v uluchsheniya |
+
 ## 5. Karta etapov
 
 | Stage | Etap | Glavnyy rezultat | Bazovyy fayl |
@@ -107,6 +117,22 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | `12` | Release | release-pack | `05_Release/<Course>` |
 | `13` | Maintenance | post-release podderzhka | `13_update_log.md` |
 
+Poverkh etikh stage-rukavov rabotaet control-loop:
+
+- `Course Profile`
+- `Variant Profile`
+- `Decision Log`
+- `Bottleneck Register`
+- `Critical Path Map`
+- `Focus Board`
+
+I feedback-loop:
+
+- `Pilot Report`
+- `Retrospective`
+- `Client Feedback`
+- `Improvement Items`
+
 ## 6. Obyazatelnyy marshrut artefaktov
 
 | Stage | Artefakt | Bazovyy shablon | Gde lezhit |
@@ -124,6 +150,8 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | `10` | answer key | `03_Templates/Answer_Key_Template_v1.md` | `02_Research/<Course>/10_Test` |
 | `11` | pilot report | `03_Templates/Pilot_Report_Template_v1.md` | `02_Research/<Course>/11_Pilot` |
 | `13` | update log | `03_Templates/Update_Log_Template_v1.md` | `05_Release/<Course>` |
+| control | course profile / decision log / focus board | sootvetstvuyushchie control docs | `02_Research/<Course>/_Control` |
+| feedback | pilot / retrospective / improvement items | sootvetstvuyushchie docs i templates | `02_Research/<Course>/_Feedback` |
 
 ## 7. Optional-kontury
 
@@ -193,6 +221,8 @@ Osnovnaya ideya:
 
 - glavnaya shkala i pravilo prokhoda: `04_QA/QA_Gates_v1.md`
 - opredelenie gotovnosti artefaktov: `01_Docs/Definition_of_Done_v1.md`
+- priem signalov i ikh minimalnaya klassifikatsiya: `04_QA/Feedback_Intake_Rules_v1.md`
+- sistemnyy backlog uluchsheniy: `04_QA/Improvement_Backlog.md`
 
 ### Kriticheskie proverki, kotorye nelzya zabyvat
 
@@ -209,18 +239,31 @@ Osnovnaya ideya:
 - Rabochaya papka: `02_Research/Montazhnik_lesov`
 - Release-papka: `05_Release/Montazhnik_lesov`
 - Task board: `02_Research/Montazhnik_lesov/01_Brief/03_task_board_v1.0.md`
+- Control contour: `02_Research/Montazhnik_lesov/_Control`
+- Feedback contour: `02_Research/Montazhnik_lesov/_Feedback`
 
-### Tekushchee sostoyanie na moment sborki index
+### Tekushchee sostoyanie na moment obnovlennogo control review
 
 - source of truth po statusu: task board kursa
-- stage: `Course-core stabilization / pre-QA sync`
+- stage: `QA readiness / pre-formal QA`
 - chto realno uzhe est:
-  - `06_slide_script_v0.1.md` razvernut po moduliam `01-07`, dlya `08-09` est skeleton, no net polnogo razvorota;
+  - `06_slide_script_v0.2.md` razvernut po moduliam `01-09`;
   - `07_asset_register_v0.2.md` i deck-planning po slaydam `20-43` uzhe sobrany;
   - test contour est kak draft-bank, no QA contour eshche ne proyden;
   - release-, notes- i online-layer uzhe nachaty kak starter drafts, no ne schitayutsya finalnym release.
-- sleduyushchiy artefakt dlya zhestkogo zamykaniya core: `06_slide_script_v0.2.md`
-- posle etogo logicheskaya svyazka: `course-core closure -> QA readiness -> QA report -> final test / pilot / release`
+- sleduyushchiy artefakt dlya zhestkogo perekhoda dal'she: `09_qa_report.md`
+- posle etogo logicheskaya svyazka: `QA readiness -> formalnyy QA -> final test / pilot / release`
+- control-focus poverkh etogo: `test contour + QA readiness consolidation`
+
+### Rabochiy marshrut dlya aktivnogo kursa
+
+Pri vozvrate v aktivnyy kurs smotret v takom poryadke:
+
+1. task board;
+2. `_Control/Course_Profile.md`;
+3. `_Control/Focus_Board.md`;
+4. nujnyy stage-artefakt;
+5. `_Feedback/*`, esli est svezhie signaly, QA-srez ili pilot.
 
 ## 10. Kak polzovatsya indexom v rabote
 
@@ -248,16 +291,17 @@ Smotret:
 Minimalnyy kontur:
 
 1. sozdat papku kursa v `02_Research`
-2. zapolnit brief
-3. sobrat source register
-4. sdelat job map
-5. zafiksirovat outcomes
-6. sobrat architecture
-7. razvernut script
-8. dobavit assets
-9. proyti QA
-10. sobrat test
-11. vyvesti v release
+2. sozdat `_Control` i `_Feedback`
+3. zapolnit brief i `Course Profile`
+4. sobrat source register
+5. sdelat job map
+6. zafiksirovat outcomes
+7. sobrat architecture i aktivnyy variant
+8. razvernut script
+9. dobavit assets
+10. proyti QA
+11. sobrat test
+12. vyvesti v release
 
 ## 11. Chto etot index ne delaet
 

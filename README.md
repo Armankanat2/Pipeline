@@ -6,6 +6,8 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 
 - `01_Docs` - bazovye dokumenty, reglamenty, opisaniya i resheniya po proektu; authoritative core zhivet v `README + Blueprint + Workflow + Definition of Done + QA Gates`, a notes-sloi ne podmenyayut eti pravila.
 - `02_Research` - issledovaniya, analiz, chernoviki i sobrannye materialy.
+- `02_Research/<COURSE>/_Control` - adaptivnyy sloy kursa: profile, varianty, decision log, fokus i uzkie mesta; etot sloy upravlyaet izmeneniyami, no ne podmenyaet stage-artefakty.
+- `02_Research/<COURSE>/_Feedback` - rabochiy sloy obratnoy svyazi i uluchsheniy: pilot, retrospective, client feedback, improvement items.
 - `03_Templates` - shablony dokumentov, struktur, cheklistov i prezentatsiy.
 - `04_QA` - kriterii proverki, review-materialy i kontrol kachestva.
 - `05_Release` - finalnye klientskie pakety i gotovye rezul'taty; starter drafts i neapproved materialy ne dolzhny zhyt zdes kak release.
@@ -33,11 +35,21 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 ## Optional expansion layers
 
 - `01_Docs/Feedback_Learning_Loop_v0.1.md`
+- `01_Docs/Adaptive_Rules_v0.1.md`
+- `01_Docs/Resource_Focus_Model_v0.1.md`
+- `01_Docs/Continuous_Improvement_Loop_v0.1.md`
 - `01_Docs/Language_Rollout_Plan_v0.1.md`
 - `01_Docs/Multilingual_Delivery_Concept_v0.1.md`
 - `01_Docs/Online_Gateway_Concept_v0.1.md`
 - `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md`
 - `01_Docs/Pipeline_Gap_Audit_2026-05-12_v1.md`
+- `03_Templates/Variant_Profile_Template_v1.md`
+- `03_Templates/Change_Request_Template_v1.md`
+- `03_Templates/Decision_Log_Template_v1.md`
+- `03_Templates/Bottleneck_Register_Template_v1.md`
+- `03_Templates/Critical_Path_Map_Template_v1.md`
+- `03_Templates/Reusable_Asset_Register_Template_v1.md`
+- `03_Templates/Retrospective_Template_v1.md`
 - `03_Templates/Master_Transcript_Template_v1.md`
 - `03_Templates/Terminology_Glossary_Multilang_Template_v1.md`
 - `03_Templates/Visual_Label_Map_Template_v1.md`
@@ -58,6 +70,8 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `03_Templates/Worker_Instruction_Template_v1.md`
 - `03_Templates/Worker_Handout_Template_v1.md`
 - `03_Templates/Update_Log_Template_v1.md`
+- `04_QA/Feedback_Intake_Rules_v1.md`
+- `04_QA/Improvement_Backlog.md`
 
 ## Pervyy aktivnyy kurs
 

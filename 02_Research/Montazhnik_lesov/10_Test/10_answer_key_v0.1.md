@@ -2,7 +2,7 @@
 
 ## Status
 
-Expanded draft for modules `01-07`.
+Expanded draft for modules `01-09`.
 
 ## Naznachenie
 
@@ -14,7 +14,7 @@ Etot artefakt nuzhen dlya otdelnoy vydachi klyucha otvetov po finalnomu bloku vo
 - Svazannyy test check sheet: `10_test_check_sheet_v0.1.md`
 - Dlya kakikh versiy kursa: minimum `Deep`, pri neobkhodimosti adaptirovat dlya `Short` i `Standard`
 - Mozhno li vydat versiyu bez bloka voprosov: da
-- Tekushchiy expanded-set: `20` voprosov
+- Tekushchiy expanded-set: `22` voprosa
 
 ## Klyuch otvetov
 
@@ -40,10 +40,12 @@ Etot artefakt nuzhen dlya otdelnoy vydachi klyucha otvetov po finalnomu bloku vo
 | Q-18 | B | Dopusk k ekspluatatsii vozmozhen tolko posle prokhozhdeniya proverki po cheklistu i otsutstviya osnovaniy dlya zapreta. | LO-09 | bazovyy dopusk |
 | Q-19 | B | Risk padeniya predmetov snizhaetsya distsiplinoy materialov i instrumenta, a takzhe kontrolem opasnoy zony. | LO-10 | zashchita okruzhayushchikh |
 | Q-20 | B | Pri peregruzke, povrezhdenii ili otsutstvii zashchity raboty nado ostanovit i eskalirovat, a ne prodolzhat do avarii. | LO-09, LO-10, LO-13 | stop-logika |
+| Q-21 | B | Tipovaya opasnaya oshibka ne "dozhidayetsya udobnogo momenta", a trebuet stopa, ustraneniya i tolko potom vozobnovleniya rabot. | LO-11 | most k modulyu `08` |
+| Q-22 | B | Bezopasnyy demontazh vedetsya po upravlyaemoy posledovatelnosti, s kontrolem zony i bez sbrosa elementov vniz. | LO-12 | generic-safe proverka modulia `09` |
 
 ## Kontrol pokrytiya
 
-- Pokryty li `core` outcomes: da, po modulyam `01-07`
+- Pokryty li `core` outcomes: da, po modulyam `01-09`, vklyuchaya tekstovuyu proverku `LO-11` i `LO-12`
 - Est li kommentarii k vizualnym voprosam: poka net, vizualnyy blok eshche ne sobran
 - Est li kommentarii k situatsionnym voprosam: da, Q-03, Q-04, Q-08, Q-10, Q-11, Q-14, Q-16, Q-18, Q-20
 
@@ -52,5 +54,5 @@ Etot artefakt nuzhen dlya otdelnoy vydachi klyucha otvetov po finalnomu bloku vo
 - Answer key gotov k vydache: `expanded draft / no`
 - Chto nuzhno proverit:
   - sinkhronizirovat s finalnym test pack;
-  - rasshirit posle sborki moduley `08-09`;
+  - proverit formulirovki `Q-21` i `Q-22` na formalnom QA;
   - pri neobkhodimosti vypustit klientskuyu versiyu s kirillicheskimi bukvennymi metkami variantov otveta.

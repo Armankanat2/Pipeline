@@ -2,7 +2,7 @@
 
 ## Status
 
-Expanded draft for modules `01-07`.
+Expanded draft for modules `01-09`.
 
 ## Svyazannyy artefakt
 
@@ -17,7 +17,7 @@ Expanded draft for modules `01-07`.
 - `4-8` voprosov po protsessu montazha i proverke gotovnosti
 - `3-7` voprosov po elementam, ustoychivosti i krepleniyam
 - `3-7` voprosov po tipovym oshibkam, ekspluatatsii i demontazhu
-- tekushchiy expanded-set: `20` voprosov po modulyam `01-07`
+- tekushchiy expanded-set: `22` voprosa po modulyam `01-09`
 
 ## Printsipy
 
@@ -53,6 +53,8 @@ Expanded draft for modules `01-07`.
 - `Q-18` - dopusk k ekspluatatsii po cheklistu
 - `Q-19` - zashchita ot padeniya predmetov
 - `Q-20` - usloviya ostanovki ekspluatatsii
+- `Q-21` - tipovaya opasnaya oshibka i pravilnaya reaktsiya
+- `Q-22` - bazovaya logika bezopasnogo demontazha
 
 ## Matritsa pokrytiya outcomes
 
@@ -68,6 +70,8 @@ Expanded draft for modules `01-07`.
 | LO-08 | kreplenie i ustoychivost | Q-06, Q-12, Q-14, Q-15 | concept / situational | svyaz mezhdu geometriyey, osnovaniem i krepleniyami |
 | LO-09 | proverka pered ekspluatatsiey | Q-16, Q-18, Q-20 | single / situational | dopusk i osnovaniya dlya zapreta rabot |
 | LO-10 | bezopasnaya ekspluatatsiya | Q-17, Q-19, Q-20 | single / situational | nagruzka, marshruty, padeniye predmetov |
+| LO-11 | tipovye oshibki i hazard signs | Q-21 | situational | poka bez finalnogo visual-backfill, no uzhe svyazano so script `08` |
+| LO-12 | bezopasnyy demontazh | Q-22 | situational | generic-safe proverka bez system-specific detalei |
 | LO-13 | granitsy polnomochiy | Q-04, Q-20 | situational | stop-logika i eskalatsiya |
 
 ## Voprosy expanded-set
@@ -94,12 +98,14 @@ Expanded draft for modules `01-07`.
 | Q-18 | situational | Kogda lesa mozhno dopustit k ekspluatatsii? | A: kogda montazh v tselom zakonchen; B: kogda proyden cheklist i net osnovaniy dlya zapreta; V: kogda razreshil samyy opytnyy rabochiy; G: kogda na yarus podan instrument | B | LO-09 | bazovyy dopusk modulia `07` |
 | Q-19 | single | Chto luchshe vsego snizhaet risk padeniya predmetov s lesov? | A: otkrytyy perimetr; B: distsiplina materialov, instrumenta i zashchita opasnoy zony; V: ubrat ograzhdeniya; G: uvelichit skorost rabot | B | LO-10 | zashchita okruzhayushchikh |
 | Q-20 | situational | V kakoy situatsii ekspluatatsiyu nuzhno ostanovit i eskalirovat? | A: tolko posle proisshestviya; B: pri priznakakh peregruzki, povrezhdeniya ili otsutstvii zashchity; V: tolko po prosbe zakazchika; G: tolko v kontse smeny | B | LO-09, LO-10, LO-13 | stop-logika modulia `07` |
+| Q-21 | situational | Kakaya reaktsiya na tipovuyu opasnuyu oshibku vo vremya rabot yavlyaetsya pravilnoy? | A: dodelat uchastok i popravit potom; B: ostanovit rabotu, ustranit opasnoe otklonenie i tolko potom prodolzhit; V: ostavit kak est, esli brigada opytnaya; G: snizit temp, no ne meniat skhemu | B | LO-11 | most k modulyu `08` pro red flags i avariynye predposylki |
+| Q-22 | situational | Kakaya bazovaya logika demontazha lesov yavlyaetsya pravilnoy? | A: snimat elementi v lyubom udobnom poryadke; B: razbirat po upravlyaemoy posledovatelnosti s kontrolem zony i bez sbrosa elementov vniz; V: nachinat so snyatiya klyuchevykh svyazey dlya uskoreniya; G: dopuskat sbros vniz pri maloy vysote | B | LO-12 | generic-safe proverka modulia `09` bez system-specific skhemy |
 
 ## Bank voprosov po urovnyam
 
-- `Short`: Q-01, Q-02, Q-03, Q-05, Q-06, Q-08, Q-10, Q-11, Q-14, Q-18, Q-20
-- `Standard`: Q-01 - Q-10, Q-12, Q-13, Q-15, Q-17, Q-19
-- `Deep`: Q-01 - Q-20
+- `Short`: Q-01, Q-02, Q-03, Q-05, Q-06, Q-08, Q-10, Q-11, Q-14, Q-18, Q-20, Q-22
+- `Standard`: Q-01 - Q-10, Q-12, Q-13, Q-15, Q-17, Q-19, Q-21, Q-22
+- `Deep`: Q-01 - Q-22
 
 ## Proverka kachestva testa
 
@@ -107,7 +113,7 @@ Expanded draft for modules `01-07`.
 - Est li situatsionnye voprosy: da
 - Est li vizualnye voprosy: poka net, nuzhny visuals
 - Net li zubrezhki radi zubrezhki: da, tekushchiy nabor stroitsya na logike resheniy
-- Sokhranyaetsya li pokrytie `core` outcomes v samoy korotkoy versii testa: da, chastichno po modulyam `01-07`
+- Sokhranyaetsya li pokrytie `core` outcomes v samoy korotkoy versii testa: da, bazovoe pokrytie est po modulyam `01-09`, no bez finalnogo visual-backfill
 
 ## Reshenie po gotovnosti
 
@@ -115,5 +121,5 @@ Expanded draft for modules `01-07`.
 - Answer key gotov k vydache zakazchiku: `expanded draft / no`
 - Chto nuzhno peresobrat:
   - dobavit vizualnye voprosy posle sborki asset-bazy;
-  - rasshirit test po modulyam `08-09`;
+  - proverit `Q-21` i `Q-22` v formalnom QA i pri neobkhodimosti usilit ikh keysami ili visuals;
   - privezat finalnyy nabor k realnomu slide deck.

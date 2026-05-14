@@ -59,6 +59,13 @@ Vnutri rabochey papki kursa:
 - `09_QA`
 - `10_Test`
 - `11_Pilot`
+- `_Control`
+- `_Feedback`
+
+Naznachenie dopolnitelnykh konturov:
+
+- `_Control` - profile kursa, varianty, decision log, critical path, bottlenecks i tekushchiy fokus;
+- `_Feedback` - pilot, retrospective, client feedback i course-level improvement items.
 
 ## 5. Artifact Map
 
@@ -88,6 +95,21 @@ Minimalnoe razmeshchenie artefaktov:
 | Pilot | `11_pilot_report.md` | `02_Research/<Course>/11_Pilot` |
 | Release | `12_instructor_guide.md` + `12_lecturer_questions_bank.md` + `12_online_adaptation_map.md` + `12_module_summary_pack.md` + `12_narration_pack.md` + `12_online_handoff_pack.md` + `12_publishing_handoff_pack.md` + `12_preflight_checklist.md` + `12_release_note.md` + final pack | `05_Release/<Course>` |
 | Maintenance | `13_update_log.md` | `05_Release/<Course>` |
+| Control | `Course_Profile.md`, `Decision_Log.md`, `Focus_Board.md` | `02_Research/<Course>/_Control` |
+| Feedback | `Pilot_Report.md`, `Retrospective.md`, `Improvement_Items.md` | `02_Research/<Course>/_Feedback` |
+
+## 5A. Control i Feedback contour
+
+Eti kontury ne schitayutsya otdelnymi stage, no obyazany soprovozhdat aktivnyy kurs.
+
+Minimalno:
+
+- pri starte kursa sozdaetsya `Course Profile`;
+- kak tolko kurs poluchaet bazovyy format, zafiksirovan `Variant Profile`;
+- kazhdoe znachimoe reshenie po izmeneniyu yadra ili release-logiki popadaet v `Decision Log`;
+- tekushchie ogranichivayushchie faktory popadayut v `Bottleneck Register`;
+- aktivnyy fokus fiksiruetsya v `Focus Board`;
+- posle pilotov, QA-srezov i krupnykh iteratsiy obnavlyaetsya `_Feedback`.
 
 ## 6. Workflow po etapam
 
@@ -102,6 +124,12 @@ Na vkhode:
 Na vykhode:
 
 - reshenie, chto kurs idet v rabotu.
+
+Dopolnitelno:
+
+- sozdat papku kursa;
+- sozdat `_Control` i `_Feedback`;
+- zafiksirovat nachalnyy `Course Profile` i pervichnyy fokus.
 
 ### Stage 01 - Intake
 
@@ -142,12 +170,15 @@ Rezultat:
 - pri neobkhodimosti `01_language_style_guide.md`
 - pri neobkhodimosti `01_terminology_glossary.md`
 - pri neobkhodimosti `01_itr_requirements.md`
+- `_Control/Course_Profile.md`
+- minimum odin `Variant Profile`
 
 Pravilo Stage `01`:
 
 - esli expansion-sloy ne nuzhen seychas, ego nado pometit kak `deferred` ili `not applicable`, a ne imitirovat ego nalichie;
 - Stage `01` ne dolzhen prevrashchat'sya v sborku vsekh budushchikh konturov odnovremenno;
 - dlya pervogo prokhoda kursa prioritet imeet zhiznesposobnyy `base intake`, a ne polnyy katalog rasshireniy.
+- esli format, dlitelnost ili release-granitsy ne zafiksirovany v `Course Profile`, kurs ne dolzhen schitatsya normalno otkrytym v rabotu.
 
 ### Stage 02 - Source Audit
 
@@ -203,6 +234,7 @@ Rezultat:
 
 - `05_course_architecture.md`
 - dlya `worker` track pri neobkhodimosti `05_worker_behavior_map.md`
+- obnovlennyy `Variant Profile`, esli architecture utochnila realnyy contour sborki
 
 ### Stage 06 - Scriptwriting
 
@@ -290,6 +322,7 @@ Deystviya:
 Rezultat:
 
 - `09_qa_report.md`
+- pri sistemnykh ili spornykh pravkakh obnovlennyy `_Control/Decision_Log.md`
 
 ### Stage 10 - Test Creation
 
@@ -318,6 +351,33 @@ Deystviya:
 - zafiksirovat kazhdyy znachimyy signal cherez obyazatelnuyu klassifikatsiyu: `source / type / frequency / impact`;
 - ne zapuskat pravki kursa priamo iz kommentariya bez klassifikatsii prichiny;
 - proverit signal cherez `conflict check`: `pattern > single`, `core > client`, `method > convenience`, `version > speed`, `pipeline > local`;
+- zafiksirovat signal ne tolko v `11_pilot_report.md`, no i v `_Feedback/Pilot_Report.md`, esli etot signal dolzhen prozhit dlinnee odnogo stage-cikla;
+- obnovit `_Feedback/Improvement_Items.md`, esli signal vedet k izmeneniyu protsessa, shablona ili pravil sistemy.
+
+## 6A. Rabochiy ritm poverkh stage-modeli
+
+Minimalnyy ritm dlya aktivnogo kursa:
+
+1. Pri starte ili posle vozvrata v kurs:
+   - proverit `Course Profile`;
+   - proverit aktivnyy `Variant Profile`;
+   - proverit `Focus Board`.
+2. Pri lyubom znachimom izmenenii:
+   - reshit, lokalnaya eto pravka ili izmenenie yadra;
+   - pri neobkhodimosti obnovit `Decision Log`.
+3. Raz v nedelyu ili posle krupnogo perekhoda:
+   - obnovit `Bottleneck Register`;
+   - obnovit `Critical Path Map`, esli smenilsya glavniy risk;
+   - zafiksirovat novoe okno fokusa v `Focus Board`.
+4. Posle QA, pilota ili release-review:
+   - zafiksirovat signal;
+   - klassifitsirovat ego;
+   - reshit, eto `course fix`, `template fix`, `process fix` ili `pipeline rule fix`;
+   - obnovit `_Feedback` i pri neobkhodimosti `04_QA/Improvement_Backlog.md`.
+
+Pravilo:
+
+Stage-artefakty otvechayut za proizvodstvo kursa, a `_Control` i `_Feedback` otvechayut za upravlyaemost, fokus i evolyutsiyu etogo proizvodstva.
 - zafiksirovat, kakie signaly mogut stat kandidatom na `patch`, `minor`, `major` ili `escalate`;
 - ne menyat release-pryamuyu versiyu kursa vo vremya pilota bez otdelnogo version-rule resheniya.
 

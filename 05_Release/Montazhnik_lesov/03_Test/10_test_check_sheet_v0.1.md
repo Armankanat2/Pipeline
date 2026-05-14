@@ -2,7 +2,7 @@
 
 ## Status
 
-Expanded draft for modules `01-07`.
+Expanded draft for modules `01-09`.
 
 ## Naznachenie
 
@@ -17,7 +17,7 @@ Etot artefakt nuzhen lektoru ili proveryayushchemu dlya bystroy proverki testovo
 - Markirovka variantov v finalnom klientskom makete: kirillicheskie bukvennye metki
 - Tolko odin pravilnyy otvet: da
 - Itogovyy obem dokumenta dolzhen zaviset ot finalnogo kolichestva voprosov v prezentatsii
-- Tekushchiy expanded-set: `20` voprosov po modulyam `01-07`
+- Tekushchiy expanded-set: `22` voprosa po modulyam `01-09`
 
 ## Expanded-set voprosov dlya maketa
 
@@ -261,6 +261,30 @@ Etot artefakt nuzhen lektoru ili proveryayushchemu dlya bystroy proverki testovo
 - Szhatyy kommentariy: finalnaya stop-logika modulia `07`
 - Svazannyy outcome: `LO-09`, `LO-10`, `LO-13`
 
+### Q-21
+
+- Vopros: `Kakaya reaktsiya na tipovuyu opasnuyu oshibku vo vremya rabot yavlyaetsya pravilnoy?`
+- Variant `A`: `Zakonchit tekushchiy uchastok i popravit oshibku potom`
+- Variant `B`: `Ostanovit rabotu, ustranit opasnoe otklonenie i tolko potom prodolzhit`
+- Variant `V`: `Ostavit kak est, esli brigada opytnaya`
+- Variant `G`: `Snizit temp, no ne menyat skhemu raboty`
+- Pravilnyy otvet: `B`
+- Pochemu eto pravilno: tipovaya opasnaya oshibka dolzhna lovit'sya do intsidenta, a ne tolerirovat'sya radi tempi ili udobstva
+- Szhatyy kommentariy: most k modulyu `08` pro red flags i avariynye predposylki
+- Svazannyy outcome: `LO-11`
+
+### Q-22
+
+- Vopros: `Kakaya bazovaya logika demontazha lesov yavlyaetsya pravilnoy?`
+- Variant `A`: `Snimat elementi v lyubom udobnom poryadke`
+- Variant `B`: `Razbirat po upravlyaemoy posledovatelnosti s kontrolem zony i bez sbrosa elementov vniz`
+- Variant `V`: `Nachinat so snyatiya klyuchevykh svyazey dlya uskoreniya`
+- Variant `G`: `Dopuskat sbros elementov vniz pri maloy vysote`
+- Pravilnyy otvet: `B`
+- Pochemu eto pravilno: demontazh yavlyaetsya otdelnoy operatsiey so svoey logikoy bezopasnosti i ne dopuskaet proizvolnogo razbora ili sbrosa elementov
+- Szhatyy kommentariy: generic-safe proverka modulia `09` bez system-specific detaley
+- Svazannyy outcome: `LO-12`
+
 ## Tablichnyy format dlya bystrogo review
 
 | ID | Vopros | A | B | V | G | Pravilnyy otvet | Pochemu eto pravilno | Szhatyy kommentariy |
@@ -285,3 +309,5 @@ Etot artefakt nuzhen lektoru ili proveryayushchemu dlya bystroy proverki testovo
 | Q-18 | Kogda lesa mozhno dopustit k ekspluatatsii? | Kogda montazh zakonchen | Kogda proyden cheklist i net osnovaniy dlya zapreta | Kogda razreshil opytnyy rabochiy | Kogda podan instrument | B | Nuzhen soderzhatelnyy filtr gotovnosti | Bazovyy dopusk |
 | Q-19 | Chto snizhaet risk padeniya predmetov? | Otkrytyy perimetr | Distsiplina materialov i zashchita zony | Ubrat ograzhdeniya | Uvelichit skorost | B | Risk snizhaetsya organizatsiyey rabot i kontrolom zony | Zashchita okruzhayushchikh |
 | Q-20 | Kogda nuzhno ostanovit ekspluatatsiyu? | Tolko posle proisshestviya | Pri peregruzke, povrezhdenii ili otsutstvii zashchity | Tolko po prosbe zakazchika | Tolko v kontse smeny | B | Opasnyy priznak uzhe yavlyaetsya osnovaniem dlya stopa | Stop-logika |
+| Q-21 | Kakaya reaktsiya na tipovuyu opasnuyu oshibku pravilna? | Zakonchit uchastok i popravit potom | Ostanovit, ustranit opasnoe otklonenie i tolko potom prodolzhit | Ostavit kak est pri opytnoy brigade | Snizit temp bez smeny skhemy | B | Opasnuyu oshibku nado lovit do intsidenta i ne normalizovat | Red flags modulia `08` |
+| Q-22 | Kakaya logika demontazha pravilna? | Snimat v lyubom poryadke | Razbirat po posledovatelnosti s kontrolem zony i bez sbrosa vniz | Snimat klyuchevye svyazi dlya uskoreniya | Sbrasivat vniz pri maloy vysote | B | Demontazh eto otdelnaya bezopasnaya operatsiya, a ne proizvolnyy razbor | Bazovyy printsip modulia `09` |

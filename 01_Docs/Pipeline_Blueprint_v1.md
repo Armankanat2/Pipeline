@@ -31,6 +31,9 @@ Na vykhode dolzhna poyavitsya operational system, kotoraya sobiraet ne tolko pre
 - `editorial consistency before release`;
 - `publishing-ready handoff`;
 - `reusability over custom work`;
+- `stable core + adaptive layers`;
+- `bottleneck-driven focus`;
+- `feedback-to-improvement loop`;
 - `clarity over beauty`;
 - `fast review loops`;
 - `updateable system`, a ne razovaya prezentatsiya.
@@ -139,6 +142,21 @@ Bazovyy minimum dlya kazhdogo kursa:
 - `10_test_pack.md`
 - `10_answer_key.md`
 - `12_release_note.md`
+
+Control i improvement sloy poverkh bazovogo stage-kontura:
+
+- `_Control/Course_Profile.md`
+- `_Control/Variant_Profile_<Variant>.md`
+- `_Control/Decision_Log.md`
+- `_Control/Bottleneck_Register.md`
+- `_Control/Critical_Path_Map.md`
+- `_Control/Focus_Board.md`
+- `_Feedback/Pilot_Report.md`
+- `_Feedback/Retrospective.md`
+- `_Feedback/Client_Feedback.md`
+- `_Feedback/Improvement_Items.md`
+
+Eti artefakty ne podmenyayut stage-vykhody. Oni nuzhny, chtoby kurs mog adaptirovatsya, fokusirovat resurs i uchitsya bez lomki yadra.
 
 `01_language_style_guide.md` i `01_terminology_glossary.md` schitayutsya bazovoy editorial-oporoy, kak tolko kurs vykhodit za predely chisto vnutrennego drafta i peredayotsya v review ili release-contour.
 
