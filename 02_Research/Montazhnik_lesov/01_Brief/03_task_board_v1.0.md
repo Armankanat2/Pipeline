@@ -10,9 +10,9 @@
 - Deadline: `2026-05-30`
 - Aktivnyy variant: `Standard`
 - Source of truth po statusu: etot task board
-- Sledushchiy artefakt: `10_Test/10_test_pack_v0.2.md`
+- Sledushchiy artefakt: `08_Deck/08_assessment_visual_build_spec_v0.1.md`
 - Status gate: `revise before pilot / release`
-- Tekushchiy bottleneck: `assessment validity + visual evidence gap`
+- Tekushchiy bottleneck: `real build of A-44 - A-48 + evidence gap`
 - Aktivnyy focus board: `_Control/Focus_Board.md`
 - Sleduyushchiy control review: posle zakrytiya post-QA fix-cycle ili pered povtornym targeted QA
 - Poslednee obnovlenie: `2026-05-14`
@@ -33,6 +33,11 @@
 - [x] Razvernut moduli `08-09` do polnogo `course-core`
 - [x] Proyti QA readiness sync
 - [x] Proyti formalnyy QA
+- [x] Sobrat `10_test_pack_v0.2.md` s visual-simulated checks
+- [x] Sobrat `07_asset_register_v0.3.md` pod `TV-01` - `TV-05`
+- [x] Sobrat build-ready package dlya MVP visual anchors `A-44` - `A-48`
+- [ ] Sobrat sami MVP visual anchors `A-44` - `A-48` v PowerPoint/Figma
+- [ ] Proyti targeted QA po test-validity
 - [ ] Finalizirovat test contour posle QA
 - [ ] Podgotovit pilot ili release
 
@@ -60,6 +65,6 @@
 
 ## Reshenie na tekushchiy moment
 
-Formalnyy `09_QA/09_qa_report_v0.1.md` proyden s resheniem `revise`. Otchet ne obnaruzhil razvala course-core, no zafiksiroval tri vazhnykh uzla: nedostatochnuyu validnost tekstovogo testa dlya visual/practical outcomes, nedosobrannyy visual-layer i vse eshche ogranichennuyu source-confidence po temam, zavisyashchim ot pasporta sistemy i ekspertnoy validatsii. Teper prioritet ne v tom, chtoby eshche raz "proverit gotovnost", a v tom, chtoby sdelat post-QA fix: usilit test contour, sobrat minimum viable visual layer i ne razmyt generic-safe granitsu do poyavleniya bolee silnykh dokazatelstv.
+Formalnyy `09_QA/09_qa_report_v0.1.md` proyden s resheniem `revise`. Posle etogo sobrany `10_test_pack_v0.2.md`, `07_asset_register_v0.3.md` i build-ready paket v `08_Deck` dlya `A-44` - `A-48`. Eto znachit, chto assessment-validity gap uzhe pereveden iz abstraktnoy zadachi v konkretnuyu proizvodstvennuyu ochered: est test, est asset package, est build spec i est practical checklist. Glavnoe ogranichenie teper ne v metodike, a v realnoy sborke samikh visual blocks vo vneshnem instrumente i ikh targeted QA bez vykhoda za generic-safe evidence-boundary.
 
 Teper eto reshenie podderzhivaetsya ne tolko tekstom v task board, no i cherez `_Control/Decision_Log.md`, `_Control/Focus_Board.md`, `_Control/Bottleneck_Register.md` i `_Feedback/Retrospective.md`.

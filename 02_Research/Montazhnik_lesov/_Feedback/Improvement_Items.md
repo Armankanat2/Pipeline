@@ -13,3 +13,5 @@
 | ML-IMP-07 | 2026-05-14 | QA readiness sync | `pipeline` | Nuzhna otdelnaya tochka vhoda mezhdu `course-core` i `formal QA` | Ispolzovat `09_qa_readiness_sync_v0.1.md` kak obyazatelnyy predgate dlya zhivykh kursov | `active` |
 | ML-IMP-08 | 2026-05-14 | formal QA | `course` | Odnogo readiness-sync nedostatochno, esli practical / visual outcomes vse eshche proveryayutsya slishkom tekstovo | Vvesti post-QA fix dlya assessment-validity i minimum visual checks | `active` |
 | ML-IMP-09 | 2026-05-14 | formal QA | `pipeline` | Pipeline vyigraet ot otdelnoy proverki `outcome -> assessment validity` eshche do polnogo formalnogo QA | Dobavit etot check v budushchiy control pattern ili template | `active` |
+| ML-IMP-10 | 2026-05-14 | post-QA revise | `course` | Nuzhen promezhutochnyy contour mezhdu tekstovym testom i finalnym visual build | Sobrat `v0.2` test s `visual-simulated` anchorami `TV-01` - `TV-05` | `done` |
+| ML-IMP-11 | 2026-05-14 | post-QA revise | `course` | Visual anchors ne dolzhny ostat'sya tolko imenami v teste | Zavesti `A-44` - `A-48` kak realnyy assessment-asset package v `07_asset_register_v0.3.md` | `done` |
