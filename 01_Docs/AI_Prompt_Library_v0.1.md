@@ -805,6 +805,345 @@ Fotorealistichnyy uchebnyy primer tipichnoy oshibki pri primenenii SIZ dlya rabo
 Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya slayda pro narushenie. Perekomponuy kadr tak, chtoby oshibka v primenenii SIZ schityvalas srazu. Usil problemnyy uzel, oslabi fon, ne dobavlyay tekst i dramatizatsiyu. Esli nuzhna korrektirovka odezhdy ili osnastki personazha, primeni contour `height PPE`, no sokhrani logiku oshibki kak glavnuyu tochku vnimaniya.
 ```
 
+### RB-06: Spasenie i evakuatsiya pri rabotakh na vysote
+
+Status: `active draft`
+Coverage: `Core + Worker`
+
+#### RB06_C_S01
+
+- Slide title: `Spasenie i evakuatsiya dolzhny byt predusmotreny zaranee`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya uchebnaya proizvodstvennaya stsena na obekte s rabotami na vysote. Pokazana gotovnost k spaseniyu i evakuatsii do nachala rabot: podgotovlennoe spasatelnoe osnashchenie, ponyatnaya organizovannost brigady, bez avariynoy dramatizatsii i bez samogo intsidenta. Glavnyy aktsent na tom, chto spasatelnyy contour produman zaranee. Kompozitsiya prostaya i naglyadnaya, bez vizualnogo shuma, vysokaya chitayemost s rasstoyaniya. Personazhi dolzhny sootvetstvovat role-standard `worker` ili `ITR`, a rabotniki na vysote - contouru `height PPE`.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya uchebnogo slayda. Perekomponuy kadr tak, chtoby gotovnost k spaseniyu i evakuatsii stala glavnoy mysl'yu: usil vidimost spasatelnogo osnashcheniya, organizovannosti lyudey i ponyatnoy predvaritelnoy podgotovki. Uberi ili oslabi sluchaynye detali fona, povysi kontrast i chitayemost. Esli v kadre est personazhi, privedi ikh k sootvetstvuyushchim role-standartam.
+```
+
+#### RB06_W_S01
+
+- Slide title: `Pochemu nelzya nachinat rabotu bez plana spaseniya`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya stsena pered nachalom rabot na vysote: brigada i otvetstvennyy sotrudnik korotko obsuzhdayut ili soglasovyvayut plan deystviy na sluchay neshtatnoy situatsii. Dolzhno byt ponyatno, chto eto imenno predvaritelnoe planirovanie, a ne obychnyy razgovor. Uchebnaya kompozitsiya, bez lishnego shuma, glavnyy aktsent na gotovnosti i koordinatsii. Personazhi dolzhny sootvetstvovat role-standard `worker` / `ITR`, a rabotniki na vysote - contouru `height PPE`.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy kadr tak, chtoby situatsiya predvaritelnogo planirovaniya spaseniya schityvalas srazu: usil aktsent na lyudyakh, organizuyushchikh deystviya, na ikh vzaimodeystvii i na logike podgotovki. Uprosti fon, povysi chitayemost i sokhrani fotorealizm. Pri neobkhodimosti skorrektyruy personazhey po role-standartam.
+```
+
+#### RB06_W_S02
+
+- Slide title: `Chto dolzhno byt podgotovleno zaranee`
+- Slide role: `overview`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnyy uchebnyy kadr s podgotovlennym spasatelnym i evakuatsionnym osnashcheniem dlya rabot na vysote. Elementy dolzhny byt pokazany krupno i ponyatno: spasatelnyy nabor, strakhovochnye i evakuatsionnye ustroystva, osnashchenie dlya spuskaniya ili izvlecheniya, bez sluchaynogo besporyadka. Kompozitsiya prostaya, tekhnicheski chitayemaya, bez teksta vnutri izobrazheniya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy ego tak, chtoby vse kluchevye sredstva spaseniya i evakuatsii stali maksimalno vidimymi i legko razlichimymi. Uberi lishniy fon, usil kontrast, podcherkni gotovnost osnashcheniya k ispolzovaniyu. Ne dobavlyay dekorativnye effekty i tekst.
+```
+
+#### RB06_W_S03
+
+- Slide title: `Kto i kak deystvuet pri neshtatnoy situatsii`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya uchebnaya stsena s neskolkimi uchastnikami, u kotorykh vizualno schityvayutsya raznye roli pri neshtatnoy situatsii na vysote: rabotnik, otvetstvennyy, pomoshchnik ili chlen brigady. Bez paniki i bez avariynoy dramatizatsii. Glavnyy aktsent na raspredelenii roley i slazhennosti deystviy. Personazhi dolzhny sootvetstvovat role-standard `worker` i `ITR`, a uchastniki na vysote - contouru `height PPE`.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu i perekomponuy kadr tak, chtoby raspredelenie roley stalo ponyatnym bez podpisei: kto koordiniruet, kto gotov pomogat, kto yavlyaetsya osnovnym uchastnikom deystviy. Oslabi sluchaynyy fon, usil chitayemost figur i logiku vzaimodeystviya. Pri neobkhodimosti skorrektyruy personazhey po role-standartam.
+```
+
+#### RB06_W_S04
+
+- Slide title: `Osnovnye oshibki pri organizatsii spaseniya`
+- Slide role: `show error`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnyy uchebnyy primer plokhoy organizatsii spaseniya pri rabotakh na vysote. Oshibka dolzhna schityvatsya srazu bez dramatizatsii: net podgotovlennogo osnashcheniya, net ponyatnoy organizatsii, uchastok vygladit ne gotovym k deystviyam pri intsidente. Bez samoy katastrofy, bez travmy, bez shok-kontenta. Glavnyy aktsent na otsutstvii gotovnosti.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya slayda pro oshibku. Perekomponuy kadr tak, chtoby nedostatok gotovnosti k spaseniyu schityvalsya mgnovenno: net nuzhnogo osnashcheniya, net organizatsii, net ponyatnoy podgotovki. Uprosti fon, usil problemnye tochki, ne dobavlyay tekst i dramatizatsiyu.
+```
+
+#### RB06_W_S05
+
+- Slide title: `Chto rabotnik dolzhen ponimat do nachala rabot`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya uchebnaya stsena, gde rabotnik pered nachalom rabot na vysote poluchaet ili usvaivaet osnovnye deystviya na sluchay neshtatnoy situatsii. Vazhna ne byurokratiya, a ponyatnost: chelovek dolzhen vygladet gotovym i informirovannym. Uchebnaya kompozitsiya, bez lishnego shuma, s aktsentom na osmyslennost podgotovki. Personazh dolzhen sootvetstvovat contouru `height PPE` ili role-standard `worker`, esli scena zemnaya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy kadr tak, chtoby bylo yasno: rabotnik znaet, chto delat do nachala rabot i v sluchae neshtatnoy situatsii. Usil aktsent na osmyslennom podgotovitelnom momente, oslabi vtorostepennyy fon, sokhrani fotorealizm. Pri nuzhde primeni contour `height PPE` ili role-standard `worker`.
+```
+
+### RB-07: Ustanovka ograzhdeniy
+
+Status: `active draft`
+Coverage: `Core + Worker`
+
+#### RB07_C_S01
+
+- Slide title: `Ograjdeniya dolzhny byt ustanovleny do nachala opasnykh rabot`
+- Slide role: `show correct`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya stroitelnaya stsena, opasnyy uchastok uzhe zaranee ograzhden do nachala rabot. Ograjdenie dolzhno zanimat znachitelnuyu chast kadra, a logika preduprezhdeniya i ogranicheniya dostupa dolzhna schityvatsya s pervogo vzglyada. Kompozitsiya prostaya, uchebnaya, bez lishnego shuma, bez teksta vnutri izobrazheniya. Esli est personazhi, oni dolzhny sootvetstvovat role-standard `worker` ili `ITR`.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy kadr tak, chtoby bylo yasno: opasnyy uchastok ograzhden imenno do nachala rabot. Usil vidimost zashchitnogo kontura, uberi otvlekayushchie detali, povysi kontrast i chitayemost. Esli est lyudi, skorrektyruy ikh po sootvetstvuyushchim role-standartam.
+```
+
+#### RB07_W_S01
+
+- Slide title: `Gde ustanavlivayutsya ograzhdeniya`
+- Slide role: `overview`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya uchebnaya stsena s neskolkimi tipovymi mestami ustanovki ograzhdeniy na stroitelnom uchastke: kray rabochey zony, proem, opasnyy prokhod ili uchastok pod rabotami na vysote. Kompozitsiya obzornaya, no prostaya i ponyatnaya. Vazhno, chtoby mesta ustanovki schityvalis srazu i bez podpisei.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy ego tak, chtoby tipovye mesta ustanovki ograzhdeniy byli maksimalno yasny: kray zony, proem, opasnyy uchastok, perepad vysoty. Uprosti fon, usil kontrast i vizualnuyu logiku zashchity. Bez teksta i dekorativnykh effektov.
+```
+
+#### RB07_W_S02
+
+- Slide title: `Chto imenno dolzhno byt ograzhdeno`
+- Slide role: `show correct`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnyy krupnyy plan opasnogo uchastka, kotoryy dolzhen byt otdelen ograzhdeniem: kray, proem, opasnaya zona ili put potentsialnogo dostupa. Dolzhno byt yasno, chto imenno trebuet zashchity i kak ograzhdenie etu zashchitu obespechivaet. Uchebnaya podacha, bez lishnego shuma, bez teksta vnutri izobrazheniya.
+```
+
+`Prompt / Edit`
+
+```text
+Sokhrani iskhodnuyu stsenu, no perekomponuy kadr tak, chtoby opasnyy uchastok i ograzhdayushchiy ego kontur stali glavnym obektom. Usil logiku zashchity, uberi vtorostepennye detali, povysi chitayemost i kontrast. Bez teksta i lishney grafiki.
+```
+
+#### RB07_W_S03
+
+- Slide title: `Kak vyglyadit pravilnyy zashchitnyy kontur`
+- Slide role: `show correct`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya uchebnaya stsena s pravilnym nepreryvnym zashchitnym konturom vokrug opasnoy zony ili rabochego yarusa. Kontur dolzhen byt glavnoy tochkoy vnimaniya, bez razryvov i bez dvusmyslennosti. Kompozitsiya chistaya, naglyadnaya, bez teksta vnutri izobrazheniya. Esli est personazhi, oni dolzhny sootvetstvovat role-standard `worker` ili `ITR`.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy kadr tak, chtoby pravilnyy nepreryvnyy zashchitnyy kontur schityvalsya srazu. Uprosti fon, usil kontrast, sdelai kontur glavnym vizualnym elementom. Pri neobkhodimosti skorrektyruy personazhey po role-standartam.
+```
+
+#### RB07_W_S04
+
+- Slide title: `Tipovye oshibki ustanovki ograzhdeniy`
+- Slide role: `show error`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnyy uchebnyy primer tipichnoy oshibki ustanovki ograzhdeniy: razryv kontura, nepolnaya zashchita, formalnaya ustanovka ili ochevidno slabyye granitsy opasnoy zony. Oshibka dolzhna schityvatsya mgnovenno, bez dramatizatsii i bez intsidenta. Kadr prostoy, naglyadnyy, glavnyy aktsent na defekte.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya slayda pro oshibku. Perekomponuy kadr tak, chtoby defekt ustanovki ograzhdeniya stal maksimalno ochevidnym. Oslabi fon, usil kontrast i problemnyy uchastok, ne dobavlyay tekst i dramatizatsiyu.
+```
+
+#### RB07_W_S05
+
+- Slide title: `Chto proverit pered dopuskom k rabotam`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya proizvodstvennaya stsena pred dopuskom k opasnym rabotam: rabochiy ili sotrudnik ITR proveryaet tselostnost, polnotu i korrektnost ustanovki ograzhdeniya. Dolzhno byt yasno, chto eto imenno proverka pered dopuskom. Ograjdenie zanimaet bolshuyu chast kadra. Personazh dolzhen sootvetstvovat role-standard `worker` ili `ITR`.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy ego tak, chtoby proverka pered dopuskom k rabotam schityvalas mgnovenno: aktsent na sotrudnike, na konture ograzhdeniya i na samom deystvii kontrolya. Uprosti fon, povysi kontrast i chitayemost. Pri nuzhde skorrektyruy personazha po sootvetstvuyushchemu role-standardu.
+```
+
+### RB-08: Opasnaya zona padeniya predmetov
+
+Status: `active draft`
+Coverage: `Core + Worker`
+
+#### RB08_C_S01
+
+- Slide title: `Opasnaya zona padeniya predmetov: dostup dolzhen byt ogranichen`
+- Slide role: `show correct`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya stroitelnaya stsena, pod rabochim uchastkom na vysote chetko vydelena i ograzhdena opasnaya zona padeniya predmetov. Khorosho vidny granitsy, preduprezhdayushchie elementy i logika ogranicheniya dostupa. Uchebnaya kompozitsiya, bez lishnego shuma, vysokaya chitayemost s rasstoyaniya, bez teksta vnutri izobrazheniya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy kadr tak, chtoby granitsy opasnoy zony padeniya predmetov stali maksimalno yasnymi, a logika ogranicheniya dostupa schityvalas s pervogo vzglyada. Uberi otvlekayushchie detali, povysi kontrast i chitayemost. Bez teksta i dekorativnykh effektov.
+```
+
+#### RB08_W_S01
+
+- Slide title: `Kogda voznikayet opasnaya zona`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya proizvodstvennaya stsena s rabotami na vysote, pod kotorymi vizualno schityvayetsya nizhnyaya zona potentsialnogo padeniya predmetov. Dolzhno byt ponyatno, chto risk poyavlyaetsya iz-za vedushchikhsya vysotnykh rabot. Uchebnaya kompozitsiya, bez dramatizatsii, bez samogo proisshestviya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu i perekomponuy ego tak, chtoby stalo yasno: pod rabotami na vysote est zona, gde vozmozhen risk padeniya predmetov. Usil logiku svyazi mezhdu verhney rabochey zonoy i nizhney opasnoy oblastyu, oslabi fon i lishnie detali.
+```
+
+#### RB08_W_S02
+
+- Slide title: `Kak zona oboznachaetsya i ograzhdaetsya`
+- Slide role: `show correct`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya uchebnaya stsena, gde opasnaya zona padeniya predmetov chetko oboznachena i ograzhdena: ponyatnye granitsy, zashchitnye elementy, signalnye resheniya, bez vizualnogo shuma. Glavnyy aktsent na yasnosti granits i na tom, chto zona ne ostavlena bez kontrolya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy kadr tak, chtoby oboznachenie i ograzhdenie opasnoy zony stali glavnoy tochkoy vnimaniya. Usil granitsy, kontrast i ponimanie togo, kak zona otdelena ot svobodnogo dostupa. Bez teksta i lishney grafiki.
+```
+
+#### RB08_W_S03
+
+- Slide title: `Chto zapreshcheno v predelakh zony`
+- Slide role: `show error`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnyy uchebnyy primer narusheniya: chelovek ili materialy nakhodyatsya v opasnoy zone padeniya predmetov. Oshibka dolzhna byt ochevidnoy s pervogo vzglyada, no bez dramatizatsii i bez samogo protsessa padeniya. Kadr prostoy, naglyadnyy, glavnyy aktsent na fakt narusheniya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya slayda pro narushenie. Perekomponuy kadr tak, chtoby prisutstvie lyudey ili materialov v opasnoy zone schityvalos mgnovenno. Oslabi fon, usil granitsy zony i sam fakt narusheniya, ne dobavlyay tekst i dramatizatsiyu.
+```
+
+#### RB08_W_S04
+
+- Slide title: `Kto kontroliruet soblyudenie ogranicheniy`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya proizvodstvennaya stsena, gde otvetstvennyy sotrudnik kontroliruet soblyudenie granits opasnoy zony padeniya predmetov. Dolzhno byt yasno, chto eto imenno kontrol i nablyudenie za soblyudeniem ogranicheniy. Personazh dolzhen sootvetstvovat role-standard `ITR` ili `worker` po logike stseny.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy kadr tak, chtoby deystvie kontrolya granits opasnoy zony stalo ochevidnym. Usil aktsent na personazhe, na granitsakh zony i na logike nablyudeniya. Pri neobkhodimosti skorrektyruy personazha po sootvetstvuyushchemu role-standardu.
+```
+
+#### RB08_W_S05
+
+- Slide title: `Tipovye oshibki organizatsii opasnoy zony`
+- Slide role: `show error`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnyy uchebnyy primer plokho organizovannoy opasnoy zony padeniya predmetov: slabaya markirovka, razryvy ograzhdeniya, nedostatochno ponyatnye granitsy ili svobodnyy dostup. Oshibka dolzhna schityvatsya srazu, bez dramatizatsii, bez travmy i bez samogo padeniya predmetov.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya slayda pro oshibku. Perekomponuy kadr tak, chtoby defekty organizatsii opasnoy zony stali glavnym obektom: slabaya markirovka, razryvy kontura, svobodnyy dostup. Oslabi lishniy fon, usil problemnyy uchastok i chitayemost narusheniya. Bez teksta i dekorativnykh effektov.
+```
+
 ## Kak ponimat, chto biblioteka rabotaet
 
 Biblioteka schitaetsya poleznoy, esli:
