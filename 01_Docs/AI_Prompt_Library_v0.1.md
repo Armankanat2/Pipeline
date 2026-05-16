@@ -538,6 +538,248 @@ Format otveta:
 - possible conflict, esli on est.
 ```
 
+## Reusable Prompt Packs
+
+Etot razdel nuzhen dlya gotovykh povtoryaemykh visual-blocks, kotorye mozhno vstavlyat
+v raznye kursy bez peresborki s nulya.
+
+Format khraneniya:
+
+- `Block ID`
+- `Slide ID`
+- `Slide role`
+- `Prompt / Generate`
+- `Prompt / Edit`
+- `Primary use`
+
+### RB-04: Ograjdeniya kak sredstvo kollektivnoy zashchity
+
+Status: `active draft`
+Coverage: `Core + Worker`
+
+#### RB04_C_S01
+
+- Slide title: `Ograjdeniya kak obyazatelnyy element kollektivnoy zashchity`
+- Slide role: `show correct`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya uchebnaya proizvodstvennaya stsena dlya prezentatsii po okhrane truda i promyshlennoy bezopasnosti. Krupno pokazano pravilno ustanovlennoe zashchitnoe ograzhdenie po krayu rabochego yarusa ili opasnoy zony na stroitelnoy ploshchadke ili na lesakh. Ograjdenie dolzhno byt glavnym obektom kadra i zanimat bolshuyu chast izobrazheniya. Khorosho chitayetsya nepreryvnyy zashchitnyy kontur, konstruktsiya vyglyadit ustoychivoy i pravilno sobrannoy. Kompozitsiya prostaya, bez lishnego vizualnogo shuma, bez peregruzhennogo fona, s vysokim kontrastom i khoroshey chitayemostyu s rasstoyaniya na ekrane. Minimum pustykh poley. Bez tekstovykh nadpisey vnutri izobrazheniya, bez logotipov, bez avariynoy dramatizatsii.
+
+Esli v kadre est rabotniki, vse rabotniki dolzhny byt v role-standard `worker` iz etoy biblioteki.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya uchebnogo slayda. Sokhrani realnuyu proizvodstvennuyu stsenu i fotorealizm, no perekomponuy kadr tak, chtoby zashchitnoe ograzhdenie stalo glavnym obektom i zanimat osnovnuyu chast izobrazheniya. Sokhrati pustye polya, uberi ili oslabi otvlekayushchie detali fona, povysi kontrast i chitayemost ograzhdeniya s rasstoyaniya na ekrane. Ne dobavlyay tekst, logotipy i khudozhestvennye effekty. Esli v kadre est lyudi i nuzhna korrektirovka, privedi ikh k role-standard `worker`.
+```
+
+#### RB04_W_S01
+
+- Slide title: `Zachem nuzhny ograzhdeniya`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya stsena na stroitelnoy ploshchadke ili na lesakh, krupno pokazano pravilno ustanovlennoe ograzhdenie, kotoroe ochevidno otdelyaet bezopasnuyu zonu ot opasnoy. Dolzhno byt srazu ponyatno, chto ograzhdenie predotvrashchaet vykhod v opasnuyu oblast ili padenie. Glavnyy aktsent na zashchitnoy funktsii ograzhdeniya. Kompozitsiya prostaya, uchebnaya, bez lishnikh obektov i vizualnogo shuma, vysokaya chitayemost na bolshom ekrane, bez teksta vnutri izobrazheniya. Esli v kadre est rabotniki, vse rabotniki dolzhny byt v role-standard `worker`.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Usil smysl zashchity: perekomponuy kadr tak, chtoby granitsa mezhdu bezopasnoy i opasnoy zonoy chitalas srazu, a ograzhdenie stalo glavnym vizualnym elementom. Oslabi vtorostepennyy fon, povysi kontrast, uberi vizualnyy musor, sokhrani fotorealizm i proizvodstvennyy kharakter stseny. Bez teksta, logotipov i dekorativnykh effektov. Esli nuzhno, skorrektyruy rabotnikov po role-standard `worker`.
+```
+
+#### RB04_W_S02
+
+- Slide title: `Gde ograzhdeniya obyazatelny`
+- Slide role: `overview`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya uchebnaya stsena s neskolkimi khorosho chitayemymi opasnymi uchastkami na stroitelnoy ploshchadke ili na lesakh, gde ograzhdenie obyazatelno: kray rabochego yarusa, otkrytyy proem, opasnaya zona u perepada vysoty. Kompozitsiya obzornaya, no prostaya i ponyatnaya, bez khaosa. Vse klyuchevye zony dolzhny razlichatsya s pervogo vzglyada. Ograjdeniya i opasnye granitsy chitayutsya yasno, bez melkikh nerazborchivykh detaley. Vysokiy kontrast, minimum pustykh poley, bez teksta vnutri izobrazheniya. Esli v kadre est rabotniki, vse rabotniki dolzhny byt v role-standard `worker`.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy ili pribliz kadr tak, chtoby neskolko obyazatelnykh zon primeneniya ograzhdeniy chitalis yasno: kray yarusa, proem, perepad vysoty. Uberi lishnie detali, meshayushchie vospriyatiyu, usil kontrast opasnykh granits i samikh ograzhdeniy. Sokhrani fotorealizm, bez teksta i graficheskikh effektov. Esli nuzhno, privedi rabotnikov k role-standard `worker`.
+```
+
+#### RB04_W_S03
+
+- Slide title: `Chto dolzhno byt zashchishcheno ograzhdeniem`
+- Slide role: `show correct`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Krupnyy fotorealistichnyy plan opasnogo kraya rabochego yarusa ili otkrytogo tekhnologicheskogo proema, kotoryy pravilno zashchishchen ograzhdeniem. Khorosho vidna logika zashchity: otkuda vozmozhen dostup i kakoy uchastok perekryt ograzhdeniem. Glavnyy aktsent na opasnoy granitse i na zashchitnom konture. Uchebnaya podacha, minimum otvlekayushchikh detaley, vysokaya chitayemost s rasstoyaniya, bez teksta vnutri izobrazheniya. Esli v kadre est rabotniki, vse rabotniki dolzhny byt v role-standard `worker`.
+```
+
+`Prompt / Edit`
+
+```text
+Sokhrani iskhodnuyu proizvodstvennuyu stsenu, no perekomponuy izobrazhenie tak, chtoby opasnyy kray ili proem i zashchishchayushchee ego ograzhdenie stali glavnym obektom kadra. Usil vizualnuyu logiku zashchity: dolzhno byt yasno, kakoy uchastok opasen i kak ego perekryvaet ograzhdenie. Udali ili oslabi otvlekayushchie detali, povysi chitayemost i kontrast. Bez teksta i lishney grafiki. Esli nuzhno, skorrektyruy rabotnikov po role-standard `worker`.
+```
+
+#### RB04_W_S04
+
+- Slide title: `Tipovye oshibki pri ustroystve ograzhdeniy`
+- Slide role: `show error`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnyy uchebnyy primer nepravilnogo ili nepolnogo ograzhdeniya na stroitelnoy ploshchadke ili na rabochem yaruse. Oshibka dolzhna schityvatsya srazu: razryv zashchitnogo kontura, otsutstvuyushchiy uchastok ograzhdeniya ili formalno ustanovlennoe, no ne obespechivayushchee zashchitu ograzhdenie. Bez chrezmernoy dramatizatsii, bez padeniya lyudey, bez avariynoy stseny. Kadr prostoy i naglyadnyy, glavnyy aktsent na defekte ograzhdeniya, minimum vizualnogo shuma, vysokaya chitayemost na ekrane, bez teksta vnutri izobrazheniya. Esli v kadre est rabotniki, vse rabotniki dolzhny byt v role-standard `worker`.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya uchebnogo slayda pro oshibku. Perekomponuy kadr tak, chtoby defekt ograzhdeniya schityvalsya mgnovenno: razryv kontura, propusk ili formalnaya ustanovka dolzhny stat glavnym obektom izobrazheniya. Oslabi lishniy fon, usil kontrast i yasnost problemnogo uchastka. Ne dobavlyay tekst, khudozhestvennye effekty i dramatizatsiyu. Esli nuzhno, privedi rabotnikov k role-standard `worker`.
+```
+
+#### RB04_W_S05
+
+- Slide title: `Proverka ograzhdeniya pered nachalom raboty`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya proizvodstvennaya stsena, rabochiy ili otvetstvennyy sotrudnik pered nachalom rabot osmatrivaet ustanovlennoe ograzhdenie na rabochem uchastke ili na lesakh. Dolzhno byt yasno, chto eto imenno proverka, a ne montazh: chelovek vnimatelno smotrit na uzly, kontur i tselostnost ograzhdeniya. Ograjdenie zanimaet znachitelnuyu chast izobrazheniya. Kadr chistyy, uchebnyy, bez tolpy lyudey i bez vizualnogo peregruza, vysokaya chitayemost s rasstoyaniya, bez teksta vnutri izobrazheniya. Personazh v kadre dolzhen sootvetstvovat role-standard `worker` ili `ITR` v zavisimosti ot logiki stseny.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Sokhrani fotorealizm, no perekomponuy kadr tak, chtoby deystvie proverki ograzhdeniya stalo ochevidnym: glavnyy aktsent na sotrudnike, osmatrivayushchem kontur, uzly i tselostnost ograzhdeniya. Ograjdenie dolzhno zanimat bolshuyu chast kadra, fon dolzhen byt uproshchen, kontrast povyshen, otvlekayushchie detali oslableny. Bez teksta i dekorativnykh effektov. Esli trebuetsya korrektirovka vneshnego vida, primeni role-standard `worker` ili `ITR`.
+```
+
+### RB-05: SIZ dlya raboty na vysote
+
+Status: `active draft`
+Coverage: `Core + Worker`
+
+#### RB05_C_S01
+
+- Slide title: `SIZ dlya raboty na vysote: chto obyazatelno znat`
+- Slide role: `overview`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnyy nabor sredstv individualnoy zashchity dlya raboty na vysote, krupno i chetko pokazany privyaz, strop, karabiny, soyedinitelnye elementy, kaska, zashchitnye ochki i zashchitnaya obuv. Esli v kadre est chelovek, on dolzhen byt v korrektnykh SIZ dlya raboty na vysote; signalnaya zhiletka v takom scenarii ne trebuetsya. Akuratnaya raskladka ili rabotnik v pravilnoy ekipirovke, svetlyy neytralnyy fon ili ponyatnaya proizvodstvennaya sreda, uchebnyy stil, vysokaya chitayemost s ekrana, bez logotipov i bez teksta vnutri izobrazheniya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya uchebnogo slayda. Perekomponuy kadr tak, chtoby osnovnye elementy SIZ dlya raboty na vysote stali maksimalno krupnymi i legko razlichimymi: privyaz, strop, karabiny, soyedinitelnye elementy, tochki podklyucheniya, kaska i obuv. Uberi otvlekayushchie detali, usil kontrast i tekhnicheskuyu chitayemost. Esli v kadre est chelovek, sokhrani ili skorrektyruy ego pod standard `height PPE`: bez signalnoy zhiletki, s korrektno pokazannymi elementami vysotnykh SIZ.
+```
+
+#### RB05_W_S01
+
+- Slide title: `Kakie SIZ primenyayutsya na vysote`
+- Slide role: `overview`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Rabotnik na vysote v polnom komplekte SIZ, vse osnovnye elementy khorosho vidny: zashchitnaya kaska, zashchitnye ochki, strakhovochnaya privyaz, strop, karabiny, soyedinitelnye elementy, zashchitnye perchatki, obuv s zashchitnym podnoskom. Signalnaya zhiletka ne nuzhna, tak kak rabotnik uzhe v SIZ dlya raboty na vysote. Uchebnoe izobrazhenie, vysokaya chetkost, prostaya kompozitsiya, glavnyy aktsent na komplekte SIZ i na pravilnom professionalnom vide rabotnika.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy ego tak, chtoby komplekt SIZ rabotnika na vysote stal glavnym obektom: usil vidimost privyazi, stropa, karabinov i drugikh strakhovochnykh elementov. Uberi vtorostepennyy fon, povysi kontrast i chitayemost. Esli nuzhna korrektirovka odezhdy, privedi personazha k korrektnomu contouru `height PPE`: bez signalnoy zhiletki, s pravilnoy kaskoy, ochkami, privyazyu i zashchitnoy obuvyu.
+```
+
+#### RB05_W_S02
+
+- Slide title: `Privyaz, strop, karabiny`
+- Slide role: `show correct`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Krupnyy fotorealistichnyy plan strakhovochnoy privyazi, stropa i karabinov. Elementy zanimayut osnovnuyu chast kadra i tekhnicheski ponyatno pokazany dlya uchebnogo slayda. Vidny material, tochki krepleniya, forma karabinov i logika soyedineniya. Bez lishnikh obektov, bez vizualnogo shuma, bez teksta vnutri izobrazheniya. Esli v kadre est chelovek, on dolzhen byt v korrektnykh SIZ dlya raboty na vysote bez signalnoy zhiletki.
+```
+
+`Prompt / Edit`
+
+```text
+Sokhrani iskhodnyy fotorealistichnyy material, no pribliz i perekomponuy kadr tak, chtoby privyaz, strop i karabiny stali glavnoy tochkoy vnimaniya. Usil tekhnicheskuyu chitayemost uzla, uberi ili oslabi fon, ne dobavlyay tekst i dekorativnye effekty. Esli nuzhno, skorrektyruy cheloveka v kadre pod standart `height PPE`.
+```
+
+#### RB05_W_S03
+
+- Slide title: `Pravilnaya tochka krepleniya`
+- Slide role: `show correct`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnaya proizvodstvennaya stsena, pravilnoe podklyuchenie rabotnika v SIZ dlya raboty na vysote k tochke krepleniya. Uzel dolzhen byt krupnym, odnoznachnym i bez dvusmyslennosti. Khorosho vidny tochka krepleniya, strakhovochnyy element i logika podklyucheniya. Rabotnik v korrektnykh SIZ dlya raboty na vysote bez signalnoy zhiletki. Uchebnaya podacha, bez lishnego shuma, bez teksta vnutri izobrazheniya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu. Perekomponuy i pribliz kadr tak, chtoby pravilnaya tochka krepleniya i podklyuchenie k ney schityvalis mgnovenno. Uberi ili oslabi vse, chto meshayet vospriyatiyu uzla. Sokhrani fotorealizm i proizvodstvennyy kontekst. Esli personazh trebuet korrektirovki, privedi ego k standartnomu contouru `height PPE`.
+```
+
+#### RB05_W_S04
+
+- Slide title: `Osmotr SIZ pered ispolzovaniem`
+- Slide role: `explain`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Predsmennyy osmotr SIZ dlya raboty na vysote. Rabotnik v korrektnykh vysotnykh SIZ vnimatelno proverayet privyaz, strop i karabiny pered nachalom raboty. Aktsent na kontrolnykh tochkakh i na samom deystvii proverki. Bez signalnoy zhiletki. Chistaya uchebnaya kompozitsiya, bez lishnikh lyudey, vysokaya chitayemost s rasstoyaniya, bez teksta vnutri izobrazheniya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya slayda pro predsmennyy osmotr. Perekomponuy kadr tak, chtoby deystvie proverki privyazi, stropa i karabinov stalo ochevidnym. Usil kontrolnye tochki, oslabi fon, sokhrani fotorealizm. Esli vneshniy vid personazha trebuet korrektirovki, primeni contour `height PPE`: bez signalnoy zhiletki, s pravilno pokazannymi vysotnymi SIZ.
+```
+
+#### RB05_W_S05
+
+- Slide title: `Tipovye oshibki primeneniya SIZ`
+- Slide role: `show error`
+- Primary use: `generate`
+
+`Prompt / Generate`
+
+```text
+Fotorealistichnyy uchebnyy primer tipichnoy oshibki pri primenenii SIZ dlya raboty na vysote. Narushenie dolzhno byt ochevidnym s pervogo vzglyada, no bez avariynoy dramatizatsii: nepravilnoe podklyuchenie, ignorirovanie elementa strakhovki ili nekorrektno nadetaya sistema. Rabotnik v vysotnykh SIZ bez signalnoy zhiletki. Kadr prostoy, naglyadnyy, s glavnym aktsentom na oshibke, bez teksta vnutri izobrazheniya.
+```
+
+`Prompt / Edit`
+
+```text
+Ispolzuy iskhodnoe izobrazhenie kak osnovu dlya slayda pro narushenie. Perekomponuy kadr tak, chtoby oshibka v primenenii SIZ schityvalas srazu. Usil problemnyy uzel, oslabi fon, ne dobavlyay tekst i dramatizatsiyu. Esli nuzhna korrektirovka odezhdy ili osnastki personazha, primeni contour `height PPE`, no sokhrani logiku oshibki kak glavnuyu tochku vnimaniya.
+```
+
 ## Kak ponimat, chto biblioteka rabotaet
 
 Biblioteka schitaetsya poleznoy, esli:
