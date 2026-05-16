@@ -12,7 +12,7 @@
 
 ## Chto vklyucheno v release
 
-- PPTX: poka ne vlozheny
+- PPTX: est release-staging drafts `ML_08_batch1_visual_build_v0.1.pptx` i `ML_08_assessment_visual_build_v0.1.pptx`, no finalnyy deck eshche ne sobran
 - PDF: poka ne vlozheny
 - Kakie versii vstroyeny v release: planned `korotkaya / srednyaya / dlinnaya`
 - Est li variant bez bloka voprosov: da, zaplanirovan
@@ -25,7 +25,7 @@
 - Online handoff pack: planned, kak budushchiy eksportnyy kontur dlya LMS ili drugogo online-produkta
 - Publishing handoff pack: planned, kak kontur peredachi vo vneshniy production / publishing
 - Preflight checklist: planned
-- Test check sheet: planned
+- Test check sheet: draft exists
 - Brand profile: generic white-label base
 - Dopolnitelnye materialy: net
 - Vybrannyy dizayn-kontsept: poka ne vybran, dopustim `D-06 Corporate Neutral` kak generic fallback
@@ -73,8 +73,8 @@
 ## Osnovnoe soderzhanie reliza
 
 - Kakie moduli ili bloki vklyucheny: release-paket eshche ne sobran; target architecture vklyuchaet moduli `01-11`
-- Kakie obnovleniya vneseny: sozdana release-struktura pod `PPTX / PDF`, `with-test / no-test`, `test`, `answer key`, `notes`, `admin`
-- Kakie kritichnye izmeneniya poyavilis: klientskiy paket teper rassmatrivaetsya kak nabor variantov, a ne odin finalnyy fayl; dobavlen generic-kontur dlya dalneyshey branded sborki
+- Kakie obnovleniya vneseny: sozdana release-struktura pod `PPTX / PDF`, `with-test / no-test`, `test`, `answer key`, `notes`, `admin`; dobavleny release-staging PowerPoint drafts dlya `Batch 1` i assessment-visual contoura
+- Kakie kritichnye izmeneniya poyavilis: klientskiy paket teper rassmatrivaetsya kak nabor variantov, a ne odin finalnyy fayl; dobavlen generic-kontur dlya dalneyshey branded sborki; assessment-layer teper materializovan v otdelnyy controllable build dlya targeted QA
 
 ## Zakrytye pravki
 
@@ -86,7 +86,7 @@
 
 ## Ogranicheniya tekushchey versii
 
-- Chto ne voshlo v release: sam deck, finalnyy test, finalnyy answer key, speaker notes
+- Chto ne voshlo v release: sam finalnyy deck, finalnyy test, finalnyy answer key, speaker notes
 - Chto ne voshlo v online handoff: finalnye release-grade versii adaptation map, module summaries, narration pack i online handoff pack eshche ne sobrany; poka est tolko starter drafts
 - Chto ne voshlo v gateway-ready contour: est primery `gateway spec v0.1`, `gateway manifest v0.1` i `gateway event map v0.1`; release-grade `v1.0` route/event detalizatsiya i platform-specific telemetry format eshche ne sobrany
 - Chto ne voshlo v publishing handoff: finalnyy source bundle, rights-cleared asset summary, font list, finalnyy preflight i testovaya pechat
@@ -103,7 +103,7 @@
 
 - Rabochaya papka kursa: `02_Research/Montazhnik_lesov`
 - Finalnaya papka release: `05_Release/Montazhnik_lesov`
-- QA report: est formalnyy `02_Research/Montazhnik_lesov/09_QA/09_qa_report_v0.1.md`, no net finalnogo post-fix reporta
+- QA report: est formalnyy `02_Research/Montazhnik_lesov/09_QA/09_qa_report_v0.1.md`, a takzhe podgotovlen `09_targeted_test_validity_review_v0.1.md` pod sleduyushchiy revise-check
 - Pilot report: poka net
 - Publishing handoff folder: `05_Release/Montazhnik_lesov/09_Publishing_Handoff`
 

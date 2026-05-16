@@ -9,7 +9,7 @@ Zhurnal nuzhen dlya fiksatsii release-izmeneniy i posleduyushchikh obnovleniy ku
 - Nazvanie kursa: `Montazhnik lesov`
 - Kod kursa: `ML`
 - Owner: vy
-- Data poslednego review: `2026-05-12`
+- Data poslednego review: `2026-05-16`
 - Sleduyushchaya planovaya data review: `2026-05-30`
 - Tekushchaya release-versiya: `v0.1`
 - Uroven sborki: `Base`
@@ -19,6 +19,7 @@ Zhurnal nuzhen dlya fiksatsii release-izmeneniy i posleduyushchikh obnovleniy ku
 | Data | Versiya | Change type | Chto izmeneno | Pochemu | Istochnik izmeneniya | Conflict check | Kto vnes | Status |
 |---|---|---|---|---|---|---|---|---|
 | 2026-05-12 | `v0.1` | `minor` | Sozdana release-struktura i chernoviki `release note` / `update log` | release | `production setup` | `passed` | vy | done |
+| 2026-05-16 | `v0.1` | `minor` | Sobran `ML_08_assessment_visual_build_v0.1.pptx` i podgotovlen `09_targeted_test_validity_review_v0.1.md` | post-QA revise | `assessment-validity closure` | `passed` | vy | done |
 | 2026-05-30 | `v1.0` | `major` | Planiruetsya pervyy polnyy pilot-ready release | release | `roadmap` | `passed` | vy | planned |
 
 ## Signaly na obnovlenie

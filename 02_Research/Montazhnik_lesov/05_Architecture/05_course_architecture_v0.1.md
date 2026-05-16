@@ -16,13 +16,36 @@
 | 02. Dopusk, SIZ i bazovye pravila TB | Sformirovat bazovuyu ramku bezopasnosti pered montazhom i ekspluatatsiey | dopusk, instruktazh, obuchenie, bazovye SIZ, nedopustimye usloviya raboty | `LO-01`, `LO-02`, `LO-13` | medium | Odin iz klyuchevykh moduley; nuzhny prostye keysy i foto po SIZ |
 | 03. Ustroystvo lesov: elementi i logika ustoychivosti | Dati slushatelyu ponimanie, iz chego sostoyat lesa i pochemu konstruktsiya derzhitsya | osnovnye elementi, uzly, funktsii elementov, svyazi, krepleniya, obshchaya logika ustoychivosti | `LO-03`, `LO-08` | medium | Nuzhny skhemy i podpisannye vizualy; bez etogo modul budet slishkom abstraktnym |
 | 04. Podgotovka ploshchadki i priemka elementov | Nauchit otsenivat gotovnost mesta rabot i ne dopuskat v sborku problemnye komponenty | osnovanie, opasnaya zona, podkhody, proverka elementov, nekomplekt, povrezhdeniya | `LO-04`, `LO-05` | medium | Khorosho podkhodit dlya foto-sravneniy `mozhno / nelzya` |
-| 05. Start montazha: baza i pervyy yarus | Pokazat bezopasnuyu logiku nachala sborki bez propuska kritichnykh shagov | opory, poryadok sborki, geometriya, pervye svyazi, tipovye oshibki na starte | `LO-06`, `LO-08` | medium | Logichnyy perekhod k poshagovomu script |
-| 06. Nabor vysoty, kreplenie i zhestkost skhemy | Obyasnit, kak narashchivat konstruktsiyu bez poteri ustoychivosti | nabor yarusov, nastily, ograzhdeniya, lestnitsy, skhema krepleniy, risk peregruzki i perekosa | `LO-07`, `LO-08` | heavy | Odin iz samykh obemnykh moduley; veroyaten bolshoy obem vizualov i situatsiy |
+| 05. Start montazha: baza i pervyy yarus | Pokazat bezopasnuyu logiku nachala sborki bez propuska kritichnykh shagov | opory, poryadok sborki, geometriya, pervye svyazi, tipovye oshibki na starte | `LO-06`, `LO-08` | medium | Dlya klinovykh lesov zdes uzhe zaveden otdelnyy image-driven step-pack s etapami `01-06` |
+| 06. Nabor vysoty, kreplenie i zhestkost skhemy | Obyasnit, kak narashchivat konstruktsiyu bez poteri ustoychivosti | nabor yarusov, nastily, ograzhdeniya, lestnitsy, skhema krepleniy, risk peregruzki i perekosa | `LO-07`, `LO-08` | heavy | Dlya klinovykh lesov zdes uzhe zaveden otdelnyy image-driven step-pack s etapami `07-12`; veroyaten bolshoy obem vizualov i situatsiy |
 | 07. Proverka pered ekspluatatsiey i pravila raboty na lesakh | Perevesti sborku v stadiyu bezopasnoy ekspluatatsii | cheklist gotovnosti, osnovaniya dlya zapreta, dopustimye nagruzki, poryadok peremeshcheniya, zaprety v ekspluatatsii | `LO-09`, `LO-10` | heavy | Vazhno ne smeshat proverku i ekspluatatsiyu v odin "obshchiy" slayd; nuzhen chetkiy cheklist |
 | 08. Tipovye oshibki i avariynye predposylki | Nauchit raspoznavat opasnye otkloneniya do intsidenta | oshibki montazha, ekspluatatsii i demontazha, priznaki opasnoy konstruktsii, kogda nuzhno ostanovit raboty | `LO-11`, `LO-13` | medium | Modul udobno sobirat na keysakh i foto-primerakh |
 | 09. Bezopasnyy demontazh | Pokazat, chto demontazh trebuet otdelnoi logiki i ne yavlyaetsya "obratnoy sborkoy bez pravil" | poryadok demontazha, kontrol opasnoy zony, snyatie krepleniy, zapret na sbros elementov | `LO-12`, `LO-13` | medium | Nuzhny keysy po narusheniyam pri demontazhe |
 | 10. Itogi i povtorenie | Sobrat klyuchevye pravila v kompaktnuyu sistemu pered proverkoy znaniy | povtor kluchevykh resheniy, cheklisty, tipovye "red flags" | `LO-01`-`LO-13` | short | Modul-perekhod k testu, 4-6 slaydov |
 | 11. Test i razbor situatsiy | Proverit, kak slushatel prinimaet resheniya po TB, montazhu i ekspluatatsii | situatsionnye voprosy, vizualnye voprosy, razbor oshibok | `LO-01`-`LO-13` | heavy | Finalnyy blok v kontse prezentatsii, tselevoy obem `15-30` voprosov |
+
+## Specific build layer: klinovye lesa
+
+Dlya tekushchego production-contoura dobavlen otdelnyy system-layer:
+
+- `06_Script/06_klinovye_lesa_montage_sequence_pack_v0.1.md`
+
+Ego logika:
+
+- `1 etap = 1 slayd`
+- kazhdyy slayd opiraetsya na konkretnoye izobrazhenie etapa;
+- na kazhdom slayde obyazatelny blok `trebovaniya` i blok `vozmozhnye oshibki`;
+- pomimo etapov `1-12`, est otdelnyy obyazatelnyy slayd po ankerovaniyu;
+- do polucheniya pasporta sistemy i PPR etot contour schitaetsya `client-provided / system-specific`, a ne universalnym core dlya lyubykh lesov.
+
+Dopolnitelno zafiksirovano pravilo dlya khomutovykh lesov:
+
+- ne delat vtoroy polnyy poshagovyy block pri sovpadenii bazovoy logiki sborki;
+- ispolzovat klinovyy contour kak opornyy;
+- dlya khomutovogo contoura pokazyvat tolko otlichiya:
+  - soedineniya trub mezhdu soboy;
+  - spetsifika obvyazki kollon;
+  - otdelnyy slayd po ankerovaniyu.
 
 ## Posledovatelnost moduley
 

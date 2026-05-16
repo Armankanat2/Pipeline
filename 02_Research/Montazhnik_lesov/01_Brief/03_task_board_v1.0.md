@@ -10,12 +10,12 @@
 - Deadline: `2026-05-30`
 - Aktivnyy variant: `Standard`
 - Source of truth po statusu: etot task board
-- Sledushchiy artefakt: real build `A-44 - A-48` -> targeted QA po test-validity
+- Sledushchiy artefakt: `09_targeted_test_validity_review_v0.1.md`
 - Status gate: `revise before pilot / release`
-- Tekushchiy bottleneck: `real build of A-44 - A-48 + evidence gap`
+- Tekushchiy bottleneck: `targeted QA po assessment-validity + evidence gap`
 - Aktivnyy focus board: `_Control/Focus_Board.md`
-- Sleduyushchiy control review: posle zakrytiya post-QA fix-cycle ili pered povtornym targeted QA
-- Poslednee obnovlenie: `2026-05-14`
+- Sleduyushchiy control review: posle targeted QA po assessment-validity
+- Poslednee obnovlenie: `2026-05-16`
 
 ## Tekushchie zadachi
 
@@ -36,7 +36,7 @@
 - [x] Sobrat `10_test_pack_v0.2.md` s visual-simulated checks
 - [x] Sobrat `07_asset_register_v0.3.md` pod `TV-01` - `TV-05`
 - [x] Sobrat build-ready package dlya MVP visual anchors `A-44` - `A-48`
-- [ ] Sobrat sami MVP visual anchors `A-44` - `A-48` v PowerPoint/Figma
+- [x] Sobrat sami MVP visual anchors `A-44` - `A-48` v PowerPoint/Figma
 - [ ] Proyti targeted QA po test-validity
 - [ ] Finalizirovat test contour posle QA
 - [ ] Podgotovit pilot ili release
@@ -66,6 +66,6 @@
 
 ## Reshenie na tekushchiy moment
 
-Formalnyy `09_QA/09_qa_report_v0.1.md` proyden s resheniem `revise`. Posle etogo sobrany `10_test_pack_v0.2.md`, `07_asset_register_v0.3.md` i build-ready paket v `08_Deck` dlya `A-44` - `A-48`. Eto znachit, chto assessment-validity gap uzhe pereveden iz abstraktnoy zadachi v konkretnuyu proizvodstvennuyu ochered: est test, est asset package, est build spec i est practical checklist. Glavnoe ogranichenie teper ne v metodike, a v realnoy sborke samikh visual blocks vo vneshnem instrumente i ikh targeted QA bez vykhoda za generic-safe evidence-boundary.
+Formalnyy `09_QA/09_qa_report_v0.1.md` proyden s resheniem `revise`. Posle etogo byli sobrany `10_test_pack_v0.2.md`, `07_asset_register_v0.3.md`, build-ready paket v `08_Deck` i teper uzhe realnyy PowerPoint-draft `05_Release/Montazhnik_lesov/01_PPTX/02_No_Test/ML_08_assessment_visual_build_v0.1.pptx` dlya `A-44` - `A-48`. Eto znachit, chto assessment-validity gap uzhe ne tolko pereveden v proizvodstvennuyu ochered, no i materializovan v controllable visual build. Glavnoe ogranichenie teper ne v metodike i ne v samoy sborke, a v targeted QA etogo paketa i proverke, chto on deystvitelno usilivaet `LO-03`, `LO-05`, `LO-07`, `LO-11`, `LO-12` bez vykhoda za generic-safe evidence-boundary.
 
 Teper eto reshenie podderzhivaetsya ne tolko tekstom v task board, no i cherez `_Control/Decision_Log.md`, `_Control/Focus_Board.md`, `_Control/Bottleneck_Register.md` i `_Feedback/Retrospective.md`.

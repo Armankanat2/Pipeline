@@ -2,16 +2,16 @@
 
 ## Aktivnoe okno fokusa
 
-- Period: `2026-05-14 -> do zakrytiya post-QA revise-cycle`
+- Period: `2026-05-16 -> do zakrytiya targeted QA po assessment-validity`
 - Bazovyy variant: `Standard`
 
 ## Glavnye tochki koncentratsii
 
-1. Build `A-44` - `A-48`
-   `07_asset_register_v0.3.md` uzhe opredelil assessment-asset package, a `08_assessment_visual_build_spec_v0.1.md` i checklist pereveli ego v realnyy build-ready contour.
+1. Targeted QA po `A-44` - `A-48`
+   Assessment-asset package uzhe materializovan v `ML_08_assessment_visual_build_v0.1.pptx`, i teper vazhno proverit ne sam fakt sborki, a rabotaet li on kak test-validity bridge.
 
 2. Assessment validity confirmation
-   Posle sborki `A-44` - `A-48` proverit, deystvitelno li `LO-03`, `LO-05`, `LO-07`, `LO-11`, `LO-12` bolshe ne zavisyat tolko ot teksta.
+   Proverit, deystvitelno li `LO-03`, `LO-05`, `LO-07`, `LO-11`, `LO-12` bolshe ne zavisyat tolko ot teksta i ne raskhodyatsya s `Q-07`, `Q-08`, `Q-16`, `Q-21`, `Q-22`.
 
 3. Evidence boundary
   Derzhat generic-safe granitsu i ne perekhodit k release-confidence bez pasporta sistemy i ekspertnoy validatsii.
@@ -25,6 +25,6 @@
 
 ## Sleduyushchiy review
 
-- Proverit, sobrany li `A-44` - `A-48` kak realnye assets ili controllable visual blocks.
-- Reshit, gotov li kurs k povtornomu targeted QA po test-validity ili nuzhen eshche odin fix-cycle.
+- Proverit `A-44` - `A-48` po `09_targeted_test_validity_review_v0.1.md`.
+- Reshit, dostatochno li etogo paketa dlya zakrytiya revise-gap ili nuzhen eshche odin fix-cycle.
 - Posmotret, ne nuzhen li dlya Pipeline otdelnyy pattern `assessment-validity check` do formalnogo QA.

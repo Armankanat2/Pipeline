@@ -16,6 +16,7 @@
 - zavedeny novye asset IDs `A-44` - `A-48` kak controllable visual blocks dlya targeted QA po assessment-validity;
 - snizhen risk togo, chto `LO-03`, `LO-05`, `LO-07`, `LO-11`, `LO-12` ostanutsya "tolko tekstovymi";
 - generic-safe granitsa sokhranena: nikakikh system-specific uzlov, pasportnykh tochnostey ili ekspertno-zavisimykh mikrodetaley ne dobavlyaetsya.
+- realnyy draft-build `ML_08_assessment_visual_build_v0.1.pptx` sobran kak minimalnyy controllable visual layer dlya `A-44` - `A-48`.
 
 ## Rol etoy versii v pipeline
 
@@ -45,11 +46,11 @@ Eta versiya ne zamenyaet `07_asset_register_v0.2.md`, a usilivaet ego.
 
 | Asset ID | Test anchor | Tip | Opisanie | Istochnik | Redaktiruemost | Status | Gde ispolzuetsya | Primechanie |
 |---|---|---|---|---|---|---|---|---|
-| A-44 | `TV-01` | recognition scheme | Board po gruppam elementov: chto dayot rabochuyu ploshchadku, chto zhestkost, chto kreplenie | sobrat vnutri prezentatsii na osnove `A-10`, `A-13` | editable | planned | `10_test_pack_v0.2.md`, targeted QA | ne trebuet realnogo foto, mozhno sobrat shemno |
-| A-45 | `TV-02` | compare-card | `godno / ne godno` po intake-check elementa s markerami tipovykh defektov | sobrat vnutri prezentatsii, optionalno usilit pozhe chastyu `A-17` | editable | planned | `10_test_pack_v0.2.md`, worker-check | v etoy iteratsii ne privyazyvat k odnomu proizvoditelyu |
-| A-46 | `TV-03` | compare-board | Rabochiy yarus `dopustimo / nedopustimo`: nastil, dostup, bazovaya gotovnost | sobrat vnutri prezentatsii na osnove `A-28`, `A-30`, `A-33` | editable | planned | `10_test_pack_v0.2.md`, release-test contour | odin iz samykh vazhnykh worker-facing visual blocks |
-| A-47 | `TV-04` | hazard board | Red-flag scene po tipovoy opasnoy oshibke i signalu dlya stopa | sobrat kak sobstvennuyu skhemu / hybrid scene | editable | planned | `10_test_pack_v0.2.md`, modul `08` | ne zhit na "krasivom" foto; vazhna yavnaya signalika |
-| A-48 | `TV-05` | sequence board | Bazovaya sequence-logika demontazha s no-go variantami | sobrat kak step-strip / algorithm board | editable | planned | `10_test_pack_v0.2.md`, modul `09` | derzhat generic-safe contour bez system-specific uzlov |
+| A-44 | `TV-01` | recognition scheme | Board po gruppam elementov: chto dayot rabochuyu ploshchadku, chto zhestkost, chto kreplenie | sobran v `ML_08_assessment_visual_build_v0.1.pptx` na osnove `A-10`, `A-13` | editable | draft-built | `10_test_pack_v0.2.md`, targeted QA | ne trebuet realnogo foto, mozhno sobrat shemno |
+| A-45 | `TV-02` | compare-card | `godno / ne godno` po intake-check elementa s markerami tipovykh defektov | sobran v `ML_08_assessment_visual_build_v0.1.pptx`, optionalno usilit pozhe chastyu `A-17` | editable | draft-built | `10_test_pack_v0.2.md`, worker-check | v etoy iteratsii ne privyazyvat k odnomu proizvoditelyu |
+| A-46 | `TV-03` | compare-board | Rabochiy yarus `dopustimo / nedopustimo`: nastil, dostup, bazovaya gotovnost | sobran v `ML_08_assessment_visual_build_v0.1.pptx` na osnove `A-28`, `A-30`, `A-33` | editable | draft-built | `10_test_pack_v0.2.md`, release-test contour | odin iz samykh vazhnykh worker-facing visual blocks |
+| A-47 | `TV-04` | hazard board | Red-flag scene po tipovoy opasnoy oshibke i signalu dlya stopa | sobran kak controlled draft scene v `ML_08_assessment_visual_build_v0.1.pptx` | editable | draft-built | `10_test_pack_v0.2.md`, modul `08` | ne zhit na "krasivom" foto; vazhna yavnaya signalika |
+| A-48 | `TV-05` | sequence board | Bazovaya sequence-logika demontazha s no-go variantami | sobran kak step-strip v `ML_08_assessment_visual_build_v0.1.pptx` | editable | draft-built | `10_test_pack_v0.2.md`, modul `09` | derzhat generic-safe contour bez system-specific uzlov |
 
 ## Build logic dlya `A-44` - `A-48`
 
@@ -98,8 +99,9 @@ Poetomu dlya `A-44` - `A-48` deystvuyut tri zhostkikh pravila:
 
 - Assessment asset package opredelen: `yes`
 - Mozhno li peredat ego v realnuyu sborku: `yes`
-- Zakryt li visual gap polnostyu: `no`
+- Est li pervyy realnyy draft-build: `yes`
+- Zakryt li visual gap polnostyu: `no, nuzhen targeted QA`
 - Chto nado delat dalshe:
-  - sobrat `A-44` - `A-46` kak pervyy MVP-batch;
-  - potom sobrat `A-47` - `A-48`;
-  - zatem vernutsya k targeted QA po test-validity i worker-ponyatnosti.
+  - proyti targeted QA po test-validity i worker-ponyatnosti;
+  - reshit, nuzhen li eshche odin revise-cycle po `TV-04` i `TV-05`;
+  - zatem vernutsya k pilot-ready contour.

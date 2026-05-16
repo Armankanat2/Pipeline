@@ -993,3 +993,6 @@ V sleduyushchey iteratsii nuzhno:
 - sobrat `A-44` - `A-48` kak realnye controllable visuals dlya `TV-01` - `TV-05`;
 - proverit targeted QA po assessment-validity i worker-ponyatnosti;
 - pri nuzhde usilit svyazku `slides 47 / 51` s testovym contourom, ne vykhodya za generic-safe granitsu.
+- dlya klinovykh lesov derzhat otdelnyy image-driven contour `06_klinovye_lesa_montage_sequence_pack_v0.1.md`, gde `1 etap = 1 slayd`, a kazhdyy slayd kommentiruet trebovaniya i vozmozhnye oshibki po client-provided posledovatelnosti montazha.
+- v contour po klinovym lesam otdelno derzhat obyazatelnyy slayd po ankerovaniyu, chtoby ne poteryat logiku krepleniya lesov k konstruktsii.
+- dlya khomutovykh lesov ne dubliruyt ves montage-pack, a sobirat tolko differential-layer po otlichiyam ot klinovoy sborki: `soedineniya trub`, `obvyazka kollon` i otdelnyy slayd po ankerovaniyu.
