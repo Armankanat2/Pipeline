@@ -432,6 +432,31 @@ Isklyuchenie:
 
 - esli sotrudnik ITR pokazan v `SIZ dlya raboty na vysote`, signalnaya zhiletka ne trebuetsya.
 
+### Postoyannye personazhi: Avatar rotation rule
+
+Ispolzovat, kogda v generiruemykh izobrazheniyakh nuzhny povtoryayushchiesya lyudi,
+chtoby u kursov poyavilis uznavaemye postoyannye personazhi.
+
+Tekushchiy nabor avatarov:
+
+- `Avatar 1`
+- `Avatar 2`
+- `Avatar 3`
+
+Pravilo ispolzovaniya:
+
+1. Esli v scene nuzhen odin personazh, ispolzuy sleduyushchego po ocheredi avatara.
+2. Poryadok vsegda odin i tot zhe: `Avatar 1 -> Avatar 2 -> Avatar 3 -> Avatar 1 -> ...`
+3. Etot poryadok schitaetsya postoyannym i zaktsiklennym dlya vsekh novykh generatsiy.
+4. Esli v odnom kadre nuzhno neskolko personazhey, berutsya sleduyushchie avatary po etomu zhe krugu.
+5. Esli dlya odnoi stseny ili dlya biblioteki v tselom nuzhno bolshe trekh odnovremenno razlichimykh personazhey, sozdaetsya novyy avatar, a ne sluchaynyy chelovek.
+6. Esli v prompt yavnym obrazom ne skazano obratno, nuzhno schitat, chto v lyudskikh stsenakh ispolzuyutsya imenno eti postoyannye avatary.
+
+Operatsionnoe primechanie:
+
+- pri sborke promptov polezno dobavlyat pole `Avatar slot`, chtoby ne teryat tekushchuyu ocherednost;
+- pri poyavlenii `Avatar 4+` ikh nuzhno dobavit v etot razdel otdelnym obnovleniem biblioteki.
+
 ## Prompt 06: Visual Asset Pair
 
 ### Kogda ispolzovat
