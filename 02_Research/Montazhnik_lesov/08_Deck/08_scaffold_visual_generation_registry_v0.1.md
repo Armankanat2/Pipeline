@@ -28,6 +28,7 @@ Dokument ne zamenyaet:
 - `06_klinovye_lesa_montage_sequence_pack_v0.1.md`
 - `07_asset_register_v0.3.md`
 - `07_Assets/07_client_image_intake_standard_v0.1.md`
+- `08_Deck/08_local_markup_brief_S14_S16_v0.1.md`
 - `01_Docs/AI_Prompt_Library_v0.1.md`
 
 On nuzhen kak operatsionnyy most mezhdu nimi pered realnoy sborkoy izobrazheniy i deck.
@@ -174,6 +175,11 @@ Mozhno nachinat srazu:
 - `RB-08`
 - slayd `15`
 - slayd `19`
+
+Uzhe est lokalnyy markup-plan:
+
+- `S14`
+- `S16`
 
 Nuzhno zhdat klientskie vizualy ili ikh analog:
 
