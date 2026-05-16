@@ -48,3 +48,4 @@ Poetomu:
 - `2026-05-16`: `S16` (`Soedinenie trub mezhdu soboy`) otpravlen na peredelku; tekushchaya zadacha `ubrat deformatsiyu i dovesti razmetku do utverzhdeniya`.
 - `2026-05-16`: `S16` polzovatelem vruchnuyu otredaktirovan v PowerPoint i sokhranен kak lokalnyy editable-variant `02_Edit_Ready/ML_S16_markup_editable_single_v0.1.pptx`.
 - `2026-05-16`: `S16` polzovatelem utverzhden; iz editable PowerPoint eksportirovan itogovyy lokalnyy fayl `02_Edit_Ready/ML_S16_HL_soedinenie_trub_markup_final_v01.png`.
+- `2026-05-16`: `S18` polzovatelem utverzhden; iz editable PowerPoint eksportirovan itogovyy lokalnyy fayl `02_Edit_Ready/ML_S18_HL_ankerovanie_markup_final_v01.png`.

@@ -29,6 +29,7 @@ Dokument ne zamenyaet:
 - `07_asset_register_v0.3.md`
 - `07_Assets/07_client_image_intake_standard_v0.1.md`
 - `08_Deck/08_local_markup_brief_S14_S16_v0.1.md`
+- `08_Deck/08_local_markup_brief_S18_v0.1.md`
 - `01_Docs/AI_Prompt_Library_v0.1.md`
 
 On nuzhen kak operatsionnyy most mezhdu nimi pered realnoy sborkoy izobrazheniy i deck.
@@ -99,7 +100,7 @@ Esli v odnom kadre nuzhno bolshe trekh razlichimykh personazhey, sozdaetsya novy
 | `10` | Montazh vtorogo rabochego yarusa | klinovye montage | `edit-first` | custom step prompt | `yes` | `none` | nuzhen gotovyy verhniy rabochiy uroven |
 | `11` | Ustanovka ograzhdeniy | klinovye montage | `edit-first` | custom step prompt + `RB-07` support | `yes` | `none` | mozhno usilit logicoy iz `RB-07` |
 | `12` | Ustanovka otbortovochnoy doski | klinovye montage | `edit-first` | custom step prompt | `yes` | `none` | krupnyy fragment kromki yarusa |
-| `13` | Ankerovanie klinovykh lesov | klinovye special | `edit-first` | custom anchor prompt + `RB-04` support | `yes` | `none` | nuzhna realnaya skhema ili foto-uzel; generate fallback dopustim tolko kak explanatory reserve |
+| `13` | Ankerovanie klinovykh lesov | klinovye special | `edit-first` | custom anchor prompt + `RB-04` support | `yes` | `none` | lokalnyy editable review utverzhden; `markup_final_v01` eksportirovan |
 | `14` | Klinovye lesa v sbore | klinovye summary | `edit-first` | custom summary prompt | `yes` | `none` | nuzhen obshchiy finalnyy vid konstruktsii |
 
 ### Khomutovye lesa
@@ -108,8 +109,8 @@ Esli v odnom kadre nuzhno bolshe trekh razlichimykh personazhey, sozdaetsya novy
 |---|---|---|---|---|---|---|---|
 | `15` | Obshchaya skhema sborki analogichna klinovoy | khomutovye intro | `generate-first` | custom differential prompt | `none / optional` | `none` | mozhno sobrat schematic intro bez klientskogo foto |
 | `16` | Soedinenie trub mezhdu soboy | khomutovye differential | `edit-first` | custom differential prompt | `yes` | `none` | prioritet realnomu uzlu khomuta |
-| `17` | Spetsifika obvyazki kollon | khomutovye differential | `edit-first` | custom differential prompt | `yes` | `none` | nuzhno realnoe ili ochen blizkoe izobrazhenie |
-| `18` | Ankerovanie khomutovykh lesov | khomutovye differential | `edit-first` | custom differential prompt + `RB-04` support | `yes` | `none` | predpochtitelno klientskaya skhema / foto |
+| `17` | Kreplenie lesov k balke | khomutovye differential | `edit-first` | custom differential prompt | `yes` | `none` | lokalnyy editable review utverzhden; `markup_final_v01` eksportirovan |
+| `18` | Ankerovanie khomutovykh lesov | khomutovye differential | `edit-first` | custom differential prompt + `RB-04` support | `yes` | `none` | lokalnyy dvukhkadrovyy intake poluchen; sleduyushchiy shag `edit-first layout` |
 | `19` | Klyuchevye otlichiya i na chto obratit vnimanie | khomutovye summary | `generate-first` | custom compare prompt | `optional` | `none` | mozhno sobrat kak schematic compare-board |
 
 ## Reusable safety inserts
@@ -178,13 +179,15 @@ Mozhno nachinat srazu:
 
 Uzhe est lokalnyy markup-plan:
 
+- `S13`
 - `S14`
 - `S16`
+- `S17`
+- `S18`
 
 Nuzhno zhdat klientskie vizualy ili ikh analog:
 
-- slaydy `01-14`
-- slaydy `16-18`
+- slaydy `01-12`
 
 ## Rekomenduemyy marshrut proizvodstva
 
