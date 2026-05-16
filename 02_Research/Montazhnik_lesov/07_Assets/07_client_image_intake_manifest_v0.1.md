@@ -43,6 +43,7 @@ Utochnenie po etoy iteratsii:
 
 - reference-layer po uzlam i overview uzhe sushchestvenno usilen;
 - no pryamykh i uverenno razmechaemykh kadrov pod `S17` i `S18` poka ne naideno.
+- `S14` i `S16` uzhe proshli pervyy `edit-first` review i imeyut po odnomu `edit-ready` variantu.
 
 ## Pravilo etoy iteratsii
 
