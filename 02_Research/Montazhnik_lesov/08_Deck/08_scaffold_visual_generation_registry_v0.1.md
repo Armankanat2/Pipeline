@@ -27,6 +27,7 @@ Dokument ne zamenyaet:
 - `06_slide_script_v0.2.md`
 - `06_klinovye_lesa_montage_sequence_pack_v0.1.md`
 - `07_asset_register_v0.3.md`
+- `07_Assets/07_client_image_intake_standard_v0.1.md`
 - `01_Docs/AI_Prompt_Library_v0.1.md`
 
 On nuzhen kak operatsionnyy most mezhdu nimi pered realnoy sborkoy izobrazheniy i deck.
@@ -183,8 +184,9 @@ Nuzhno zhdat klientskie vizualy ili ikh analog:
 
 1. Sobrat generate-first safety inserts.
 2. Podgotovit papku i naming dlya klientskikh montage-izobrazheniy.
-3. Po mere polucheniya klientskikh kartinok delat `edit-first` production po slaydam `01-14`, `16-18`.
-4. Posle etogo svesti fixed scaffold contour i reusable safety inserts v odin draft deck.
+3. Pri prinimanii vizualov srazu raskladyvat ikh po `07_Assets/01_Client_Intake` i pereimenovyvat po `07_client_image_intake_standard_v0.1.md`.
+4. Po mere polucheniya klientskikh kartinok delat `edit-first` production po slaydam `01-14`, `16-18`.
+5. Posle etogo svesti fixed scaffold contour i reusable safety inserts v odin draft deck.
 
 ## Reshenie po gotovnosti
 
