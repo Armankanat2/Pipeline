@@ -7,6 +7,7 @@
 - Kod kursa: `ML`
 - Data sborki: `2026-05-16`
 - Rol etoy versii: zafiksirovat pervyy `edit-first` otbor po slaydu `S17`
+- Tekushchiy status na `2026-05-17`: `superseded / na peredelke`
 
 ## Scope etoy iteratsii
 
@@ -42,3 +43,4 @@ Tekushchee reshenie po `S17` opiraetsya na novuyu logiku slayda:
 
 - `2026-05-16`: `S17` polzovatelem vruchnuyu skomponovan i sokhranen v PowerPoint kak lokalnyy editable-layout.
 - `2026-05-16`: iz editable PowerPoint eksportirovan itogovyy lokalnyy fayl `02_Edit_Ready/ML_S17_HL_kreplenie_k_balke_markup_final_v01.png`.
+- `2026-05-17`: po novomu resheniyu polzovatelya prezhniy lokalnyy markup bolshe ne schitaetsya finalnym; `S17` vozvrashchen na peredelku.

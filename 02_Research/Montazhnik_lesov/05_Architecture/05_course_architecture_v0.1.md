@@ -14,7 +14,7 @@
 |---|---|---|---|---|---|
 | 01. Vvedenie v kurs i granitsy otvetstvennosti | Zadaty kontekst kursa, obyasnit rol montazhnika lesov i granitsy bezopasnoy raboty | tsel kursa, risk rabot na vysote, chto vkhodit v rol, kogda nuzhno ostanovit raboty i eskalirovat | `LO-01`, `LO-13` | short | Startovyy modul, 4-6 slaydov |
 | 02. Dopusk, SIZ i bazovye pravila TB | Sformirovat bazovuyu ramku bezopasnosti pered montazhom i ekspluatatsiey | dopusk, instruktazh, obuchenie, bazovye SIZ, nedopustimye usloviya raboty | `LO-01`, `LO-02`, `LO-13` | medium | Odin iz klyuchevykh moduley; nuzhny prostye keysy i foto po SIZ |
-| 03. Ustroystvo lesov: elementi i logika ustoychivosti | Dati slushatelyu ponimanie, iz chego sostoyat lesa i pochemu konstruktsiya derzhitsya | osnovnye elementi, uzly, funktsii elementov, svyazi, krepleniya, obshchaya logika ustoychivosti | `LO-03`, `LO-08` | medium | Nuzhny skhemy i podpisannye vizualy; bez etogo modul budet slishkom abstraktnym |
+| 03. Ustroystvo lesov: elementi i logika ustoychivosti | Dati slushatelyu ponimanie, iz chego sostoyat lesa i pochemu konstruktsiya derzhitsya | instrumenty montazhnika, komplektuyushchie klinovykh lesov, komplektuyushchie khomutovykh lesov, osnovnye elementi, uzly, funktsii elementov, svyazi, krepleniya, obshchaya logika ustoychivosti | `LO-03`, `LO-08` | medium | Nuzhny skhemy i podpisannye vizualy; v etom module dolzhen stoyat obyazatelnyy pre-montage insert do poshagovoy sborki |
 | 04. Podgotovka ploshchadki i priemka elementov | Nauchit otsenivat gotovnost mesta rabot i ne dopuskat v sborku problemnye komponenty | osnovanie, opasnaya zona, podkhody, proverka elementov, nekomplekt, povrezhdeniya | `LO-04`, `LO-05` | medium | Khorosho podkhodit dlya foto-sravneniy `mozhno / nelzya` |
 | 05. Start montazha: baza i pervyy yarus | Pokazat bezopasnuyu logiku nachala sborki bez propuska kritichnykh shagov | opory, poryadok sborki, geometriya, pervye svyazi, tipovye oshibki na starte | `LO-06`, `LO-08` | medium | Dlya klinovykh lesov zdes uzhe zaveden otdelnyy image-driven step-pack s etapami `01-06` |
 | 06. Nabor vysoty, kreplenie i zhestkost skhemy | Obyasnit, kak narashchivat konstruktsiyu bez poteri ustoychivosti | nabor yarusov, nastily, ograzhdeniya, lestnitsy, skhema krepleniy, risk peregruzki i perekosa | `LO-07`, `LO-08` | heavy | Dlya klinovykh lesov zdes uzhe zaveden otdelnyy image-driven step-pack s etapami `07-12`; veroyaten bolshoy obem vizualov i situatsiy |
@@ -44,8 +44,54 @@ Dopolnitelno zafiksirovano pravilo dlya khomutovykh lesov:
 - ispolzovat klinovyy contour kak opornyy;
 - dlya khomutovogo contoura pokazyvat tolko otlichiya:
   - soedineniya trub mezhdu soboy;
-  - spetsifika obvyazki kollon;
+  - kreplenie lesov k balke;
   - otdelnyy slayd po ankerovaniyu.
+
+## Obyazatelnyy pre-montage insert
+
+Pered image-driven posledovatelnostyu sborki nuzhen vvodnyy prakticheskiy blok.
+
+Ego zadacha:
+
+- dat montazhniku minimum instrumentov;
+- pokazat, iz kakikh elementov voobshche sobiraetsya sistema;
+- razdelit komplektuyushchie klinovykh i khomutovykh lesov do perekhoda k montazhnym shagom.
+
+V etoy iteratsii contour takoy:
+
+1. `Instrumenty montazhnika`
+2. `Komplektuyushchie klinovykh lesov. Osnovnye elementi`
+3. `Komplektuyushchie klinovykh lesov. Rabochie i spetsialnye elementi`
+4. `Komplektuyushchie khomutovykh lesov. Osnovnye elementi`
+5. `Komplektuyushchie khomutovykh lesov. Zazhimy i spetsialnye elementi`
+
+Minimalnyy sostav etogo bloka:
+
+- instrumenty:
+  - molotok;
+  - klyuch `19/22`;
+  - uroven.
+- klinovye lesa:
+  - podpyatniki / bashmaki / domkraty;
+  - startovye elementy;
+  - stoyki;
+  - gorizontalnye svyazi (`rigel`);
+  - usilennyy rigel (`gorizontalnye svyazi`);
+  - diagonalnye raskosy;
+  - ferma;
+  - nastily;
+  - lestnichnye elementi;
+  - ograzhdeniya;
+  - otbortovochnaya doska;
+  - ankernye elementi.
+- khomutovye lesa:
+  - truby;
+  - povorotnyy i nepovorotnyy khomuty;
+  - shchift soedinitelnyy;
+  - bashmak;
+  - zazhim `vid 1`;
+  - zazhim `vid 2`;
+  - khomut dlya krepleniya k balke.
 
 ## Posledovatelnost moduley
 

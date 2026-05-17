@@ -36,6 +36,7 @@ Ego zadacha:
 - `2026-05-16`: lokalnyy layout po `S18` polzovatelem utverzhden.
 - Editable-istochnik: `07_Assets/02_Edit_Ready/ML_S18_markup_editable_single_v0.1.pptx`.
 - Itogovyy lokalnyy production-output: `07_Assets/02_Edit_Ready/ML_S18_HL_ankerovanie_markup_final_v01.png`.
+- `2026-05-17`: po novomu resheniyu polzovatelya prezhniy lokalnyy layout bolshe ne schitaetsya finalnym; `S18` vozvrashchen na peredelku.
 
 ## Raspredelenie roley mezhdu izobrazheniyami
 

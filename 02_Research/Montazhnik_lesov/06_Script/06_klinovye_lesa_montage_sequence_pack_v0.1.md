@@ -61,6 +61,22 @@ Dlya vsekh `12` slaydov deystvuet odin format:
 4. Sprava ili vnizu: blok `Vozmozhnye oshibki`.
 5. Speaker notes: chto imenno kommentiruet prepodavatel.
 
+## Obyazatelnyy blok pered Step cards
+
+Do etogo image-driven contoura dolzhen stoyat otdelnyy `pre-montage insert`.
+
+On ne zamenyaet samu posledovatelnost sborki, a gotovit slushatelya k ney.
+
+Minimalnyy contour pered `Etap 01`:
+
+1. `Instrumenty montazhnika`
+2. `Komplektuyushchie klinovykh lesov. Osnovnye elementi`
+3. `Komplektuyushchie klinovykh lesov. Rabochie i spetsialnye elementi`
+4. `Komplektuyushchie khomutovykh lesov. Osnovnye elementi`
+5. `Komplektuyushchie khomutovykh lesov. Zazhimy i spetsialnye elementi`
+
+Eto nuzhno, chtoby dalneyshee pravilo `1 etap = 1 slayd` ne nachinalos "v pustotu", kogda slushatel eshche ne znaet bazovyy instrument i sostav sistemy.
+
 ## Step cards
 
 ### Etap 01

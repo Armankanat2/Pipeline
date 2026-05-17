@@ -17,6 +17,7 @@
 - Polzovatel vruchnuyu utverdil lokalnuyu komponovku v PowerPoint.
 - Editable-istochnik: `07_Assets/02_Edit_Ready/ML_S17_markup_editable_single_v0.1.pptx`.
 - Itogovyy lokalnyy production-output: `07_Assets/02_Edit_Ready/ML_S17_HL_kreplenie_k_balke_markup_final_v01.png`.
+- `2026-05-17`: po novomu resheniyu polzovatelya prezhniy lokalnyy layout bolshe ne schitaetsya finalnym; `S17` vozvrashchen na peredelku.
 
 ## Rol slayda
 

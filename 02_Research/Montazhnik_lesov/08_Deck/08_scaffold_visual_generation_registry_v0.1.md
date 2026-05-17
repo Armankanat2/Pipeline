@@ -84,6 +84,12 @@ Esli v odnom kadre nuzhno bolshe trekh razlichimykh personazhey, sozdaetsya novy
 
 ## Fixed scaffold contour
 
+## Approved pre-montage inserts
+
+| Insert | Nazvanie | Status | Local output |
+|---|---|---|---|
+| `13A` | Instrumenty montazhnika | `approved local layout` | `ML_tools_markup_final_v01.png` |
+
 ### Klinovye lesa
 
 | Slide | Zagolovok | Block | Visual mode | Prompt source | Client image | Avatar slot | Chto delat seychas |
@@ -100,17 +106,17 @@ Esli v odnom kadre nuzhno bolshe trekh razlichimykh personazhey, sozdaetsya novy
 | `10` | Montazh vtorogo rabochego yarusa | klinovye montage | `edit-first` | custom step prompt | `yes` | `none` | nuzhen gotovyy verhniy rabochiy uroven |
 | `11` | Ustanovka ograzhdeniy | klinovye montage | `edit-first` | custom step prompt + `RB-07` support | `yes` | `none` | mozhno usilit logicoy iz `RB-07` |
 | `12` | Ustanovka otbortovochnoy doski | klinovye montage | `edit-first` | custom step prompt | `yes` | `none` | krupnyy fragment kromki yarusa |
-| `13` | Ankerovanie klinovykh lesov | klinovye special | `edit-first` | custom anchor prompt + `RB-04` support | `yes` | `none` | lokalnyy editable review utverzhden; `markup_final_v01` eksportirovan |
-| `14` | Klinovye lesa v sbore | klinovye summary | `edit-first` | custom summary prompt | `yes` | `none` | nuzhen obshchiy finalnyy vid konstruktsii |
+| `13` | Ankerovanie klinovykh lesov | klinovye special | `edit-first` | custom anchor prompt + `RB-04` support | `yes` | `none` | prezhniy lokalnyy markup schitaetsya `superseded`; slayd otpravlen na peredelku |
+| `14` | Klinovye lesa v sbore | klinovye summary | `edit-first` | custom summary prompt | `yes` | `none` | prezhniy lokalnyy markup schitaetsya `superseded`; slayd otpravlen na peredelku |
 
 ### Khomutovye lesa
 
 | Slide | Zagolovok | Block | Visual mode | Prompt source | Client image | Avatar slot | Chto delat seychas |
 |---|---|---|---|---|---|---|---|
 | `15` | Obshchaya skhema sborki analogichna klinovoy | khomutovye intro | `generate-first` | custom differential prompt | `none / optional` | `none` | mozhno sobrat schematic intro bez klientskogo foto |
-| `16` | Soedinenie trub mezhdu soboy | khomutovye differential | `edit-first` | custom differential prompt | `yes` | `none` | prioritet realnomu uzlu khomuta |
-| `17` | Kreplenie lesov k balke | khomutovye differential | `edit-first` | custom differential prompt | `yes` | `none` | lokalnyy editable review utverzhden; `markup_final_v01` eksportirovan |
-| `18` | Ankerovanie khomutovykh lesov | khomutovye differential | `edit-first` | custom differential prompt + `RB-04` support | `yes` | `none` | lokalnyy dvukhkadrovyy intake poluchen; sleduyushchiy shag `edit-first layout` |
+| `16` | Soedinenie trub mezhdu soboy | khomutovye differential | `edit-first` | custom differential prompt | `yes` | `none` | prezhniy lokalnyy markup schitaetsya `superseded`; slayd otpravlen na peredelku |
+| `17` | Kreplenie lesov k balke | khomutovye differential | `edit-first` | custom differential prompt | `yes` | `none` | prezhniy lokalnyy markup schitaetsya `superseded`; slayd otpravlen na peredelku |
+| `18` | Ankerovanie khomutovykh lesov | khomutovye differential | `edit-first` | custom differential prompt + `RB-04` support | `yes` | `none` | prezhniy lokalnyy markup schitaetsya `superseded`; slayd otpravlen na peredelku |
 | `19` | Klyuchevye otlichiya i na chto obratit vnimanie | khomutovye summary | `generate-first` | custom compare prompt | `optional` | `none` | mozhno sobrat kak schematic compare-board |
 
 ## Reusable safety inserts
@@ -177,7 +183,11 @@ Mozhno nachinat srazu:
 - slayd `15`
 - slayd `19`
 
-Uzhe est lokalnyy markup-plan:
+Utverzhden lokalno:
+
+- `Instrumenty montazhnika`
+
+Na peredelke:
 
 - `S13`
 - `S14`

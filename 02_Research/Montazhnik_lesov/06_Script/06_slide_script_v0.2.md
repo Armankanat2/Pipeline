@@ -6,6 +6,12 @@ Expanded draft for modules `01-09`.
 
 Etot draft sobran po rannemu formatu kartochki. Dlya sleduyushchikh iteratsiy nuzhno postepenno dobavit polya `source basis`, `asset dependency`, `perekhody`, a takzhe enrichment-layer (`on-screen`, `narration`, `knowledge check hook` i drugie polya) posle stabilizatsii writer core.
 
+V tekushchem contoure dlya kursa po lesam zafiksirovan obyazatelnyy `pre-montage insert` pered poshagovoy sborkoy:
+
+- instrumenty montazhnika;
+- `2` slayda po komplektuyushchim klinovykh lesov;
+- `2` slayda po komplektuyushchim khomutovykh lesov.
+
 ## Pokrytie etoy iteratsii
 
 V etoy versii razvernuty moduli:
@@ -261,6 +267,91 @@ Sleduyushchaya iteratsiya:
 - Svyazannyy learning outcome: `LO-03`
 - Svyazannyy vopros testa: `Q-13`
 - Primechanie dlya dizayna: nomera elementov dolzhny byt chitaemy
+
+### Production insert 13A
+
+- Nomer slayda: `13A`
+- Modul: `03. Ustroystvo lesov: elementi i logika ustoychivosti`
+- Tip slayda: `equipment`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: dat montazhniku minimalnyy nabor instrumentov do perekhoda k sborke
+- Odna glavnaya mysl: montazh nachinaetsya ne tolko s elementov lesov, no i s gotovnosti bazovogo instrumenta
+- Chto dolzhen ponyat slushatel: dlya etogo contoura bazovyy minimum instrumentov - molotok, klyuch `19/22` i uroven
+- Vizual: tri instrumenta krupno s podpisyami
+- Tekst na slayde: `Bazovyy instrument montazhnika: molotok, klyuch 19/22, uroven`
+- Speaker notes: ne razduvayte etot slayd do polnogo spiska instrumentov; zdes nuzhno zafiksirovat rabochiy minimum, kotoryy auditoriya dolzhna uznavat do monta zhnoy posledovatelnosti
+- Svyazannyy learning outcome: `LO-03`
+- Svyazannyy vopros testa: `Q-13A`
+- Primechanie dlya dizayna: odna lineyka iz trekh predmetov, bez peregruza fonovymi detalami
+
+### Production insert 13B
+
+- Nomer slayda: `13B`
+- Modul: `03. Ustroystvo lesov: elementi i logika ustoychivosti`
+- Tip slayda: `scheme`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: pokazat osnovnye komplektuyushchie klinovykh lesov do starta sborki
+- Odna glavnaya mysl: bez raspoznavaniya bazy i nesushchikh elementov poshagovyy montazh budet vosprinimatsya kak nabor sluchaynykh deystviy
+- Chto dolzhen ponyat slushatel: montazh klinovykh lesov opiraetsya na opornye i nesushchie elementi, kotorye nado uznavat do nachala sborki
+- Vizual: gruppovoy list osnovnykh elementov s podpisyami
+- Tekst na slayde: `Komplektuyushchie klinovykh lesov: opornye i nesushchie elementi`
+- Speaker notes: v etom slayde nuzhno zafiksirovat minimum: podpyatniki ili bashmaki, domkraty, startovye elementy, stoyki, gorizontalnye svyazi (`rigel`), usilennyy rigel (`gorizontalnye svyazi`), diagonalnye raskosy i fermy
+- Svyazannyy learning outcome: `LO-03`
+- Svyazannyy vopros testa: `Q-13B`
+- Primechanie dlya dizayna: luchshe pokazyvat elementi gruppami, chtoby ne poluchit "entciklopedicheskiy list"
+
+### Production insert 13C
+
+- Nomer slayda: `13C`
+- Modul: `03. Ustroystvo lesov: elementi i logika ustoychivosti`
+- Tip slayda: `scheme`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: pokazat rabochie, zashchitnye i spetsialnye komplektuyushchie klinovykh lesov
+- Odna glavnaya mysl: rabochaya gotovnost lesov formiruetsya ne tolko stoikami i svyazyami, no i nastilami, dostupom, zashchitoy i krepleniyami
+- Chto dolzhen ponyat slushatel: nastily, lestnichnye elementi, ograzhdeniya, otbortovochnaya doska i ankernye elementi eto ne dopolnenie, a chast gotovoy skhemy
+- Vizual: vtoraya gruppa komplektuyushchikh s podpisyami
+- Tekst na slayde: `Komplektuyushchie klinovykh lesov: rabochie i zashchitnye elementi`
+- Speaker notes: etot slayd dolzhen soedinit pozdneyshie montazhnye etapy s konkretnymi elementami; delat aktsent na nastilakh, lestnichnykh elementakh, ograzhdeniyakh, otbortovochnoy doske i ankernykh elementakh
+- Svyazannyy learning outcome: `LO-03`
+- Svyazannyy vopros testa: `Q-13C`
+- Primechanie dlya dizayna: mozhno delit elementy po funktsionalnym gruppam `rabota / dostup / zashchita / kreplenie`
+
+### Production insert 13D
+
+- Nomer slayda: `13D`
+- Modul: `03. Ustroystvo lesov: elementi i logika ustoychivosti`
+- Tip slayda: `scheme`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: dat bazovyy nabor komplektuyushchikh khomutovykh lesov do perekhoda k differentsialnym uzlam
+- Odna glavnaya mysl: u khomutovykh lesov est sobstvennyy bazovyy nabor elementov, kotoryy nuzhno raspoznavat do razgovora ob otlichiyakh
+- Chto dolzhen ponyat slushatel: osnova khomutovogo contoura - eto truby, khomuty, soedinitelnye i opornye elementi
+- Vizual: osnovnye komplektuyushchie khomutovykh lesov s podpisyami
+- Tekst na slayde: `Komplektuyushchie khomutovykh lesov: osnovnye elementi`
+- Speaker notes: zdes nuzhno pokazyvat truby, povorotnyy i nepovorotnyy khomuty, shchift soedinitelnyy i bashmak; ograzhdeniya otdelno ne vynosim, potomu chto oni sobirayutsya iz teh zhe trub
+- Svyazannyy learning outcome: `LO-03`
+- Svyazannyy vopros testa: `Q-13D`
+- Primechanie dlya dizayna: minimum teksta, maximum chitaemosti formy elementov
+
+### Production insert 13E
+
+- Nomer slayda: `13E`
+- Modul: `03. Ustroystvo lesov: elementi i logika ustoychivosti`
+- Tip slayda: `scheme`
+- Sloy kontenta: `core`
+- Dlya kakogo profilya obyazatelen: `Short / Standard / Deep`
+- Tsel slayda: pokazat zazhimy i spetsialnye komplektuyushchie khomutovykh lesov
+- Odna glavnaya mysl: chast raznitsy khomutovogo contoura sidit v spetsialnykh krepezhnykh elementakh, a ne tolko v obshchem vide trub
+- Chto dolzhen ponyat slushatel: zazhimy byvayut dvukh vidov, a dlya krepleniya k balke ispolzuetsya otdelnyy spetsialnyy element
+- Vizual: dva foto zazhimov + khomut dlya krepleniya k balke
+- Tekst na slayde: `Komplektuyushchie khomutovykh lesov: zazhimy i spetsialnye elementi`
+- Speaker notes: obyazatelno razvesti `zazhim vid 1`, `zazhim vid 2` i `khomut dlya krepleniya k balke`; etot slayd nuzhen kak most k dalneyshemu slaydu pro kreplenie lesov k balke
+- Svyazannyy learning outcome: `LO-03`
+- Svyazannyy vopros testa: `Q-13E`
+- Primechanie dlya dizayna: luchshe zakladyvat `2` foto dlya zazhimov i otdelnyy slot pod beam-clamp
 
 ### Slayd 14
 
