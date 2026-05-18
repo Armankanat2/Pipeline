@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Aspect Ratio Report</title>
+  <style>
+    body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #f3f5f7; color: #111827; }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 32px 24px 56px; }
+    h1 { margin: 0 0 10px; font-size: 32px; }
+    .lead { color: #6b7280; line-height: 1.6; margin: 0 0 20px; }
+    .note { margin-bottom: 20px; padding: 16px 18px; border-radius: 16px; background: #ffffff; border: 1px solid #d1d5db; line-height: 1.6; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 18px; overflow: hidden; box-shadow: 0 10px 24px rgba(17,24,39,0.06); margin-bottom: 28px; }
+    th, td { padding: 12px 14px; border-bottom: 1px solid #e5e7eb; text-align: left; font-size: 14px; }
+    th { background: #f9fafb; }
+    .risk-high td, .risk-high { background: #fff3f2; }
+    .risk-medium td, .risk-medium { background: #fff9ed; }
+    .risk-ok td, .risk-ok { background: #f8fafc; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Image Aspect Ratio Report</h1>
+    <p class="lead">Proverka na deformatsiyu izobrazheniy na slaydakh. Sravnivayutsya proportsii istochnika i proportsii kartinki na slide s uchetom crop.</p>
+    <div class="note">
+      Thresholds: <strong>high</strong> = distortion 3% i vyshe, <strong>medium</strong> = distortion ot 1% do 3%, <strong>ok</strong> = menshe 1%.
+    </div>
+    <table>
+      <thead>
+        <tr><th>Slide</th><th>Max Risk</th><th>Max Distortion</th><th>Problem Pictures</th></tr>
+      </thead>
+      <tbody>
+        <tr class='risk-ok'><td>S16</td><td>ok</td><td>0%</td><td>0</td></tr>
+<tr class='risk-ok'><td>S17</td><td>ok</td><td>0.02%</td><td>0</td></tr>
+<tr class='risk-ok'><td>S18</td><td>ok</td><td>0%</td><td>0</td></tr>
+<tr class='risk-ok'><td>TOOLS</td><td>ok</td><td>0.12%</td><td>0</td></tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr><th>Slide</th><th>Picture</th><th>Name</th><th>Source Size</th><th>Source Ratio</th><th>Slide Ratio</th><th>Distortion</th><th>Risk</th></tr>
+      </thead>
+      <tbody>
+        <tr class='risk-ok'><td>S16</td><td>1</td><td>Рисунок 1</td><td>1024x1536</td><td>0.6667</td><td>0.6667</td><td>0%</td><td>ok</td></tr>
+<tr class='risk-ok'><td>S17</td><td>1</td><td>Рисунок 1</td><td>1274x1235</td><td>1.0316</td><td>1.0316</td><td>0%</td><td>ok</td></tr>
+<tr class='risk-ok'><td>S17</td><td>2</td><td>Рисунок 2</td><td>1126x501</td><td>2.2475</td><td>2.248</td><td>0.02%</td><td>ok</td></tr>
+<tr class='risk-ok'><td>S18</td><td>1</td><td>Рисунок 1</td><td>1448x1086</td><td>1.3333</td><td>1.3333</td><td>0%</td><td>ok</td></tr>
+<tr class='risk-ok'><td>S18</td><td>2</td><td>Рисунок 2</td><td>764x573</td><td>1.3333</td><td>1.3333</td><td>0%</td><td>ok</td></tr>
+<tr class='risk-ok'><td>TOOLS</td><td>1</td><td>Рисунок 2</td><td>507x917</td><td>0.5529</td><td>0.5523</td><td>0.1%</td><td>ok</td></tr>
+<tr class='risk-ok'><td>TOOLS</td><td>2</td><td>Рисунок 3</td><td>306x916</td><td>0.3341</td><td>0.3341</td><td>0.01%</td><td>ok</td></tr>
+<tr class='risk-ok'><td>TOOLS</td><td>3</td><td>Рисунок 4</td><td>648x284</td><td>2.2817</td><td>2.2843</td><td>0.12%</td><td>ok</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

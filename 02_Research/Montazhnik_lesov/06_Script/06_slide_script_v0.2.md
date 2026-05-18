@@ -331,7 +331,7 @@ Sleduyushchaya iteratsiya:
 - Chto dolzhen ponyat slushatel: osnova khomutovogo contoura - eto truby, khomuty, soedinitelnye i opornye elementi
 - Vizual: osnovnye komplektuyushchie khomutovykh lesov s podpisyami
 - Tekst na slayde: `Komplektuyushchie khomutovykh lesov: osnovnye elementi`
-- Speaker notes: zdes nuzhno pokazyvat truby, povorotnyy i nepovorotnyy khomuty, shchift soedinitelnyy i bashmak; ograzhdeniya otdelno ne vynosim, potomu chto oni sobirayutsya iz teh zhe trub
+- Speaker notes: zdes nuzhno pokazyvat truby, povorotnyy i nepovorotnyy khomuty, shchift soedinitelnyy i bashmak; ograzhdeniya otdelno ne pokazyvat, eto te zhe truby khomutovogo contoura
 - Svyazannyy learning outcome: `LO-03`
 - Svyazannyy vopros testa: `Q-13D`
 - Primechanie dlya dizayna: minimum teksta, maximum chitaemosti formy elementov
@@ -348,7 +348,7 @@ Sleduyushchaya iteratsiya:
 - Chto dolzhen ponyat slushatel: zazhimy byvayut dvukh vidov, a dlya krepleniya k balke ispolzuetsya otdelnyy spetsialnyy element
 - Vizual: dva foto zazhimov + khomut dlya krepleniya k balke
 - Tekst na slayde: `Komplektuyushchie khomutovykh lesov: zazhimy i spetsialnye elementi`
-- Speaker notes: obyazatelno razvesti `zazhim vid 1`, `zazhim vid 2` i `khomut dlya krepleniya k balke`; etot slayd nuzhen kak most k dalneyshemu slaydu pro kreplenie lesov k balke
+- Speaker notes: obyazatelno dobavit i razvesti `zazhim vid 1`, `zazhim vid 2` i `khomut dlya krepleniya k balke`; etot slayd nuzhen kak most k dalneyshemu slaydu pro kreplenie lesov k balke
 - Svyazannyy learning outcome: `LO-03`
 - Svyazannyy vopros testa: `Q-13E`
 - Primechanie dlya dizayna: luchshe zakladyvat `2` foto dlya zazhimov i otdelnyy slot pod beam-clamp

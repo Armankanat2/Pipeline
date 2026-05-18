@@ -110,9 +110,13 @@ V etom build vse oni dolzhny poluchit odin vizualnyy slovar.
 
 - odin radius / odna logika uglov;
 - odna logika strelok;
+- dlya strelok ot tekstovoy plashki k obektu rabochiy cvet po umolchaniyu: `#000000`;
+- dlya etikh strelok tekushchiy dizayn po umolchaniyu: `A2 Clean Technical`;
 - odna logika markerov;
 - odna logika container-cards;
 - odna logika line-weight dlya skhem.
+- esli fon slayda belyy ili neytralnyy, kray rasterogo izobrazheniya ne dolzhen davat vidimuyu vertikalnuyu polosku ili rezkiy shov po granitse.
+- rasterovye izobrazheniya ne dolzhny deformirovat'sya po vertikali ili gorizontali otnositelno pervoistochnika; dopustim tolko proportionalnyy scale i osmyslennyy crop.
 
 ## Poryadok sborki
 

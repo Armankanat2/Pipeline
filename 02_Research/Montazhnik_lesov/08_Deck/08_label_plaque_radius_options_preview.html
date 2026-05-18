@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Label Plaque Radius Options</title>
+  <style>
+    :root {
+      --bg: #eef1f4;
+      --text: #111827;
+      --muted: #6b7280;
+      --card: #ffffff;
+      --border: #d1d5db;
+      --plaque: #535861;
+      --plaque-text: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f9fafb 0%, #eef1f4 100%);
+    }
+
+    .wrap {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 40px 24px 60px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      font-weight: 700;
+    }
+
+    .lead {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .summary {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 22px 24px;
+      box-shadow: 0 16px 36px rgba(17, 24, 39, 0.07);
+      margin-bottom: 26px;
+    }
+
+    .summary strong {
+      color: #374151;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: 0 14px 30px rgba(17, 24, 39, 0.06);
+    }
+
+    .selected {
+      border: 2px solid #535861;
+      box-shadow: 0 16px 34px rgba(83, 88, 97, 0.16);
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #e5e7eb;
+      color: #374151;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+
+    .card p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.5;
+      min-height: 48px;
+    }
+
+    .demo {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 16px;
+      min-height: 148px;
+    }
+
+    .plaque {
+      display: inline-block;
+      background: var(--plaque);
+      color: var(--plaque-text);
+      padding: 10px 16px;
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0 8px 10px 0;
+      box-shadow: inset 0 -1px 0 rgba(255,255,255,0.08);
+    }
+
+    .meta {
+      margin-top: 14px;
+      font-size: 14px;
+      color: #4b5563;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Varianty Skrugleniya Plashok</h1>
+    <p class="lead">Tsvet ostayetsya prezhniy: <strong>GP-04 / #535861</strong>. Menyaetsya tolko radius uglov, chtoby vybrat luchshuyu geometriyu dlya podpisey.</p>
+
+    <section class="summary">
+      Seichas v pravilakh stoit <strong>10 px</strong> kak bazovyy variant. Na etoy stranitse mozhno sravnit ego s bolee strogimi i bolee myagkimi variantami.
+    </section>
+
+    <div class="grid">
+      <section class="card selected">
+        <span class="badge">Current</span>
+        <h2>10 px</h2>
+        <p>Bolee sobrannyy i strogyy variant. Menee myagkiy po kharakteru.</p>
+        <div class="demo">
+          <span class="plaque" style="border-radius:10px;">Molotok</span>
+          <span class="plaque" style="border-radius:10px;">Klyuch 19/22</span>
+          <span class="plaque" style="border-radius:10px;">Uroven</span>
+          <span class="plaque" style="border-radius:10px;">Bashmak</span>
+        </div>
+        <div class="meta">Khorosho dlya bolee tekhnichnogo i plotnogo vida.</div>
+      </section>
+
+      <section class="card">
+        <span class="badge">Option</span>
+        <h2>12 px</h2>
+        <p>Umere nnyy variant mezhdu strogim i myagkim radiusom.</p>
+        <div class="demo">
+          <span class="plaque" style="border-radius:12px;">Molotok</span>
+          <span class="plaque" style="border-radius:12px;">Klyuch 19/22</span>
+          <span class="plaque" style="border-radius:12px;">Uroven</span>
+          <span class="plaque" style="border-radius:12px;">Bashmak</span>
+        </div>
+        <div class="meta">Spokoynyy kompromiss bez sli shkom myagkogo kontura.</div>
+      </section>
+
+      <section class="card">
+        <span class="badge">Option</span>
+        <h2>14 px</h2>
+        <p>Tekushchiy bazovyy variant. Dosta tochno myagkiy, no eshche ne "puzyrnyy".</p>
+        <div class="demo">
+          <span class="plaque" style="border-radius:14px;">Molotok</span>
+          <span class="plaque" style="border-radius:14px;">Klyuch 19/22</span>
+          <span class="plaque" style="border-radius:14px;">Uroven</span>
+          <span class="plaque" style="border-radius:14px;">Bashmak</span>
+        </div>
+        <div class="meta">Bolee myagkiy variant po sravneniyu s tekushchim standartom.</div>
+      </section>
+
+      <section class="card">
+        <span class="badge">Option</span>
+        <h2>16 px</h2>
+        <p>Bolee myagkiy vizual. Mozhet vygladet chut bolee friendly.</p>
+        <div class="demo">
+          <span class="plaque" style="border-radius:16px;">Molotok</span>
+          <span class="plaque" style="border-radius:16px;">Klyuch 19/22</span>
+          <span class="plaque" style="border-radius:16px;">Uroven</span>
+          <span class="plaque" style="border-radius:16px;">Bashmak</span>
+        </div>
+        <div class="meta">Khorosho, esli khochesh chut bolee plavnyy contour.</div>
+      </section>
+
+      <section class="card">
+        <span class="badge">Option</span>
+        <h2>18 px</h2>
+        <p>Samyy myagkiy variant iz etogo nabor a. Ugl y uje ochen plavnye.</p>
+        <div class="demo">
+          <span class="plaque" style="border-radius:18px;">Molotok</span>
+          <span class="plaque" style="border-radius:18px;">Klyuch 19/22</span>
+          <span class="plaque" style="border-radius:18px;">Uroven</span>
+          <span class="plaque" style="border-radius:18px;">Bashmak</span>
+        </div>
+        <div class="meta">Uместно, esli nuzhno sdelat pлашки zame tno myagche.</div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

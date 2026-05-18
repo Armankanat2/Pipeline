@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Label Connector Arrow Options</title>
+  <style>
+    :root {
+      --bg: #eef1f4;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --plaque: #535861;
+      --plaque-text: #ffffff;
+      --arrow: #000000;
+      --accent: #1f2937;
+      --ok: #e8f0ea;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f9fafb 0%, #eef1f4 100%);
+    }
+
+    .wrap {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 40px 24px 64px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      font-weight: 700;
+    }
+
+    .lead {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .status {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 20px 22px;
+      box-shadow: 0 14px 34px rgba(17, 24, 39, 0.07);
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: 0 14px 30px rgba(17, 24, 39, 0.06);
+    }
+
+    .recommended {
+      border: 2px solid #111827;
+      box-shadow: 0 18px 36px rgba(17, 24, 39, 0.12);
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: #e5e7eb;
+      color: #374151;
+    }
+
+    .badge.rec {
+      background: #111827;
+      color: #ffffff;
+    }
+
+    .badge.current {
+      background: #f3f4f6;
+      color: #374151;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .scene {
+      position: relative;
+      height: 190px;
+      border-radius: 18px;
+      border: 1px solid #e5e7eb;
+      background:
+        linear-gradient(180deg, #fbfbfc 0%, #f4f6f8 100%);
+      overflow: hidden;
+      margin-bottom: 14px;
+    }
+
+    .plaque {
+      position: absolute;
+      left: 16px;
+      top: 18px;
+      display: inline-block;
+      background: var(--plaque);
+      color: var(--plaque-text);
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .target {
+      position: absolute;
+      right: 44px;
+      top: 94px;
+      width: 58px;
+      height: 58px;
+      border-radius: 14px;
+      background: #d6dade;
+      border: 2px solid #9ca3af;
+    }
+
+    .target::after {
+      content: "";
+      position: absolute;
+      inset: 14px;
+      border-radius: 8px;
+      background: #9ca3af;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: #374151;
+      line-height: 1.5;
+    }
+
+    .note {
+      margin-top: 22px;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 18px 20px;
+      line-height: 1.6;
+    }
+
+    svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Varianty Strelok Ot Plashki K Risunku</h1>
+    <p class="lead">Vse varianty pokazany v odnom cvete <strong>#000000</strong>. Menyaetsya tolko dizayn strelki i logika soedineniya.</p>
+
+    <section class="status">
+      <strong>Current factual status:</strong> dlya tekushchego proekta teper utverzhden variant <strong>A2 Clean Technical</strong>. On otmechen kak <strong>recommended</strong> i odnovremenno schitaetsya tekushchim rabochim standartom.
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <span class="badge">Option A1</span>
+        <h2>Simple Straight</h2>
+        <p>Pryamaya tonkaya strelka s obychnym nakonechnikom. Chisto i prosto, no mozhet slabee derzhat trayektoriyu na slozhnykh kadrah.</p>
+        <div class="scene">
+          <span class="plaque">Vertikalnaya truba</span>
+          <div class="target"></div>
+          <svg viewBox="0 0 320 190" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <marker id="arrow-a1" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+                <path d="M0,0 L10,5 L0,10 Z" fill="#000000"></path>
+              </marker>
+            </defs>
+            <line x1="122" y1="38" x2="246" y2="108" stroke="#000000" stroke-width="2.2" marker-end="url(#arrow-a1)"></line>
+          </svg>
+        </div>
+        <div class="meta">Luchshe rabotaet, kogda obekt ryadom i net riskа perekrыtiya vazhnykh detaley.</div>
+      </section>
+
+      <section class="card recommended">
+        <span class="badge rec">Recommended / Current</span>
+        <h2>Clean Technical</h2>
+        <p>Lomannaya strelka s odinakovoy tolshchinoy i kompaktnym zapolnennym nakonechnikom. Dlya nas eto samyy ponyatnyy i tekhnichnyy variant.</p>
+        <div class="scene">
+          <span class="plaque">Vertikalnaya truba</span>
+          <div class="target"></div>
+          <svg viewBox="0 0 320 190" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <marker id="arrow-a2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+                <path d="M0,0 L10,5 L0,10 Z" fill="#000000"></path>
+              </marker>
+            </defs>
+            <polyline points="122,38 170,38 170,108 246,108" fill="none" stroke="#000000" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-a2)"></polyline>
+          </svg>
+        </div>
+        <div class="meta">Moy vybor dlya proekta: chitaetsya chisto, ne vygladit dekorativno i khorosho podkhodit pod uchebnyy tekhnicheskiy contour.</div>
+      </section>
+
+      <section class="card">
+        <span class="badge">Option A3</span>
+        <h2>Dot Start</h2>
+        <p>To zhe tekhnicheskoe soedinenie, no s maloy startovoy tochkoy u plashki. Mozhet rabotat, no dobavlyaet lishnyy mikroelement.</p>
+        <div class="scene">
+          <span class="plaque">Vertikalnaya truba</span>
+          <div class="target"></div>
+          <svg viewBox="0 0 320 190" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <marker id="arrow-a3" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+                <path d="M0,0 L10,5 L0,10 Z" fill="#000000"></path>
+              </marker>
+            </defs>
+            <circle cx="122" cy="38" r="4.4" fill="#000000"></circle>
+            <polyline points="126,38 170,38 170,108 246,108" fill="none" stroke="#000000" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-a3)"></polyline>
+          </svg>
+        </div>
+        <div class="meta">Mozhet podoyti, esli nuzhno silnee pokazat tochku vykhoda, no dlya nas est risk pereuslozhnit callout.</div>
+      </section>
+
+      <section class="card">
+        <span class="badge">Option A4</span>
+        <h2>Bold Pointer</h2>
+        <p>Bolee tolstaya strelka s krupnym nakonechnikom. Kontrastnaya, no uzhe nachinaet domin i rovat nad samim izobrazheniem.</p>
+        <div class="scene">
+          <span class="plaque">Vertikalnaya truba</span>
+          <div class="target"></div>
+          <svg viewBox="0 0 320 190" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <marker id="arrow-a4" markerWidth="13" markerHeight="13" refX="10" refY="6.5" orient="auto" markerUnits="strokeWidth">
+                <path d="M0,0 L13,6.5 L0,13 Z" fill="#000000"></path>
+              </marker>
+            </defs>
+            <polyline points="122,38 165,38 165,108 246,108" fill="none" stroke="#000000" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-a4)"></polyline>
+          </svg>
+        </div>
+        <div class="meta">Silnyy vizualno, no dlya nashikh uchebnykh slaydov uzhe slishkom tyazhelyy.</div>
+      </section>
+    </div>
+
+    <section class="note">
+      <strong>Moya rekomendatsiya:</strong> variant <strong>Clean Technical</strong>. On luchshe vsego sovpadaet s nashimi uzhe zafiksirovannymi pravilami: odin cvet, vysokiy kontrast, minimum vizualnogo shuma, tekhnicheskiy kharakter i predskazuemaya rabota na raznykh slaydakh.
+    </section>
+  </div>
+</body>
+</html>

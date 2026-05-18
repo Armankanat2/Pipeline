@@ -15,6 +15,7 @@
 - Dlya tekushchego kontura osnovnoy redaktiruemyy format: lokalnyy `pptx` s otdelnymi obektami PowerPoint.
 - Pri perekhode k pravke nuzhno otkryvat i sam fayl, i programmu, v kotoroy polzovatel budet ego redaktirovat.
 - Etot protokol schitaetsya rabochim pravilom dlya dalneyshego markup-review, chtoby ne vozvrashchatsya k etomu obsuzhdeniyu.
+- Dopolnitelnyy obshchiy protokol otkrytiya faylov i preview smotret v `08_Deck/08_local_file_opening_protocol_v0.1.md`.
 
 ## Scope etoy iteratsii
 
@@ -36,6 +37,8 @@ Istochniki:
 - na slayde odin glavnyy fokus;
 - esli nuzhen aktsent, luchshe callout i ramka, chem mnogo teksta;
 - ne zashumlyat slayd dekorativnymi elementami.
+- pri belom ili neytralnom fone perekhod ot izobrazheniya k polyu slayda dolzhen byt nezametnym, bez vertikalnoy poloski po krayu.
+- rasternye izobrazheniya dolzhny sokhranyat korrektnye proportsii pervoistochnika; dopustimy tolko proportionalnyy scale i crop bez deformatsii.
 
 ## S14 Markup Brief
 

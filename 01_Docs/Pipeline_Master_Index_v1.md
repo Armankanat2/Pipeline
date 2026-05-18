@@ -3,7 +3,7 @@
 ## Status
 
 - Status: `active`
-- Data sborki: `2026-05-14`
+- Data sborki: `2026-05-15`
 - Owner: `vy`
 - Naznachenie: yedinaya tochka vkhoda v `Pipeline`
 
@@ -46,6 +46,7 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 4. `01_Docs/Definition_of_Done_v1.md`
 5. `04_QA/QA_Gates_v1.md`
 6. task board konkretnogo kursa
+7. `01_Docs/AI_Prompt_Library_v0.1.md`, esli nuzhno bystro zapustit AI-stage rabotu bez vosstanovleniya promptov iz pamyati
 
 ## 3. Baza sistemy
 
@@ -66,6 +67,11 @@ Esli nuzhno vosstanovit kontekst posle pauzy, chitat v takom poryadke:
 | `01_Docs/Legal_Source_Policy_v0.1.md` | kak rabotat s RF-law references bez vymyshlennoy normativki i tikhikh zamen |
 | `01_Docs/High_Risk_Education_Regulatory_Base_v0.1.md` | bazovaya normativnaya karta dlya worker professions i high-risk works |
 | `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md` | kak ne razduvat sistemu pri smotrenii v budushchie kontury |
+| `01_Docs/AI_Prompt_Library_v0.1.md` | biblioteka povtoryaemykh AI prompt contracts dlya stage-raboty |
+| `02_Research/Montazhnik_lesov/08_Deck/08_label_plaque_rules_v0.1.md` | lokalnyy visual standard dlya plashok podpisei v pilot-case |
+| `02_Research/Montazhnik_lesov/08_Deck/08_label_connector_arrow_rules_v0.1.md` | lokalnyy standard dlya soedinitelnykh strelok v pilot-case |
+| `02_Research/Montazhnik_lesov/08_Deck/08_image_edge_integration_rules_v0.1.md` | pravilo integrirovaniya kraev rastera v pole slayda |
+| `02_Research/Montazhnik_lesov/08_Deck/08_image_aspect_ratio_rules_v0.1.md` | pravilo otsutstviya deformatsii izobrazheniy otnositelno istochnika |
 
 ### 3.2 Issledovatelskie, no poka neblokiruyushchie sloi
 
@@ -230,6 +236,13 @@ Eti kontury ne vsegda nuzhny, no sistema uzhe umeet ikh derzhat.
 | high-risk education regulatory base | `01_Docs/High_Risk_Education_Regulatory_Base_v0.1.md` |
 | profession register | `03_Templates/Profession_Register_Template_v1.md` |
 | profession requirement card | `03_Templates/Profession_Requirement_Card_Template_v1.md` |
+
+### 7.8 AI operations contour
+
+| Artefakt | Shablon / pravilo |
+|---|---|
+| AI prompt library | `01_Docs/AI_Prompt_Library_v0.1.md` |
+| prompt contract | `03_Templates/Prompt_Contract_Template_v1.md` |
 
 ## 8. QA-logika
 

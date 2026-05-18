@@ -290,6 +290,18 @@ Deystviya:
 - primenit `design system spec`, a ne sobirat visual language slayd za slaydom zanovo;
 - vnesti brand shell cherez temu, mastery i peremennye bloky, a ne ruchnuyu perekrasku kazhdogo slayda;
 - primenit pravila `brand application map`: chto mozhno menyat, chto fiksirovano, kakie master-slides brandiruyutsya;
+- esli u predydushchego proekta uzhe est utverzhdennye nastroyki plashok podpisei, pered ikh izmeneniem obyazatelno zadat vopros: `my sokhranyaem tekushchie nastroyki dlya plashok podpisey? ili vnosim izmeneniya?`;
+- bez pryamogo otveta polzovatelya ne menyat tsvet, geometriyu i skruglenie plashok podpisei;
+- esli novoe reshenie ne prinyato, dlya sleduyushchego proekta perenositsya poslednee utverzhdennoe skruglenie plashok;
+- esli v novom proekte nuzhny strelki ot tekstovoy plashki k risunku, pered izmeneniem ikh nastroek obyazatelno zadat vopros: `trebuyetsya li izmenenie dlya strelki, kotoraya idet ot plashki pod slova k risunku, ili mozhem ispolzovat tekushchie nastroiki?`;
+- bez pryamogo otveta polzovatelya ne menyat tsvet i dizayn etikh strelok;
+- esli v proekte ispolzuyutsya rasternye izobrazheniya na belom ili neytralnom fone, po umolchaniyu sokhranyaetsya pravilo nezametnogo perekhoda kartinki v pole slayda;
+- esli v proekte ispolzuyutsya rasternye izobrazheniya, po umolchaniyu sokhranyaetsya pravilo bez deformatsii po vertikali i gorizontali otnositelno pervoistochnika;
+- esli fayl mozhno otkryt lokalnoy programmoy na komp'yutere, otkryvat ego cherez nee;
+- esli programma uzhe otkryta, ne zapuskat ee povtorno, a otkryvat tolko nuzhnyy fayl;
+- pered zakrytiem ranee otkrytogo fayla zaprosit pryamoe razreshenie polzovatelya;
+- esli nuzhnoy programmy net ili nado otkryt storonniy istochnik, browser-fallbackom schitat `Google Chrome`;
+- pri lokalnom browser-preview v `Google Chrome` peredavat fail kak `file:///...` URI, a ne kak syroy put, esli v puti mogut byt probely ili kirillitsa;
 - esli est `A3` / `A5`, sobirat ikh po `print production spec`, a ne po otdelnoy improvizatsii;
 - esli kurs idet v on-line, proverit klikabelnost ssylok, mest pod QR i ponyatnost bez lektora;
 - esli kurs nuzhdaetsya v budushchey online-portability, proverit, chto deck ne yavlyaetsya edinstvennym mestom, gde zhivet logika povtoreniya, ozvuchki i referensov;

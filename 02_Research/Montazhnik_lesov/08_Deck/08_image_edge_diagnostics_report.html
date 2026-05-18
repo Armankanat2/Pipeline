@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Edge Diagnostics</title>
+  <style>
+    body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #f3f5f7; color: #111827; }
+    .wrap { max-width: 1340px; margin: 0 auto; padding: 32px 24px 56px; }
+    h1 { margin: 0 0 10px; font-size: 32px; }
+    .lead { color: #6b7280; line-height: 1.6; margin: 0 0 24px; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 18px; overflow: hidden; box-shadow: 0 10px 24px rgba(17,24,39,0.06); margin-bottom: 28px; }
+    th, td { padding: 12px 14px; border-bottom: 1px solid #e5e7eb; text-align: left; font-size: 14px; }
+    th { background: #f9fafb; }
+    .risk-high td, .risk-high { background: #fff3f2; }
+    .risk-medium td, .risk-medium { background: #fff9ed; }
+    .risk-low td, .risk-low { background: #f8fafc; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+    .card { background: #fff; border: 1px solid #d1d5db; border-radius: 18px; padding: 14px; box-shadow: 0 10px 24px rgba(17,24,39,0.05); }
+    .preview-row { display: flex; gap: 14px; align-items: flex-start; margin-top: 12px; flex-wrap: wrap; }
+    .preview-block { min-width: 0; }
+    .preview-label { font-size: 12px; color: #6b7280; margin: 10px 0 6px; }
+    .card img { border-radius: 10px; border: 1px solid #d1d5db; background: #fff; display: block; image-rendering: pixelated; image-rendering: crisp-edges; }
+    .slide-overview { width: 100%; image-rendering: auto; }
+    .img-zoom { width: 360px; max-width: 100%; }
+    .meta-line { font-size: 13px; line-height: 1.5; margin-bottom: 4px; }
+    .note { margin-bottom: 22px; padding: 16px 18px; border-radius: 16px; background: #ffffff; border: 1px solid #d1d5db; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Image Edge Diagnostics</h1>
+    <p class="lead">Avtomaticheskaya proverka krayev izobrazheniy na aktualnykh slaydakh. Smysl proverki: nayti mesta, gde na belom ili neytralnom fone mozhet byt zametna granitsa mezhdu kartinkoy i polem slayda.</p>
+    <div class="note">
+      Risk logic: <strong>high</strong> = silnaya raznitsa na granitse pri belykh vneshnikh polyakh, <strong>medium</strong> = zametnyy perekhod, <strong>low</strong> = granitsa libo nevidima, libo ne vygladit problemnoy po tekhnicheskim metrikam.
+    </div>
+    <div class="note">
+      V detail-cards pokazany tolko problemnye mesta. Krasnaya polosa na polnom slide pokazyvaet, gde imenno nayden podozritelnyy kray. V uvelichenii krasnaya liniya prokhodit po granitse mezhdu izobrazheniem i polem slayda.
+    </div>
+    <table>
+      <thead>
+        <tr><th>Slide</th><th>Title</th><th>Max Risk</th><th>Max Delta</th><th>Risk Edges</th></tr>
+      </thead>
+      <tbody>
+        <tr class='risk-low'><td>S13</td><td>S13 Klinovye lesa: ankerovanie</td><td>low</td><td>2.98</td><td>0</td></tr>
+<tr class='risk-low'><td>S14</td><td>S14 Klinovye lesa v sbore</td><td>low</td><td>0</td><td>0</td></tr>
+<tr class='risk-low'><td>S16</td><td>S16 Homutovye lesa: soedinenie trub</td><td>low</td><td>14.96</td><td>0</td></tr>
+<tr class='risk-low'><td>S17</td><td>S17 Kreplenie lesov k balke</td><td>low</td><td>19.8</td><td>0</td></tr>
+<tr class='risk-low'><td>S18</td><td>S18 Homutovye lesa: ankerovanie</td><td>low</td><td>46.81</td><td>0</td></tr>
+<tr class='risk-low'><td>TOOLS</td><td>13A Instrumenty montazhnika</td><td>low</td><td>2.01</td><td>0</td></tr>
+      </tbody>
+    </table>
+    <div class="grid">
+      
+    </div>
+  </div>
+</body>
+</html>

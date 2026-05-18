@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firefox Link Diagnostics</title>
+  <style>
+    :root {
+      --bg: #f3f4f6;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --accent: #535861;
+      --accent-dark: #3e434b;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f9fafb 0%, #eef2f7 100%);
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 36px 24px 60px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 32px;
+    }
+
+    .lead {
+      margin: 0 0 26px;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 17px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 22px;
+      box-shadow: 0 14px 34px rgba(17, 24, 39, 0.07);
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+
+    p {
+      margin: 0 0 14px;
+      line-height: 1.6;
+    }
+
+    .link-list a,
+    .link-list button {
+      display: block;
+      width: fit-content;
+      margin: 10px 0;
+      padding: 12px 16px;
+      border-radius: 14px;
+      border: none;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .link-list a:hover,
+    .link-list button:hover {
+      background: var(--accent-dark);
+    }
+
+    code {
+      background: #eef2f7;
+      padding: 2px 6px;
+      border-radius: 8px;
+    }
+
+    .result {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      color: #374151;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Diagnostika Otkrytiya Sсылok v Firefox</h1>
+    <p class="lead">Eta stranitsa nuzhna, chtoby proverit: otkryvayutsya li obychnye HTML-ssylki v Firefox. Esli oni rabotayut, a ssylki iz moikh soobshcheniy net, znachit problema v renderere chata ili v integratsii knopki <code>Open</code>.</p>
+
+    <section class="card">
+      <h2>Test 1. Otnositelnaya ssylka</h2>
+      <p>Samyy prostoy variant: brauzer otkryvaet fail iz etoy zhe papki po otnositelnomu puti.</p>
+      <div class="link-list">
+        <a href="./08_label_plaque_radius_preview.html">Open radius preview by relative link</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Test 2. Polnyy file URI</h2>
+      <p>Etot variant ispolzuet polnyy URL vida <code>file:///...</code> s kodirovkoy puti.</p>
+      <div class="link-list">
+        <a href="file:///e:/%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D0%B8/%D0%9F%D0%A0%D0%9E%D0%95%D0%9A%D0%A2%D0%AB%20%D0%94%D0%9F%D0%9E/Pipeline/02_Research/Montazhnik_lesov/08_Deck/08_label_plaque_radius_preview.html">Open radius preview by file URI</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Test 3. JavaScript button</h2>
+      <p>Etot variant menyaet <code>window.location.href</code> programmno.</p>
+      <div class="link-list">
+        <button type="button" onclick="window.location.href='./08_label_plaque_radius_preview.html'">Open radius preview by button</button>
+      </div>
+      <div class="result">
+        Esli vse tri sposoba rabotayut, to sam preview-fail ispraven, Firefox ego otkryvat umeyet, i problemu nado schitat ne v HTML-fayle, a v klikabelnykh ssylkakh iz interfeisa chata.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Reserve Test</h2>
+      <p>Dopolnitelnyy test na drugoy preview-fail.</p>
+      <div class="link-list">
+        <a href="./08_label_plaque_palette_preview.html">Open palette preview by relative link</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

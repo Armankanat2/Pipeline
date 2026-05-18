@@ -21,9 +21,16 @@
 ## Style rules
 
 - Plashki pod tekst dolzhny byt:
-  - `temno-serye`
-  - so `skrugleniem kak na S17 i S18`
+  - `serye`
+  - so `skrugleniem etogo approved slayda`
 - Pryamougolnye plashki bez skrugleniya ne primenyayutsya.
+- Rabochee skruglenie plashok: `10 px`.
+- Etot approved tools-slide schitaetsya etalonom dlya plashok podpisei vo vsem tekushchem proekte.
+- Rabochie varianty seroy palitry smotret v `08_Deck/08_label_plaque_rules_v0.1.md`.
+- Cvet plashok po umolchaniyu dlya tekushchego proekta: `GP-04` / `#535861`.
+- Pravila dlya strelok ot plashki k obektu smotret v `08_Deck/08_label_connector_arrow_rules_v0.1.md`.
+- Rasternye izobrazheniya na slayde dolzhny sokhranyat proportsii pervoistochnika bez vertikalnoy ili gorizontalnoy deformatsii.
+- Pri belom ili neytralnom fone krai izobrazheniya dolzhny integrirovat'sya v pole slayda bez vidimogo shva.
 
 ## Local files
 

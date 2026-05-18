@@ -8,6 +8,7 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `02_Research` - issledovaniya, analiz, chernoviki i sobrannye materialy.
 - `02_Research/<COURSE>/_Control` - adaptivnyy sloy kursa: profile, varianty, decision log, fokus i uzkie mesta; etot sloy upravlyaet izmeneniyami, no ne podmenyaet stage-artefakty.
 - `02_Research/<COURSE>/_Feedback` - rabochiy sloy obratnoy svyazi i uluchsheniy: pilot, retrospective, client feedback, improvement items.
+- `02_Research/<COURSE>/08_Deck` - lokalnye visual rules, markup briefs, preview-fayly i production-diagnostics dlya slaydovogo sloya.
 - `03_Templates` - shablony dokumentov, struktur, cheklistov i prezentatsiy.
 - `04_QA` - kriterii proverki, review-materialy i kontrol kachestva.
 - `05_Release` - finalnye klientskie pakety i gotovye rezul'taty; starter drafts i neapproved materialy ne dolzhny zhyt zdes kak release.
@@ -45,6 +46,7 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `01_Docs/Online_Gateway_Concept_v0.1.md`
 - `01_Docs/Pipeline_Perspective_Manifesto_v0.1.md`
 - `01_Docs/Pipeline_Gap_Audit_2026-05-12_v1.md`
+- `01_Docs/AI_Prompt_Library_v0.1.md`
 - `03_Templates/Variant_Profile_Template_v1.md`
 - `03_Templates/Profession_Register_Template_v1.md`
 - `03_Templates/Profession_Requirement_Card_Template_v1.md`
@@ -75,6 +77,7 @@ Production pipeline dlya sozdaniya klientskikh uchebnykh paketov, v kotorykh pre
 - `03_Templates/Worker_Instruction_Template_v1.md`
 - `03_Templates/Worker_Handout_Template_v1.md`
 - `03_Templates/Update_Log_Template_v1.md`
+- `03_Templates/Prompt_Contract_Template_v1.md`
 - `04_QA/Feedback_Intake_Rules_v1.md`
 - `04_QA/Legal_Compliance_Checklist_v1.md`
 - `04_QA/Improvement_Backlog.md`

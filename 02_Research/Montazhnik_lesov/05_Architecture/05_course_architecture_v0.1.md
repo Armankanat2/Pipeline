@@ -93,6 +93,10 @@ Minimalnyy sostav etogo bloka:
   - zazhim `vid 2`;
   - khomut dlya krepleniya k balke.
 
+Dlya etogo spiska dopolnitelno deystvuet pravilo:
+
+- ograzhdeniya dlya khomutovykh lesov otdelno ne vynosim, potomu chto oni sobirayutsya iz teh zhe trub.
+
 ## Posledovatelnost moduley
 
 1. Vvedenie v kurs i granitsy otvetstvennosti

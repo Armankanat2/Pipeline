@@ -90,6 +90,14 @@ Esli v odnom kadre nuzhno bolshe trekh razlichimykh personazhey, sozdaetsya novy
 |---|---|---|---|
 | `13A` | Instrumenty montazhnika | `approved local layout` | `ML_tools_markup_final_v01.png` |
 
+Globalnoe pravilo dlya tekushchego deck-contoura:
+
+- vse plashki podpisei i korotkogo teksta vo vsem proekte sobirayutsya po `08_Deck/08_label_plaque_rules_v0.1.md`;
+- approved slayd `13A` schitaetsya etalonom po skrugleniyu i geometrii plashok;
+- bez otdelnogo soglasovaniya ne dopuskaetsya smena tsveta plashok ot slayda k slaydu.
+- vse strelki ot plashok k obektam sobirayutsya po `08_Deck/08_label_connector_arrow_rules_v0.1.md`.
+- rasterovye izobrazheniya sobirayutsya po dvum globalnym pravilam: nezametnyy perekhod po krayu na belom / neytralnom fone i otsutstvie deformatsii otnositelno pervoistochnika po `08_Deck/08_image_edge_integration_rules_v0.1.md` i `08_Deck/08_image_aspect_ratio_rules_v0.1.md`.
+
 ### Klinovye lesa
 
 | Slide | Zagolovok | Block | Visual mode | Prompt source | Client image | Avatar slot | Chto delat seychas |
@@ -118,6 +126,12 @@ Esli v odnom kadre nuzhno bolshe trekh razlichimykh personazhey, sozdaetsya novy
 | `17` | Kreplenie lesov k balke | khomutovye differential | `edit-first` | custom differential prompt | `yes` | `none` | prezhniy lokalnyy markup schitaetsya `superseded`; slayd otpravlen na peredelku |
 | `18` | Ankerovanie khomutovykh lesov | khomutovye differential | `edit-first` | custom differential prompt + `RB-04` support | `yes` | `none` | prezhniy lokalnyy markup schitaetsya `superseded`; slayd otpravlen na peredelku |
 | `19` | Klyuchevye otlichiya i na chto obratit vnimanie | khomutovye summary | `generate-first` | custom compare prompt | `optional` | `none` | mozhno sobrat kak schematic compare-board |
+
+Primechanie k content-sloyu:
+
+- etot registry pokryvaet tolko differential-block `15-19`;
+- otdelnyy component-layer po khomutovym lesam vse eshche zhivet v script inserts `13D/13E`;
+- dlya etogo layera ograzhdeniya otdelno ne vynosyatsya, a obyazatelnyy minimum derzhim cherez truby, khomuty, shchift soedinitelnyy, bashmak, zazhimy i khomut dlya krepleniya k balke.
 
 ## Reusable safety inserts
 
