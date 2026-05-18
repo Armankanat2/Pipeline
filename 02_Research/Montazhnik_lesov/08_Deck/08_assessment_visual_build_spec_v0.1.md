@@ -108,6 +108,17 @@ Vo vsem pakete nuzhno derzhat odin i tot zhe slovar:
 
 Esli etot slovar ne odinakovyy, build schitat neuspevnym.
 
+## Typography and plaque rules
+
+Dlya vsekh slide `A-44` - `A-48` v etoy prezentatsii:
+
+- vse melkye podpisi i support-text ne menshe `14 pt`;
+- pole s kluchevoy mysl'yu srazu posle glavnogo zagolovka = `18 pt`;
+- vse zagolovki v plashkakh i signalnykh band-labels = `20 pt`;
+- plashki smeshchat pod uvelichennyy tekst, a ne uzhymat tekst pod staryy maket;
+- formulirovki delat maksimalno korotkimi: kak komanda, kak signal, kak vystrel;
+- dlinnyy tekst, glossary-style podpisi i mnogoslovnye rasshifrovki ne dopuskayutsya.
+
 ## Asset-by-asset production notes
 
 ### `A-44` Recognition board
